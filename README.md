@@ -1,2 +1,4 @@
 # ck-crowdtuning-results
-Results from collaborative optimization of computer systems
+Some results from collaborative optimization of computer systems
+collected at http://cknowledge.org/repo
+
