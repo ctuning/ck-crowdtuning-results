@@ -1,0 +1,66 @@
+[
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 16.893635034561157, 
+                "classifiers": {
+                    "apk_version": "11.39.56"
+                }
+            }
+        ], 
+        "workload": "youtube", 
+        "iteration": 1, 
+        "id": "1"
+    }, 
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 15.208068132400513, 
+                "classifiers": {
+                    "apk_version": "11.39.56"
+                }
+            }
+        ], 
+        "workload": "youtube", 
+        "iteration": 2, 
+        "id": "1"
+    }, 
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 15.2380690574646, 
+                "classifiers": {
+                    "apk_version": "11.39.56"
+                }
+            }
+        ], 
+        "workload": "youtube", 
+        "iteration": 3, 
+        "id": "1"
+    }, 
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 15.28586196899414, 
+                "classifiers": {
+                    "apk_version": "11.39.56"
+                }
+            }
+        ], 
+        "workload": "youtube", 
+        "iteration": 4, 
+        "id": "1"
+    }
+]

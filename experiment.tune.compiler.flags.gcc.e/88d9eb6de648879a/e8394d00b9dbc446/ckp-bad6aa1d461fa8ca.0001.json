@@ -1,0 +1,69 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 8128, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.08434391021728516, 
+        "compilation_time_with_module": 1.2453138828277588, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "8462161646b1f55796963c7b4aa98032", 
+        "obj_size": 3992, 
+        "obj_sizes": {
+          "quantize-pvt.codelet__6.o": 1128, 
+          "quantize-pvt.codelet__6.wrapper.o": 2864
+        }, 
+        "program_git_hash": "540987ceb20f9153dee31b7b45f428c8b3117198"
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-pvt-codelet-6-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "extra_dataset_tags": [
+      "small"
+    ], 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_run": "yes", 
+    "no_state_check": "yes", 
+    "program_tags": "crowd-tuning,small", 
+    "repeat": "", 
+    "target": "", 
+    "target_os": "android21-arm64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        9
+      ], 
+      "raw": [
+        "aarch64-linux-android-gcc (GCC) 4.9 20150123 (prerelease)", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9"
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "statistical_repetitions": 1
+  }
+}

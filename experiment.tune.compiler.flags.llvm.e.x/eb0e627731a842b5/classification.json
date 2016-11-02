@@ -1,0 +1,118 @@
+{
+  "b600d554660d461c": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3904, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.917187, 
+          "##characteristics#run#repeat#min": 645068067
+        }, 
+        "checked": [
+          "b600d554660d461c"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0289156626506, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1764798421053
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-network-dijkstra-src-dijkstra-large-codelet-5-1"
+        }
+      }, 
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3904, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.917187, 
+          "##characteristics#run#repeat#min": 645068067
+        }, 
+        "checked": [
+          "b600d554660d461c"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.99385245901639, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1212081826908
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1"
+        }
+      }, 
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3904, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.917187, 
+          "##characteristics#run#repeat#min": 645068067
+        }, 
+        "checked": [
+          "b600d554660d461c"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0770925110132, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.0865910560172
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-tiff2rgba-src-tif-predict-codelet-4-1"
+        }
+      }
+    ], 
+    "highest_degradations": {
+      "##characteristics#compile#obj_size#min_imp": 1.1261261261261, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 0.70807296034945
+    }, 
+    "highest_degradations_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1"
+    }, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0289156626506, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1764798421053
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-network-dijkstra-src-dijkstra-large-codelet-5-1"
+    }, 
+    "worst": [
+      {
+        "checked": [
+          "b600d554660d461c"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.1261261261261, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 0.70807296034945
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1"
+        }
+      }, 
+      {
+        "checked": [
+          "b600d554660d461c"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.022271714922, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 0.88446781619372
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "demo-codelet-openme-auto-tuning-plugins"
+        }
+      }
+    ]
+  }
+}

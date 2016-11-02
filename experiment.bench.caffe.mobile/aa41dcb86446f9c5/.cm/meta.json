@@ -1,0 +1,105 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "5b05c5519f6b4205", 
+      "image_height": 2448, 
+      "image_width": 3264, 
+      "mispredictions": [
+        {
+          "correct_answer": "glass", 
+          "mispredicted_image": "misprediction-image-448e984fbbeb659a.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477609797196.jpg ----------\n0.6528 - \"n07892512 red wine\"\n0.0892 - \"n03637318 lampshade, lamp shade\"\n0.0763 - \"n04380533 table lamp\"\n0.0166 - \"n03676483 lipstick, lip rouge\"\n0.0126 - \"n04286575 spotlight, spot\"\n"
+        }, 
+        {
+          "correct_answer": "hohma", 
+          "mispredicted_image": "misprediction-image-aa1dde9ba66b6b1d.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477651394451.jpg ----------\n0.1465 - \"n07930864 cup\"\n0.1024 - \"n07920052 espresso\"\n0.0939 - \"n03063599 coffee mug\"\n0.0811 - \"n15075141 toilet tissue, toilet paper, bathroom tissue\"\n0.0792 - \"n01776313 tick\"\n"
+        }, 
+        {
+          "correct_answer": "bowl", 
+          "mispredicted_image": "misprediction-image-61bd124da0bf9283.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477651394451.jpg ----------\n0.1465 - \"n07930864 cup\"\n0.1024 - \"n07920052 espresso\"\n0.0939 - \"n03063599 coffee mug\"\n0.0811 - \"n15075141 toilet tissue, toilet paper, bathroom tissue\"\n0.0792 - \"n01776313 tick\"\n"
+        }, 
+        {
+          "correct_answer": "glass of water", 
+          "mispredicted_image": "misprediction-image-e3c45b3947491ae8.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477681839068.jpg ----------\n0.1255 - \"n03250847 drumstick\"\n0.0395 - \"n03041632 cleaver, meat cleaver, chopper\"\n0.0375 - \"n03633091 ladle\"\n0.0357 - \"n03400231 frying pan, frypan, skillet\"\n0.0273 - \"n04597913 wooden spoon\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1477609542755.jpg ----------\n0.2455 - \"n01930112 nematode, nematode worm, roundworm\"\n0.1453 - \"n04525038 velvet\"\n0.1107 - \"n02321529 sea cucumber, holothurian\"\n0.0538 - \"n01728572 thunder snake, worm snake, Carphophis amoenus\"\n0.0524 - \"n07684084 French loaf\"\n", 
+      "time": [
+        11602, 
+        12018, 
+        11138, 
+        10600, 
+        9871, 
+        9772, 
+        11330, 
+        9942, 
+        10475, 
+        10206, 
+        10118, 
+        10194, 
+        11602, 
+        4283, 
+        3851, 
+        11922, 
+        10428, 
+        3782, 
+        11032, 
+        10084, 
+        9914, 
+        9839, 
+        9701, 
+        10377, 
+        10792, 
+        10314, 
+        11120, 
+        11317, 
+        10501, 
+        10061, 
+        11231, 
+        10048, 
+        12283, 
+        11377, 
+        9779, 
+        10173
+      ], 
+      "time1": 11602, 
+      "time2": 12018, 
+      "time3": 11138, 
+      "user": ""
+    }, 
+    {
+      "behavior_uid": "9f3f1ee19c41688a", 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse.jpg ----------\n0.9549 - \"n03793489 mouse, computer mouse\"\n0.0138 - \"n03840681 ocarina, sweet potato\"\n0.0104 - \"n04596742 wok\"\n0.0034 - \"n07720875 bell pepper\"\n0.0024 - \"n03720891 maraca\"\n", 
+      "time": [
+        11678, 
+        11043, 
+        12212, 
+        11498, 
+        10871, 
+        10663
+      ], 
+      "time1": 11678, 
+      "time2": 11043, 
+      "time3": 12212, 
+      "user": "aa656e65ac0d4361"
+    }
+  ], 
+  "meta": {
+    "cpu_name": "0x41-8-0x0-0xd03-4", 
+    "cpu_uid": "143de98987a30459", 
+    "crowd_uid": "1046ff8d479dc6af", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T830", 
+    "gpu_uid": "", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-T580", 
+    "platform_uid": ""
+  }
+}

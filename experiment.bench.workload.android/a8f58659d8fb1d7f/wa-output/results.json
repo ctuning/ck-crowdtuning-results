@@ -1,0 +1,56 @@
+[
+    {
+        "metrics": [], 
+        "workload": "googlephotos", 
+        "iteration": 1, 
+        "id": "1"
+    }, 
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 24.31389808654785, 
+                "classifiers": {
+                    "apk_version": "2.1.0.134852482"
+                }
+            }
+        ], 
+        "workload": "googlephotos", 
+        "iteration": 2, 
+        "id": "1"
+    }, 
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 103.78514909744263, 
+                "classifiers": {
+                    "apk_version": "2.1.0.134852482"
+                }
+            }
+        ], 
+        "workload": "googlephotos", 
+        "iteration": 3, 
+        "id": "1"
+    }, 
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 23.560142040252686, 
+                "classifiers": {
+                    "apk_version": "2.1.0.134852482"
+                }
+            }
+        ], 
+        "workload": "googlephotos", 
+        "iteration": 4, 
+        "id": "1"
+    }
+]

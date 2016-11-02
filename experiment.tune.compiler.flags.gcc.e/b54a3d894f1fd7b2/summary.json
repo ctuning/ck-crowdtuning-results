@@ -1,0 +1,965 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-fft-fftmisc-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.6.4", 
+      "cpu_cur_freq": {
+        "0": 1900.0, 
+        "1": 1900.0, 
+        "2": 1900.0, 
+        "3": 1900.0
+      }, 
+      "cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "c59762744f4d92f5", 
+      "gpu_misc_uid": "d88d66c1aa4434a2", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 230358536, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 12.04.5 LTS", 
+      "os_uid": "c5aae49140dca03d", 
+      "platform_name": "Samsung Chromebook 2", 
+      "platform_uid": "c9eaa3eb7d744bbd"
+    }, 
+    "iterations": 45, 
+    "last_touch_uid": "b29c6fa41b8a0b2e", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.84, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.7168691310895192
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-cse-follow-jumps -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "3c5af75d32b712a0face0c61c2addbde", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00025572109580856625
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fno-cse-follow-jumps", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-cse-follow-jumps", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-cse-follow-jumps": {
+            "##characteristics#compile#obj_size#min_imp": 1.0011954572624029, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.979297166481799, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.01517360760982822
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.1899362154500355, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.5758487876141511, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.01401271960547283
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=priority", 
+          "##compiler_flags#bool-branch-count-reg": "-fno-branch-count-reg", 
+          "##compiler_flags#bool-caller-saves": "-fno-caller-saves", 
+          "##compiler_flags#bool-cse-skip-blocks": "-fcse-skip-blocks", 
+          "##compiler_flags#bool-data-sections": "-fno-data-sections", 
+          "##compiler_flags#bool-float-store": "-ffloat-store", 
+          "##compiler_flags#bool-ipa-cp": "-fipa-cp", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fira-loop-pressure", 
+          "##compiler_flags#bool-math-errno": "-fmath-errno", 
+          "##compiler_flags#bool-merge-all-constants": "-fmerge-all-constants", 
+          "##compiler_flags#bool-reorder-blocks-and-partition": "-fno-reorder-blocks-and-partition", 
+          "##compiler_flags#bool-sched-spec-load": "-fsched-spec-load", 
+          "##compiler_flags#bool-selective-scheduling": "-fno-selective-scheduling", 
+          "##compiler_flags#bool-tracer": "-fno-tracer", 
+          "##compiler_flags#bool-tree-ccp": "-fno-tree-ccp", 
+          "##compiler_flags#bool-tree-loop-ivcanon": "-ftree-loop-ivcanon", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fno-zero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "130af42c68c85e2e", 
+    "touched": 23, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.6.4", 
+      "cpu_cur_freq": {
+        "0": 1900.0, 
+        "1": 1900.0, 
+        "2": 1900.0, 
+        "3": 1900.0
+      }, 
+      "cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "c59762744f4d92f5", 
+      "gpu_misc_uid": "d88d66c1aa4434a2", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 122629570, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 12.04.5 LTS", 
+      "os_uid": "c5aae49140dca03d", 
+      "platform_name": "Samsung Chromebook 2", 
+      "platform_uid": "c9eaa3eb7d744bbd"
+    }, 
+    "iterations": 29, 
+    "last_touch_uid": "0a3af4ff3a8b5265", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.8175202910719284, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.6921285929493168
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-auto-inc-dec -fmodulo-sched -fno-sched-dep-count-heuristic -fno-strict-overflow -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "00a9fa9e1f026e9fbf713195a048d17a", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0019840418142726694
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-auto-inc-dec": "-fno-auto-inc-dec", 
+          "##compiler_flags#bool-modulo-sched": "-fmodulo-sched", 
+          "##compiler_flags#bool-sched-dep-count-heuristic": "-fno-sched-dep-count-heuristic", 
+          "##compiler_flags#bool-strict-overflow": "-fno-strict-overflow", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-auto-inc-dec", 
+          "##compiler_flags#bool-modulo-sched", 
+          "##compiler_flags#bool-sched-dep-count-heuristic", 
+          "##compiler_flags#bool-strict-overflow", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-auto-inc-dec": {
+            "##characteristics#compile#obj_size#min_imp": 3.194452306821398, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9561740795571183, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0011203852758429732
+          }, 
+          "##compiler_flags#bool-modulo-sched": {
+            "##characteristics#compile#obj_size#min_imp": 0.9933129005293954, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9753992193600812, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0009560876024338557
+          }, 
+          "##compiler_flags#bool-sched-dep-count-heuristic": {
+            "##characteristics#compile#obj_size#min_imp": 0.9977609851665268, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.96643062703319, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0033485528394053467
+          }, 
+          "##compiler_flags#bool-strict-overflow": {
+            "##characteristics#compile#obj_size#min_imp": 0.998872921949845, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9813950464634683, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0030606937930260543
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.220472440944882, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.5876785376372129, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.000854424441727174
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-associative-math": "-fno-associative-math", 
+          "##compiler_flags#bool-branch-count-reg": "-fbranch-count-reg", 
+          "##compiler_flags#bool-compare-elim": "-fno-compare-elim", 
+          "##compiler_flags#bool-default-inline": "-fdefault-inline", 
+          "##compiler_flags#bool-fast-math": "-ffast-math", 
+          "##compiler_flags#bool-ipa-struct-reorg": "-fipa-struct-reorg", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-omit-frame-pointer": "-fomit-frame-pointer", 
+          "##compiler_flags#bool-regmove": "-fno-regmove", 
+          "##compiler_flags#bool-sched-critical-path-heuristic": "-fno-sched-critical-path-heuristic", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fno-sched-group-heuristic", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fsched-spec-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec-load": "-fsched-spec-load", 
+          "##compiler_flags#bool-signed-zeros": "-fsigned-zeros", 
+          "##compiler_flags#bool-thread-jumps": "-fthread-jumps", 
+          "##compiler_flags#bool-trapping-math": "-ftrapping-math", 
+          "##compiler_flags#bool-tree-ccp": "-fno-tree-ccp", 
+          "##compiler_flags#bool-tree-copy-prop": "-ftree-copy-prop", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fvariable-expansion-in-unroller", 
+          "##compiler_flags#bool-vect-cost-model": "-fvect-cost-model", 
+          "##compiler_flags#bool-vpt": "-fvpt"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "0cb4cdebfb109e48", 
+    "touched": 3, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiff2rgba-src-tif-predict-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.6.4", 
+      "cpu_cur_freq": {
+        "0": 1900.0, 
+        "1": 1900.0, 
+        "2": 1900.0, 
+        "3": 1900.0
+      }, 
+      "cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "c59762744f4d92f5", 
+      "gpu_misc_uid": "d88d66c1aa4434a2", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 23300773, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 12.04.5 LTS", 
+      "os_uid": "c5aae49140dca03d", 
+      "platform_name": "Samsung Chromebook 2", 
+      "platform_uid": "c9eaa3eb7d744bbd"
+    }, 
+    "iterations": 58, 
+    "last_touch_uid": "6f7e6fd477caaacc", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.6830188679245283, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.267389677288672
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "5b9508a381aeb78ec36504b7c21aa31c", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0013284778749449943
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.4640883977900552, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8004382222105249, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.001550212074275448
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-compare-elim": "-fcompare-elim", 
+          "##compiler_flags#bool-conserve-stack": "-fconserve-stack", 
+          "##compiler_flags#bool-early-inlining": "-fno-early-inlining", 
+          "##compiler_flags#bool-inline-functions": "-finline-functions", 
+          "##compiler_flags#bool-ipa-sra": "-fipa-sra", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fno-sched-group-heuristic", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-schedule-insns": "-fschedule-insns", 
+          "##compiler_flags#bool-signaling-nans": "-fno-signaling-nans", 
+          "##compiler_flags#bool-tree-bit-ccp": "-ftree-bit-ccp", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-fno-tree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-dce": "-ftree-dce"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "989b4f6ea7cbb167", 
+    "touched": 40, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.6.4", 
+      "cpu_cur_freq": {
+        "0": 1900.0, 
+        "1": 1900.0, 
+        "2": 1900.0, 
+        "3": 1900.0
+      }, 
+      "cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "c59762744f4d92f5", 
+      "gpu_misc_uid": "d88d66c1aa4434a2", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 7129367, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 12.04.5 LTS", 
+      "os_uid": "c5aae49140dca03d", 
+      "platform_name": "Samsung Chromebook 2", 
+      "platform_uid": "c9eaa3eb7d744bbd"
+    }, 
+    "iterations": 46, 
+    "last_touch_uid": "41bb844f49b2e8d3", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.8547080189997206, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.6358679870285155
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "43456b94e3754a4cbbcff94ae489b651", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.008718829412893193
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.1699901928734882, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.6108566480396951, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00033491358535934693
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-default-inline": "-fdefault-inline", 
+          "##compiler_flags#bool-gcse-lm": "-fno-gcse-lm", 
+          "##compiler_flags#bool-graphite-identity": "-fno-graphite-identity", 
+          "##compiler_flags#bool-inline-functions-called-once": "-fno-inline-functions-called-once", 
+          "##compiler_flags#bool-keep-static-consts": "-fno-keep-static-consts", 
+          "##compiler_flags#bool-loop-interchange": "-fno-loop-interchange", 
+          "##compiler_flags#bool-loop-strip-mine": "-fno-loop-strip-mine", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves": "-fno-modulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-optimize-register-move": "-foptimize-register-move", 
+          "##compiler_flags#bool-optimize-sibling-calls": "-foptimize-sibling-calls", 
+          "##compiler_flags#bool-regmove": "-fregmove", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-fno-reschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-rounding-math": "-frounding-math", 
+          "##compiler_flags#bool-sched-spec": "-fsched-spec", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fsched-spec-load-dangerous", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fzero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "9d43449833f524c7", 
+    "touched": 25, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.6.4", 
+      "cpu_cur_freq": {
+        "0": 1900.0, 
+        "1": 1900.0, 
+        "2": 1900.0, 
+        "3": 1900.0
+      }, 
+      "cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "c59762744f4d92f5", 
+      "gpu_misc_uid": "d88d66c1aa4434a2", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 14001386, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 12.04.5 LTS", 
+      "os_uid": "c5aae49140dca03d", 
+      "platform_name": "Samsung Chromebook 2", 
+      "platform_uid": "c9eaa3eb7d744bbd"
+    }, 
+    "iterations": 50, 
+    "last_touch_uid": "39b008baf0c57fa6", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.875724065297525, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1146829829013845
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "5aaddcf573fc4300f216da520d04236b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 2.292975088649232e-05
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.1298857486470235, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9138757411897968, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.007009431333200359
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-cprop-registers": "-fno-cprop-registers", 
+          "##compiler_flags#bool-cx-limited-range": "-fcx-limited-range", 
+          "##compiler_flags#bool-default-inline": "-fno-default-inline", 
+          "##compiler_flags#bool-indirect-inlining": "-findirect-inlining", 
+          "##compiler_flags#bool-inline-functions": "-finline-functions", 
+          "##compiler_flags#bool-reorder-blocks": "-fno-reorder-blocks", 
+          "##compiler_flags#bool-schedule-insns2": "-fschedule-insns2", 
+          "##compiler_flags#bool-selective-scheduling": "-fno-selective-scheduling", 
+          "##compiler_flags#bool-thread-jumps": "-fthread-jumps", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-fno-tree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-ch": "-fno-tree-ch", 
+          "##compiler_flags#bool-tree-switch-conversion": "-fno-tree-switch-conversion", 
+          "##compiler_flags#bool-use-linker-plugin": "-fuse-linker-plugin"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "61fe51499497943b", 
+    "touched": 31, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jchuff-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.6.4", 
+      "cpu_cur_freq": {
+        "0": 1900.0, 
+        "1": 1900.0, 
+        "2": 1900.0, 
+        "3": 1900.0
+      }, 
+      "cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "c59762744f4d92f5", 
+      "gpu_misc_uid": "d88d66c1aa4434a2", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 10217875, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 12.04.5 LTS", 
+      "os_uid": "c5aae49140dca03d", 
+      "platform_name": "Samsung Chromebook 2", 
+      "platform_uid": "c9eaa3eb7d744bbd"
+    }, 
+    "iterations": 41, 
+    "last_touch_uid": "cca592c48dea28c8", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0023605783416938, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4864251843212235
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-merge-all-constants -fno-sched-spec", 
+          "##characteristics#compile#md5_sum#min": "3225c3205183eb8833968ce496db0e46", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.03152499807119962
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-merge-all-constants": "-fno-merge-all-constants", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-merge-all-constants", 
+          "##compiler_flags#bool-sched-spec"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-merge-all-constants": {
+            "##characteristics#compile#obj_size#min_imp": 0.9173239053576285, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9953059605045989, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.015894501506696815
+          }, 
+          "##compiler_flags#bool-sched-spec": {
+            "##characteristics#compile#obj_size#min_imp": 1.0, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.6730508068521138, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.014851399621856838
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-compare-elim": "-fno-compare-elim", 
+          "##compiler_flags#bool-cse-skip-blocks": "-fcse-skip-blocks", 
+          "##compiler_flags#bool-cx-fortran-rules": "-fcx-fortran-rules", 
+          "##compiler_flags#bool-delayed-branch": "-fno-delayed-branch", 
+          "##compiler_flags#bool-devirtualize": "-fdevirtualize", 
+          "##compiler_flags#bool-gcse": "-fno-gcse", 
+          "##compiler_flags#bool-gcse-after-reload": "-fgcse-after-reload", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fno-sched2-use-superblocks", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fsel-sched-pipelining", 
+          "##compiler_flags#bool-split-wide-types": "-fsplit-wide-types", 
+          "##compiler_flags#bool-tree-bit-ccp": "-fno-tree-bit-ccp", 
+          "##compiler_flags#bool-tree-dce": "-fno-tree-dce", 
+          "##compiler_flags#bool-unroll-all-loops": "-fno-unroll-all-loops", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-fno-unsafe-math-optimizations", 
+          "##compiler_flags#bool-web": "-fweb"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "340baa86cd3b09fd", 
+    "touched": 18, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "data_uoa": "cbench-telecom-gsm", 
+      "dataset_file": "data.au", 
+      "dataset_uoa": "au-0001", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.6.4", 
+      "cpu_cur_freq": {
+        "0": 1900.0, 
+        "1": 1900.0, 
+        "2": 1900.0, 
+        "3": 1900.0
+      }, 
+      "cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "c59762744f4d92f5", 
+      "gpu_misc_uid": "d88d66c1aa4434a2", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 453, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 12.04.5 LTS", 
+      "os_uid": "c5aae49140dca03d", 
+      "platform_name": "Samsung Chromebook 2", 
+      "platform_uid": "c9eaa3eb7d744bbd"
+    }, 
+    "iterations": 30, 
+    "last_touch_uid": "778305b723f4295b", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0148086621180659, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2127667068488797
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-predictive-commoning", 
+          "##characteristics#compile#md5_sum#min": "3a46df2b909e322c78516dc98a1230d7", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.010321965922997094
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-predictive-commoning": "-fno-predictive-commoning"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-predictive-commoning"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-predictive-commoning": {
+            "##characteristics#compile#obj_size#min_imp": 0.9908833515431338, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.836636026113041, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.005086985775658063
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-associative-math": "-fassociative-math", 
+          "##compiler_flags#bool-auto-inc-dec": "-fauto-inc-dec", 
+          "##compiler_flags#bool-branch-probabilities": "-fbranch-probabilities", 
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fbranch-target-load-optimize2", 
+          "##compiler_flags#bool-forward-propagate": "-fno-forward-propagate", 
+          "##compiler_flags#bool-gcse-after-reload": "-fgcse-after-reload", 
+          "##compiler_flags#bool-ipa-struct-reorg": "-fipa-struct-reorg", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fno-ira-loop-pressure", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fsched-spec-load-dangerous", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-split-wide-types": "-fno-split-wide-types", 
+          "##compiler_flags#bool-tree-loop-im": "-fno-tree-loop-im", 
+          "##compiler_flags#bool-tree-pta": "-ftree-pta", 
+          "##compiler_flags#bool-tree-switch-conversion": "-fno-tree-switch-conversion", 
+          "##compiler_flags#bool-tree-vrp": "-ftree-vrp"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b3098e91097a20f2", 
+    "touched": 5, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-8-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.6.4", 
+      "cpu_cur_freq": {
+        "0": 1900.0, 
+        "1": 1900.0, 
+        "2": 1900.0, 
+        "3": 1900.0
+      }, 
+      "cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "c59762744f4d92f5", 
+      "gpu_misc_uid": "d88d66c1aa4434a2", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 465721066, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 12.04.5 LTS", 
+      "os_uid": "c5aae49140dca03d", 
+      "platform_name": "Samsung Chromebook 2", 
+      "platform_uid": "c9eaa3eb7d744bbd"
+    }, 
+    "iterations": 37, 
+    "last_touch_uid": "04075fb818644923", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0037986704653372, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1564330550425836
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-pre", 
+          "##characteristics#compile#md5_sum#min": "2a6407816fae3c2d1e5fe29dba95ec1f", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0011417581962424618
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-pre"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-pre": {
+            "##characteristics#compile#obj_size#min_imp": 0.9962157048249763, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8647335935535566, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0007831280046192242
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=CB", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fcse-follow-jumps", 
+          "##compiler_flags#bool-data-sections": "-fno-data-sections", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fno-delete-null-pointer-checks", 
+          "##compiler_flags#bool-float-store": "-fno-float-store", 
+          "##compiler_flags#bool-forward-propagate": "-fforward-propagate", 
+          "##compiler_flags#bool-gcse-las": "-fgcse-las", 
+          "##compiler_flags#bool-gcse-sm": "-fno-gcse-sm", 
+          "##compiler_flags#bool-indirect-inlining": "-findirect-inlining", 
+          "##compiler_flags#bool-ipa-pta": "-fipa-pta", 
+          "##compiler_flags#bool-ipa-reference": "-fno-ipa-reference", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves": "-fno-modulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-reciprocal-math": "-freciprocal-math", 
+          "##compiler_flags#bool-regmove": "-fregmove", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-freschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-tree-dominator-opts": "-ftree-dominator-opts", 
+          "##compiler_flags#bool-vpt": "-fno-vpt"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "402c95f09370ffbc", 
+    "touched": 13, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "decode", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "data_uoa": "cbench-telecom-adpcm-d", 
+      "dataset_file": "data.adpcm", 
+      "dataset_uoa": "adpcm-0001", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.6.4", 
+      "cpu_cur_freq": {
+        "0": 1900.0, 
+        "1": 1900.0, 
+        "2": 1900.0, 
+        "3": 1900.0
+      }, 
+      "cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "c59762744f4d92f5", 
+      "gpu_misc_uid": "d88d66c1aa4434a2", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 9444, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 12.04.5 LTS", 
+      "os_uid": "c5aae49140dca03d", 
+      "platform_name": "Samsung Chromebook 2", 
+      "platform_uid": "c9eaa3eb7d744bbd"
+    }, 
+    "iterations": 50, 
+    "last_touch_uid": "45b08a553bb4d255", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0139935414424113, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1462859901996068
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-move-loop-invariants", 
+          "##characteristics#compile#md5_sum#min": "882691091707173b41f5a6ca346baa72", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.005031652944185661
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-move-loop-invariants": "-fno-move-loop-invariants"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-move-loop-invariants"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-move-loop-invariants": {
+            "##characteristics#compile#obj_size#min_imp": 0.9850427350427351, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8790052681156059, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0018312669898669501
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=CB", 
+          "##compiler_flags#bool--fira-region=": "-fira-region=mixed", 
+          "##compiler_flags#bool-crossjumping": "-fno-crossjumping", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fdelete-null-pointer-checks", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-ipa-matrix-reorg": "-fipa-matrix-reorg", 
+          "##compiler_flags#bool-ipa-pta": "-fno-ipa-pta", 
+          "##compiler_flags#bool-loop-block": "-fno-loop-block", 
+          "##compiler_flags#bool-partial-inlining": "-fpartial-inlining", 
+          "##compiler_flags#bool-peel-loops": "-fpeel-loops", 
+          "##compiler_flags#bool-regmove": "-fregmove", 
+          "##compiler_flags#bool-reorder-blocks": "-fno-reorder-blocks", 
+          "##compiler_flags#bool-rounding-math": "-frounding-math", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fsched-spec-load-dangerous", 
+          "##compiler_flags#bool-schedule-insns": "-fno-schedule-insns", 
+          "##compiler_flags#bool-tracer": "-fno-tracer", 
+          "##compiler_flags#bool-tree-copyrename": "-ftree-copyrename", 
+          "##compiler_flags#bool-tree-phiprop": "-ftree-phiprop", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-fno-unsafe-loop-optimizations"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "59cdde62f4e7aaeb", 
+    "touched": 30, 
+    "validated": 1
+  }
+]

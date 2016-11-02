@@ -1,0 +1,98 @@
+{
+  "characteristics": {
+    "run": {}
+  }, 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "", 
+    "data_uoa": "wa-dhrystone", 
+    "dataset_file": "", 
+    "device_cfg": {
+      "access_type": "wa_android", 
+      "wa_config": {
+        "device": "generic_android", 
+        "device_config": {
+          "adb_name": "L91HVCP5225AL", 
+          "core_clusters": [
+            0, 
+            1
+          ], 
+          "core_names": [
+            "0x41-AArch64-0x0-0xd03-2", 
+            "MT6755M"
+          ]
+        }, 
+        "execution_order": "by_iteration", 
+        "instrumentation": [
+          "execution_time"
+        ], 
+        "logging": {
+          "colour_enabled": false, 
+          "file format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s", 
+          "regular format": "%(levelname)-8s %(message)s", 
+          "verbose format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s"
+        }, 
+        "max_retries": 3, 
+        "reboot_policy": "as_needed", 
+        "result_processors": [
+          "status", 
+          "standard", 
+          "json"
+        ], 
+        "retry_on_status": [
+          "FAILED", 
+          "PARTIAL"
+        ]
+      }
+    }, 
+    "device_id": "L91HVCP5225AL", 
+    "energy": "no", 
+    "env": {
+      "CK_WA_RAW_RESULT_PATH": "/Users/dsavenko/CK/local/wa-result/2b692428a8a4b30a/20161017-190255", 
+      "CK_WA_SCRIPTS_PATH": "/Users/dsavenko/CK/ck-wa/script/process-wa"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "", 
+    "host_os": "macos-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "params": {
+      "config": {}, 
+      "params": {
+        "delay": 0, 
+        "duration": 0, 
+        "mloops": 0, 
+        "taskset_mask": 0, 
+        "threads": 4
+      }
+    }, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "wa-meizu-m3-note", 
+    "target_os": "android22-arm64", 
+    "target_os_bits": "64"
+  }, 
+  "meta": {
+    "apk_name": "", 
+    "apk_version": "", 
+    "cpu_name": "MT6755M", 
+    "gpu_name": "ARM Mali-T860", 
+    "local_target_uid": "9476f98b1ba0e0a4", 
+    "local_target_uoa": "wa-meizu-m3-note", 
+    "os_name": "Android 5.1", 
+    "plat_name": "MEIZU M3 NOTE", 
+    "program_uid": "f4b1abacc1c4fa53", 
+    "program_uoa": "wa-dhrystone", 
+    "scenario": "-", 
+    "serial_number": "L91HVCP5225AL", 
+    "wa_version": "trunk-fa7d89d", 
+    "workload_name": "dhrystone"
+  }, 
+  "state": {
+    "fail": "yes", 
+    "fail_reason": "execution failed - ANDROID_HOME (/usr/local) does not appear to have valid Android SDK install (cannot find build-tools)\n"
+  }, 
+  "user": "dsavenko@xored.com"
+}

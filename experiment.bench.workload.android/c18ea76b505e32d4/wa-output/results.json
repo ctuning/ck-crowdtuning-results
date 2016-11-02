@@ -1,0 +1,30 @@
+[
+    {
+        "metrics": [
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 54.559672832489014, 
+                "classifiers": {
+                    "apk_version": "7.20.0.411"
+                }
+            }
+        ], 
+        "workload": "skype", 
+        "iteration": 1, 
+        "id": "1"
+    }, 
+    {
+        "metrics": [], 
+        "workload": "skype", 
+        "iteration": 2, 
+        "id": "1"
+    }, 
+    {
+        "metrics": [], 
+        "workload": "skype", 
+        "iteration": 3, 
+        "id": "1"
+    }
+]

@@ -1,0 +1,364 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 13208, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.14477801322937012, 
+        "compilation_time_with_module": 1.319870948791504, 
+        "joined_compiler_flags": "-O3 -fschedule-insns", 
+        "md5_sum": "ebd66d4d80e437686eb17b1235281984", 
+        "obj_size": 4872, 
+        "obj_sizes": {
+          "gdevpbm.codelet__1.o": 1384, 
+          "gdevpbm.codelet__1.wrapper.o": 3488
+        }, 
+        "program_git_hash": "540987ceb20f9153dee31b7b45f428c8b3117198"
+      }, 
+      "run": {
+        "execution_time": 4.185559557183695e-09, 
+        "execution_time_kernel_0": 8.35376, 
+        "execution_time_with_module": 8.880634069442749, 
+        "repeat": 1995852618, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 8.35376
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 4.185541519779693e-09, 
+        "execution_time_kernel_0": 8.353724, 
+        "execution_time_with_module": 8.883188962936401, 
+        "repeat": 1995852618, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 8.353724
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 4.185674295114711e-09, 
+        "execution_time_kernel_0": 8.353989, 
+        "execution_time_with_module": 8.882169008255005, 
+        "repeat": 1995852618, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 8.353989
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 4.1855871143287e-09, 
+        "execution_time_kernel_0": 8.353815, 
+        "execution_time_with_module": 8.882587194442749, 
+        "repeat": 1995852618, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 8.353815
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "bool-schedule-insns": "-fschedule-insns"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-office-ghostscript-src-gdevpbm-codelet-1-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 1995852618, 
+    "target": "", 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#bool-schedule-insns"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        9, 
+        3
+      ], 
+      "raw": [
+        "gcc-4.9 (Ubuntu 4.9.3-13ubuntu2) 4.9.3", 
+        "Copyright (C) 2015 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9.3"
+    }, 
+    "number_of_selected_compiler_flags": 2, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            2400000, 
+            1600000
+          ], 
+          "1": [
+            2400000, 
+            1600000
+          ], 
+          "2": [
+            2400000, 
+            1600000
+          ], 
+          "3": [
+            2400000, 
+            1600000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm", 
+        "current_freq": {
+          "0": 2400.0, 
+          "1": 1600.0, 
+          "2": 1600.0, 
+          "3": 1600.0
+        }, 
+        "max_freq": {
+          "0": 2400.0, 
+          "1": 2400.0, 
+          "2": 2400.0, 
+          "3": 2400.0
+        }, 
+        "name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+        "num_proc": "4", 
+        "sub_name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "address sizes": "36 bits physical, 48 bits virtual", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "apicid": "0", 
+          "bogomips": "4782.32", 
+          "bugs": "", 
+          "cache size": "4096 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "ck_cpu_subname": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "2400.000", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm", 
+          "cpuid level": "10", 
+          "cur_freq": 2400.0, 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "0", 
+          "max_freq": 2400.0, 
+          "microcode": "0xba", 
+          "model": "15", 
+          "model name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "physical id": "0", 
+          "power management": "", 
+          "processor": "0", 
+          "siblings": "4", 
+          "stepping": "11", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }, 
+        "1": {
+          "address sizes": "36 bits physical, 48 bits virtual", 
+          "all_freqs": [
+            "1", 
+            "1"
+          ], 
+          "apicid": "3", 
+          "bogomips": "4782.32", 
+          "bugs": "", 
+          "cache size": "4096 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "ck_cpu_subname": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "clflush size": "64", 
+          "core id": "3", 
+          "cpu MHz": "1600.000", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm", 
+          "cpuid level": "10", 
+          "cur_freq": 1600.0, 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "3", 
+          "max_freq": 2400.0, 
+          "microcode": "0xba", 
+          "model": "15", 
+          "model name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "physical id": "0", 
+          "power management": "", 
+          "processor": "1", 
+          "siblings": "4", 
+          "stepping": "11", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }, 
+        "2": {
+          "address sizes": "36 bits physical, 48 bits virtual", 
+          "all_freqs": [
+            "2", 
+            "2"
+          ], 
+          "apicid": "2", 
+          "bogomips": "4782.32", 
+          "bugs": "", 
+          "cache size": "4096 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "ck_cpu_subname": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "clflush size": "64", 
+          "core id": "2", 
+          "cpu MHz": "1600.000", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm", 
+          "cpuid level": "10", 
+          "cur_freq": 1600.0, 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "2", 
+          "max_freq": 2400.0, 
+          "microcode": "0xba", 
+          "model": "15", 
+          "model name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "physical id": "0", 
+          "power management": "", 
+          "processor": "2", 
+          "siblings": "4", 
+          "stepping": "11", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }, 
+        "3": {
+          "address sizes": "36 bits physical, 48 bits virtual", 
+          "all_freqs": [
+            "3", 
+            "3"
+          ], 
+          "apicid": "1", 
+          "bogomips": "4782.32", 
+          "bugs": "", 
+          "cache size": "4096 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "ck_cpu_subname": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "clflush size": "64", 
+          "core id": "1", 
+          "cpu MHz": "1600.000", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm", 
+          "cpuid level": "10", 
+          "cur_freq": 1600.0, 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "1", 
+          "max_freq": 2400.0, 
+          "microcode": "0xba", 
+          "model": "15", 
+          "model name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "physical id": "0", 
+          "power management": "", 
+          "processor": "3", 
+          "siblings": "4", 
+          "stepping": "11", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "address sizes": "36 bits physical, 48 bits virtual", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "apicid": "0", 
+          "bogomips": "4782.32", 
+          "bugs": "", 
+          "cache size": "4096 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "ck_cpu_subname": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "2400.000", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm", 
+          "cpuid level": "10", 
+          "cur_freq": 2400.0, 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "0", 
+          "max_freq": 2400.0, 
+          "microcode": "0xba", 
+          "model": "15", 
+          "model name": "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz", 
+          "physical id": "0", 
+          "power management": "", 
+          "processor": "0", 
+          "siblings": "4", 
+          "stepping": "11", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }
+      ], 
+      "gpu": {
+        "name": "NVIDIA Corporation GF119 [GeForce GT 610] (rev a1)", 
+        "vendor": "NVIDIA"
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "Ubuntu 16.04.1 LTS", 
+        "name_long": "Linux-4.4.0-36-generic-x86_64-with-Ubuntu-16.04-xenial", 
+        "name_short": "Linux 4.4.0"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "SP35", 
+        "name": "Shuttle Inc V20 (SP35)", 
+        "vendor": "Shuttle Inc"
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "9aa426783ea9f065", 
+    "statistical_repetitions": 4
+  }
+}

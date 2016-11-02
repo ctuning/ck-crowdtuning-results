@@ -1,0 +1,406 @@
+{
+  "1b39eddb2ab40b2a": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5136, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.3439998626709, 
+          "##characteristics#run#repeat#min": 122699384
+        }, 
+        "checked": [
+          "1b39eddb2ab40b2a"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.8021806853582555, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.8443854007729656
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.pgm", 
+          "dataset_uoa": "image-pgm-0001", 
+          "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.8021806853582555, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.8443854007729656
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-0001", 
+      "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1"
+    }
+  }, 
+  "39eafb706ab966f6": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 14704, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.4759998321533, 
+          "##characteristics#run#repeat#min": 117096024
+        }, 
+        "checked": [
+          "39eafb706ab966f6"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.5690968443960827, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3665993382319923
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-5-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.5690968443960827, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.3665993382319923
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-5-1"
+    }, 
+    "user": "78205bf515db4e66"
+  }, 
+  "5b80d6ef1857d8d6": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 300048, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6619997024536, 
+          "##characteristics#run#repeat#min": 3136
+        }, 
+        "checked": [
+          "5b80d6ef1857d8d6"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9690182904068683, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 2.4736303001821947
+        }, 
+        "workload": {
+          "cmd_key": "decode", 
+          "dataset_file": "data.jpg", 
+          "dataset_uoa": "image-jpeg-0001", 
+          "program_uoa": "cbench-consumer-jpeg-d"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9690182904068683, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 2.4736303001821947
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "decode", 
+      "dataset_file": "data.jpg", 
+      "dataset_uoa": "image-jpeg-0001", 
+      "program_uoa": "cbench-consumer-jpeg-d"
+    }, 
+    "user": "crowdsource@mdvries.com"
+  }, 
+  "6b47d294a9aef8bb": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3768, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.6370000839233, 
+          "##characteristics#run#repeat#min": 1494768256
+        }, 
+        "checked": [
+          "6b47d294a9aef8bb"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0276008492569002, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1121304746435736
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-automotive-bitcount-src-bitcnt-1-codelet-2-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0276008492569002, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1121304746435736
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-automotive-bitcount-src-bitcnt-1-codelet-2-1"
+    }, 
+    "user": "ca25398ea00441e4"
+  }, 
+  "758409396e9ccae9": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4544, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6459999084473, 
+          "##characteristics#run#repeat#min": 442673
+        }, 
+        "checked": [
+          "758409396e9ccae9"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.6931718208240654
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.pgp", 
+          "dataset_uoa": "pgp-0001", 
+          "program_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-codelet-7-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.6931718208240654
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.pgp", 
+      "dataset_uoa": "pgp-0001", 
+      "program_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-codelet-7-1"
+    }
+  }, 
+  "9ae3895832ec4825": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 12336, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.2069997787476, 
+          "##characteristics#run#repeat#min": 611620
+        }, 
+        "checked": [
+          "9ae3895832ec4825"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9941634241245136, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.7922911482056865
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-lame-src-psymodel-codelet-17-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9941634241245136, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.7922911482056865
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-lame-src-psymodel-codelet-17-1"
+    }, 
+    "user": "4ac3ee923ffb46b6"
+  }, 
+  "b94d0495680a7276": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4088, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.1499996185303, 
+          "##characteristics#run#repeat#min": 8230452
+        }, 
+        "checked": [
+          "b94d0495680a7276"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0743639921722115, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2806157652842722
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-5-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0743639921722115, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.2806157652842722
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-5-1"
+    }, 
+    "user": "crowdsource@mdvries.com"
+  }, 
+  "c8f60d3f3820c7b8": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4240, 
+          "##characteristics#run#execution_time_kernel_0#min": 10.432999610901, 
+          "##characteristics#run#repeat#min": 424628448
+        }, 
+        "checked": [
+          "c8f60d3f3820c7b8"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0811320754716982, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2176703788507073
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.gsm", 
+          "dataset_uoa": "gsm-0001", 
+          "program_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0811320754716982, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.2176703788507073
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.gsm", 
+      "dataset_uoa": "gsm-0001", 
+      "program_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1"
+    }, 
+    "user": "ca25398ea00441e4"
+  }, 
+  "cb843c8a40e5d388": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6632, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.6560001373291, 
+          "##characteristics#run#repeat#min": 7380
+        }, 
+        "checked": [
+          "cb843c8a40e5d388"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.985524728588661, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1460055159746674
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.mp3", 
+          "dataset_uoa": "audio-mp3-0001", 
+          "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.985524728588661, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1460055159746674
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.mp3", 
+      "dataset_uoa": "audio-mp3-0001", 
+      "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1"
+    }
+  }, 
+  "d381fd9b10ea29ca": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 396360, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.4650001525879, 
+          "##characteristics#run#repeat#min": 1572
+        }, 
+        "checked": [
+          "d381fd9b10ea29ca"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.738217781814512, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.179626534711602
+        }, 
+        "workload": {
+          "cmd_key": "encode", 
+          "dataset_file": "data.ppm", 
+          "dataset_uoa": "image-ppm-0001", 
+          "program_uoa": "cbench-consumer-jpeg-c"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.738217781814512, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.179626534711602
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "encode", 
+      "dataset_file": "data.ppm", 
+      "dataset_uoa": "image-ppm-0001", 
+      "program_uoa": "cbench-consumer-jpeg-c"
+    }, 
+    "user": "ca25398ea00441e4"
+  }, 
+  "e8394d00b9dbc446": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4008, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.1759996414185, 
+          "##characteristics#run#repeat#min": 8244022
+        }, 
+        "checked": [
+          "e8394d00b9dbc446"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9960079840319361, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1380379454284948
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-pvt-codelet-6-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9960079840319361, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1380379454284948
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-pvt-codelet-6-1"
+    }, 
+    "user": "78205bf515db4e66"
+  }
+}

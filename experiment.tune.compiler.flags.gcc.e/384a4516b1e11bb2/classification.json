@@ -1,0 +1,76 @@
+{
+  "c0329dfb194878b6": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 22552, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.298999786377, 
+          "##characteristics#run#repeat#min": 1792114
+        }, 
+        "checked": [
+          "c0329dfb194878b6"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.8151826888967719, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1004070405118958
+        }, 
+        "workload": {
+          "cmd_key": "encode", 
+          "dataset_file": "data.enc", 
+          "dataset_uoa": "enc-0001", 
+          "program_uoa": "cbench-security-blowfish"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.8151826888967719, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1004070405118958
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "encode", 
+      "dataset_file": "data.enc", 
+      "dataset_uoa": "enc-0001", 
+      "program_uoa": "cbench-security-blowfish"
+    }, 
+    "user": "HUMPfff@wanadoo.fr"
+  }, 
+  "ff9c34961adba7de": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3988, 
+          "##characteristics#run#execution_time_kernel_0#min": 22.660999298096, 
+          "##characteristics#run#repeat#min": 40650404
+        }, 
+        "checked": [
+          "ff9c34961adba7de"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.79839518555667, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.7760795994792182
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.ppm", 
+          "dataset_uoa": "image-ppm-0001", 
+          "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.79839518555667, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.7760795994792182
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.ppm", 
+      "dataset_uoa": "image-ppm-0001", 
+      "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1"
+    }, 
+    "user": "HUMPfff@wanadoo.fr"
+  }
+}

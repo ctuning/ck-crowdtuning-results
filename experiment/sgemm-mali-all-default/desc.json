@@ -1,0 +1,25 @@
+{
+  "characteristics_desc": {}, 
+  "choices_desc": {
+    "##dataset_file": {
+      "has_choice": "yes", 
+      "sort": 1100, 
+      "tags": [
+        "setup"
+      ], 
+      "type": "text", 
+      "choices": []
+    }, 
+    "##compiler_env_uoa": {
+      "has_choice": "yes", 
+      "sort": 2000, 
+      "type": "uoa", 
+      "choices": [
+        "457bd283881847dc", 
+        "a1b99414d88b48b4", 
+        "b660ede86248c8bc"
+      ]
+    }
+  }, 
+  "features_desc": {}
+}

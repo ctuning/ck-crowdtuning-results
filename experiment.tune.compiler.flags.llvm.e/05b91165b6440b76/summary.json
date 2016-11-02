@@ -1,0 +1,518 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-5-1", 
+      "dataset_file": "data.bz2", 
+      "dataset_uoa": "bzip2-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1036.8, 
+        "1": 1036.8, 
+        "2": 1036.8, 
+        "3": 1036.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "1469b9e209e7bc37", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "SAMSUNG SM-G930V", 
+      "platform_uid": "e5c7964dbcbde86e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "4879b9445a9efb37", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3816, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6770000457764, 
+          "##characteristics#run#repeat#min": 7686395
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.626386614451275
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fvisibility-inlines-hidden -fmax-type-align=5 -ffp-contract=off", 
+          "##characteristics#compile#md5_sum#min": "d9bf6d9f746317f7ea817872c5b4154b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffp-contract": "-ffp-contract=off", 
+          "##compiler_flags#fmax-type-align": "-fmax-type-align=5", 
+          "##compiler_flags#fvisibility-inlines-hidden": "-fvisibility-inlines-hidden"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffp-contract", 
+          "##compiler_flags#fmax-type-align", 
+          "##compiler_flags#fvisibility-inlines-hidden"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "7ffac749700dcd0f", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1", 
+      "dataset_file": "data.txt", 
+      "dataset_uoa": "cdataset-patricia-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1324.8, 
+        "1": 1324.8, 
+        "2": 1324.8, 
+        "3": 1324.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "SAMSUNG SM-G930V", 
+      "platform_uid": ""
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "a3441ecbc369d0c6", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3728, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.9370002746582, 
+          "##characteristics#run#repeat#min": 22079930
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3118152508075445
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fshort-enums -mrelax-all", 
+          "##characteristics#compile#md5_sum#min": "fcc47ebe5cea68fc71b3cf0afd373e50", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fshort-enums": "-fshort-enums", 
+          "##compiler_flags#mrelax-all": "-mrelax-all"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fshort-enums", 
+          "##compiler_flags#mrelax-all"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "a3091b7d9edf456f", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiff2rgba-src-tif-predict-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "number-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1036.8, 
+        "1": 1036.8, 
+        "2": 1036.8, 
+        "3": 1036.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "1469b9e209e7bc37", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "SAMSUNG SM-G930V", 
+      "platform_uid": "e5c7964dbcbde86e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "ce843ce4fdcb018b", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3384, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.3509998321533, 
+          "##characteristics#run#repeat#min": 14224751
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0047281323877069, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.294972937296335
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-constant-cfstrings -fstrict-enums -fwrapv -fslp-vectorize -mno-long-calls -mstack-alignment=25 -fmax-type-align=31 -ffp-contract=fast", 
+          "##characteristics#compile#md5_sum#min": "2859377b99fb1af3b5653abc9858003e", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffp-contract": "-ffp-contract=fast", 
+          "##compiler_flags#fmax-type-align": "-fmax-type-align=31", 
+          "##compiler_flags#fno-constant-cfstrings": "-fno-constant-cfstrings", 
+          "##compiler_flags#fslp-vectorize": "-fslp-vectorize", 
+          "##compiler_flags#fstrict-enums": "-fstrict-enums", 
+          "##compiler_flags#fwrapv": "-fwrapv", 
+          "##compiler_flags#mno-long-calls": "-mno-long-calls", 
+          "##compiler_flags#mstack-alignment": "-mstack-alignment=25"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffp-contract", 
+          "##compiler_flags#fmax-type-align", 
+          "##compiler_flags#fno-constant-cfstrings", 
+          "##compiler_flags#fslp-vectorize", 
+          "##compiler_flags#fstrict-enums", 
+          "##compiler_flags#fwrapv", 
+          "##compiler_flags#mno-long-calls", 
+          "##compiler_flags#mstack-alignment"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "1cbc540d4b84ba16", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-susan-s-src-susan-codelet-1-1", 
+      "dataset_file": "data.txt", 
+      "dataset_uoa": "cdataset-dijkstra-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1190.4, 
+        "1": 1190.4, 
+        "2": 1190.4, 
+        "3": 1190.4
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "1469b9e209e7bc37", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "SAMSUNG SM-G930V", 
+      "platform_uid": "e5c7964dbcbde86e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "413418f8c4555027", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3840, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.3420000076294, 
+          "##characteristics#run#repeat#min": 15105741
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2767527838798873
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-assume-sane-operator-new -fstrict-enums -fslp-vectorize-aggressive -fmodules-prune-interval=118", 
+          "##characteristics#compile#md5_sum#min": "ca4f4656e9fd0ce525f916db62c3885e", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmodules-prune-interval": "-fmodules-prune-interval=118", 
+          "##compiler_flags#fno-assume-sane-operator-new": "-fno-assume-sane-operator-new", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive", 
+          "##compiler_flags#fstrict-enums": "-fstrict-enums"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmodules-prune-interval", 
+          "##compiler_flags#fno-assume-sane-operator-new", 
+          "##compiler_flags#fslp-vectorize-aggressive", 
+          "##compiler_flags#fstrict-enums"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "e864396b9f14853b", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-office-ghostscript-src-gdevpbm-codelet-1-1", 
+      "dataset_file": "DGEMM_NT_2x1.json", 
+      "dataset_uoa": "DGEMM_NT", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1190.4, 
+        "1": 1190.4, 
+        "2": 1190.4, 
+        "3": 1190.4
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "1469b9e209e7bc37", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "SAMSUNG SM-G930V", 
+      "platform_uid": "e5c7964dbcbde86e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "46ffbe97a3cffac3", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3584, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.6139998435974, 
+          "##characteristics#run#repeat#min": 1317523072
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1362482615831424
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -freroll-loops -trigraphs -fwrapv -ftemplate-backtrace-limit=637", 
+          "##characteristics#compile#md5_sum#min": "4f1a943c19c1af606df654c079969fe5", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#freroll-loops": "-freroll-loops", 
+          "##compiler_flags#ftemplate-backtrace-limit": "-ftemplate-backtrace-limit=637", 
+          "##compiler_flags#fwrapv": "-fwrapv", 
+          "##compiler_flags#trigraphs": "-trigraphs"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#freroll-loops", 
+          "##compiler_flags#ftemplate-backtrace-limit", 
+          "##compiler_flags#fwrapv", 
+          "##compiler_flags#trigraphs"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "629c1e5a4a0790ee", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-from-pamela-100", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1036.8, 
+        "1": 1036.8, 
+        "2": 1036.8, 
+        "3": 1036.8
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "1469b9e209e7bc37", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "SAMSUNG SM-G930V", 
+      "platform_uid": "e5c7964dbcbde86e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "363bd49170a36c27", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3848, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.423999786377, 
+          "##characteristics#run#repeat#min": 440722
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.101767203307863
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-builtin -fomit-frame-pointer  -mstrict-align -fslp-vectorize -fstrict-vtable-pointers -fmodules-prune-interval=98", 
+          "##characteristics#compile#md5_sum#min": "c955070116b29483d5d2fbd0f25ee449", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmodules-prune-interval": "-fmodules-prune-interval=98", 
+          "##compiler_flags#fno-builtin": "-fno-builtin", 
+          "##compiler_flags#fomit-frame-pointer ": "-fomit-frame-pointer ", 
+          "##compiler_flags#fslp-vectorize": "-fslp-vectorize", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers", 
+          "##compiler_flags#mstrict-align": "-mstrict-align"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmodules-prune-interval", 
+          "##compiler_flags#fno-builtin", 
+          "##compiler_flags#fomit-frame-pointer ", 
+          "##compiler_flags#fslp-vectorize", 
+          "##compiler_flags#fstrict-vtable-pointers", 
+          "##compiler_flags#mstrict-align"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "0f951e112d54980a", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

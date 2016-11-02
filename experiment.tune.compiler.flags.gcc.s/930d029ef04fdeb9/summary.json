@@ -1,0 +1,260 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-security-sha", 
+      "dataset_file": "data.enc", 
+      "dataset_uoa": "enc-0014", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 2392.996, 
+        "1": 2392.996
+      }, 
+      "cpu_name": "AMD Opteron(tm) Processor 250", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "432a75e274d4498c", 
+      "gpu_misc_uid": "a4c67b40cd07f87e", 
+      "gpu_name": "Trident Microsystems Blade 3D PCI/AGP (rev 3a)", 
+      "kernel_repetitions": 9815, 
+      "omit_probability": "", 
+      "os_name": "Debian 3.16.7", 
+      "os_uid": "a22064d4e879f092", 
+      "platform_name": "Sun Microsystems 00 (Sun Fire V20z)", 
+      "platform_uid": "63e9c449eb423014"
+    }, 
+    "iterations": 34, 
+    "last_touch_uid": "74add4b1aa49272e", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 10240, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.282079, 
+          "##characteristics#run#repeat#min": 9815
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0219092331768, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.20537
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-copy-prop -fno-tree-vectorize --param hot-bb-frequency-fraction=33", 
+          "##characteristics#compile#md5_sum#min": "92fd8e5dbf333f6a53a195900ce1b983", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0043758154207816
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-tree-vectorize": "-fno-tree-vectorize", 
+          "##compiler_flags#param-hot-bb-frequency-fraction": "--param hot-bb-frequency-fraction=33"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-copy-prop", 
+          "##compiler_flags#bool-tree-vectorize", 
+          "##compiler_flags#param-hot-bb-frequency-fraction"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-copy-prop": {
+            "##characteristics#compile#obj_size#min_imp": 0.98307692307692, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.0007175948094, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0042673274663313
+          }, 
+          "##compiler_flags#bool-tree-vectorize": {
+            "##characteristics#compile#obj_size#min_imp": 0.99688473520249, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.93085106382979, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0036012345485948
+          }, 
+          "##compiler_flags#param-hot-bb-frequency-fraction": {
+            "##characteristics#compile#obj_size#min_imp": 0.9984399375975, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.0072254631517, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.005711860305109
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-auto-inc-dec": "-fauto-inc-dec", 
+          "##compiler_flags#bool-defer-pop": "-fno-defer-pop", 
+          "##compiler_flags#bool-float-store": "-ffloat-store", 
+          "##compiler_flags#bool-function-cse": "-fno-function-cse", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fira-hoist-pressure", 
+          "##compiler_flags#bool-ivopts": "-fivopts", 
+          "##compiler_flags#bool-loop-interchange": "-fno-loop-interchange", 
+          "##compiler_flags#bool-optimize-sibling-calls": "-fno-optimize-sibling-calls", 
+          "##compiler_flags#bool-reorder-blocks": "-fno-reorder-blocks", 
+          "##compiler_flags#bool-sched-critical-path-heuristic": "-fsched-critical-path-heuristic", 
+          "##compiler_flags#bool-sched-pressure": "-fno-sched-pressure", 
+          "##compiler_flags#bool-sched-spec-load": "-fno-sched-spec-load", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-funsafe-loop-optimizations", 
+          "##compiler_flags#param--falign-functions=": "-falign-functions=0", 
+          "##compiler_flags#param--ftree-parallelize-loops=": "-ftree-parallelize-loops=0", 
+          "##compiler_flags#param-ira-loop-reserved-regs": "--param ira-loop-reserved-regs=4", 
+          "##compiler_flags#param-iv-always-prune-cand-set-bound": "--param iv-always-prune-cand-set-bound=2", 
+          "##compiler_flags#param-lim-expensive": "--param lim-expensive=33", 
+          "##compiler_flags#param-lra-max-considered-reload-pseudos": "--param lra-max-considered-reload-pseudos=24", 
+          "##compiler_flags#param-max-dse-active-local-stores": "--param max-dse-active-local-stores=1909", 
+          "##compiler_flags#param-max-inline-insns-recursive": "--param max-inline-insns-recursive=511", 
+          "##compiler_flags#param-max-inline-recursive-depth": "--param max-inline-recursive-depth=3", 
+          "##compiler_flags#param-max-pipeline-region-insns": "--param max-pipeline-region-insns=236", 
+          "##compiler_flags#param-max-sched-region-blocks": "--param max-sched-region-blocks=18", 
+          "##compiler_flags#param-max-slsr-cand-scan": "--param max-slsr-cand-scan=280973", 
+          "##compiler_flags#param-max-tracked-strlens": "--param max-tracked-strlens=462", 
+          "##compiler_flags#param-max-vartrack-reverse-op-size": "--param max-vartrack-reverse-op-size=20", 
+          "##compiler_flags#param-sccvn-max-scc-size": "--param sccvn-max-scc-size=1964", 
+          "##compiler_flags#param-scev-max-expr-size": "--param scev-max-expr-size=189", 
+          "##compiler_flags#param-sched-state-edge-prob-cutoff": "--param sched-state-edge-prob-cutoff=55", 
+          "##compiler_flags#param-sink-frequency-threshold": "--param sink-frequency-threshold=75"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8e905bb6a8f2aefe", 
+    "touched": 5, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-16-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 2392.996, 
+        "1": 2392.996
+      }, 
+      "cpu_name": "AMD Opteron(tm) Processor 250", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "432a75e274d4498c", 
+      "gpu_misc_uid": "a4c67b40cd07f87e", 
+      "gpu_name": "Trident Microsystems Blade 3D PCI/AGP (rev 3a)", 
+      "kernel_repetitions": 655306706, 
+      "omit_probability": "", 
+      "os_name": "Debian 3.16.7", 
+      "os_uid": "a22064d4e879f092", 
+      "platform_name": "Sun Microsystems 00 (Sun Fire V20z)", 
+      "platform_uid": "63e9c449eb423014"
+    }, 
+    "iterations": 37, 
+    "last_touch_uid": "1c156c19ac5648fe", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5616, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.587843, 
+          "##characteristics#run#repeat#min": 655306706
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0057142857143, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.455729
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-omit-frame-pointer", 
+          "##characteristics#compile#md5_sum#min": "188d92cb5bdeba5936aee30fbd6f9d1e", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.022880917089302
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-omit-frame-pointer": "-fno-omit-frame-pointer"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-omit-frame-pointer"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-omit-frame-pointer": {
+            "##characteristics#compile#obj_size#min_imp": 0.99715909090909, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.64540802930635, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.003305115365534
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-guess-branch-probability": "-fguess-branch-probability", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fhoist-adjacent-loads", 
+          "##compiler_flags#bool-indirect-inlining": "-findirect-inlining", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-ipa-pta": "-fipa-pta", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fira-hoist-pressure", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fira-loop-pressure", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fno-ira-share-save-slots", 
+          "##compiler_flags#bool-ivopts": "-fivopts", 
+          "##compiler_flags#bool-loop-strip-mine": "-fno-loop-strip-mine", 
+          "##compiler_flags#bool-prefetch-loop-arrays": "-fprefetch-loop-arrays", 
+          "##compiler_flags#bool-split-wide-types": "-fsplit-wide-types", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-fno-tree-coalesce-vars", 
+          "##compiler_flags#bool-tree-dse": "-ftree-dse", 
+          "##compiler_flags#bool-tree-slsr": "-fno-tree-slsr", 
+          "##compiler_flags#param--falign-functions=": "-falign-functions=0", 
+          "##compiler_flags#param--fsched-stalled-insns=": "-fsched-stalled-insns=0", 
+          "##compiler_flags#param-align-threshold": "--param align-threshold=7", 
+          "##compiler_flags#param-allow-store-data-races": "--param allow-store-data-races=0", 
+          "##compiler_flags#param-builtin-expect-probability": "--param builtin-expect-probability=89", 
+          "##compiler_flags#param-gcse-cost-distance-ratio": "--param gcse-cost-distance-ratio=6", 
+          "##compiler_flags#param-l2-cache-size": "--param l2-cache-size=760", 
+          "##compiler_flags#param-max-average-unrolled-insns": "--param max-average-unrolled-insns=69", 
+          "##compiler_flags#param-max-cse-path-length": "--param max-cse-path-length=12", 
+          "##compiler_flags#param-max-delay-slot-insn-search": "--param max-delay-slot-insn-search=2", 
+          "##compiler_flags#param-max-early-inliner-iterations": "--param max-early-inliner-iterations=0", 
+          "##compiler_flags#param-max-jump-thread-duplication-stmts": "--param max-jump-thread-duplication-stmts=29", 
+          "##compiler_flags#param-max-peeled-insns": "--param max-peeled-insns=12", 
+          "##compiler_flags#param-max-predicted-iterations": "--param max-predicted-iterations=54", 
+          "##compiler_flags#param-max-sched-extend-regions-iters": "--param max-sched-extend-regions-iters=0", 
+          "##compiler_flags#param-unlikely-bb-count-fraction": "--param unlikely-bb-count-fraction=5235", 
+          "##compiler_flags#param-vect-max-peeling-for-alignment": "--param vect-max-peeling-for-alignment=19", 
+          "##compiler_flags#param-vect-max-version-for-alignment-checks": "--param vect-max-version-for-alignment-checks=8"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "bd02d8943268c384", 
+    "touched": 9, 
+    "validated": 1
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-office-ghostscript-src-gdevpbm-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "windows-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "mingw-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.0", 
+      "cpu_cur_freq": {
+        "0": 70
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+      "cpu_num_proc": 4, 
+      "cpu_uid": "f6224bcc1776460f", 
+      "gpu_misc_uid": "f9855890a426badd", 
+      "gpu_name": "Intel(R) HD Graphics Family", 
+      "kernel_repetitions": 1459854014, 
+      "omit_probability": "", 
+      "os_name": "Windows 10", 
+      "os_uid": "4e38effc5e1fe858", 
+      "platform_name": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+      "platform_uid": "09a35e87641079dc"
+    }, 
+    "iterations": 21, 
+    "last_touch_uid": "865858804dae8ef7", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 11814, 
+          "##characteristics#run#execution_time_kernel_0#min": 3.562, 
+          "##characteristics#run#repeat#min": 1459854014
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.29625894003301, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 2.7811428571429
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto", 
+          "##characteristics#compile#md5_sum#min": "7724378b3b2050b75ba61f4ffb6681cf", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0042857142857143
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 3.6564531104921, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.36246893123447, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.012945318972659
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-target-load-optimize": "-fno-branch-target-load-optimize", 
+          "##compiler_flags#bool-btr-bb-exclusive": "-fno-btr-bb-exclusive", 
+          "##compiler_flags#bool-devirtualize-speculatively": "-fno-devirtualize-speculatively", 
+          "##compiler_flags#bool-finite-math-only": "-fno-finite-math-only", 
+          "##compiler_flags#bool-peephole": "-fpeephole", 
+          "##compiler_flags#bool-predictive-commoning": "-fpredictive-commoning", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-reorder-blocks": "-freorder-blocks", 
+          "##compiler_flags#bool-rounding-math": "-frounding-math", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-semantic-interposition": "-fno-semantic-interposition", 
+          "##compiler_flags#bool-split-wide-types": "-fno-split-wide-types", 
+          "##compiler_flags#bool-trapping-math": "-ftrapping-math", 
+          "##compiler_flags#bool-tree-dse": "-ftree-dse", 
+          "##compiler_flags#bool-tree-forwprop": "-ftree-forwprop", 
+          "##compiler_flags#bool-tree-slsr": "-fno-tree-slsr", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-fno-unsafe-loop-optimizations", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fvariable-expansion-in-unroller", 
+          "##compiler_flags#bool-whole-program": "-fwhole-program", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fno-zero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "abeda8554f2a6549", 
+    "touched": 8, 
+    "validated": 1
+  }
+]

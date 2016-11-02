@@ -1,0 +1,75 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 20060, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.40140485763549805, 
+        "compilation_time_with_module": 1.5879020690917969, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "7974a270a4279df890caf44e6ad0a691", 
+        "obj_size": 18376, 
+        "obj_sizes": {
+          "bf.o": 3144, 
+          "bf_cbc.o": 2248, 
+          "bf_cfb64.o": 1376, 
+          "bf_ecb.o": 1488, 
+          "bf_enc.o": 3052, 
+          "bf_ofb64.o": 1260, 
+          "bf_skey.o": 5808
+        }, 
+        "program_git_hash": "9e5fbeb6e64fb94676778a733b0f92a23cd2917b"
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "decode", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "llvm-3.8.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "cbench-security-blowfish", 
+    "dataset_file": "data.benc", 
+    "dataset_uoa": "benc-0001", 
+    "device_id": "", 
+    "extra_dataset_tags": [
+      "small"
+    ], 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_run": "yes", 
+    "no_state_check": "yes", 
+    "program_tags": "crowd-tuning,small", 
+    "repeat": "", 
+    "target_os": "android19-arm", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        3, 
+        8, 
+        0
+      ], 
+      "raw": [
+        "clang version 3.8.0 (tags/RELEASE_380/final)", 
+        "Target: x86_64-unknown-linux-gnu", 
+        "Thread model: posix", 
+        "InstalledDir: /home/fursin/fggwork/ck-tools/llvm-3.8.0-linux-64/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-14.04/bin", 
+        ""
+      ], 
+      "str": "3.8.0"
+    }, 
+    "dataset": {
+      "total_size": 3955
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "statistical_repetitions": 1
+  }
+}

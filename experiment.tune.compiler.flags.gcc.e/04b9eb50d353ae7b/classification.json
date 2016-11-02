@@ -1,0 +1,39 @@
+{
+  "d445b85a06763ae6": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3464, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.96383, 
+          "##characteristics#run#repeat#min": 684974669
+        }, 
+        "checked": [
+          "d445b85a06763ae6"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.079275198188, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1153825987563
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-16-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.079275198188, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1153825987563
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-16-1"
+    }, 
+    "user": "gfursin-odroid"
+  }
+}

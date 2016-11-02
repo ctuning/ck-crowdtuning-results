@@ -1,0 +1,74 @@
+{
+  "992744c19ad5e9bb": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4940, 
+          "##characteristics#run#execution_time_kernel_0#min": 15.970999717712, 
+          "##characteristics#run#repeat#min": 1
+        }, 
+        "checked": [
+          "992744c19ad5e9bb"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9805668016194332, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1416827044018087
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.txt", 
+          "dataset_uoa": "cdataset-dijkstra-0018", 
+          "program_uoa": "cbench-network-dijkstra"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9805668016194332, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1416827044018087
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.txt", 
+      "dataset_uoa": "cdataset-dijkstra-0018", 
+      "program_uoa": "cbench-network-dijkstra"
+    }
+  }, 
+  "ada16d565e55e3f4": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6364, 
+          "##characteristics#run#execution_time_kernel_0#min": 7, 
+          "##characteristics#run#repeat#min": 1145
+        }, 
+        "checked": [
+          "ada16d565e55e3f4"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9849151477058454, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1703728578004846
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9849151477058454, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1703728578004846
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1"
+    }
+  }
+}

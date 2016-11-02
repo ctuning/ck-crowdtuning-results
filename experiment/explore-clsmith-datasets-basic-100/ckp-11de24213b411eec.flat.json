@@ -1,0 +1,524 @@
+{
+  "##characteristics#run#execution_time#all": [
+    0
+  ], 
+  "##characteristics#run#execution_time#all_unique": [
+    0
+  ], 
+  "##characteristics#run#execution_time#center": 0, 
+  "##characteristics#run#execution_time#exp": 0, 
+  "##characteristics#run#execution_time#exp_allx": [
+    0
+  ], 
+  "##characteristics#run#execution_time#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#run#execution_time#exp_warning": "no", 
+  "##characteristics#run#execution_time#halfrange": 0, 
+  "##characteristics#run#execution_time#max": 0, 
+  "##characteristics#run#execution_time#mean": 0.0, 
+  "##characteristics#run#execution_time#min": 0, 
+  "##characteristics#run#execution_time#range": 0, 
+  "##characteristics#run#execution_time#repeats": 1, 
+  "##characteristics#run#execution_time_with_module#all": [
+    3.691999912262
+  ], 
+  "##characteristics#run#execution_time_with_module#all_unique": [
+    3.691999912262
+  ], 
+  "##characteristics#run#execution_time_with_module#center": 3.691999912262, 
+  "##characteristics#run#execution_time_with_module#exp": 3.691999912262, 
+  "##characteristics#run#execution_time_with_module#exp_allx": [
+    3.691999912262
+  ], 
+  "##characteristics#run#execution_time_with_module#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#run#execution_time_with_module#exp_warning": "no", 
+  "##characteristics#run#execution_time_with_module#halfrange": 0.0, 
+  "##characteristics#run#execution_time_with_module#max": 3.691999912262, 
+  "##characteristics#run#execution_time_with_module#mean": 3.691999912262, 
+  "##characteristics#run#execution_time_with_module#min": 3.691999912262, 
+  "##characteristics#run#execution_time_with_module#range": 0.0, 
+  "##characteristics#run#execution_time_with_module#range_percent": 0.0, 
+  "##characteristics#run#execution_time_with_module#repeats": 1, 
+  "##characteristics#run#fail_reason#all": [
+    "return code 1 !=0 "
+  ], 
+  "##characteristics#run#fail_reason#all_unique": [
+    "return code 1 !=0 "
+  ], 
+  "##characteristics#run#fail_reason#min": "return code 1 !=0 ", 
+  "##characteristics#run#fail_reason#repeats": 1, 
+  "##characteristics#run#post_processed#all": [
+    "yes"
+  ], 
+  "##characteristics#run#post_processed#all_unique": [
+    "yes"
+  ], 
+  "##characteristics#run#post_processed#min": "yes", 
+  "##characteristics#run#post_processed#repeats": 1, 
+  "##characteristics#run#repeat#all": [
+    1
+  ], 
+  "##characteristics#run#repeat#all_unique": [
+    1
+  ], 
+  "##characteristics#run#repeat#center": 1, 
+  "##characteristics#run#repeat#exp": 1, 
+  "##characteristics#run#repeat#exp_allx": [
+    1
+  ], 
+  "##characteristics#run#repeat#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#run#repeat#exp_warning": "no", 
+  "##characteristics#run#repeat#halfrange": 0, 
+  "##characteristics#run#repeat#max": 1, 
+  "##characteristics#run#repeat#mean": 1.0, 
+  "##characteristics#run#repeat#min": 1, 
+  "##characteristics#run#repeat#range": 0, 
+  "##characteristics#run#repeat#range_percent": 0, 
+  "##characteristics#run#repeat#repeats": 1, 
+  "##characteristics#run#return_code#all": [
+    1
+  ], 
+  "##characteristics#run#return_code#all_unique": [
+    1
+  ], 
+  "##characteristics#run#return_code#center": 1, 
+  "##characteristics#run#return_code#exp": 1, 
+  "##characteristics#run#return_code#exp_allx": [
+    1
+  ], 
+  "##characteristics#run#return_code#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#run#return_code#exp_warning": "no", 
+  "##characteristics#run#return_code#halfrange": 0, 
+  "##characteristics#run#return_code#max": 1, 
+  "##characteristics#run#return_code#mean": 1.0, 
+  "##characteristics#run#return_code#min": 1, 
+  "##characteristics#run#return_code#range": 0, 
+  "##characteristics#run#return_code#range_percent": 0, 
+  "##characteristics#run#return_code#repeats": 1, 
+  "##characteristics#run#run_success#all": [
+    "no"
+  ], 
+  "##characteristics#run#run_success#all_unique": [
+    "no"
+  ], 
+  "##characteristics#run#run_success#min": "no", 
+  "##characteristics#run#run_success#repeats": 1, 
+  "##characteristics#run#run_time_state#opencl_device#all": [
+    "Intel(R) HD Graphics 4400"
+  ], 
+  "##characteristics#run#run_time_state#opencl_device#all_unique": [
+    "Intel(R) HD Graphics 4400"
+  ], 
+  "##characteristics#run#run_time_state#opencl_device#min": "Intel(R) HD Graphics 4400", 
+  "##characteristics#run#run_time_state#opencl_device#repeats": 1, 
+  "##characteristics#run#run_time_state#opencl_device_units#all": [
+    20
+  ], 
+  "##characteristics#run#run_time_state#opencl_device_units#all_unique": [
+    20
+  ], 
+  "##characteristics#run#run_time_state#opencl_device_units#center": 20, 
+  "##characteristics#run#run_time_state#opencl_device_units#exp": 20, 
+  "##characteristics#run#run_time_state#opencl_device_units#exp_allx": [
+    20
+  ], 
+  "##characteristics#run#run_time_state#opencl_device_units#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#run#run_time_state#opencl_device_units#exp_warning": "no", 
+  "##characteristics#run#run_time_state#opencl_device_units#halfrange": 0, 
+  "##characteristics#run#run_time_state#opencl_device_units#max": 20, 
+  "##characteristics#run#run_time_state#opencl_device_units#mean": 20.0, 
+  "##characteristics#run#run_time_state#opencl_device_units#min": 20, 
+  "##characteristics#run#run_time_state#opencl_device_units#range": 0, 
+  "##characteristics#run#run_time_state#opencl_device_units#range_percent": 0, 
+  "##characteristics#run#run_time_state#opencl_device_units#repeats": 1, 
+  "##characteristics#run#run_time_state#opencl_options#all": [
+    "-w -ID:/Work1/CK/ck-repos/ck-clsmith/program/tool-cl-launcher-1.0/"
+  ], 
+  "##characteristics#run#run_time_state#opencl_options#all_unique": [
+    "-w -ID:/Work1/CK/ck-repos/ck-clsmith/program/tool-cl-launcher-1.0/"
+  ], 
+  "##characteristics#run#run_time_state#opencl_options#min": "-w -ID:/Work1/CK/ck-repos/ck-clsmith/program/tool-cl-launcher-1.0/", 
+  "##characteristics#run#run_time_state#opencl_options#repeats": 1, 
+  "##characteristics#run#run_time_state#opencl_platform#all": [
+    "Intel(R) Corporation"
+  ], 
+  "##characteristics#run#run_time_state#opencl_platform#all_unique": [
+    "Intel(R) Corporation"
+  ], 
+  "##characteristics#run#run_time_state#opencl_platform#min": "Intel(R) Corporation", 
+  "##characteristics#run#run_time_state#opencl_platform#repeats": 1, 
+  "##characteristics#run#total_execution_time#all": [
+    0
+  ], 
+  "##characteristics#run#total_execution_time#all_unique": [
+    0
+  ], 
+  "##characteristics#run#total_execution_time#center": 0, 
+  "##characteristics#run#total_execution_time#exp": 0, 
+  "##characteristics#run#total_execution_time#exp_allx": [
+    0
+  ], 
+  "##characteristics#run#total_execution_time#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#run#total_execution_time#exp_warning": "no", 
+  "##characteristics#run#total_execution_time#halfrange": 0, 
+  "##characteristics#run#total_execution_time#max": 0, 
+  "##characteristics#run#total_execution_time#mean": 0.0, 
+  "##characteristics#run#total_execution_time#min": 0, 
+  "##characteristics#run#total_execution_time#range": 0, 
+  "##characteristics#run#total_execution_time#repeats": 1, 
+  "##choices#cmd_key#all": [
+    "default"
+  ], 
+  "##choices#cmd_key#all_unique": [
+    "default"
+  ], 
+  "##choices#cmd_key#min": "default", 
+  "##choices#cmd_key#repeats": 1, 
+  "##choices#compile_only_once#all": [
+    "yes"
+  ], 
+  "##choices#compile_only_once#all_unique": [
+    "yes"
+  ], 
+  "##choices#compile_only_once#min": "yes", 
+  "##choices#compile_only_once#repeats": 1, 
+  "##choices#compile_timeout#all": [
+    60
+  ], 
+  "##choices#compile_timeout#all_unique": [
+    60
+  ], 
+  "##choices#compile_timeout#center": 60, 
+  "##choices#compile_timeout#exp": 60, 
+  "##choices#compile_timeout#exp_allx": [
+    60
+  ], 
+  "##choices#compile_timeout#exp_ally": [
+    100.0
+  ], 
+  "##choices#compile_timeout#exp_warning": "no", 
+  "##choices#compile_timeout#halfrange": 0, 
+  "##choices#compile_timeout#max": 60, 
+  "##choices#compile_timeout#mean": 60.0, 
+  "##choices#compile_timeout#min": 60, 
+  "##choices#compile_timeout#range": 0, 
+  "##choices#compile_timeout#range_percent": 0, 
+  "##choices#compile_timeout#repeats": 1, 
+  "##choices#compile_type#all": [
+    "dynamic"
+  ], 
+  "##choices#compile_type#all_unique": [
+    "dynamic"
+  ], 
+  "##choices#compile_type#min": "dynamic", 
+  "##choices#compile_type#repeats": 1, 
+  "##choices#compiler_flags#base_opt#all": [
+    "-O3"
+  ], 
+  "##choices#compiler_flags#base_opt#all_unique": [
+    "-O3"
+  ], 
+  "##choices#compiler_flags#base_opt#min": "-O3", 
+  "##choices#compiler_flags#base_opt#repeats": 1, 
+  "##choices#cpu_freq#all": [
+    "max"
+  ], 
+  "##choices#cpu_freq#all_unique": [
+    "max"
+  ], 
+  "##choices#cpu_freq#min": "max", 
+  "##choices#cpu_freq#repeats": 1, 
+  "##choices#data_uoa#all": [
+    "tool-cl-launcher-1.0"
+  ], 
+  "##choices#data_uoa#all_unique": [
+    "tool-cl-launcher-1.0"
+  ], 
+  "##choices#data_uoa#min": "tool-cl-launcher-1.0", 
+  "##choices#data_uoa#repeats": 1, 
+  "##choices#dataset_file#all": [
+    "00005.cl"
+  ], 
+  "##choices#dataset_file#all_unique": [
+    "00005.cl"
+  ], 
+  "##choices#dataset_file#min": "00005.cl", 
+  "##choices#dataset_file#repeats": 1, 
+  "##choices#dataset_uoa#all": [
+    "clsmith-basic-100"
+  ], 
+  "##choices#dataset_uoa#all_unique": [
+    "clsmith-basic-100"
+  ], 
+  "##choices#dataset_uoa#min": "clsmith-basic-100", 
+  "##choices#dataset_uoa#repeats": 1, 
+  "##choices#device_id#all": [
+    ""
+  ], 
+  "##choices#device_id#all_unique": [
+    ""
+  ], 
+  "##choices#device_id#min": "", 
+  "##choices#device_id#repeats": 1, 
+  "##choices#energy#all": [
+    "no"
+  ], 
+  "##choices#energy#all_unique": [
+    "no"
+  ], 
+  "##choices#energy#min": "no", 
+  "##choices#energy#repeats": 1, 
+  "##choices#env#CK_CPU_FREQUENCY#all": [
+    "max"
+  ], 
+  "##choices#env#CK_CPU_FREQUENCY#all_unique": [
+    "max"
+  ], 
+  "##choices#env#CK_CPU_FREQUENCY#min": "max", 
+  "##choices#env#CK_CPU_FREQUENCY#repeats": 1, 
+  "##choices#env#CK_GPU_FREQUENCY#all": [
+    "max"
+  ], 
+  "##choices#env#CK_GPU_FREQUENCY#all_unique": [
+    "max"
+  ], 
+  "##choices#env#CK_GPU_FREQUENCY#min": "max", 
+  "##choices#env#CK_GPU_FREQUENCY#repeats": 1, 
+  "##choices#env#DEVICE_ID#all": [
+    "1"
+  ], 
+  "##choices#env#DEVICE_ID#all_unique": [
+    "1"
+  ], 
+  "##choices#env#DEVICE_ID#min": "1", 
+  "##choices#env#DEVICE_ID#repeats": 1, 
+  "##choices#env#PLATFORM_ID#all": [
+    "0"
+  ], 
+  "##choices#env#PLATFORM_ID#all_unique": [
+    "0"
+  ], 
+  "##choices#env#PLATFORM_ID#min": "0", 
+  "##choices#env#PLATFORM_ID#repeats": 1, 
+  "##choices#gpu_freq#all": [
+    "max"
+  ], 
+  "##choices#gpu_freq#all_unique": [
+    "max"
+  ], 
+  "##choices#gpu_freq#min": "max", 
+  "##choices#gpu_freq#repeats": 1, 
+  "##choices#host_os#all": [
+    "windows-64"
+  ], 
+  "##choices#host_os#all_unique": [
+    "windows-64"
+  ], 
+  "##choices#host_os#min": "windows-64", 
+  "##choices#host_os#repeats": 1, 
+  "##choices#joined_compiler_flags#all": [
+    "-O3"
+  ], 
+  "##choices#joined_compiler_flags#all_unique": [
+    "-O3"
+  ], 
+  "##choices#joined_compiler_flags#min": "-O3", 
+  "##choices#joined_compiler_flags#repeats": 1, 
+  "##choices#module_uoa#all": [
+    "b0ac08fe1d3c2615"
+  ], 
+  "##choices#module_uoa#all_unique": [
+    "b0ac08fe1d3c2615"
+  ], 
+  "##choices#module_uoa#min": "b0ac08fe1d3c2615", 
+  "##choices#module_uoa#repeats": 1, 
+  "##choices#no_state_check#all": [
+    "yes"
+  ], 
+  "##choices#no_state_check#all_unique": [
+    "yes"
+  ], 
+  "##choices#no_state_check#min": "yes", 
+  "##choices#no_state_check#repeats": 1, 
+  "##choices#repeat#all": [
+    1
+  ], 
+  "##choices#repeat#all_unique": [
+    1
+  ], 
+  "##choices#repeat#center": 1, 
+  "##choices#repeat#exp": 1, 
+  "##choices#repeat#exp_allx": [
+    1
+  ], 
+  "##choices#repeat#exp_ally": [
+    100.0
+  ], 
+  "##choices#repeat#exp_warning": "no", 
+  "##choices#repeat#halfrange": 0, 
+  "##choices#repeat#max": 1, 
+  "##choices#repeat#mean": 1.0, 
+  "##choices#repeat#min": 1, 
+  "##choices#repeat#range": 0, 
+  "##choices#repeat#range_percent": 0, 
+  "##choices#repeat#repeats": 1, 
+  "##choices#run_timeout#all": [
+    60
+  ], 
+  "##choices#run_timeout#all_unique": [
+    60
+  ], 
+  "##choices#run_timeout#center": 60, 
+  "##choices#run_timeout#exp": 60, 
+  "##choices#run_timeout#exp_allx": [
+    60
+  ], 
+  "##choices#run_timeout#exp_ally": [
+    100.0
+  ], 
+  "##choices#run_timeout#exp_warning": "no", 
+  "##choices#run_timeout#halfrange": 0, 
+  "##choices#run_timeout#max": 60, 
+  "##choices#run_timeout#mean": 60.0, 
+  "##choices#run_timeout#min": 60, 
+  "##choices#run_timeout#range": 0, 
+  "##choices#run_timeout#range_percent": 0, 
+  "##choices#run_timeout#repeats": 1, 
+  "##choices#skip_calibration#all": [
+    "yes"
+  ], 
+  "##choices#skip_calibration#all_unique": [
+    "yes"
+  ], 
+  "##choices#skip_calibration#min": "yes", 
+  "##choices#skip_calibration#repeats": 1, 
+  "##choices#target_os#all": [
+    "windows-64"
+  ], 
+  "##choices#target_os#all_unique": [
+    "windows-64"
+  ], 
+  "##choices#target_os#min": "windows-64", 
+  "##choices#target_os#repeats": 1, 
+  "##choices#target_os_bits#all": [
+    "64"
+  ], 
+  "##choices#target_os_bits#all_unique": [
+    "64"
+  ], 
+  "##choices#target_os_bits#min": "64", 
+  "##choices#target_os_bits#repeats": 1, 
+  "##features#compiler_version#list@0#all": [
+    "15"
+  ], 
+  "##features#compiler_version#list@0#all_unique": [
+    "15"
+  ], 
+  "##features#compiler_version#list@0#min": "15", 
+  "##features#compiler_version#list@0#repeats": 1, 
+  "##features#compiler_version#list@1#all": [
+    "0"
+  ], 
+  "##features#compiler_version#list@1#all_unique": [
+    "0"
+  ], 
+  "##features#compiler_version#list@1#min": "0", 
+  "##features#compiler_version#list@1#repeats": 1, 
+  "##features#compiler_version#list@2#all": [
+    "1"
+  ], 
+  "##features#compiler_version#list@2#all_unique": [
+    "1"
+  ], 
+  "##features#compiler_version#list@2#min": "1", 
+  "##features#compiler_version#list@2#repeats": 1, 
+  "##features#compiler_version#list@3#all": [
+    "148"
+  ], 
+  "##features#compiler_version#list@3#all_unique": [
+    "148"
+  ], 
+  "##features#compiler_version#list@3#min": "148", 
+  "##features#compiler_version#list@3#repeats": 1, 
+  "##features#compiler_version#raw@0#all": [
+    "Intel(R) C   Intel(R) 64 Compiler XE for applications running on Intel(R) 64, Version 15.0.1.148 Build 20141023"
+  ], 
+  "##features#compiler_version#raw@0#all_unique": [
+    "Intel(R) C   Intel(R) 64 Compiler XE for applications running on Intel(R) 64, Version 15.0.1.148 Build 20141023"
+  ], 
+  "##features#compiler_version#raw@0#min": "Intel(R) C   Intel(R) 64 Compiler XE for applications running on Intel(R) 64, Version 15.0.1.148 Build 20141023", 
+  "##features#compiler_version#raw@0#repeats": 1, 
+  "##features#compiler_version#raw@1#all": [
+    "Copyright (C) 1985-2014 Intel Corporation.  All rights reserved."
+  ], 
+  "##features#compiler_version#raw@1#all_unique": [
+    "Copyright (C) 1985-2014 Intel Corporation.  All rights reserved."
+  ], 
+  "##features#compiler_version#raw@1#min": "Copyright (C) 1985-2014 Intel Corporation.  All rights reserved.", 
+  "##features#compiler_version#raw@1#repeats": 1, 
+  "##features#compiler_version#raw@2#all": [
+    ""
+  ], 
+  "##features#compiler_version#raw@2#all_unique": [
+    ""
+  ], 
+  "##features#compiler_version#raw@2#min": "", 
+  "##features#compiler_version#raw@2#repeats": 1, 
+  "##features#compiler_version#raw@3#all": [
+    "icl: command line error: no files specified; for help type \"icl /help\""
+  ], 
+  "##features#compiler_version#raw@3#all_unique": [
+    "icl: command line error: no files specified; for help type \"icl /help\""
+  ], 
+  "##features#compiler_version#raw@3#min": "icl: command line error: no files specified; for help type \"icl /help\"", 
+  "##features#compiler_version#raw@3#repeats": 1, 
+  "##features#compiler_version#raw@4#all": [
+    ""
+  ], 
+  "##features#compiler_version#raw@4#all_unique": [
+    ""
+  ], 
+  "##features#compiler_version#raw@4#min": "", 
+  "##features#compiler_version#raw@4#repeats": 1, 
+  "##features#compiler_version#str#all": [
+    "15.0.1.148"
+  ], 
+  "##features#compiler_version#str#all_unique": [
+    "15.0.1.148"
+  ], 
+  "##features#compiler_version#str#min": "15.0.1.148", 
+  "##features#compiler_version#str#repeats": 1, 
+  "##features#dataset#total_size#all": [
+    8142089
+  ], 
+  "##features#dataset#total_size#all_unique": [
+    8142089
+  ], 
+  "##features#dataset#total_size#center": 8142089, 
+  "##features#dataset#total_size#exp": 8142089, 
+  "##features#dataset#total_size#exp_allx": [
+    8142089
+  ], 
+  "##features#dataset#total_size#exp_ally": [
+    100.0
+  ], 
+  "##features#dataset#total_size#exp_warning": "no", 
+  "##features#dataset#total_size#halfrange": 0, 
+  "##features#dataset#total_size#max": 8142089, 
+  "##features#dataset#total_size#mean": 8142089.0, 
+  "##features#dataset#total_size#min": 8142089, 
+  "##features#dataset#total_size#range": 0, 
+  "##features#dataset#total_size#range_percent": 0, 
+  "##features#dataset#total_size#repeats": 1
+}

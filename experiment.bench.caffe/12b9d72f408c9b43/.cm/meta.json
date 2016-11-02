@@ -1,0 +1,477 @@
+{
+  "characteristics": {
+    "run": {
+      "REAL_ENV_CK_CAFFE_BATCH_SIZE": "", 
+      "REAL_ENV_CK_CAFFE_ITERATIONS": 10, 
+      "REAL_ENV_CK_CAFFE_MODEL": "/home/anton/CK/ck-caffe/program/caffe/tmp/tmp-cJtv6C.prototxt", 
+      "execution_time": 0, 
+      "execution_time_with_module": 36.940052986145, 
+      "per_layer_info": [
+        {
+          "direction": "forward", 
+          "index": 0, 
+          "label": "00: data", 
+          "time_ms": 0.429507, 
+          "time_s": 0.000429507, 
+          "timestamp": "1019 09:42:43.706506"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 0, 
+          "label": "00: data", 
+          "time_ms": 0.496107, 
+          "time_s": 0.000496107, 
+          "timestamp": "1019 09:42:43.706554"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 1, 
+          "label": "01: conv1", 
+          "time_ms": 571.597, 
+          "time_s": 0.571597, 
+          "timestamp": "1019 09:42:43.706593"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 1, 
+          "label": "01: conv1", 
+          "time_ms": 959.741, 
+          "time_s": 0.959741, 
+          "timestamp": "1019 09:42:43.706634"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 2, 
+          "label": "02: relu1", 
+          "time_ms": 7.00856, 
+          "time_s": 0.00700856, 
+          "timestamp": "1019 09:42:43.706676"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 2, 
+          "label": "02: relu1", 
+          "time_ms": 0.467158, 
+          "time_s": 0.000467158, 
+          "timestamp": "1019 09:42:43.706712"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 3, 
+          "label": "03: norm1", 
+          "time_ms": 20.1944, 
+          "time_s": 0.0201944, 
+          "timestamp": "1019 09:42:43.706746"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 3, 
+          "label": "03: norm1", 
+          "time_ms": 121.161, 
+          "time_s": 0.121161, 
+          "timestamp": "1019 09:42:43.706785"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 4, 
+          "label": "04: pool1", 
+          "time_ms": 11.6526, 
+          "time_s": 0.0116526, 
+          "timestamp": "1019 09:42:43.706825"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 4, 
+          "label": "04: pool1", 
+          "time_ms": 131.728, 
+          "time_s": 0.131728, 
+          "timestamp": "1019 09:42:43.706861"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 5, 
+          "label": "05: conv2", 
+          "time_ms": 795.179, 
+          "time_s": 0.795179, 
+          "timestamp": "1019 09:42:43.706897"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 5, 
+          "label": "05: conv2", 
+          "time_ms": 930.563, 
+          "time_s": 0.930563, 
+          "timestamp": "1019 09:42:43.706971"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 6, 
+          "label": "06: relu2", 
+          "time_ms": 4.61254, 
+          "time_s": 0.00461254, 
+          "timestamp": "1019 09:42:43.707070"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 6, 
+          "label": "06: relu2", 
+          "time_ms": 0.8926, 
+          "time_s": 0.0008926, 
+          "timestamp": "1019 09:42:43.707106"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 7, 
+          "label": "07: norm2", 
+          "time_ms": 12.6269, 
+          "time_s": 0.0126269, 
+          "timestamp": "1019 09:42:43.707144"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 7, 
+          "label": "07: norm2", 
+          "time_ms": 41.3324, 
+          "time_s": 0.0413324, 
+          "timestamp": "1019 09:42:43.707186"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 8, 
+          "label": "08: pool2", 
+          "time_ms": 7.26697, 
+          "time_s": 0.00726697, 
+          "timestamp": "1019 09:42:43.707224"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 8, 
+          "label": "08: pool2", 
+          "time_ms": 61.4086, 
+          "time_s": 0.0614086, 
+          "timestamp": "1019 09:42:43.707298"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 9, 
+          "label": "09: conv3", 
+          "time_ms": 541.909, 
+          "time_s": 0.541909, 
+          "timestamp": "1019 09:42:43.707337"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 9, 
+          "label": "09: conv3", 
+          "time_ms": 563.158, 
+          "time_s": 0.563158, 
+          "timestamp": "1019 09:42:43.707375"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 10, 
+          "label": "10: relu3", 
+          "time_ms": 2.45061, 
+          "time_s": 0.00245061, 
+          "timestamp": "1019 09:42:43.707414"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 10, 
+          "label": "10: relu3", 
+          "time_ms": 0.430254, 
+          "time_s": 0.000430254, 
+          "timestamp": "1019 09:42:43.707448"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 11, 
+          "label": "11: conv4", 
+          "time_ms": 497.643, 
+          "time_s": 0.497643, 
+          "timestamp": "1019 09:42:43.707484"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 11, 
+          "label": "11: conv4", 
+          "time_ms": 486.256, 
+          "time_s": 0.486256, 
+          "timestamp": "1019 09:42:43.707520"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 12, 
+          "label": "12: relu4", 
+          "time_ms": 2.23755, 
+          "time_s": 0.00223755, 
+          "timestamp": "1019 09:42:43.707558"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 12, 
+          "label": "12: relu4", 
+          "time_ms": 0.474228, 
+          "time_s": 0.000474228, 
+          "timestamp": "1019 09:42:43.707635"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 13, 
+          "label": "13: conv5", 
+          "time_ms": 353.642, 
+          "time_s": 0.353642, 
+          "timestamp": "1019 09:42:43.707674"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 13, 
+          "label": "13: conv5", 
+          "time_ms": 420.665, 
+          "time_s": 0.420665, 
+          "timestamp": "1019 09:42:43.707712"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 14, 
+          "label": "14: relu5", 
+          "time_ms": 1.83326, 
+          "time_s": 0.00183326, 
+          "timestamp": "1019 09:42:43.707747"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 14, 
+          "label": "14: relu5", 
+          "time_ms": 1.53963, 
+          "time_s": 0.00153963, 
+          "timestamp": "1019 09:42:43.707782"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 15, 
+          "label": "15: pool5", 
+          "time_ms": 2.35971, 
+          "time_s": 0.00235971, 
+          "timestamp": "1019 09:42:43.707818"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 15, 
+          "label": "15: pool5", 
+          "time_ms": 140.014, 
+          "time_s": 0.140014, 
+          "timestamp": "1019 09:42:43.707851"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 16, 
+          "label": "16: fc6", 
+          "time_ms": 924.26, 
+          "time_s": 0.92426, 
+          "timestamp": "1019 09:42:43.707886"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 16, 
+          "label": "16: fc6", 
+          "time_ms": 4268.88, 
+          "time_s": 4.26888, 
+          "timestamp": "1019 09:42:43.707921"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 17, 
+          "label": "17: relu6", 
+          "time_ms": 73.8974, 
+          "time_s": 0.0738974, 
+          "timestamp": "1019 09:42:43.707958"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 17, 
+          "label": "17: relu6", 
+          "time_ms": 0.506403, 
+          "time_s": 0.000506403, 
+          "timestamp": "1019 09:42:43.707994"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 18, 
+          "label": "18: drop6", 
+          "time_ms": 2.57634, 
+          "time_s": 0.00257634, 
+          "timestamp": "1019 09:42:43.708031"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 18, 
+          "label": "18: drop6", 
+          "time_ms": 0.448811, 
+          "time_s": 0.000448811, 
+          "timestamp": "1019 09:42:43.708066"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 19, 
+          "label": "19: fc7", 
+          "time_ms": 365.952, 
+          "time_s": 0.365952, 
+          "timestamp": "1019 09:42:43.708101"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 19, 
+          "label": "19: fc7", 
+          "time_ms": 377.341, 
+          "time_s": 0.377341, 
+          "timestamp": "1019 09:42:43.708135"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 20, 
+          "label": "20: relu7", 
+          "time_ms": 1.01472, 
+          "time_s": 0.00101472, 
+          "timestamp": "1019 09:42:43.708171"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 20, 
+          "label": "20: relu7", 
+          "time_ms": 0.435276, 
+          "time_s": 0.000435276, 
+          "timestamp": "1019 09:42:43.708205"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 21, 
+          "label": "21: drop7", 
+          "time_ms": 2.29875, 
+          "time_s": 0.00229875, 
+          "timestamp": "1019 09:42:43.708242"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 21, 
+          "label": "21: drop7", 
+          "time_ms": 0.479522, 
+          "time_s": 0.000479522, 
+          "timestamp": "1019 09:42:43.708313"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 22, 
+          "label": "22: fc8", 
+          "time_ms": 97.978, 
+          "time_s": 0.097978, 
+          "timestamp": "1019 09:42:43.708348"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 22, 
+          "label": "22: fc8", 
+          "time_ms": 197.603, 
+          "time_s": 0.197603, 
+          "timestamp": "1019 09:42:43.708384"
+        }, 
+        {
+          "direction": "forward", 
+          "index": 23, 
+          "label": "23: prob", 
+          "time_ms": 19.9672, 
+          "time_s": 0.0199672, 
+          "timestamp": "1019 09:42:43.708425"
+        }, 
+        {
+          "direction": "backward", 
+          "index": 23, 
+          "label": "23: prob", 
+          "time_ms": 3.33553, 
+          "time_s": 0.00333553, 
+          "timestamp": "1019 09:42:43.708461"
+        }
+      ], 
+      "post_processed": "yes", 
+      "repeat": 1, 
+      "return_code": 0, 
+      "run_success": "yes", 
+      "run_success_bool": true, 
+      "time_bw_ms": 8720.56, 
+      "time_bw_s": 8.72056, 
+      "time_fw_ms": 4330.48, 
+      "time_fw_s": 4.33048, 
+      "time_fwbw_ms": 13056.8, 
+      "time_fwbw_s": 13.0568, 
+      "time_total_ms": 13056.8, 
+      "time_total_ms_kernel_0": 13056.8, 
+      "time_total_s": 13.0568, 
+      "time_total_s_kernel_0": 13.0568, 
+      "total_execution_time": 0
+    }
+  }, 
+  "choices": {
+    "cmd_key": "time_gpu", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "caffe", 
+    "dataset_file": "", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "energy": "no", 
+    "env_speed": "yes", 
+    "gpu_freq": "max", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "meta": {
+    "caffe_type": "opencl", 
+    "cmd_key": "time_gpu", 
+    "cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+    "cpu_uid": "c59762744f4d92f5", 
+    "gpgpu_name": "Mali-T628", 
+    "gpgpu_uid": "4685f21c4dec83c4", 
+    "gpu_name": "MALI-T628", 
+    "nn_type": "bvlc, alexnet", 
+    "os_name": "Linux 3.8.11", 
+    "os_uid": "871c57a2f274a91b", 
+    "plat_name": "Samsung Chromebook 2", 
+    "platform_uid": "c9eaa3eb7d744bbd", 
+    "user": "anton@dividiti.com", 
+    "xdeps": {
+      "caffemodel": {
+        "data_name": "Caffe model (net and weights) (bvlc, alexnet)", 
+        "name": "Caffe model (net and weights)", 
+        "ver": "trunk"
+      }, 
+      "dataset-imagenet-aux": {
+        "data_name": "ImageNet dataset (aux)", 
+        "name": "ImageNet dataset (aux)", 
+        "ver": "2012"
+      }, 
+      "dataset-imagenet-lmdb": {
+        "data_name": "ImageNet dataset (validation, LMDB)", 
+        "name": "ImageNet dataset (lmdb)", 
+        "ver": "100"
+      }, 
+      "lib-caffe": {
+        "data_name": "BVLC Caffe framework (clblast)", 
+        "name": "Caffe framework", 
+        "ver": "trunk-9abafdc"
+      }
+    }
+  }, 
+  "state": {
+    "fail": "no", 
+    "fail_reason": ""
+  }, 
+  "user": "anton@dividiti.com"
+}

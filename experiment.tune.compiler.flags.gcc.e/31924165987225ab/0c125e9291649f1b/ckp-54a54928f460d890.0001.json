@@ -1,0 +1,210 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 7581, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.12067580223083496, 
+        "compilation_time_with_module": 1.254276990890503, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "07d20e85e2911cfab7fc2639407a2cbd", 
+        "obj_size": 3316, 
+        "obj_sizes": {
+          "tiffmedian.codelet__1.o": 1040, 
+          "tiffmedian.codelet__1.wrapper.o": 2276
+        }, 
+        "program_git_hash": "935232b0a32c97cba6e9f4ccde34c92e859a64df"
+      }, 
+      "run": {
+        "execution_time": 9.521896170317346e-08, 
+        "execution_time_kernel_0": 9.431981, 
+        "execution_time_with_module": 9.946019887924194, 
+        "repeat": 99055701, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.431981
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 9.53990018201981e-08, 
+        "execution_time_kernel_0": 9.449815, 
+        "execution_time_with_module": 9.96359896659851, 
+        "repeat": 99055701, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.449815
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 9.648720773779593e-08, 
+        "execution_time_kernel_0": 9.557608, 
+        "execution_time_with_module": 10.072877883911133, 
+        "repeat": 99055701, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.557608
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 9.512990070102073e-08, 
+        "execution_time_kernel_0": 9.423159, 
+        "execution_time_with_module": 9.938220024108887, 
+        "repeat": 99055701, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.423159
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.6.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-1-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_id": "", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 99055701, 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        6, 
+        3
+      ], 
+      "raw": [
+        "gcc-4.6 (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3", 
+        "Copyright (C) 2011 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.6.3"
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {}, 
+        "cpu_abi": "", 
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss nx rdtscp lm constant_tsc up arch_perfmon pebs bts xtopology tsc_reliable nonstop_tsc aperfmperf pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 popcnt aes hypervisor lahf_lm ida arat epb dtherm", 
+        "current_freq": {
+          "0": 2399.318
+        }, 
+        "max_freq": {
+          "0": 0
+        }, 
+        "name": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz", 
+        "num_proc": "1", 
+        "sub_name": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "bogomips": "4798.63", 
+          "cache size": "12288 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz", 
+          "ck_cpu_subname": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz", 
+          "clflush size": "64", 
+          "coma_bug": "no", 
+          "cpu MHz": "2399.318", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss nx rdtscp lm constant_tsc up arch_perfmon pebs bts xtopology tsc_reliable nonstop_tsc aperfmperf pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 popcnt aes hypervisor lahf_lm ida arat epb dtherm", 
+          "cpuid level": "11", 
+          "f00f_bug": "no", 
+          "fdiv_bug": "no", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss nx rdtscp lm constant_tsc up arch_perfmon pebs bts xtopology tsc_reliable nonstop_tsc aperfmperf pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 popcnt aes hypervisor lahf_lm ida arat epb dtherm", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "hlt_bug": "no", 
+          "microcode": "0x10", 
+          "model": "44", 
+          "model name": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz", 
+          "power management": "", 
+          "processor": "0", 
+          "stepping": "2", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "bogomips": "4798.63", 
+          "cache size": "12288 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz", 
+          "ck_cpu_subname": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz", 
+          "clflush size": "64", 
+          "coma_bug": "no", 
+          "cpu MHz": "2399.318", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss nx rdtscp lm constant_tsc up arch_perfmon pebs bts xtopology tsc_reliable nonstop_tsc aperfmperf pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 popcnt aes hypervisor lahf_lm ida arat epb dtherm", 
+          "cpuid level": "11", 
+          "f00f_bug": "no", 
+          "fdiv_bug": "no", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss nx rdtscp lm constant_tsc up arch_perfmon pebs bts xtopology tsc_reliable nonstop_tsc aperfmperf pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 popcnt aes hypervisor lahf_lm ida arat epb dtherm", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "hlt_bug": "no", 
+          "microcode": "0x10", 
+          "model": "44", 
+          "model name": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz", 
+          "power management": "", 
+          "processor": "0", 
+          "stepping": "2", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }
+      ], 
+      "gpu": {
+        "all_freqs": [], 
+        "current_freq": "", 
+        "name": "VMware SVGA II Adapter", 
+        "vendor": "VMware"
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Ubuntu 12.04.2 LTS", 
+        "name_long": "Linux-3.5.0-23-generic-i686-with-Ubuntu-12.04-precise", 
+        "name_short": "Linux 3.5.0"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "VMware Virtual Platform", 
+        "name": "VMware, Inc. None (VMware Virtual Platform)", 
+        "vendor": "VMware, Inc."
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "0c125e9291649f1b", 
+    "statistical_repetitions": 4
+  }
+}

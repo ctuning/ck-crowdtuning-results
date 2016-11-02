@@ -1,0 +1,245 @@
+{
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.8.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "bool-inline-functions": "-fno-inline-functions", 
+      "bool-tree-vectorize": "-fno-tree-vectorize"
+    }, 
+    "data_uoa": "cbench-security-sha", 
+    "dataset_file": "data.tiff", 
+    "dataset_uoa": "image-tiff-0001-bw", 
+    "device_id": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 29048, 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#bool-inline-functions", 
+    "##compiler_flags#bool-tree-vectorize"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "4", 
+        "8", 
+        "3"
+      ], 
+      "raw": [
+        "gcc (SUSE Linux) 4.8.3 20140627 [gcc-4_8-branch revision 212064]", 
+        "Copyright (C) 2013 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.8.3"
+    }, 
+    "dataset": {
+      "compression": "tiff_lzw", 
+      "format": "TIFF", 
+      "height": 208, 
+      "mode": "L", 
+      "raw_info": {
+        "compression": "tiff_lzw", 
+        "dpi": [
+          72, 
+          72
+        ]
+      }, 
+      "total_size": 29940, 
+      "width": 162, 
+      "xdpi": 72, 
+      "ydpi": 72
+    }, 
+    "number_of_selected_compiler_flags": 3, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            1995000, 
+            1862000, 
+            1729000, 
+            1596000
+          ], 
+          "1": [
+            1995000, 
+            1862000, 
+            1729000, 
+            1596000
+          ], 
+          "2": [
+            1995000, 
+            1862000, 
+            1729000, 
+            1596000
+          ], 
+          "3": [
+            1995000, 
+            1862000, 
+            1729000, 
+            1596000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm dca sse4_1 sse4_2 popcnt lahf_lm dtherm tpr_shadow vnmi flexpriority ept vpid", 
+        "current_freq": {
+          "0": 1596.0, 
+          "1": 1596.0, 
+          "2": 1596.0, 
+          "3": 1596.0
+        }, 
+        "max_freq": {
+          "0": 1995.0, 
+          "1": 1995.0, 
+          "2": 1995.0, 
+          "3": 1995.0
+        }, 
+        "name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+        "num_proc": "4", 
+        "sub_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "apicid": "0", 
+          "bogomips": "3989.92", 
+          "cache size": "4096 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "1596.000", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpuid level": "11", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm dca sse4_1 sse4_2 popcnt lahf_lm dtherm tpr_shadow vnmi flexpriority ept vpid", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "0", 
+          "microcode": "0x19", 
+          "model": "26", 
+          "model name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+          "physical id": "0", 
+          "power managemen": "", 
+          "processor": "0", 
+          "siblings": "4", 
+          "stepping": "5", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }, 
+        "1": {
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "apicid": "2", 
+          "bogomips": "3989.92", 
+          "cache size": "4096 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "1", 
+          "cpu MHz": "1596.000", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpuid level": "11", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm dca sse4_1 sse4_2 popcnt lahf_lm dtherm tpr_shadow vnmi flexpriority ept vpid", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "2", 
+          "microcode": "0x19", 
+          "model": "26", 
+          "model name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+          "physical id": "0", 
+          "power managemen": "", 
+          "processor": "1", 
+          "siblings": "4", 
+          "stepping": "5", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }, 
+        "2": {
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "apicid": "4", 
+          "bogomips": "3989.92", 
+          "cache size": "4096 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "2", 
+          "cpu MHz": "1596.000", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpuid level": "11", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm dca sse4_1 sse4_2 popcnt lahf_lm dtherm tpr_shadow vnmi flexpriority ept vpid", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "4", 
+          "microcode": "0x19", 
+          "model": "26", 
+          "model name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+          "physical id": "0", 
+          "power managemen": "", 
+          "processor": "2", 
+          "siblings": "4", 
+          "stepping": "5", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }, 
+        "3": {
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "apicid": "6", 
+          "bogomips": "3989.92", 
+          "cache size": "4096 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "3", 
+          "cpu MHz": "1596.000", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpuid level": "11", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm dca sse4_1 sse4_2 popcnt lahf_lm dtherm tpr_shadow vnmi flexpriority ept vpid", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "6", 
+          "microcode": "0x19", 
+          "model": "26", 
+          "model name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+          "physical id": "0", 
+          "power managemen": "", 
+          "processor": "3", 
+          "siblings": "4", 
+          "stepping": "5", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }
+      }, 
+      "gpu": {
+        "name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+        "vendor": "NVIDIA"
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "", 
+        "name_long": "Linux-3.16.7-24-desktop-x86_64-with-SuSE-13.2-x86_64", 
+        "name_short": "Linux 3.16.7"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "HP Z800 Workstation", 
+        "name": "Hewlett-Packard (HP Z800 Workstation)", 
+        "vendor": "Hewlett-Packard"
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "745adb33e7a0903e", 
+    "statistical_repetitions": 4
+  }, 
+  "sub_points": 1
+}

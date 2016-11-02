@@ -1,0 +1,969 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 2599.968, 
+        "1": 7934.065, 
+        "10": 5917.687, 
+        "11": 7934.159, 
+        "12": 1106.721, 
+        "13": 7934.159, 
+        "14": 1006.877, 
+        "15": 7934.159, 
+        "2": 2599.968, 
+        "3": 2599.968, 
+        "4": 2599.968, 
+        "5": 2599.968, 
+        "6": 4286941.173, 
+        "7": 2599.968, 
+        "8": 4286941.173, 
+        "9": 7934.065
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+      "cpu_num_proc": "16", 
+      "cpu_uid": "93d4045cf8d0d8fb", 
+      "gpu_misc_uid": "6b9d939cf320cde8", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2 (rev 01)", 
+      "kernel_repetitions": 27989244, 
+      "omit_probability": "", 
+      "os_name": "Debian 8.2", 
+      "os_uid": "ae5ba3b886b4718b", 
+      "platform_name": "Dell Inc. (PowerEdge R630)", 
+      "platform_uid": "4eddc6724b446192"
+    }, 
+    "iterations": 46, 
+    "last_touch_uid": "8c0b484d9053ce42", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5864, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.790386, 
+          "##characteristics#run#repeat#min": 27989244
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.78717598908595, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1376175801775
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-loops --param max-average-unrolled-insns=120", 
+          "##characteristics#compile#md5_sum#min": "55b754b36352f1d4a586dda079f7a744", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0018416960439368
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops", 
+          "##compiler_flags#param-max-average-unrolled-insns": "--param max-average-unrolled-insns=120"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-unroll-loops", 
+          "##compiler_flags#param-max-average-unrolled-insns"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2681660899654, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.87895877934985, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 6.4993299191945e-06
+          }, 
+          "##compiler_flags#param-max-average-unrolled-insns": {
+            "##characteristics#compile#obj_size#min_imp": 1.0531609195402, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97747399331396, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00036583716887842
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-early-inlining": "-fno-early-inlining", 
+          "##compiler_flags#bool-ipa-sra": "-fipa-sra", 
+          "##compiler_flags#bool-loop-interchange": "-floop-interchange", 
+          "##compiler_flags#bool-math-errno": "-fno-math-errno", 
+          "##compiler_flags#bool-prefetch-loop-arrays": "-fprefetch-loop-arrays", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-strict-overflow": "-fstrict-overflow", 
+          "##compiler_flags#bool-toplevel-reorder": "-ftoplevel-reorder", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-ftree-coalesce-vars", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-ftree-loop-vectorize", 
+          "##compiler_flags#bool-tree-switch-conversion": "-fno-tree-switch-conversion", 
+          "##compiler_flags#param--falign-jumps=": "-falign-jumps=0", 
+          "##compiler_flags#param--falign-labels=": "-falign-labels=0", 
+          "##compiler_flags#param-align-threshold": "--param align-threshold=72", 
+          "##compiler_flags#param-allow-packed-store-data-races": "--param allow-packed-store-data-races=1", 
+          "##compiler_flags#param-case-values-threshold": "--param case-values-threshold=0", 
+          "##compiler_flags#param-ipa-cp-eval-threshold": "--param ipa-cp-eval-threshold=50", 
+          "##compiler_flags#param-ira-max-loops-num": "--param ira-max-loops-num=31", 
+          "##compiler_flags#param-max-gcse-insertion-ratio": "--param max-gcse-insertion-ratio=40", 
+          "##compiler_flags#param-max-inline-recursive-depth-auto": "--param max-inline-recursive-depth-auto=2", 
+          "##compiler_flags#param-max-once-peeled-insns": "--param max-once-peeled-insns=428", 
+          "##compiler_flags#param-max-sched-extend-regions-iters": "--param max-sched-extend-regions-iters=0", 
+          "##compiler_flags#param-max-sched-ready-insns": "--param max-sched-ready-insns=47", 
+          "##compiler_flags#param-max-sched-region-blocks": "--param max-sched-region-blocks=13", 
+          "##compiler_flags#param-max-tail-merge-comparisons": "--param max-tail-merge-comparisons=9", 
+          "##compiler_flags#param-min-insn-to-prefetch-ratio": "--param min-insn-to-prefetch-ratio=3", 
+          "##compiler_flags#param-omega-hash-table-size": "--param omega-hash-table-size=280", 
+          "##compiler_flags#param-omega-max-wild-cards": "--param omega-max-wild-cards=29", 
+          "##compiler_flags#param-partial-inlining-entry-probability": "--param partial-inlining-entry-probability=20", 
+          "##compiler_flags#param-sched-mem-true-dep-cost": "--param sched-mem-true-dep-cost=0", 
+          "##compiler_flags#param-sms-dfa-history": "--param sms-dfa-history=0", 
+          "##compiler_flags#param-switch-conversion-max-branch-ratio": "--param switch-conversion-max-branch-ratio=14"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b37849640b1b4d58", 
+    "touched": 17, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 2599.968, 
+        "1": 7933.971, 
+        "10": 2599.968, 
+        "11": 7934.065, 
+        "12": 4291701.236, 
+        "13": 7934.065, 
+        "14": 5871, 
+        "15": 7933.971, 
+        "2": 2599.968, 
+        "3": 2593.875, 
+        "4": 2599.968, 
+        "5": 2599.968, 
+        "6": 4289785.369, 
+        "7": 2599.968, 
+        "8": 2599.968, 
+        "9": 7934.065
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+      "cpu_num_proc": "16", 
+      "cpu_uid": "93d4045cf8d0d8fb", 
+      "gpu_misc_uid": "6b9d939cf320cde8", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2 (rev 01)", 
+      "kernel_repetitions": 11003509, 
+      "omit_probability": "", 
+      "os_name": "Debian 8.2", 
+      "os_uid": "ae5ba3b886b4718b", 
+      "platform_name": "Dell Inc. (PowerEdge R630)", 
+      "platform_uid": "4eddc6724b446192"
+    }, 
+    "iterations": 44, 
+    "last_touch_uid": "7df60dd6d948c38d", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4768, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.644857, 
+          "##characteristics#run#repeat#min": 11003509
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.97986577181208, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.7683653548596
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ftracer", 
+          "##characteristics#compile#md5_sum#min": "9aa1a5969313dc73729e138356c7b932", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00012063095836766
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tracer": "-ftracer"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tracer"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tracer": {
+            "##characteristics#compile#obj_size#min_imp": 1.0205479452055, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.5662947049389, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00056858922171891
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-region=": "-fira-region=mixed", 
+          "##compiler_flags#bool-auto-inc-dec": "-fauto-inc-dec", 
+          "##compiler_flags#bool-conserve-stack": "-fconserve-stack", 
+          "##compiler_flags#bool-cse-skip-blocks": "-fcse-skip-blocks", 
+          "##compiler_flags#bool-delayed-branch": "-fno-delayed-branch", 
+          "##compiler_flags#bool-gcse-lm": "-fgcse-lm", 
+          "##compiler_flags#bool-keep-inline-functions": "-fkeep-inline-functions", 
+          "##compiler_flags#bool-loop-nest-optimize": "-floop-nest-optimize", 
+          "##compiler_flags#bool-loop-parallelize-all": "-floop-parallelize-all", 
+          "##compiler_flags#bool-move-loop-invariants": "-fmove-loop-invariants", 
+          "##compiler_flags#bool-reorder-blocks": "-freorder-blocks", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fsched-spec-insn-heuristic", 
+          "##compiler_flags#bool-selective-scheduling2": "-fno-selective-scheduling2", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-ftree-coalesce-vars", 
+          "##compiler_flags#bool-tree-dse": "-ftree-dse", 
+          "##compiler_flags#bool-tree-loop-linear": "-fno-tree-loop-linear", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fzero-initialized-in-bss", 
+          "##compiler_flags#param-align-threshold": "--param align-threshold=101", 
+          "##compiler_flags#param-asan-use-after-return": "--param asan-use-after-return=1", 
+          "##compiler_flags#param-gcse-cost-distance-ratio": "--param gcse-cost-distance-ratio=20", 
+          "##compiler_flags#param-gcse-unrestricted-cost": "--param gcse-unrestricted-cost=0", 
+          "##compiler_flags#param-hot-bb-count-ws-permille": "--param hot-bb-count-ws-permille=693", 
+          "##compiler_flags#param-max-grow-copy-bb-insns": "--param max-grow-copy-bb-insns=13", 
+          "##compiler_flags#param-max-inline-insns-auto": "--param max-inline-insns-auto=61", 
+          "##compiler_flags#param-max-iterations-to-track": "--param max-iterations-to-track=1270", 
+          "##compiler_flags#param-max-pipeline-region-blocks": "--param max-pipeline-region-blocks=18", 
+          "##compiler_flags#param-max-sched-region-insns": "--param max-sched-region-insns=149", 
+          "##compiler_flags#param-max-stores-to-sink": "--param max-stores-to-sink=3", 
+          "##compiler_flags#param-max-tail-merge-iterations": "--param max-tail-merge-iterations=1", 
+          "##compiler_flags#param-min-inline-recursive-probability": "--param min-inline-recursive-probability=4", 
+          "##compiler_flags#param-min-spec-prob": "--param min-spec-prob=64", 
+          "##compiler_flags#param-min-vect-loop-bound": "--param min-vect-loop-bound=1", 
+          "##compiler_flags#param-omega-max-geqs": "--param omega-max-geqs=399", 
+          "##compiler_flags#param-prefetch-latency": "--param prefetch-latency=388", 
+          "##compiler_flags#param-scev-max-expr-complexity": "--param scev-max-expr-complexity=9", 
+          "##compiler_flags#param-sched-spec-prob-cutoff": "--param sched-spec-prob-cutoff=95", 
+          "##compiler_flags#param-sms-max-ii-factor": "--param sms-max-ii-factor=79", 
+          "##compiler_flags#param-uninit-control-dep-attempts": "--param uninit-control-dep-attempts=646"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "5a4b407ebd94a059", 
+    "touched": 10, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-isqrt-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 2599.968, 
+        "1": 3827.252, 
+        "10": 2599.968, 
+        "11": 6297.281, 
+        "12": 2599.968, 
+        "13": 5670.284, 
+        "14": 2599.968, 
+        "15": 2599.968, 
+        "2": 2599.968, 
+        "3": 2599.968, 
+        "4": 2599.968, 
+        "5": 2599.968, 
+        "6": 2599.968, 
+        "7": 2599.968, 
+        "8": 5460.75, 
+        "9": 4704.002
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+      "cpu_num_proc": "16", 
+      "cpu_uid": "93d4045cf8d0d8fb", 
+      "gpu_misc_uid": "6b9d939cf320cde8", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2 (rev 01)", 
+      "kernel_repetitions": 145407380, 
+      "omit_probability": "", 
+      "os_name": "Debian 8.2", 
+      "os_uid": "ae5ba3b886b4718b", 
+      "platform_name": "Dell Inc. (PowerEdge R630)", 
+      "platform_uid": "4eddc6724b446192"
+    }, 
+    "iterations": 45, 
+    "last_touch_uid": "d4b3d9c8a9dbb381", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5056, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.385986, 
+          "##characteristics#run#repeat#min": 145407380
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0079113924051, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.5691204411276
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-vectorize", 
+          "##characteristics#compile#md5_sum#min": "b80879e6ba36b3d3eff29de95eff6826", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00043323246472048
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-vectorize": "-fno-tree-vectorize"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-vectorize"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-vectorize": {
+            "##characteristics#compile#obj_size#min_imp": 0.99215070643642, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.63636933457153, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0017749781690242
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-finite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#bool-inline": "-finline", 
+          "##compiler_flags#bool-ipa-pta": "-fno-ipa-pta", 
+          "##compiler_flags#bool-loop-strip-mine": "-floop-strip-mine", 
+          "##compiler_flags#bool-peel-loops": "-fno-peel-loops", 
+          "##compiler_flags#bool-ree": "-fno-ree", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fno-sched-spec-insn-heuristic", 
+          "##compiler_flags#bool-tree-dominator-opts": "-fno-tree-dominator-opts", 
+          "##compiler_flags#bool-tree-phiprop": "-fno-tree-phiprop", 
+          "##compiler_flags#bool-tree-sra": "-ftree-sra", 
+          "##compiler_flags#bool-vect-cost-model": "-fno-vect-cost-model", 
+          "##compiler_flags#param-allow-packed-store-data-races": "--param allow-packed-store-data-races=0", 
+          "##compiler_flags#param-asan-instrument-writes": "--param asan-instrument-writes=0", 
+          "##compiler_flags#param-asan-use-after-return": "--param asan-use-after-return=1", 
+          "##compiler_flags#param-case-values-threshold": "--param case-values-threshold=0", 
+          "##compiler_flags#param-cxx-max-namespaces-for-diagnostic-help": "--param cxx-max-namespaces-for-diagnostic-help=1025", 
+          "##compiler_flags#param-inline-min-speedup": "--param inline-min-speedup=11", 
+          "##compiler_flags#param-ipa-cp-array-index-hint-bonus": "--param ipa-cp-array-index-hint-bonus=24", 
+          "##compiler_flags#param-iv-always-prune-cand-set-bound": "--param iv-always-prune-cand-set-bound=7", 
+          "##compiler_flags#param-lto-min-partition": "--param lto-min-partition=773", 
+          "##compiler_flags#param-max-goto-duplication-insns": "--param max-goto-duplication-insns=12", 
+          "##compiler_flags#param-max-reload-search-insns": "--param max-reload-search-insns=17", 
+          "##compiler_flags#param-max-sched-region-blocks": "--param max-sched-region-blocks=5", 
+          "##compiler_flags#param-max-stores-to-sink": "--param max-stores-to-sink=4", 
+          "##compiler_flags#param-max-unswitch-level": "--param max-unswitch-level=6", 
+          "##compiler_flags#param-omega-max-vars": "--param omega-max-vars=71", 
+          "##compiler_flags#param-sccvn-max-alias-queries-per-access": "--param sccvn-max-alias-queries-per-access=274", 
+          "##compiler_flags#param-selsched-max-lookahead": "--param selsched-max-lookahead=52", 
+          "##compiler_flags#param-sms-dfa-history": "--param sms-dfa-history=0", 
+          "##compiler_flags#param-tm-max-aggregate-size": "--param tm-max-aggregate-size=10", 
+          "##compiler_flags#param-vect-max-peeling-for-alignment": "--param vect-max-peeling-for-alignment=34"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "6a7fd851942924eb", 
+    "touched": 15, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-d-src-mpilib-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 2599.968, 
+        "1": 7934.159, 
+        "10": 6602.718, 
+        "11": 7934.065, 
+        "12": 7934.065, 
+        "13": 2599.968, 
+        "14": 5365.5, 
+        "15": 4290089.676, 
+        "2": 2599.968, 
+        "3": 2599.968, 
+        "4": 2599.968, 
+        "5": 4290908.094, 
+        "6": 6262.406, 
+        "7": 2599.968, 
+        "8": 4291969.457, 
+        "9": 7934.065
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+      "cpu_num_proc": "16", 
+      "cpu_uid": "93d4045cf8d0d8fb", 
+      "gpu_misc_uid": "6b9d939cf320cde8", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2 (rev 01)", 
+      "kernel_repetitions": 274521495, 
+      "omit_probability": "", 
+      "os_name": "Debian 8.2", 
+      "os_uid": "ae5ba3b886b4718b", 
+      "platform_name": "Dell Inc. (PowerEdge R630)", 
+      "platform_uid": "4eddc6724b446192"
+    }, 
+    "iterations": 44, 
+    "last_touch_uid": "e6366e6cf84299a7", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 13072, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.665181, 
+          "##characteristics#run#repeat#min": 274521495
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.40319071791153, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.153203839561
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto", 
+          "##characteristics#compile#md5_sum#min": "68b55311428f8d34d75f7b8025f622aa", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00029268603207245
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 2.9388489208633, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.86791376682884, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0018709708380016
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--ffp-contract=": "-ffp-contract=on", 
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=CB", 
+          "##compiler_flags#bool-check-data-deps": "-fcheck-data-deps", 
+          "##compiler_flags#bool-cprop-registers": "-fno-cprop-registers", 
+          "##compiler_flags#bool-cse-skip-blocks": "-fno-cse-skip-blocks", 
+          "##compiler_flags#bool-data-sections": "-fno-data-sections", 
+          "##compiler_flags#bool-defer-pop": "-fno-defer-pop", 
+          "##compiler_flags#bool-fat-lto-objects": "-fno-fat-lto-objects", 
+          "##compiler_flags#bool-finite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fira-loop-pressure", 
+          "##compiler_flags#bool-peephole": "-fpeephole", 
+          "##compiler_flags#bool-section-anchors": "-fsection-anchors", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fsel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-tree-loop-distribution": "-ftree-loop-distribution", 
+          "##compiler_flags#bool-tree-loop-linear": "-ftree-loop-linear", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-tree-vrp": "-ftree-vrp", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops", 
+          "##compiler_flags#bool-unswitch-loops": "-fno-unswitch-loops", 
+          "##compiler_flags#bool-web": "-fweb", 
+          "##compiler_flags#param--falign-jumps=": "-falign-jumps=0", 
+          "##compiler_flags#param-allow-packed-load-data-races": "--param allow-packed-load-data-races=0", 
+          "##compiler_flags#param-cxx-max-namespaces-for-diagnostic-help": "--param cxx-max-namespaces-for-diagnostic-help=182", 
+          "##compiler_flags#param-ira-loop-reserved-regs": "--param ira-loop-reserved-regs=2", 
+          "##compiler_flags#param-l1-cache-size": "--param l1-cache-size=22", 
+          "##compiler_flags#param-max-cse-insns": "--param max-cse-insns=347", 
+          "##compiler_flags#param-max-delay-slot-live-search": "--param max-delay-slot-live-search=102", 
+          "##compiler_flags#param-max-sched-ready-insns": "--param max-sched-ready-insns=99", 
+          "##compiler_flags#param-max-slsr-cand-scan": "--param max-slsr-cand-scan=243819", 
+          "##compiler_flags#param-max-unswitch-insns": "--param max-unswitch-insns=97", 
+          "##compiler_flags#param-min-spec-prob": "--param min-spec-prob=2", 
+          "##compiler_flags#param-sccvn-max-alias-queries-per-access": "--param sccvn-max-alias-queries-per-access=1837", 
+          "##compiler_flags#param-tracer-min-branch-ratio": "--param tracer-min-branch-ratio=52", 
+          "##compiler_flags#param-uninit-control-dep-attempts": "--param uninit-control-dep-attempts=623", 
+          "##compiler_flags#param-use-canonical-types": "--param use-canonical-types=1", 
+          "##compiler_flags#param-vect-max-peeling-for-alignment": "--param vect-max-peeling-for-alignment=61"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4158b95b7e611aca", 
+    "touched": 11, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 2599.968, 
+        "1": 7934.627, 
+        "10": 435.096, 
+        "11": 2599.968, 
+        "12": 2599.968, 
+        "13": 7934.627, 
+        "14": 7934.627, 
+        "15": 7934.534, 
+        "2": 2600.062, 
+        "3": 2599.968, 
+        "4": 2599.968, 
+        "5": 2599.968, 
+        "6": 7475.062, 
+        "7": 2599.968, 
+        "8": 2599.968, 
+        "9": 7934.627
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+      "cpu_num_proc": "16", 
+      "cpu_uid": "93d4045cf8d0d8fb", 
+      "gpu_misc_uid": "6b9d939cf320cde8", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2 (rev 01)", 
+      "kernel_repetitions": 17803, 
+      "omit_probability": "", 
+      "os_name": "Debian 8.2", 
+      "os_uid": "ae5ba3b886b4718b", 
+      "platform_name": "Dell Inc. (PowerEdge R630)", 
+      "platform_uid": "4eddc6724b446192"
+    }, 
+    "iterations": 42, 
+    "last_touch_uid": "9800469cb33f87d3", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6208, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.818839, 
+          "##characteristics#run#repeat#min": 17803
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.72680412371134, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4668580645661
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "6866dcbdf4dc1ded2616fba44f849120", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0081275601126855
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.3758865248227, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.68748769582082, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0012406024166262
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-check-data-deps": "-fcheck-data-deps", 
+          "##compiler_flags#bool-combine-stack-adjustments": "-fno-combine-stack-adjustments", 
+          "##compiler_flags#bool-expensive-optimizations": "-fexpensive-optimizations", 
+          "##compiler_flags#bool-gcse-lm": "-fgcse-lm", 
+          "##compiler_flags#bool-ipa-pta": "-fipa-pta", 
+          "##compiler_flags#bool-peephole": "-fno-peephole", 
+          "##compiler_flags#bool-prefetch-loop-arrays": "-fprefetch-loop-arrays", 
+          "##compiler_flags#bool-reciprocal-math": "-fno-reciprocal-math", 
+          "##compiler_flags#bool-sched-rank-heuristic": "-fno-sched-rank-heuristic", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fno-sched-spec-load-dangerous", 
+          "##compiler_flags#bool-signaling-nans": "-fno-signaling-nans", 
+          "##compiler_flags#bool-tree-bit-ccp": "-ftree-bit-ccp", 
+          "##compiler_flags#bool-tree-loop-if-convert-stores": "-ftree-loop-if-convert-stores", 
+          "##compiler_flags#param--falign-labels=": "-falign-labels=0", 
+          "##compiler_flags#param--falign-loops=": "-falign-loops=0", 
+          "##compiler_flags#param-align-threshold": "--param align-threshold=189", 
+          "##compiler_flags#param-asan-memintrin": "--param asan-memintrin=0", 
+          "##compiler_flags#param-ipa-cp-loop-hint-bonus": "--param ipa-cp-loop-hint-bonus=6", 
+          "##compiler_flags#param-ipcp-unit-growth": "--param ipcp-unit-growth=12", 
+          "##compiler_flags#param-max-jump-thread-duplication-stmts": "--param max-jump-thread-duplication-stmts=10", 
+          "##compiler_flags#param-max-modulo-backtrack-attempts": "--param max-modulo-backtrack-attempts=13", 
+          "##compiler_flags#param-max-unswitch-level": "--param max-unswitch-level=1", 
+          "##compiler_flags#param-omega-max-keys": "--param omega-max-keys=788", 
+          "##compiler_flags#param-sched-state-edge-prob-cutoff": "--param sched-state-edge-prob-cutoff=5", 
+          "##compiler_flags#param-vect-max-version-for-alignment-checks": "--param vect-max-version-for-alignment-checks=8"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4887274c158a5493", 
+    "touched": 7, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 2580.281, 
+        "1": 7934.065, 
+        "10": 4286706.517, 
+        "11": 7934.065, 
+        "12": 2599.968, 
+        "13": 7934.065, 
+        "14": 2599.968, 
+        "15": 7934.065, 
+        "2": 2599.968, 
+        "3": 2596.406, 
+        "4": 2599.968, 
+        "5": 2599.968, 
+        "6": 7896.75, 
+        "7": 2599.968, 
+        "8": 4287648.33, 
+        "9": 4288797.142
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+      "cpu_num_proc": "16", 
+      "cpu_uid": "93d4045cf8d0d8fb", 
+      "gpu_misc_uid": "6b9d939cf320cde8", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2 (rev 01)", 
+      "kernel_repetitions": 1273607914, 
+      "omit_probability": "", 
+      "os_name": "Debian 8.2", 
+      "os_uid": "ae5ba3b886b4718b", 
+      "platform_name": "Dell Inc. (PowerEdge R630)", 
+      "platform_uid": "4eddc6724b446192"
+    }, 
+    "iterations": 44, 
+    "last_touch_uid": "387d4d84cf7a35e1", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5680, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.02611, 
+          "##characteristics#run#repeat#min": 1273607914
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.021645021645, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4193843717876
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fsingle-precision-constant", 
+          "##characteristics#compile#md5_sum#min": "3d6646cb9c3a8f4f7b0b38bc2e458db3", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0002031179675563
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-single-precision-constant"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-single-precision-constant": {
+            "##characteristics#compile#obj_size#min_imp": 0.97931034482759, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.70416890196903, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00028572450805741
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--ffp-contract=": "-ffp-contract=off", 
+          "##compiler_flags#bool-auto-inc-dec": "-fno-auto-inc-dec", 
+          "##compiler_flags#bool-conserve-stack": "-fconserve-stack", 
+          "##compiler_flags#bool-cx-fortran-rules": "-fno-cx-fortran-rules", 
+          "##compiler_flags#bool-delayed-branch": "-fdelayed-branch", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fno-delete-null-pointer-checks", 
+          "##compiler_flags#bool-function-sections": "-ffunction-sections", 
+          "##compiler_flags#bool-gcse-lm": "-fno-gcse-lm", 
+          "##compiler_flags#bool-ipa-cp-clone": "-fno-ipa-cp-clone", 
+          "##compiler_flags#bool-ivopts": "-fivopts", 
+          "##compiler_flags#bool-keep-inline-functions": "-fno-keep-inline-functions", 
+          "##compiler_flags#bool-keep-static-consts": "-fno-keep-static-consts", 
+          "##compiler_flags#bool-rounding-math": "-frounding-math", 
+          "##compiler_flags#bool-signaling-nans": "-fsignaling-nans", 
+          "##compiler_flags#bool-split-wide-types": "-fno-split-wide-types", 
+          "##compiler_flags#bool-tree-loop-if-convert": "-ftree-loop-if-convert", 
+          "##compiler_flags#bool-tree-loop-linear": "-fno-tree-loop-linear", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-fno-tree-loop-vectorize", 
+          "##compiler_flags#param--falign-loops=": "-falign-loops=0", 
+          "##compiler_flags#param-allow-load-data-races": "--param allow-load-data-races=1", 
+          "##compiler_flags#param-hot-bb-count-ws-permille": "--param hot-bb-count-ws-permille=755", 
+          "##compiler_flags#param-inline-min-speedup": "--param inline-min-speedup=11", 
+          "##compiler_flags#param-ipa-cp-array-index-hint-bonus": "--param ipa-cp-array-index-hint-bonus=62", 
+          "##compiler_flags#param-ipa-sra-ptr-growth-factor": "--param ipa-sra-ptr-growth-factor=2", 
+          "##compiler_flags#param-iv-always-prune-cand-set-bound": "--param iv-always-prune-cand-set-bound=11", 
+          "##compiler_flags#param-max-gcse-insertion-ratio": "--param max-gcse-insertion-ratio=10", 
+          "##compiler_flags#param-max-grow-copy-bb-insns": "--param max-grow-copy-bb-insns=9", 
+          "##compiler_flags#param-sccvn-max-alias-queries-per-access": "--param sccvn-max-alias-queries-per-access=1977", 
+          "##compiler_flags#param-sched-spec-prob-cutoff": "--param sched-spec-prob-cutoff=100", 
+          "##compiler_flags#param-simultaneous-prefetches": "--param simultaneous-prefetches=2", 
+          "##compiler_flags#param-tracer-min-branch-ratio": "--param tracer-min-branch-ratio=66", 
+          "##compiler_flags#param-vect-max-version-for-alignment-checks": "--param vect-max-version-for-alignment-checks=12"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "1c5f2301aae34529", 
+    "touched": 12, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-gsm-src-short-term-codelet-2-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 2599.968, 
+        "1": 7933.971, 
+        "10": 2599.968, 
+        "11": 7933.971, 
+        "12": 2599.968, 
+        "13": 7933.971, 
+        "14": 2599.968, 
+        "15": 7933.971, 
+        "2": 2599.968, 
+        "3": 2599.968, 
+        "4": 2599.968, 
+        "5": 2599.968, 
+        "6": 819.934, 
+        "7": 2599.968, 
+        "8": 8341.218, 
+        "9": 7933.971
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+      "cpu_num_proc": "16", 
+      "cpu_uid": "93d4045cf8d0d8fb", 
+      "gpu_misc_uid": "6b9d939cf320cde8", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2 (rev 01)", 
+      "kernel_repetitions": 29276164, 
+      "omit_probability": "", 
+      "os_name": "Debian 8.2", 
+      "os_uid": "ae5ba3b886b4718b", 
+      "platform_name": "Dell Inc. (PowerEdge R630)", 
+      "platform_uid": "4eddc6724b446192"
+    }, 
+    "iterations": 45, 
+    "last_touch_uid": "0cba13eef0ae4eb4", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5688, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.816061, 
+          "##characteristics#run#repeat#min": 29276164
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0275387263339, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1586935749091
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-if-conversion -fno-merge-all-constants", 
+          "##characteristics#compile#md5_sum#min": "081dcbd6221cf8653717876f794d7108", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00070471207345626
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-if-conversion": "-fno-if-conversion", 
+          "##compiler_flags#bool-merge-all-constants": "-fno-merge-all-constants"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-if-conversion", 
+          "##compiler_flags#bool-merge-all-constants"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-if-conversion": {
+            "##characteristics#compile#obj_size#min_imp": 1.0113798008535, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.95064550465404, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 6.556959813833e-05
+          }, 
+          "##compiler_flags#bool-merge-all-constants": {
+            "##characteristics#compile#obj_size#min_imp": 0.97647058823529, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.0001551278054, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 6.5121117720272e-05
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-count-reg": "-fno-branch-count-reg", 
+          "##compiler_flags#bool-cprop-registers": "-fno-cprop-registers", 
+          "##compiler_flags#bool-defer-pop": "-fno-defer-pop", 
+          "##compiler_flags#bool-forward-propagate": "-fno-forward-propagate", 
+          "##compiler_flags#bool-ipa-cp": "-fipa-cp", 
+          "##compiler_flags#bool-ipa-sra": "-fno-ipa-sra", 
+          "##compiler_flags#bool-peephole2": "-fpeephole2", 
+          "##compiler_flags#bool-signed-zeros": "-fno-signed-zeros", 
+          "##compiler_flags#bool-tree-bit-ccp": "-fno-tree-bit-ccp", 
+          "##compiler_flags#bool-tree-loop-distribution": "-ftree-loop-distribution", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops", 
+          "##compiler_flags#param-builtin-expect-probability": "--param builtin-expect-probability=7", 
+          "##compiler_flags#param-comdat-sharing-probability": "--param comdat-sharing-probability=12", 
+          "##compiler_flags#param-gcse-unrestricted-cost": "--param gcse-unrestricted-cost=1", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound": "--param iv-consider-all-candidates-bound=29", 
+          "##compiler_flags#param-l1-cache-size": "--param l1-cache-size=26", 
+          "##compiler_flags#param-lim-expensive": "--param lim-expensive=34", 
+          "##compiler_flags#param-loop-invariant-max-bbs-in-loop": "--param loop-invariant-max-bbs-in-loop=12651", 
+          "##compiler_flags#param-max-early-inliner-iterations": "--param max-early-inliner-iterations=1", 
+          "##compiler_flags#param-max-fields-for-field-sensitive": "--param max-fields-for-field-sensitive=0", 
+          "##compiler_flags#param-max-inline-insns-auto": "--param max-inline-insns-auto=20", 
+          "##compiler_flags#param-max-last-value-rtl": "--param max-last-value-rtl=19504", 
+          "##compiler_flags#param-max-modulo-backtrack-attempts": "--param max-modulo-backtrack-attempts=11", 
+          "##compiler_flags#param-max-sched-insn-conflict-delay": "--param max-sched-insn-conflict-delay=3", 
+          "##compiler_flags#param-max-stores-to-sink": "--param max-stores-to-sink=4", 
+          "##compiler_flags#param-predictable-branch-outcome": "--param predictable-branch-outcome=16", 
+          "##compiler_flags#param-selsched-insns-to-rename": "--param selsched-insns-to-rename=3", 
+          "##compiler_flags#param-selsched-max-sched-times": "--param selsched-max-sched-times=4", 
+          "##compiler_flags#param-tracer-max-code-growth": "--param tracer-max-code-growth=139", 
+          "##compiler_flags#param-vect-max-version-for-alias-checks": "--param vect-max-version-for-alias-checks=17"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4642d15e364744b5", 
+    "touched": 14, 
+    "validated": 1
+  }
+]

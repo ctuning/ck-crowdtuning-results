@@ -1,0 +1,578 @@
+{
+  "features": {
+    "compiler_version": {
+      "raw": [
+        "gcc (Gentoo 5.3.0 p1.0, pie-0.6.5) 5.3.0", 
+        "Copyright (C) 2015 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "list": [
+        "5", 
+        "3", 
+        "0"
+      ], 
+      "str": "5.3.0"
+    }
+  }, 
+  "characteristics": {}, 
+  "choices": {
+    "cmd_key": "default", 
+    "compiler_vars": {}, 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "data_uoa": "arm-mali-sgemm", 
+    "energy": "no", 
+    "compile_only_once": "yes", 
+    "target_os": "linux-32", 
+    "cpu_freq": "max", 
+    "skip_calibration": "yes", 
+    "compile_type": "dynamic", 
+    "target_os_bits": "32", 
+    "gpu_freq": "max", 
+    "host_os": "linux-32", 
+    "dataset_file": "", 
+    "device_id": ""
+  }, 
+  "ready": "yes", 
+  "state": {
+    "tmp_dir": "tmp", 
+    "cur_dir": "/home/anton/CK/gemmbench/script/sgemm-mali"
+  }, 
+  "dependencies": {
+    "lib_opencl": {
+      "sort": 20, 
+      "bat": ". /home/anton/CK/local/env/2ac5a8e13f04a58e/env.sh\n", 
+      "cus": {
+        "add_include_path": "yes", 
+        "path_install": "/usr", 
+        "dynamic_lib": "libmali.so", 
+        "static_lib": "libmali.so", 
+        "path_include": "/usr/include", 
+        "include_name": "CL/opencl.h", 
+        "path_bin": "/usr/bin", 
+        "path_lib": "/usr/lib", 
+        "version": "6.0", 
+        "env_prefix": "CK_ENV_LIB_OPENCL", 
+        "version_int": 6000000
+      }, 
+      "tags": "lib,opencl", 
+      "uoa": "2ac5a8e13f04a58e", 
+      "choices": [
+        "2ac5a8e13f04a58e"
+      ], 
+      "num_entries": 1, 
+      "dict": {
+        "deps": {
+          "compiler": {
+            "bat": ". /home/anton/CK/local/env/e9c8aa89beadab47/env.sh\n", 
+            "ver": "5.3.0", 
+            "tags": "compiler,lang-c", 
+            "build_dir_name": "gcc", 
+            "uoa": "e9c8aa89beadab47", 
+            "choices": [
+              "3166414a93ae4f88", 
+              "e9c8aa89beadab47"
+            ], 
+            "num_entries": 2, 
+            "dict": {
+              "deps": {}, 
+              "tags": [
+                "32bits", 
+                "compiler", 
+                "gcc", 
+                "host-os-linux-32", 
+                "lang-c", 
+                "lang-cpp", 
+                "lang-f77", 
+                "lang-f90", 
+                "lang-f95", 
+                "target-os-linux-32", 
+                "v5", 
+                "v5.3", 
+                "v5.3.0"
+              ], 
+              "customize": {
+                "tool_postfix": "", 
+                "path_install": "/usr", 
+                "can_strip_dynamic_lib": "yes", 
+                "build_dir_name": "gcc", 
+                "retarget": "no", 
+                "languages": [
+                  "C", 
+                  "CPP", 
+                  "F77", 
+                  "F90", 
+                  "F95"
+                ], 
+                "tool_prefix_configured": "yes", 
+                "path_bin": "/usr/bin", 
+                "version_int": 5030000, 
+                "version": "5.3.0", 
+                "skip_add_to_ld_path": "yes", 
+                "tool_postfix_configured": "yes", 
+                "env_prefix": "CK_ENV_COMPILER_GCC"
+              }, 
+              "setup": {
+                "target_os_bits": "32", 
+                "version": "5.3.0", 
+                "host_os_uoa": "fb525e34243f49c1", 
+                "target_os_uoa": "fb525e34243f49c1"
+              }, 
+              "env_script": "env.sh", 
+              "soft_uoa": "3a8a82fa40bf992d", 
+              "env": {
+                "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                "CK_AR": "ar", 
+                "CK_COMPILER_POSTFIX": "", 
+                "CK_FLAGS_DLL_EXTRA": "", 
+                "CK_LIB_EXT": ".a", 
+                "CK_OPT_SIZE": "-Os", 
+                "CK_F95": "gfortran", 
+                "CK_OPT_SPEED": "-O3", 
+                "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                "CK_CC": "gcc", 
+                "CK_COMPILER_FLAG_GPROF": "-pg", 
+                "CK_LB_OUTPUT": "-o ", 
+                "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                "CK_FLAG_PREFIX_VAR": "-D", 
+                "CK_EXTRA_LIB_M": "-lm", 
+                "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                "CK_FLAGS_CREATE_OBJ": "-c", 
+                "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                "CK_OBJ_EXT": ".o", 
+                "CK_FLAGS_OUTPUT": "-o ", 
+                "CK_LB": "ar rcs", 
+                "CK_LD": "ld", 
+                "CK_COMPILER_FLAG_CPP11": "-std=c  11", 
+                "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                "CK_PLUGIN_FLAG": "-fplugin=", 
+                "CK_OPT_SPEED_SAFE": "-O2", 
+                "CK_DLL_EXT": ".so", 
+                "CK_CXX": "g  ", 
+                "CK_ASM_EXT": ".s", 
+                "CK_FC": "gfortran", 
+                "CK_LD_FLAGS_EXTRA": "", 
+                "CK_OBJDUMP": "objdump -d", 
+                "CK_EXE_EXT": ".out", 
+                "CK_F90": "gfortran", 
+                "CK_PROFILER": "gprof", 
+                "CK_FLAGS_DLL": "-shared -fPIC", 
+                "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                "CK_EXTRA_LIB_DL": "-ldl", 
+                "CK_GPROF_OUT_FILE": "gmon.out", 
+                "CK_MAKE": "make", 
+                "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                "CK_FLAGS_CREATE_ASM": "-S"
+              }
+            }, 
+            "local": "yes"
+          }
+        }, 
+        "tags": [
+          "32bits", 
+          "arm", 
+          "host-os-linux-32", 
+          "lib", 
+          "mali", 
+          "opencl", 
+          "target-os-linux-32", 
+          "v6", 
+          "v6.0"
+        ], 
+        "customize": {
+          "add_include_path": "yes", 
+          "path_install": "/usr", 
+          "dynamic_lib": "libmali.so", 
+          "static_lib": "libmali.so", 
+          "path_include": "/usr/include", 
+          "include_name": "CL/opencl.h", 
+          "path_bin": "/usr/bin", 
+          "path_lib": "/usr/lib", 
+          "version": "6.0", 
+          "env_prefix": "CK_ENV_LIB_OPENCL", 
+          "version_int": 6000000
+        }, 
+        "setup": {
+          "target_os_bits": "32", 
+          "version": "6.0", 
+          "host_os_uoa": "fb525e34243f49c1", 
+          "target_os_uoa": "fb525e34243f49c1", 
+          "deps_compiler": "e9c8aa89beadab47"
+        }, 
+        "env_script": "env.sh", 
+        "soft_uoa": "5dc9cd7423fb4c68", 
+        "env": {
+          "CK_ENV_LIB_OPENCL_DYNAMIC_NAME": "libmali.so", 
+          "CK_ENV_LIB_OPENCL_INCLUDE_NAME": "CL/opencl.h", 
+          "CK_ENV_LIB_OPENCL_STATIC_NAME": "libmali.so"
+        }
+      }, 
+      "ver": "6.0", 
+      "local": "yes"
+    }, 
+    "lib.xopenme": {
+      "sort": 30, 
+      "bat": ". /home/anton/CK/local/env/f726b18241fc9b7f/env.sh\n", 
+      "cus": {
+        "add_include_path": "yes", 
+        "path_install": "/home/anton/CK/ck-tools/lib-rtl-xopenme-0.3-gcc-5.3.0-linux-32", 
+        "skip_add_to_bin": "yes", 
+        "dynamic_lib": "librtlxopenme.so", 
+        "skip_add_to_path": "yes", 
+        "static_lib": "librtlxopenme.a", 
+        "path_include": "/home/anton/CK/ck-tools/lib-rtl-xopenme-0.3-gcc-5.3.0-linux-32/include", 
+        "include_name": "xopenme.h", 
+        "version": "0.3", 
+        "path_lib": "/home/anton/CK/ck-tools/lib-rtl-xopenme-0.3-gcc-5.3.0-linux-32/lib", 
+        "extra_dir": "", 
+        "version_split": [
+          0, 
+          3
+        ], 
+        "env_prefix": "CK_ENV_LIB_RTL_XOPENME", 
+        "version_int": 3
+      }, 
+      "tags": "lib,xopenme", 
+      "uoa": "f726b18241fc9b7f", 
+      "choices": [
+        "f726b18241fc9b7f"
+      ], 
+      "num_entries": 1, 
+      "dict": {
+        "deps": {
+          "compiler": {
+            "sort": 10, 
+            "bat": ". /home/anton/CK/local/env/e9c8aa89beadab47/env.sh\n", 
+            "cus": {
+              "tool_postfix": "", 
+              "path_install": "/usr", 
+              "can_strip_dynamic_lib": "yes", 
+              "build_dir_name": "gcc", 
+              "retarget": "no", 
+              "languages": [
+                "C", 
+                "CPP", 
+                "F77", 
+                "F90", 
+                "F95"
+              ], 
+              "tool_prefix_configured": "yes", 
+              "path_bin": "/usr/bin", 
+              "version_int": 5030000, 
+              "version": "5.3.0", 
+              "skip_add_to_ld_path": "yes", 
+              "tool_postfix_configured": "yes", 
+              "env_prefix": "CK_ENV_COMPILER_GCC"
+            }, 
+            "tags": "compiler,lang-cpp", 
+            "build_dir_name": "gcc", 
+            "uoa": "e9c8aa89beadab47", 
+            "choices": [
+              "3166414a93ae4f88", 
+              "e9c8aa89beadab47"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "deps": {}, 
+              "tags": [
+                "32bits", 
+                "compiler", 
+                "gcc", 
+                "host-os-linux-32", 
+                "lang-c", 
+                "lang-cpp", 
+                "lang-f77", 
+                "lang-f90", 
+                "lang-f95", 
+                "target-os-linux-32", 
+                "v5", 
+                "v5.3", 
+                "v5.3.0"
+              ], 
+              "customize": {
+                "tool_postfix": "", 
+                "path_install": "/usr", 
+                "can_strip_dynamic_lib": "yes", 
+                "build_dir_name": "gcc", 
+                "retarget": "no", 
+                "languages": [
+                  "C", 
+                  "CPP", 
+                  "F77", 
+                  "F90", 
+                  "F95"
+                ], 
+                "tool_prefix_configured": "yes", 
+                "path_bin": "/usr/bin", 
+                "version_int": 5030000, 
+                "version": "5.3.0", 
+                "skip_add_to_ld_path": "yes", 
+                "tool_postfix_configured": "yes", 
+                "env_prefix": "CK_ENV_COMPILER_GCC"
+              }, 
+              "setup": {
+                "target_os_bits": "32", 
+                "version": "5.3.0", 
+                "host_os_uoa": "fb525e34243f49c1", 
+                "target_os_uoa": "fb525e34243f49c1"
+              }, 
+              "env_script": "env.sh", 
+              "soft_uoa": "3a8a82fa40bf992d", 
+              "env": {
+                "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                "CK_AR": "ar", 
+                "CK_COMPILER_POSTFIX": "", 
+                "CK_FLAGS_DLL_EXTRA": "", 
+                "CK_LIB_EXT": ".a", 
+                "CK_OPT_SIZE": "-Os", 
+                "CK_F95": "gfortran", 
+                "CK_OPT_SPEED": "-O3", 
+                "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                "CK_CC": "gcc", 
+                "CK_COMPILER_FLAG_GPROF": "-pg", 
+                "CK_LB_OUTPUT": "-o ", 
+                "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                "CK_FLAG_PREFIX_VAR": "-D", 
+                "CK_EXTRA_LIB_M": "-lm", 
+                "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                "CK_FLAGS_CREATE_OBJ": "-c", 
+                "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                "CK_OBJ_EXT": ".o", 
+                "CK_FLAGS_OUTPUT": "-o ", 
+                "CK_LB": "ar rcs", 
+                "CK_LD": "ld", 
+                "CK_COMPILER_FLAG_CPP11": "-std=c  11", 
+                "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                "CK_PLUGIN_FLAG": "-fplugin=", 
+                "CK_OPT_SPEED_SAFE": "-O2", 
+                "CK_DLL_EXT": ".so", 
+                "CK_CXX": "g  ", 
+                "CK_ASM_EXT": ".s", 
+                "CK_FC": "gfortran", 
+                "CK_LD_FLAGS_EXTRA": "", 
+                "CK_OBJDUMP": "objdump -d", 
+                "CK_EXE_EXT": ".out", 
+                "CK_F90": "gfortran", 
+                "CK_PROFILER": "gprof", 
+                "CK_FLAGS_DLL": "-shared -fPIC", 
+                "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                "CK_EXTRA_LIB_DL": "-ldl", 
+                "CK_GPROF_OUT_FILE": "gmon.out", 
+                "CK_MAKE": "make", 
+                "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                "CK_FLAGS_CREATE_ASM": "-S"
+              }
+            }, 
+            "ver": "5.3.0", 
+            "local": "yes"
+          }
+        }, 
+        "tags": [
+          "32bits", 
+          "host-os-linux-32", 
+          "lang-c", 
+          "lang-cpp", 
+          "lang-f77", 
+          "lang-f90", 
+          "lang-f95", 
+          "lib", 
+          "rtl", 
+          "target-os-linux-32", 
+          "v0", 
+          "v0.3", 
+          "xopenme"
+        ], 
+        "customize": {
+          "add_include_path": "yes", 
+          "path_install": "/home/anton/CK/ck-tools/lib-rtl-xopenme-0.3-gcc-5.3.0-linux-32", 
+          "skip_add_to_bin": "yes", 
+          "dynamic_lib": "librtlxopenme.so", 
+          "skip_add_to_path": "yes", 
+          "static_lib": "librtlxopenme.a", 
+          "path_include": "/home/anton/CK/ck-tools/lib-rtl-xopenme-0.3-gcc-5.3.0-linux-32/include", 
+          "include_name": "xopenme.h", 
+          "version": "0.3", 
+          "path_lib": "/home/anton/CK/ck-tools/lib-rtl-xopenme-0.3-gcc-5.3.0-linux-32/lib", 
+          "extra_dir": "", 
+          "version_split": [
+            0, 
+            3
+          ], 
+          "env_prefix": "CK_ENV_LIB_RTL_XOPENME", 
+          "version_int": 3
+        }, 
+        "setup": {
+          "target_os_bits": "32", 
+          "version": "0.3", 
+          "host_os_uoa": "fb525e34243f49c1", 
+          "target_os_uoa": "fb525e34243f49c1", 
+          "deps_compiler": "e9c8aa89beadab47"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "0573487b8121d094", 
+        "soft_uoa": "673507878d649b4a", 
+        "env": {
+          "CK_ENV_LIB_RTL_XOPENME_INCLUDE_NAME": "xopenme.h", 
+          "CK_ENV_LIB_RTL_XOPENME_DYNAMIC_NAME": "librtlxopenme.so", 
+          "CK_ENV_LIB_RTL_XOPENME_STATIC_NAME": "librtlxopenme.a"
+        }
+      }, 
+      "ver": "0.3", 
+      "local": "yes"
+    }, 
+    "compiler": {
+      "sort": 10, 
+      "bat": ". /home/anton/CK/local/env/e9c8aa89beadab47/env.sh\n", 
+      "cus": {
+        "tool_postfix": "", 
+        "path_install": "/usr", 
+        "can_strip_dynamic_lib": "yes", 
+        "build_dir_name": "gcc", 
+        "retarget": "no", 
+        "languages": [
+          "C", 
+          "CPP", 
+          "F77", 
+          "F90", 
+          "F95"
+        ], 
+        "tool_prefix_configured": "yes", 
+        "path_bin": "/usr/bin", 
+        "version_int": 5030000, 
+        "version": "5.3.0", 
+        "skip_add_to_ld_path": "yes", 
+        "tool_postfix_configured": "yes", 
+        "env_prefix": "CK_ENV_COMPILER_GCC"
+      }, 
+      "tags": "compiler,lang-cpp", 
+      "build_dir_name": "gcc", 
+      "uoa": "e9c8aa89beadab47", 
+      "choices": [
+        "3166414a93ae4f88", 
+        "e9c8aa89beadab47"
+      ], 
+      "num_entries": 1, 
+      "dict": {
+        "deps": {}, 
+        "tags": [
+          "32bits", 
+          "compiler", 
+          "gcc", 
+          "host-os-linux-32", 
+          "lang-c", 
+          "lang-cpp", 
+          "lang-f77", 
+          "lang-f90", 
+          "lang-f95", 
+          "target-os-linux-32", 
+          "v5", 
+          "v5.3", 
+          "v5.3.0"
+        ], 
+        "customize": {
+          "tool_postfix": "", 
+          "path_install": "/usr", 
+          "can_strip_dynamic_lib": "yes", 
+          "build_dir_name": "gcc", 
+          "retarget": "no", 
+          "languages": [
+            "C", 
+            "CPP", 
+            "F77", 
+            "F90", 
+            "F95"
+          ], 
+          "tool_prefix_configured": "yes", 
+          "path_bin": "/usr/bin", 
+          "version_int": 5030000, 
+          "version": "5.3.0", 
+          "skip_add_to_ld_path": "yes", 
+          "tool_postfix_configured": "yes", 
+          "env_prefix": "CK_ENV_COMPILER_GCC"
+        }, 
+        "setup": {
+          "target_os_bits": "32", 
+          "version": "5.3.0", 
+          "host_os_uoa": "fb525e34243f49c1", 
+          "target_os_uoa": "fb525e34243f49c1"
+        }, 
+        "env_script": "env.sh", 
+        "soft_uoa": "3a8a82fa40bf992d", 
+        "env": {
+          "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+          "CK_AR": "ar", 
+          "CK_COMPILER_POSTFIX": "", 
+          "CK_FLAGS_DLL_EXTRA": "", 
+          "CK_LIB_EXT": ".a", 
+          "CK_OPT_SIZE": "-Os", 
+          "CK_F95": "gfortran", 
+          "CK_OPT_SPEED": "-O3", 
+          "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+          "CK_CC": "gcc", 
+          "CK_COMPILER_FLAG_GPROF": "-pg", 
+          "CK_LB_OUTPUT": "-o ", 
+          "CK_FLAGS_STATIC_LIB": "-fPIC", 
+          "CK_FLAG_PREFIX_VAR": "-D", 
+          "CK_EXTRA_LIB_M": "-lm", 
+          "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+          "CK_FLAGS_CREATE_OBJ": "-c", 
+          "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+          "CK_FLAG_PREFIX_INCLUDE": "-I", 
+          "CK_OBJ_EXT": ".o", 
+          "CK_FLAGS_OUTPUT": "-o ", 
+          "CK_LB": "ar rcs", 
+          "CK_LD": "ld", 
+          "CK_COMPILER_FLAG_CPP11": "-std=c  11", 
+          "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+          "CK_PLUGIN_FLAG": "-fplugin=", 
+          "CK_OPT_SPEED_SAFE": "-O2", 
+          "CK_DLL_EXT": ".so", 
+          "CK_CXX": "g  ", 
+          "CK_ASM_EXT": ".s", 
+          "CK_FC": "gfortran", 
+          "CK_LD_FLAGS_EXTRA": "", 
+          "CK_OBJDUMP": "objdump -d", 
+          "CK_EXE_EXT": ".out", 
+          "CK_F90": "gfortran", 
+          "CK_PROFILER": "gprof", 
+          "CK_FLAGS_DLL": "-shared -fPIC", 
+          "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+          "CK_EXTRA_LIB_DL": "-ldl", 
+          "CK_GPROF_OUT_FILE": "gmon.out", 
+          "CK_MAKE": "make", 
+          "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+          "CK_FLAGS_CREATE_ASM": "-S"
+        }
+      }, 
+      "ver": "5.3.0", 
+      "local": "yes"
+    }
+  }, 
+  "no_compiler_description": "yes", 
+  "fail": "no", 
+  "choices_desc": {
+    "##dataset_file": {
+      "has_choice": "yes", 
+      "sort": 1100, 
+      "choices": [], 
+      "type": "text", 
+      "tags": [
+        "setup"
+      ]
+    }, 
+    "##compiler_env_uoa": {
+      "has_choice": "yes", 
+      "sort": 2000, 
+      "type": "uoa", 
+      "choices": [
+        "3166414a93ae4f88", 
+        "e9c8aa89beadab47"
+      ]
+    }
+  }, 
+  "speed": "yes"
+}

@@ -1,0 +1,161 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "cbench-telecom-crc32", 
+      "dataset_file": "", 
+      "dataset_uoa": "number-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 633.6, 
+        "1": 633.6, 
+        "2": 633.6, 
+        "3": 633.6, 
+        "4": 633.6, 
+        "5": 633.6
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8992", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "3459f0bbd4b47b1b", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "LGE NEXUS 5X", 
+      "platform_uid": "50854d47868efc68"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "b2c4c0d8dc8fde65", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6656, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.4200000762939, 
+          "##characteristics#run#repeat#min": 360230528
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0576923076923077, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.352282510474367
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-btr-bb-exclusive -fconserve-stack -fno-cx-limited-range -fno-devirtualize-speculatively -fno-dse -fno-inline-small-functions -fno-ipa-cp -fno-ipa-reference -ffunction-cse -fno-sched-interblock -fno-sched-spec -fno-rerun-cse-after-loop -fsched2-use-superblocks -fno-single-precision-constant -ftree-copyrename -ftree-loop-optimize -ftree-loop-vectorize -fno-tree-pre -fno-tree-partial-pre -fno-tree-sra -ftree-tail-merge -fno-unit-at-a-time -fvpt --param max-delay-slot-live-search=73 --param inline-unit-growth=25 --param early-inlining-insns=3 --param gcse-after-reload-critical-fraction=2 --param max-completely-peel-loop-nest-depth=10 --param max-crossjump-edges=2 --param min-crossjump-insns=10 --param omega-max-geqs=89 --param omega-max-keys=344 --param vect-max-version-for-alignment-checks=4 --param max-cselib-memory-locations=909 --param max-jump-thread-duplication-stmts=30 --param l1-cache-size=17 --param graphite-max-nb-scop-params=16 --param max-vartrack-expr-depth=24 --param allow-store-data-races=1 --param asan-instrument-writes=0", 
+          "##characteristics#compile#md5_sum#min": "55bbaf4b94bc5e2c478ac3894fe491b9", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-btr-bb-exclusive": "-fno-btr-bb-exclusive", 
+          "##compiler_flags#bool-conserve-stack": "-fconserve-stack", 
+          "##compiler_flags#bool-cx-limited-range": "-fno-cx-limited-range", 
+          "##compiler_flags#bool-devirtualize-speculatively": "-fno-devirtualize-speculatively", 
+          "##compiler_flags#bool-dse": "-fno-dse", 
+          "##compiler_flags#bool-function-cse": "-ffunction-cse", 
+          "##compiler_flags#bool-inline-small-functions": "-fno-inline-small-functions", 
+          "##compiler_flags#bool-ipa-cp": "-fno-ipa-cp", 
+          "##compiler_flags#bool-ipa-reference": "-fno-ipa-reference", 
+          "##compiler_flags#bool-rerun-cse-after-loop": "-fno-rerun-cse-after-loop", 
+          "##compiler_flags#bool-sched-interblock": "-fno-sched-interblock", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fsched2-use-superblocks", 
+          "##compiler_flags#bool-single-precision-constant": "-fno-single-precision-constant", 
+          "##compiler_flags#bool-tree-copyrename": "-ftree-copyrename", 
+          "##compiler_flags#bool-tree-loop-optimize": "-ftree-loop-optimize", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-ftree-loop-vectorize", 
+          "##compiler_flags#bool-tree-partial-pre": "-fno-tree-partial-pre", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-tree-sra": "-fno-tree-sra", 
+          "##compiler_flags#bool-tree-tail-merge": "-ftree-tail-merge", 
+          "##compiler_flags#bool-unit-at-a-time": "-fno-unit-at-a-time", 
+          "##compiler_flags#bool-vpt": "-fvpt", 
+          "##compiler_flags#param-allow-store-data-races": "--param allow-store-data-races=1", 
+          "##compiler_flags#param-asan-instrument-writes": "--param asan-instrument-writes=0", 
+          "##compiler_flags#param-early-inlining-insns": "--param early-inlining-insns=3", 
+          "##compiler_flags#param-gcse-after-reload-critical-fraction": "--param gcse-after-reload-critical-fraction=2", 
+          "##compiler_flags#param-graphite-max-nb-scop-params": "--param graphite-max-nb-scop-params=16", 
+          "##compiler_flags#param-inline-unit-growth": "--param inline-unit-growth=25", 
+          "##compiler_flags#param-l1-cache-size": "--param l1-cache-size=17", 
+          "##compiler_flags#param-max-completely-peel-loop-nest-depth": "--param max-completely-peel-loop-nest-depth=10", 
+          "##compiler_flags#param-max-crossjump-edges": "--param max-crossjump-edges=2", 
+          "##compiler_flags#param-max-cselib-memory-locations": "--param max-cselib-memory-locations=909", 
+          "##compiler_flags#param-max-delay-slot-live-search": "--param max-delay-slot-live-search=73", 
+          "##compiler_flags#param-max-jump-thread-duplication-stmts": "--param max-jump-thread-duplication-stmts=30", 
+          "##compiler_flags#param-max-vartrack-expr-depth": "--param max-vartrack-expr-depth=24", 
+          "##compiler_flags#param-min-crossjump-insns": "--param min-crossjump-insns=10", 
+          "##compiler_flags#param-omega-max-geqs": "--param omega-max-geqs=89", 
+          "##compiler_flags#param-omega-max-keys": "--param omega-max-keys=344", 
+          "##compiler_flags#param-vect-max-version-for-alignment-checks": "--param vect-max-version-for-alignment-checks=4"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-btr-bb-exclusive", 
+          "##compiler_flags#bool-conserve-stack", 
+          "##compiler_flags#bool-cx-limited-range", 
+          "##compiler_flags#bool-devirtualize-speculatively", 
+          "##compiler_flags#bool-dse", 
+          "##compiler_flags#bool-function-cse", 
+          "##compiler_flags#bool-inline-small-functions", 
+          "##compiler_flags#bool-ipa-cp", 
+          "##compiler_flags#bool-ipa-reference", 
+          "##compiler_flags#bool-rerun-cse-after-loop", 
+          "##compiler_flags#bool-sched-interblock", 
+          "##compiler_flags#bool-sched-spec", 
+          "##compiler_flags#bool-sched2-use-superblocks", 
+          "##compiler_flags#bool-single-precision-constant", 
+          "##compiler_flags#bool-tree-copyrename", 
+          "##compiler_flags#bool-tree-loop-optimize", 
+          "##compiler_flags#bool-tree-loop-vectorize", 
+          "##compiler_flags#bool-tree-partial-pre", 
+          "##compiler_flags#bool-tree-pre", 
+          "##compiler_flags#bool-tree-sra", 
+          "##compiler_flags#bool-tree-tail-merge", 
+          "##compiler_flags#bool-unit-at-a-time", 
+          "##compiler_flags#bool-vpt", 
+          "##compiler_flags#param-allow-store-data-races", 
+          "##compiler_flags#param-asan-instrument-writes", 
+          "##compiler_flags#param-early-inlining-insns", 
+          "##compiler_flags#param-gcse-after-reload-critical-fraction", 
+          "##compiler_flags#param-graphite-max-nb-scop-params", 
+          "##compiler_flags#param-inline-unit-growth", 
+          "##compiler_flags#param-l1-cache-size", 
+          "##compiler_flags#param-max-completely-peel-loop-nest-depth", 
+          "##compiler_flags#param-max-crossjump-edges", 
+          "##compiler_flags#param-max-cselib-memory-locations", 
+          "##compiler_flags#param-max-delay-slot-live-search", 
+          "##compiler_flags#param-max-jump-thread-duplication-stmts", 
+          "##compiler_flags#param-max-vartrack-expr-depth", 
+          "##compiler_flags#param-min-crossjump-insns", 
+          "##compiler_flags#param-omega-max-geqs", 
+          "##compiler_flags#param-omega-max-keys", 
+          "##compiler_flags#param-vect-max-version-for-alignment-checks"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b69dc3fc4135a1ef", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

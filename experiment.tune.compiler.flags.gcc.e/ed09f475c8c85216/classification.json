@@ -1,0 +1,79 @@
+{
+  "9aa426783ea9f065": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4872, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.353615, 
+          "##characteristics#run#repeat#min": 1995852618
+        }, 
+        "checked": [
+          "9aa426783ea9f065"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0032840722496, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2351976196484
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-office-ghostscript-src-gdevpbm-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {
+      "##characteristics#compile#obj_size#min_imp": 0.9896013864818, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 0.67578382993048
+    }, 
+    "highest_degradations_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1"
+    }, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0032840722496, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.2351976196484
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-office-ghostscript-src-gdevpbm-codelet-1-1"
+    }, 
+    "user": "gfursin@gmail.com", 
+    "worst": [
+      {
+        "checked": [
+          "9aa426783ea9f065"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9896013864818, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 0.67578382993048
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1"
+        }
+      }, 
+      {
+        "checked": [
+          "9aa426783ea9f065"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.983174835406, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 0.75874133397056
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.au", 
+          "dataset_uoa": "au-0001", 
+          "program_uoa": "cbench-security-sha"
+        }
+      }
+    ]
+  }
+}

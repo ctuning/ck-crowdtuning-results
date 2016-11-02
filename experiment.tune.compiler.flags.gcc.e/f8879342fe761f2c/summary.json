@@ -1,0 +1,284 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-gsm-src-short-term-codelet-2-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1900, 
+        "1": 1900, 
+        "2": 1900, 
+        "3": 1900, 
+        "4": 1900, 
+        "5": 1900, 
+        "6": 1900, 
+        "7": 1900
+      }, 
+      "cpu_name": "Samsung EXYNOS5433", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "16270e7f2844ab79", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 5.0.1", 
+      "os_uid": "382cae4a2e82853d", 
+      "platform_name": "SAMSUNG SM-N910C", 
+      "platform_uid": "1924152a7004ec09"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "57790a227c04096b", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4256, 
+          "##characteristics#run#execution_time_kernel_0#min": 13.03600025177, 
+          "##characteristics#run#repeat#min": 7639419
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9520676691729323, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3844519694953905
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-branch-probabilities -fno-compare-elim -fno-ipa-sra -fno-gcse-after-reload -fkeep-inline-functions -fno-lto -fno-peephole2 -ftoplevel-reorder -free -fno-thread-jumps -ftree-copy-prop -fno-tree-loop-optimize -ftree-loop-vectorize -fno-tree-reassoc -falign-functions=0 -falign-loops=0 -fexcess-precision=fast -ftree-parallelize-loops=0 --param max-inline-insns-single=455 --param max-unswitch-insns=22 --param sms-loop-average-count-threshold=0 --param hot-bb-frequency-fraction=569 --param iv-consider-all-candidates-bound=26 --param omega-max-vars=1 --param vect-max-peeling-for-alignment=51 --param max-sched-insn-conflict-delay=1 --param selsched-max-sched-times=1 --param max-fields-for-field-sensitive=0 --param max-sched-ready-insns=97 --param l1-cache-size=15 --param sccvn-max-alias-queries-per-access=1987 --param ira-max-loops-num=145 --param min-insn-to-prefetch-ratio=12 --param prefetch-min-insn-to-mem-ratio=4 --param allow-store-data-races=0 --param allow-packed-store-data-races=1", 
+          "##characteristics#compile#md5_sum#min": "2abbadd15ac914d0b8f18166f60e144f", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool--fexcess-precision=": "-fexcess-precision=fast", 
+          "##compiler_flags#bool-branch-probabilities": "-fno-branch-probabilities", 
+          "##compiler_flags#bool-compare-elim": "-fno-compare-elim", 
+          "##compiler_flags#bool-gcse-after-reload": "-fno-gcse-after-reload", 
+          "##compiler_flags#bool-ipa-sra": "-fno-ipa-sra", 
+          "##compiler_flags#bool-keep-inline-functions": "-fkeep-inline-functions", 
+          "##compiler_flags#bool-lto": "-fno-lto", 
+          "##compiler_flags#bool-peephole2": "-fno-peephole2", 
+          "##compiler_flags#bool-ree": "-free", 
+          "##compiler_flags#bool-thread-jumps": "-fno-thread-jumps", 
+          "##compiler_flags#bool-toplevel-reorder": "-ftoplevel-reorder", 
+          "##compiler_flags#bool-tree-copy-prop": "-ftree-copy-prop", 
+          "##compiler_flags#bool-tree-loop-optimize": "-fno-tree-loop-optimize", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-ftree-loop-vectorize", 
+          "##compiler_flags#bool-tree-reassoc": "-fno-tree-reassoc", 
+          "##compiler_flags#param--falign-functions=": "-falign-functions=0", 
+          "##compiler_flags#param--falign-loops=": "-falign-loops=0", 
+          "##compiler_flags#param--ftree-parallelize-loops=": "-ftree-parallelize-loops=0", 
+          "##compiler_flags#param-allow-packed-store-data-races": "--param allow-packed-store-data-races=1", 
+          "##compiler_flags#param-allow-store-data-races": "--param allow-store-data-races=0", 
+          "##compiler_flags#param-hot-bb-frequency-fraction": "--param hot-bb-frequency-fraction=569", 
+          "##compiler_flags#param-ira-max-loops-num": "--param ira-max-loops-num=145", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound": "--param iv-consider-all-candidates-bound=26", 
+          "##compiler_flags#param-l1-cache-size": "--param l1-cache-size=15", 
+          "##compiler_flags#param-max-fields-for-field-sensitive": "--param max-fields-for-field-sensitive=0", 
+          "##compiler_flags#param-max-inline-insns-single": "--param max-inline-insns-single=455", 
+          "##compiler_flags#param-max-sched-insn-conflict-delay": "--param max-sched-insn-conflict-delay=1", 
+          "##compiler_flags#param-max-sched-ready-insns": "--param max-sched-ready-insns=97", 
+          "##compiler_flags#param-max-unswitch-insns": "--param max-unswitch-insns=22", 
+          "##compiler_flags#param-min-insn-to-prefetch-ratio": "--param min-insn-to-prefetch-ratio=12", 
+          "##compiler_flags#param-omega-max-vars": "--param omega-max-vars=1", 
+          "##compiler_flags#param-prefetch-min-insn-to-mem-ratio": "--param prefetch-min-insn-to-mem-ratio=4", 
+          "##compiler_flags#param-sccvn-max-alias-queries-per-access": "--param sccvn-max-alias-queries-per-access=1987", 
+          "##compiler_flags#param-selsched-max-sched-times": "--param selsched-max-sched-times=1", 
+          "##compiler_flags#param-sms-loop-average-count-threshold": "--param sms-loop-average-count-threshold=0", 
+          "##compiler_flags#param-vect-max-peeling-for-alignment": "--param vect-max-peeling-for-alignment=51"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool--fexcess-precision=", 
+          "##compiler_flags#bool-branch-probabilities", 
+          "##compiler_flags#bool-compare-elim", 
+          "##compiler_flags#bool-gcse-after-reload", 
+          "##compiler_flags#bool-ipa-sra", 
+          "##compiler_flags#bool-keep-inline-functions", 
+          "##compiler_flags#bool-lto", 
+          "##compiler_flags#bool-peephole2", 
+          "##compiler_flags#bool-ree", 
+          "##compiler_flags#bool-thread-jumps", 
+          "##compiler_flags#bool-toplevel-reorder", 
+          "##compiler_flags#bool-tree-copy-prop", 
+          "##compiler_flags#bool-tree-loop-optimize", 
+          "##compiler_flags#bool-tree-loop-vectorize", 
+          "##compiler_flags#bool-tree-reassoc", 
+          "##compiler_flags#param--falign-functions=", 
+          "##compiler_flags#param--falign-loops=", 
+          "##compiler_flags#param--ftree-parallelize-loops=", 
+          "##compiler_flags#param-allow-packed-store-data-races", 
+          "##compiler_flags#param-allow-store-data-races", 
+          "##compiler_flags#param-hot-bb-frequency-fraction", 
+          "##compiler_flags#param-ira-max-loops-num", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound", 
+          "##compiler_flags#param-l1-cache-size", 
+          "##compiler_flags#param-max-fields-for-field-sensitive", 
+          "##compiler_flags#param-max-inline-insns-single", 
+          "##compiler_flags#param-max-sched-insn-conflict-delay", 
+          "##compiler_flags#param-max-sched-ready-insns", 
+          "##compiler_flags#param-max-unswitch-insns", 
+          "##compiler_flags#param-min-insn-to-prefetch-ratio", 
+          "##compiler_flags#param-omega-max-vars", 
+          "##compiler_flags#param-prefetch-min-insn-to-mem-ratio", 
+          "##compiler_flags#param-sccvn-max-alias-queries-per-access", 
+          "##compiler_flags#param-selsched-max-sched-times", 
+          "##compiler_flags#param-sms-loop-average-count-threshold", 
+          "##compiler_flags#param-vect-max-peeling-for-alignment"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "40498dc26a016ed5", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1900, 
+        "1": 1900, 
+        "2": 1900, 
+        "3": 1900, 
+        "4": 1900, 
+        "5": 1900, 
+        "6": 1900, 
+        "7": 1900
+      }, 
+      "cpu_name": "Samsung EXYNOS5433", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "16270e7f2844ab79", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 5.0.1", 
+      "os_uid": "382cae4a2e82853d", 
+      "platform_name": "SAMSUNG SM-N910C", 
+      "platform_uid": "1924152a7004ec09"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "7d664ed8a4a424e8", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3040, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.1770000457764, 
+          "##characteristics#run#repeat#min": 100401608
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0026315789473683, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1468383169233143
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-branch-target-load-optimize2 -fno-fat-lto-objects -fgcse-las -fif-conversion -fno-ipa-pure-const -fno-partial-inlining -fshrink-wrap -fno-tree-ter -fno-tree-vrp -fvpt -fira-region=one --param max-early-inliner-iterations=0 --param large-unit-insns=7589 --param large-stack-frame=312 --param hot-bb-count-ws-permille=954 --param tracer-min-branch-probability-feedback=73 --param max-grow-copy-bb-insns=16 --param iv-consider-all-candidates-bound=17 --param vect-max-version-for-alignment-checks=8 --param sink-frequency-threshold=13 --param l1-cache-line-size=40 --param switch-conversion-max-branch-ratio=6 --param tree-reassoc-width=0 --param uninit-control-dep-attempts=703", 
+          "##characteristics#compile#md5_sum#min": "d9ba8feb881b57e6ded6fd380e9491d5", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool--fira-region=": "-fira-region=one", 
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fno-branch-target-load-optimize2", 
+          "##compiler_flags#bool-fat-lto-objects": "-fno-fat-lto-objects", 
+          "##compiler_flags#bool-gcse-las": "-fgcse-las", 
+          "##compiler_flags#bool-if-conversion": "-fif-conversion", 
+          "##compiler_flags#bool-ipa-pure-const": "-fno-ipa-pure-const", 
+          "##compiler_flags#bool-partial-inlining": "-fno-partial-inlining", 
+          "##compiler_flags#bool-shrink-wrap": "-fshrink-wrap", 
+          "##compiler_flags#bool-tree-ter": "-fno-tree-ter", 
+          "##compiler_flags#bool-tree-vrp": "-fno-tree-vrp", 
+          "##compiler_flags#bool-vpt": "-fvpt", 
+          "##compiler_flags#param-hot-bb-count-ws-permille": "--param hot-bb-count-ws-permille=954", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound": "--param iv-consider-all-candidates-bound=17", 
+          "##compiler_flags#param-l1-cache-line-size": "--param l1-cache-line-size=40", 
+          "##compiler_flags#param-large-stack-frame": "--param large-stack-frame=312", 
+          "##compiler_flags#param-large-unit-insns": "--param large-unit-insns=7589", 
+          "##compiler_flags#param-max-early-inliner-iterations": "--param max-early-inliner-iterations=0", 
+          "##compiler_flags#param-max-grow-copy-bb-insns": "--param max-grow-copy-bb-insns=16", 
+          "##compiler_flags#param-sink-frequency-threshold": "--param sink-frequency-threshold=13", 
+          "##compiler_flags#param-switch-conversion-max-branch-ratio": "--param switch-conversion-max-branch-ratio=6", 
+          "##compiler_flags#param-tracer-min-branch-probability-feedback": "--param tracer-min-branch-probability-feedback=73", 
+          "##compiler_flags#param-tree-reassoc-width": "--param tree-reassoc-width=0", 
+          "##compiler_flags#param-uninit-control-dep-attempts": "--param uninit-control-dep-attempts=703", 
+          "##compiler_flags#param-vect-max-version-for-alignment-checks": "--param vect-max-version-for-alignment-checks=8"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool--fira-region=", 
+          "##compiler_flags#bool-branch-target-load-optimize2", 
+          "##compiler_flags#bool-fat-lto-objects", 
+          "##compiler_flags#bool-gcse-las", 
+          "##compiler_flags#bool-if-conversion", 
+          "##compiler_flags#bool-ipa-pure-const", 
+          "##compiler_flags#bool-partial-inlining", 
+          "##compiler_flags#bool-shrink-wrap", 
+          "##compiler_flags#bool-tree-ter", 
+          "##compiler_flags#bool-tree-vrp", 
+          "##compiler_flags#bool-vpt", 
+          "##compiler_flags#param-hot-bb-count-ws-permille", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound", 
+          "##compiler_flags#param-l1-cache-line-size", 
+          "##compiler_flags#param-large-stack-frame", 
+          "##compiler_flags#param-large-unit-insns", 
+          "##compiler_flags#param-max-early-inliner-iterations", 
+          "##compiler_flags#param-max-grow-copy-bb-insns", 
+          "##compiler_flags#param-sink-frequency-threshold", 
+          "##compiler_flags#param-switch-conversion-max-branch-ratio", 
+          "##compiler_flags#param-tracer-min-branch-probability-feedback", 
+          "##compiler_flags#param-tree-reassoc-width", 
+          "##compiler_flags#param-uninit-control-dep-attempts", 
+          "##compiler_flags#param-vect-max-version-for-alignment-checks"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "d45dd2994de0a66a", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

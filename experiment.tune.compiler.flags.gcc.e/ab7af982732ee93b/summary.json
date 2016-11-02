@@ -1,0 +1,374 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tiffdither-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1254.75, 
+        "1": 1861.031, 
+        "10": 1267.031, 
+        "11": 1278.281, 
+        "2": 1346.343, 
+        "3": 1210.593, 
+        "4": 1224.656, 
+        "5": 1200, 
+        "6": 1261.312, 
+        "7": 1530.187, 
+        "8": 1200, 
+        "9": 1375.218
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+      "cpu_num_proc": "12", 
+      "cpu_uid": "c3444ec865aa857d", 
+      "gpu_misc_uid": "4a9f138da8476596", 
+      "gpu_name": "ASPEED Technology, Inc. ASPEED Graphics Family (rev 30)", 
+      "kernel_repetitions": 8095009, 
+      "omit_probability": "", 
+      "os_name": "Debian 8", 
+      "os_uid": "6f9803d2c912de4a", 
+      "platform_name": "ASUSTeK COMPUTER INC. Rev 1.xx (TS500-E8-PS4)", 
+      "platform_uid": "b42546d39fb6c4a4"
+    }, 
+    "iterations": 35, 
+    "last_touch_uid": "84cfa9c446eb4559", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 16008, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.164208, 
+          "##characteristics#run#repeat#min": 8095009
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.40639269406393, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.509431799438
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto", 
+          "##characteristics#compile#md5_sum#min": "1ae743b12ab1ad3a676f58f4bc172b50", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.026647264093411
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 3.2118780096308, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.64539515096808, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.022720642761428
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fbranch-target-load-optimize2", 
+          "##compiler_flags#bool-check-data-deps": "-fno-check-data-deps", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fno-cse-follow-jumps", 
+          "##compiler_flags#bool-data-sections": "-fdata-sections", 
+          "##compiler_flags#bool-dse": "-fno-dse", 
+          "##compiler_flags#bool-fat-lto-objects": "-ffat-lto-objects", 
+          "##compiler_flags#bool-function-sections": "-fno-function-sections", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fsel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-tracer": "-fno-tracer", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-ftree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-fno-tree-loop-vectorize", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-tree-pta": "-ftree-pta", 
+          "##compiler_flags#bool-tree-slsr": "-fno-tree-slsr", 
+          "##compiler_flags#bool-tree-switch-conversion": "-fno-tree-switch-conversion", 
+          "##compiler_flags#bool-tree-tail-merge": "-fno-tree-tail-merge"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4fce924f268f920b", 
+    "touched": 5, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1200.093, 
+        "1": 2086.5, 
+        "10": 1248.187, 
+        "11": 1282.406, 
+        "2": 1200, 
+        "3": 1201.781, 
+        "4": 1242.468, 
+        "5": 1199.625, 
+        "6": 1202.25, 
+        "7": 1831.125, 
+        "8": 1226.343, 
+        "9": 1361.812
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+      "cpu_num_proc": "12", 
+      "cpu_uid": "c3444ec865aa857d", 
+      "gpu_misc_uid": "4a9f138da8476596", 
+      "gpu_name": "ASPEED Technology, Inc. ASPEED Graphics Family (rev 30)", 
+      "kernel_repetitions": 32418599, 
+      "omit_probability": "", 
+      "os_name": "Debian 8", 
+      "os_uid": "6f9803d2c912de4a", 
+      "platform_name": "ASUSTeK COMPUTER INC. Rev 1.xx (TS500-E8-PS4)", 
+      "platform_uid": "b42546d39fb6c4a4"
+    }, 
+    "iterations": 38, 
+    "last_touch_uid": "3e68a6415ba82493", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6248, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.868754, 
+          "##characteristics#run#repeat#min": 32418599
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.80537772087068, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3295085586972
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffinite-math-only -fno-sched-critical-path-heuristic -fschedule-insns -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "6c2f36e91ceddc11a00cfc1bc33b7e14", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0076378679612978
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-finite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#bool-sched-critical-path-heuristic": "-fno-sched-critical-path-heuristic", 
+          "##compiler_flags#bool-schedule-insns": "-fschedule-insns", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-finite-math-only", 
+          "##compiler_flags#bool-sched-critical-path-heuristic", 
+          "##compiler_flags#bool-schedule-insns", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-finite-math-only": {
+            "##characteristics#compile#obj_size#min_imp": 0.98860759493671, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.866600114169, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.02359467442607
+          }, 
+          "##compiler_flags#bool-sched-critical-path-heuristic": {
+            "##characteristics#compile#obj_size#min_imp": 0.99872122762148, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98210795589695, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.027800416759842
+          }, 
+          "##compiler_flags#bool-schedule-insns": {
+            "##characteristics#compile#obj_size#min_imp": 0.99363867684478, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.81327144876737, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0057222110958645
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2436305732484, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.68380835471966, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.044653240040755
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-auto-inc-dec": "-fauto-inc-dec", 
+          "##compiler_flags#bool-btr-bb-exclusive": "-fbtr-bb-exclusive", 
+          "##compiler_flags#bool-dse": "-fdse", 
+          "##compiler_flags#bool-function-cse": "-ffunction-cse", 
+          "##compiler_flags#bool-gcse-las": "-fno-gcse-las", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-ipa-reference": "-fno-ipa-reference", 
+          "##compiler_flags#bool-selective-scheduling": "-fno-selective-scheduling", 
+          "##compiler_flags#bool-signaling-nans": "-fsignaling-nans", 
+          "##compiler_flags#bool-single-precision-constant": "-fno-single-precision-constant", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-tree-switch-conversion": "-ftree-switch-conversion"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "e2afc9b8c848c18e", 
+    "touched": 10, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jcdctmgr-codelet-13-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9.2", 
+      "cpu_cur_freq": {
+        "0": 1894.968, 
+        "1": 1230.187, 
+        "10": 1399.968, 
+        "11": 1201.312, 
+        "2": 1672.031, 
+        "3": 3169.968, 
+        "4": 1448.25, 
+        "5": 1228.218, 
+        "6": 2000.25, 
+        "7": 1303.593, 
+        "8": 1200, 
+        "9": 3199.781
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+      "cpu_num_proc": "12", 
+      "cpu_uid": "c3444ec865aa857d", 
+      "gpu_misc_uid": "4a9f138da8476596", 
+      "gpu_name": "ASPEED Technology, Inc. ASPEED Graphics Family (rev 30)", 
+      "kernel_repetitions": 72699356, 
+      "omit_probability": "", 
+      "os_name": "Debian 8", 
+      "os_uid": "6f9803d2c912de4a", 
+      "platform_name": "ASUSTeK COMPUTER INC. Rev 1.xx (TS500-E8-PS4)", 
+      "platform_uid": "b42546d39fb6c4a4"
+    }, 
+    "iterations": 35, 
+    "last_touch_uid": "d54acd7aea5cea73", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5896, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.227983, 
+          "##characteristics#run#repeat#min": 72699356
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.78833107191316, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1341794643359
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "bbf5519c73d68e1a372fe26915befef1", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.012248794785511
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2685025817556, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.88437142722519, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.018398073670906
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-check-data-deps": "-fno-check-data-deps", 
+          "##compiler_flags#bool-cse-skip-blocks": "-fno-cse-skip-blocks", 
+          "##compiler_flags#bool-cx-limited-range": "-fno-cx-limited-range", 
+          "##compiler_flags#bool-delayed-branch": "-fdelayed-branch", 
+          "##compiler_flags#bool-devirtualize": "-fno-devirtualize", 
+          "##compiler_flags#bool-gcse-after-reload": "-fgcse-after-reload", 
+          "##compiler_flags#bool-gcse-sm": "-fno-gcse-sm", 
+          "##compiler_flags#bool-indirect-inlining": "-findirect-inlining", 
+          "##compiler_flags#bool-ipa-cp": "-fno-ipa-cp", 
+          "##compiler_flags#bool-ipa-reference": "-fno-ipa-reference", 
+          "##compiler_flags#bool-isolate-erroneous-paths-dereference": "-fno-isolate-erroneous-paths-dereference", 
+          "##compiler_flags#bool-loop-nest-optimize": "-fno-loop-nest-optimize", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-selective-scheduling2": "-fno-selective-scheduling2", 
+          "##compiler_flags#bool-signed-zeros": "-fno-signed-zeros", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant", 
+          "##compiler_flags#bool-tracer": "-fno-tracer", 
+          "##compiler_flags#bool-tree-ch": "-ftree-ch", 
+          "##compiler_flags#bool-tree-loop-distribute-patterns": "-fno-tree-loop-distribute-patterns", 
+          "##compiler_flags#bool-tree-reassoc": "-fno-tree-reassoc", 
+          "##compiler_flags#bool-tree-vectorize": "-ftree-vectorize", 
+          "##compiler_flags#bool-use-linker-plugin": "-fno-use-linker-plugin", 
+          "##compiler_flags#bool-vpt": "-fvpt"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "6b1b2aeb840818bc", 
+    "touched": 6, 
+    "validated": 1
+  }
+]

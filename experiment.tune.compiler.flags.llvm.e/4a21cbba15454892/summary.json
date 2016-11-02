@@ -1,0 +1,343 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0,
+      "cmd_key": "smoothing",
+      "compile_type": "dynamic",
+      "compiler_description_uoa": "llvm-3.6.0-auto",
+      "data_uoa": "cbench-automotive-susan",
+      "dataset_file": "data.pgm",
+      "dataset_uoa": "image-pgm-from-pamela-100",
+      "device_id": "0ab78686",
+      "host_os": "linux-64",
+      "module_uoa": "b0ac08fe1d3c2615",
+      "no_state_check": "yes",
+      "program_tags": "",
+      "target_os": "android19-arm",
+      "target_os_bits": "32"
+    },
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.6.0-auto",
+      "compiler_flag_tags": "",
+      "compiler_version": "3.6",
+      "cpu_cur_freq": {
+        "0": 245.76
+      },
+      "cpu_name": "QCT MSM7625a FFA",
+      "cpu_num_proc": "1",
+      "cpu_uid": "50d034e094e5095f",
+      "gpu_misc_uid": "cc8478eb9c939150", 
+      "gpu_name": "Qualcomm Adreno (TM) 200", 
+      "kernel_repetitions": 6,
+      "omit_probability": "",
+      "os_name": "Android 4.1.2",
+      "os_uid": "4618ac5c93a43192", 
+      "platform_name": "SAMSUNG GT-S6312", 
+      "platform_uid": "c50cadc7334e129a"
+    },
+    "iterations": 40,
+    "last_touch_uid": "2b44e659dac3ce80",
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.001512668599521,
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.304553310516561
+        },
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fwrapv",
+          "##characteristics#compile#md5_sum#min": "a88ce87e6598305ae7a3d749d207e61b",
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.012882758934358264
+        },
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp",
+          "##characteristics#compile#obj_size#min_imp",
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ],
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3",
+          "##compiler_flags#fwrapv": "-fwrapv"
+        },
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt",
+          "##compiler_flags#fwrapv"
+        ],
+        "pruned_influence": {
+          "##compiler_flags#fwrapv": {
+            "##characteristics#compile#obj_size#min_imp": 0.9984896161107615,
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.770486713273833,
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.027244865672381453
+          }
+        },
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-lax-vector-conversions": "-fno-lax-vector-conversions",
+          "##compiler_flags#fvectorize": "-fno-vectorize"
+        }
+      }
+    ],
+    "pruned": "yes",
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    },
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ],
+    "solution_uid": "54bce844bb29ad4f",
+    "touched": 10,
+    "validated": 1
+  },
+  {
+    "choices": {
+      "calibration_time": 10.0,
+      "cmd_key": "default",
+      "compile_type": "dynamic",
+      "compiler_description_uoa": "llvm-3.6.0-auto",
+      "data_uoa": "shared-codelet-filter",
+      "dataset_file": "data.bin",
+      "dataset_uoa": "image-raw-bin-fgg-office-day-gray",
+      "device_id": "0ab78686",
+      "host_os": "linux-64",
+      "module_uoa": "b0ac08fe1d3c2615",
+      "no_state_check": "yes",
+      "program_tags": "",
+      "target_os": "android19-arm",
+      "target_os_bits": "32"
+    },
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.6.0-auto",
+      "compiler_flag_tags": "",
+      "compiler_version": "3.6",
+      "cpu_cur_freq": {
+        "0": 245.76
+      },
+      "cpu_name": "QCT MSM7625a FFA",
+      "cpu_num_proc": "1",
+      "cpu_uid": "50d034e094e5095f",
+      "gpu_misc_uid": "cc8478eb9c939150", 
+      "gpu_name": "Qualcomm Adreno (TM) 200", 
+      "kernel_repetitions": 151,
+      "omit_probability": "",
+      "os_name": "Android 4.1.2",
+      "os_uid": "4618ac5c93a43192", 
+      "platform_name": "SAMSUNG GT-S6312", 
+      "platform_uid": "c50cadc7334e129a"
+    },
+    "iterations": 41,
+    "last_touch_uid": "9669dbaca2364b76",
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9986853637160386,
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2786480831697904
+        },
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -msoft-float",
+          "##characteristics#compile#md5_sum#min": "fce2a14c7b6500dbac2727992ede0537",
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.021092607451708274
+        },
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp",
+          "##characteristics#compile#obj_size#min_imp",
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ],
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3",
+          "##compiler_flags#msoft-float": "-msoft-float"
+        },
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt",
+          "##compiler_flags#msoft-float"
+        ],
+        "pruned_influence": {
+          "##compiler_flags#msoft-float": {
+            "##characteristics#compile#obj_size#min_imp": 1.001316366827556,
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.7920288666557322,
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.047509704226121975
+          }
+        },
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-rtti": "-fno-rtti"
+        }
+      }
+    ],
+    "pruned": "yes",
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    },
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ],
+    "solution_uid": "bfe3408097d36220",
+    "touched": 12,
+    "validated": 1
+  },
+  {
+    "choices": {
+      "calibration_time": 10.0,
+      "cmd_key": "default",
+      "compile_type": "dynamic",
+      "compiler_description_uoa": "llvm-3.6.0-auto",
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1",
+      "dataset_file": "",
+      "dataset_uoa": "",
+      "device_id": "0ab78686",
+      "host_os": "linux-64",
+      "module_uoa": "b0ac08fe1d3c2615",
+      "no_state_check": "yes",
+      "program_tags": "",
+      "target_os": "android19-arm",
+      "target_os_bits": "32"
+    },
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.6.0-auto",
+      "compiler_flag_tags": "",
+      "compiler_version": "3.6",
+      "cpu_cur_freq": {
+        "0": 480.0
+      },
+      "cpu_name": "QCT MSM7625a FFA",
+      "cpu_num_proc": "1",
+      "cpu_uid": "50d034e094e5095f",
+      "gpu_misc_uid": "cc8478eb9c939150", 
+      "gpu_name": "Qualcomm Adreno (TM) 200", 
+      "kernel_repetitions": 5720314,
+      "omit_probability": "",
+      "os_name": "Android 4.1.2",
+      "os_uid": "4618ac5c93a43192", 
+      "platform_name": "SAMSUNG GT-S6312", 
+      "platform_uid": "c50cadc7334e129a"
+    },
+    "iterations": 40,
+    "last_touch_uid": "2474b96a29e2f420",
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0512820512820513,
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1460477242866605
+        },
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math",
+          "##characteristics#compile#md5_sum#min": "53718680b5b066cc839431e35f6ff3b6",
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.01643027990877169
+        },
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp",
+          "##characteristics#compile#obj_size#min_imp",
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ],
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3",
+          "##compiler_flags#ffast-math": "-ffast-math"
+        },
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt",
+          "##compiler_flags#ffast-math"
+        ],
+        "pruned_influence": {
+          "##compiler_flags#ffast-math": {
+            "##characteristics#compile#obj_size#min_imp": 0.9512195121951219,
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8765291707255213,
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.03865262507405323
+          }
+        },
+        "pruned_inversed_flags": {
+          "##compiler_flags#fvectorize": "-fvectorize"
+        }
+      }
+    ],
+    "pruned": "yes",
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    },
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ],
+    "solution_uid": "ced8641ecf1ee512",
+    "touched": 9,
+    "validated": 1
+  },
+  {
+    "choices": {
+      "calibration_time": 10.0,
+      "cmd_key": "default",
+      "compile_type": "dynamic",
+      "compiler_description_uoa": "llvm-3.6.0-auto",
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-1-1",
+      "dataset_file": "",
+      "dataset_uoa": "",
+      "device_id": "0ab78686",
+      "host_os": "linux-64",
+      "module_uoa": "b0ac08fe1d3c2615",
+      "no_state_check": "yes",
+      "program_tags": "crowd-tuning,small",
+      "target_os": "android19-arm",
+      "target_os_bits": "32"
+    },
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.6.0-auto",
+      "compiler_flag_tags": "",
+      "compiler_version": "3.6",
+      "cpu_cur_freq": {
+        "0": 600.0
+      },
+      "cpu_name": "QCT MSM7625a FFA",
+      "cpu_num_proc": "1",
+      "cpu_uid": "50d034e094e5095f",
+      "gpu_misc_uid": "cc8478eb9c939150", 
+      "gpu_name": "Qualcomm Adreno (TM) 200", 
+      "kernel_repetitions": 15462360,
+      "omit_probability": "",
+      "os_name": "Android 4.1.2",
+      "os_uid": "4618ac5c93a43192", 
+      "platform_name": "SAMSUNG GT-S6312", 
+      "platform_uid": "c50cadc7334e129a"
+    },
+    "iterations": 61,
+    "last_touch_uid": "a2cf1000f7434cb4",
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0021551724137931,
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1103819167798754
+        },
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-unroll-loops",
+          "##characteristics#compile#md5_sum#min": "3259537fee20771735cca9d29ab9f7eb",
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.001835790242862397
+        },
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp",
+          "##characteristics#compile#obj_size#min_imp",
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ],
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3",
+          "##compiler_flags#fno-unroll-loops": "-fno-unroll-loops"
+        },
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt",
+          "##compiler_flags#fno-unroll-loops"
+        ],
+        "pruned_influence": {
+          "##compiler_flags#fno-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 0.9978494623655914,
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8939260978929185,
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.003095866072011792
+          }
+        },
+        "pruned_inversed_flags": {
+          "##compiler_flags#ffp-contract": "-ffp-contract=fast"
+        }
+      }
+    ],
+    "pruned": "yes",
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    },
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ],
+    "solution_uid": "c404b1ff1453ab41",
+    "touched": 43,
+    "validated": 1
+  }
+]

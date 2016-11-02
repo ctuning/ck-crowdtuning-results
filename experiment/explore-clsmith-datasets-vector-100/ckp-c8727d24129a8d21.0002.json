@@ -1,0 +1,71 @@
+{
+  "characteristics_list": [
+    {
+      "run": {
+        "execution_time": 0, 
+        "execution_time_with_module": 0.72018003463745, 
+        "fail_reason": "return code 1 !=0 ", 
+        "post_processed": "yes", 
+        "repeat": 1, 
+        "return_code": 1, 
+        "run_success": "no", 
+        "total_execution_time": 0
+      }
+    }
+  ], 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_only_once": "yes", 
+    "compile_timeout": 60, 
+    "compile_type": "dynamic", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "compiler_vars": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "tool-cl-launcher-1.0", 
+    "dataset_file": "00011.cl", 
+    "dataset_uoa": "clsmith-vector-100", 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_GPU_FREQUENCY": "max", 
+      "DEVICE_ID": "0", 
+      "PLATFORM_ID": "0"
+    }, 
+    "gpu_freq": "max", 
+    "host_os": "linux-32", 
+    "joined_compiler_flags": "-O3", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "repeat": 1, 
+    "run_timeout": 60, 
+    "skip_calibration": "yes", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##dataset_file"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "3", 
+        "6", 
+        "0"
+      ], 
+      "raw": [
+        "clang version 3.6.0 (tags/RELEASE_360/final)", 
+        "Target: armv7l-unknown-linux-gnueabihf", 
+        "Thread model: posix", 
+        ""
+      ], 
+      "str": "3.6.0"
+    }, 
+    "dataset": {
+      "total_size": 13855764
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "6b19152a4b337fff", 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "mispredictions": [
+        {
+          "correct_answer": "Pens, pencils", 
+          "mispredicted_image": "misprediction-image-38f71a994a4266bf.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477544836404.jpg ----------\n0.0969 - \"n03666591 lighter, light, igniter, ignitor\"\n0.0775 - \"n03777754 modem\"\n0.0493 - \"n04367480 swab, swob, mop\"\n0.0357 - \"n04154565 screwdriver\"\n0.0347 - \"n04023962 punching bag, punch bag, punching ball, punchball\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1477544836404.jpg ----------\n0.0969 - \"n03666591 lighter, light, igniter, ignitor\"\n0.0775 - \"n03777754 modem\"\n0.0493 - \"n04367480 swab, swob, mop\"\n0.0357 - \"n04154565 screwdriver\"\n0.0347 - \"n04023962 punching bag, punch bag, punching ball, punchball\"\n", 
+      "time": [
+        8912, 
+        7848, 
+        7503, 
+        8068, 
+        7007, 
+        6933
+      ], 
+      "time1": 8912, 
+      "time2": 7848, 
+      "time3": 7503, 
+      "user": "e21ddd255c6642a7"
+    }
+  ], 
+  "meta": {
+    "cpu_name": "0x53-8-0x1-0x001-1", 
+    "cpu_uid": "64309bc9f07cf7bc", 
+    "crowd_uid": "1046ff8d479dc6af", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T880", 
+    "gpu_uid": "49d08a05c0436cb8", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "SAMSUNG SM-G935F", 
+    "platform_uid": "cae9334148b4d60a"
+  }
+}

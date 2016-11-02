@@ -1,0 +1,39 @@
+{
+  "4f797f27b4b27a53": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3536, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6169996261597, 
+          "##characteristics#run#repeat#min": 7993604
+        }, 
+        "checked": [
+          "4f797f27b4b27a53"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.001131221719457, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.163159172033485
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-automotive-susan-s-src-susan-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.001131221719457, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.163159172033485
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-automotive-susan-s-src-susan-codelet-1-1"
+    }, 
+    "user": "christopher.mash.cm@gmail.com"
+  }
+}

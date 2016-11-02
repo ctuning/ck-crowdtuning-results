@@ -1,0 +1,79 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "14a3aa8cc0481ef2", 
+      "image_height": 144, 
+      "image_width": 176, 
+      "mispredictions": [
+        {
+          "correct_answer": "face", 
+          "mispredicted_image": "misprediction-image-65c173b1d7f47f69.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477841630831.jpg ----------\n0.0557 - \"n04179913 sewing machine\"\n0.0548 - \"n04372370 switch, electric switch, electrical switch\"\n0.0538 - \"n04254120 soap dispenser\"\n0.0461 - \"n03825788 nipple\"\n0.0405 - \"n03935335 piggy bank, penny bank\"\n"
+        }, 
+        {
+          "correct_answer": "coffee mug", 
+          "mispredicted_image": "misprediction-image-e37ac84249679cf7.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477841892672.jpg ----------\n0.1277 - \"n03692522 loupe, jeweler's loupe\"\n0.1114 - \"n03691459 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system\"\n0.1085 - \"n04074963 remote control, remote\"\n0.0711 - \"n04009552 projector\"\n0.0589 - \"n04372370 switch, electric switch, electrical switch\"\n"
+        }, 
+        {
+          "correct_answer": "coffee mug", 
+          "mispredicted_image": "misprediction-image-d4dd0bea82dc6b80.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477841892672.jpg ----------\n0.1277 - \"n03692522 loupe, jeweler's loupe\"\n0.1114 - \"n03691459 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system\"\n0.1085 - \"n04074963 remote control, remote\"\n0.0711 - \"n04009552 projector\"\n0.0589 - \"n04372370 switch, electric switch, electrical switch\"\n"
+        }, 
+        {
+          "correct_answer": "glass", 
+          "mispredicted_image": "misprediction-image-ce16ae7715419eaa.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477842063552.jpg ----------\n0.1744 - \"n03825788 nipple\"\n0.1463 - \"n02999410 chain\"\n0.1406 - \"n03109150 corkscrew, bottle screw\"\n0.0912 - \"n09229709 bubble\"\n0.0563 - \"n03532672 hook, claw\"\n"
+        }, 
+        {
+          "correct_answer": "water bottle", 
+          "mispredicted_image": "misprediction-image-11a95dad6552481b.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477842208597.jpg ----------\n0.1429 - \"n04286575 spotlight, spot\"\n0.1175 - \"n02951585 can opener, tin opener\"\n0.0962 - \"n04254120 soap dispenser\"\n0.0468 - \"n04086273 revolver, six-gun, six-shooter\"\n0.0370 - \"n04067472 reel\"\n"
+        }, 
+        {
+          "correct_answer": "remote", 
+          "mispredicted_image": "misprediction-image-42a4bd168f9a87f4.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477842652201.jpg ----------\n0.2077 - \"n02979186 cassette player\"\n0.1064 - \"n03075370 combination lock\"\n0.0950 - \"n04392985 tape player\"\n0.0944 - \"n03777754 modem\"\n0.0789 - \"n02978881 cassette\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1477841630831.jpg ----------\n0.0557 - \"n04179913 sewing machine\"\n0.0548 - \"n04372370 switch, electric switch, electrical switch\"\n0.0538 - \"n04254120 soap dispenser\"\n0.0461 - \"n03825788 nipple\"\n0.0405 - \"n03935335 piggy bank, penny bank\"\n", 
+      "time": [
+        8739, 
+        8956, 
+        8807, 
+        8670, 
+        8964, 
+        8770, 
+        8660, 
+        8876, 
+        8633, 
+        8612, 
+        8732, 
+        8865, 
+        8671, 
+        8657, 
+        8716, 
+        8331, 
+        8489, 
+        8387
+      ], 
+      "time1": 8739, 
+      "time2": 8956, 
+      "time3": 8807, 
+      "user": ""
+    }
+  ], 
+  "meta": {
+    "cpu_name": "Qualcomm MSM8974PRO-AC", 
+    "cpu_uid": "1305ed04175b26fd", 
+    "crowd_uid": "1046ff8d479dc6af", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "Qualcomm Adreno (TM) 330", 
+    "gpu_uid": "7b42b07cd7764052", 
+    "os_name": "Android 6.0.1", 
+    "os_uid": "3285b3153a9a4ea4", 
+    "plat_name": "ONEPLUS A0001", 
+    "platform_uid": "e67af66f3002ab8c"
+  }
+}

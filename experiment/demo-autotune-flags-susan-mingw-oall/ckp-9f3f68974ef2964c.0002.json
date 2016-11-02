@@ -1,0 +1,293 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 176594, 
+        "compilation_time": 1.3259999752045, 
+        "compilation_time_with_module": 1.7309999465942, 
+        "md5_sum": "a999ec8943ccef47a2c4c5afd4d0ed3f", 
+        "obj_size": 33779, 
+        "obj_sizes": {
+          "susan.o": 33779
+        }
+      }, 
+      "current_freq": {
+        "0": 1680
+      }, 
+      "run": {
+        "execution_time": 0.019265, 
+        "execution_time_kernel_0": 3.853, 
+        "execution_time_with_module": 4.430999994278, 
+        "repeat": 200, 
+        "return_code": 0, 
+        "run_time_state": {
+          "image_size_x": 600, 
+          "image_size_y": 450
+        }, 
+        "total_execution_time": 3.853
+      }
+    }, 
+    {
+      "current_freq": {
+        "0": 1680
+      }, 
+      "run": {
+        "execution_time": 0.017625, 
+        "execution_time_kernel_0": 3.525, 
+        "execution_time_with_module": 4.1019999980927, 
+        "repeat": 200, 
+        "return_code": 0, 
+        "run_time_state": {
+          "image_size_x": 600, 
+          "image_size_y": 450
+        }, 
+        "total_execution_time": 3.525
+      }
+    }, 
+    {
+      "current_freq": {
+        "0": 1680
+      }, 
+      "run": {
+        "execution_time": 0.01778, 
+        "execution_time_kernel_0": 3.556, 
+        "execution_time_with_module": 4.1490001678467, 
+        "repeat": 200, 
+        "return_code": 0, 
+        "run_time_state": {
+          "image_size_x": 600, 
+          "image_size_y": 450
+        }, 
+        "total_execution_time": 3.556
+      }
+    }, 
+    {
+      "current_freq": {
+        "0": 1680
+      }, 
+      "run": {
+        "execution_time": 0.01747, 
+        "execution_time_kernel_0": 3.494, 
+        "execution_time_with_module": 4.055999994278, 
+        "repeat": 200, 
+        "return_code": 0, 
+        "run_time_state": {
+          "image_size_x": 600, 
+          "image_size_y": 450
+        }, 
+        "total_execution_time": 3.494
+      }
+    }
+  ], 
+  "choices": {
+    "cmd_key": "edges", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "cbench-automotive-susan", 
+    "dataset_uoa": "image-pgm-0001", 
+    "device_id": "", 
+    "host_os": "windows-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "repeat": 200, 
+    "target_os": "mingw-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "4", 
+        "9", 
+        "2"
+      ], 
+      "raw": [
+        "gcc (tdm64-1) 4.9.2", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9.2"
+    }, 
+    "dataset": {
+      "compression": "", 
+      "format": "PPM", 
+      "height": 450, 
+      "mode": "L", 
+      "raw_info": {}, 
+      "total_size": 270015, 
+      "width": 600
+    }, 
+    "platform": {
+      "acc": {
+        "name": "Intel(R) HD Graphics Family", 
+        "possibly_related_cpu_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+      }, 
+      "acc_misc": {}, 
+      "cpu": {
+        "current_freq": {
+          "0": 1680
+        }, 
+        "max_freq": {
+          "0": 2401
+        }, 
+        "name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "num_proc": 4, 
+        "sub_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+      }, 
+      "cpu_misc": {
+        "AddressWidth": "64", 
+        "Architecture": "9", 
+        "Availability": "3", 
+        "Caption": "Intel64 Family 6 Model 69 Stepping 1", 
+        "ConfigManagerErrorCode": "", 
+        "ConfigManagerUserConfig": "", 
+        "CpuStatus": "1", 
+        "CreationClassName": "Win32_Processor", 
+        "CurrentClockSpeed": "1680", 
+        "CurrentVoltage": "7", 
+        "DataWidth": "64", 
+        "Description": "Intel64 Family 6 Model 69 Stepping 1", 
+        "DeviceID": "CPU0", 
+        "ErrorCleared": "", 
+        "ErrorDescription": "", 
+        "ExtClock": "100", 
+        "Family": "205", 
+        "InstallDate": "", 
+        "L2CacheSize": "256", 
+        "L2CacheSpeed": "", 
+        "L3CacheSize": "3072", 
+        "L3CacheSpeed": "0", 
+        "LastErrorCode": "", 
+        "Level": "6", 
+        "LoadPercentage": "2", 
+        "Manufacturer": "GenuineIntel", 
+        "MaxClockSpeed": "2401", 
+        "Name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "NumberOfCores": "2", 
+        "NumberOfLogicalProcessors": "4", 
+        "OtherFamilyDescription": "", 
+        "PNPDeviceID": "", 
+        "PowerManagementCapabilities": "", 
+        "PowerManagementSupported": "FALSE", 
+        "ProcessorId": "BFEBFBFF00040651", 
+        "ProcessorType": "3", 
+        "Revision": "17665", 
+        "Role": "CPU", 
+        "SocketDesignation": "CPU Socket - U3E1", 
+        "Status": "OK", 
+        "StatusInfo": "3", 
+        "Stepping": "", 
+        "SystemCreationClassName": "Win32_ComputerSystem", 
+        "SystemName": "FGGLAPTOP2015", 
+        "UniqueId": "", 
+        "UpgradeMethod": "33", 
+        "Version": "", 
+        "VoltageCaps": ""
+      }, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "mingw-64", 
+        "name": "Windows 7", 
+        "name_long": "Windows-7-6.1.7601-SP1", 
+        "name_short": "Windows 7"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "20ALCTO1WW", 
+        "name": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+        "vendor": "LENOVO"
+      }, 
+      "platform_misc": {
+        "cs_product": {
+          "Caption": "Computer System Product", 
+          "Description": "Computer System Product", 
+          "IdentifyingNumber": "PC02H3GH", 
+          "Name": "20ALCTO1WW", 
+          "SKUNumber": "", 
+          "UUID": "75E18D01-53F5-11CB-9517-E9CE07DA82A7", 
+          "Vendor": "LENOVO", 
+          "Version": "ThinkPad X240"
+        }
+      }
+    }, 
+    "platform.cpu": {
+      "cpu": {
+        "current_freq": {
+          "0": 1680
+        }, 
+        "max_freq": {
+          "0": 2401
+        }, 
+        "name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "num_proc": 4, 
+        "sub_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+      }, 
+      "cpu_misc": {
+        "AddressWidth": "64", 
+        "Architecture": "9", 
+        "Availability": "3", 
+        "Caption": "Intel64 Family 6 Model 69 Stepping 1", 
+        "ConfigManagerErrorCode": "", 
+        "ConfigManagerUserConfig": "", 
+        "CpuStatus": "1", 
+        "CreationClassName": "Win32_Processor", 
+        "CurrentClockSpeed": "1680", 
+        "CurrentVoltage": "7", 
+        "DataWidth": "64", 
+        "Description": "Intel64 Family 6 Model 69 Stepping 1", 
+        "DeviceID": "CPU0", 
+        "ErrorCleared": "", 
+        "ErrorDescription": "", 
+        "ExtClock": "100", 
+        "Family": "205", 
+        "InstallDate": "", 
+        "L2CacheSize": "256", 
+        "L2CacheSpeed": "", 
+        "L3CacheSize": "3072", 
+        "L3CacheSpeed": "0", 
+        "LastErrorCode": "", 
+        "Level": "6", 
+        "LoadPercentage": "22", 
+        "Manufacturer": "GenuineIntel", 
+        "MaxClockSpeed": "2401", 
+        "Name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "NumberOfCores": "2", 
+        "NumberOfLogicalProcessors": "4", 
+        "OtherFamilyDescription": "", 
+        "PNPDeviceID": "", 
+        "PowerManagementCapabilities": "", 
+        "PowerManagementSupported": "FALSE", 
+        "ProcessorId": "BFEBFBFF00040651", 
+        "ProcessorType": "3", 
+        "Revision": "17665", 
+        "Role": "CPU", 
+        "SocketDesignation": "CPU Socket - U3E1", 
+        "Status": "OK", 
+        "StatusInfo": "3", 
+        "Stepping": "", 
+        "SystemCreationClassName": "Win32_ComputerSystem", 
+        "SystemName": "FGGLAPTOP2015", 
+        "UniqueId": "", 
+        "UpgradeMethod": "33", 
+        "Version": "", 
+        "VoltageCaps": ""
+      }, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "mingw-64", 
+        "name": "Windows 7", 
+        "name_long": "Windows-7-6.1.7601-SP1", 
+        "name_short": "Windows 7"
+      }, 
+      "os_misc": {}
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 16688,
+        "compilation_success": "yes",
+        "compilation_success_bool": true,
+        "compilation_time": 0.43708181381225586,
+        "compilation_time_with_module": 1.5646812915802002,
+        "joined_compiler_flags": "-O3 -fno-tree-loop-vectorize -funroll-loops",
+        "md5_sum": "21a5374b8b0786af5f52934f19f910e4",
+        "obj_size": 15064,
+        "obj_sizes": {
+          "ctuning-rtl.o": 2992,
+          "sha.o": 7512,
+          "sha_driver.o": 4560
+        },
+        "program_git_hash": "935232b0a32c97cba6e9f4ccde34c92e859a64df"
+      },
+      "run": {
+        "execution_time": 0.05752187628865979,
+        "execution_time_kernel_0": 5.579622,
+        "execution_time_with_module": 6.089627504348755,
+        "repeat": 97,
+        "return_code": 0,
+        "run_success": "yes",
+        "run_success_bool": true,
+        "total_execution_time": 5.579622
+      }
+    },
+    {
+      "run": {
+        "execution_time": 0.05746020618556701,
+        "execution_time_kernel_0": 5.57364,
+        "execution_time_with_module": 6.083685636520386,
+        "repeat": 97,
+        "return_code": 0,
+        "run_success": "yes",
+        "run_success_bool": true,
+        "total_execution_time": 5.57364
+      }
+    },
+    {
+      "run": {
+        "execution_time": 0.057457,
+        "execution_time_kernel_0": 5.573329,
+        "execution_time_with_module": 6.083385944366455,
+        "repeat": 97,
+        "return_code": 0,
+        "run_success": "yes",
+        "run_success_bool": true,
+        "total_execution_time": 5.573329
+      }
+    },
+    {
+      "run": {
+        "execution_time": 0.057549742268041236,
+        "execution_time_kernel_0": 5.582325,
+        "execution_time_with_module": 6.092358827590942,
+        "repeat": 97,
+        "return_code": 0,
+        "run_success": "yes",
+        "run_success_bool": true,
+        "total_execution_time": 5.582325
+      }
+    }
+  ],
+  "choices": {
+    "calibration_time": 10.0,
+    "cmd_key": "default",
+    "compile_type": "dynamic",
+    "compiler_description_uoa": "gcc-6.1.0-auto",
+    "compiler_flags": {
+      "base_opt": "-O3",
+      "bool-tree-loop-vectorize": "-fno-tree-loop-vectorize",
+      "bool-unroll-loops": "-funroll-loops"
+    },
+    "data_uoa": "cbench-security-sha",
+    "dataset_file": "data.wav",
+    "dataset_uoa": "audio-wav-0002",
+    "device_id": "",
+    "host_os": "linux-64",
+    "module_uoa": "b0ac08fe1d3c2615",
+    "no_state_check": "yes",
+    "program_tags": "",
+    "repeat": 97,
+    "target_os": "linux-64",
+    "target_os_bits": "64"
+  },
+  "choices_order": [
+    "##compiler_flags#base_opt",
+    "##compiler_flags#bool-tree-loop-vectorize",
+    "##compiler_flags#bool-unroll-loops"
+  ],
+  "features": {
+    "compiler_version": {
+      "list": [
+        7,
+        0,
+        0
+      ],
+      "raw": [
+        "gcc (GCC) 7.0.0 20160724 (experimental)",
+        "Copyright (C) 2016 Free Software Foundation, Inc.",
+        "This is free software; see the source for copying conditions.  There is NO",
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+        "",
+        ""
+      ],
+      "str": "7.0.0"
+    },
+    "dataset": {
+      "total_size": 11082296
+    },
+    "number_of_selected_compiler_flags": 3,
+    "platform": {
+      "cpu": {
+        "all_freqs": {},
+        "cpu_abi": "",
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm arat epb pln pts dtherm tpr_shadow vnmi flexpriority ept vpid xsaveopt",
+        "current_freq": {
+          "0": 2600.0,
+          "1": 2595.632
+        },
+        "max_freq": {
+          "0": 3300.0,
+          "1": 3300.0
+        },
+        "name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+        "num_proc": "2",
+        "sub_name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz"
+      },
+      "cpu_misc": {
+        "0": {
+          "address sizes": "36 bits physical, 48 bits virtual",
+          "apicid": "0",
+          "bogomips": "5187.99",
+          "bugs": "",
+          "cache size": "3072 KB",
+          "cache_alignment": "64",
+          "ck_cpu_name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+          "clflush size": "64",
+          "core id": "0",
+          "cpu MHz": "2600.000",
+          "cpu cores": "2",
+          "cpu family": "6",
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm arat epb pln pts dtherm tpr_shadow vnmi flexpriority ept vpid xsaveopt",
+          "cpuid level": "13",
+          "cur_freq": 2600.0,
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm arat epb pln pts dtherm tpr_shadow vnmi flexpriority ept vpid xsaveopt",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "0",
+          "max_freq": 3300.0,
+          "microcode": "0x29",
+          "model": "42",
+          "model name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+          "physical id": "0",
+          "power management": "",
+          "processor": "0",
+          "siblings": "2",
+          "stepping": "7",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        },
+        "1": {
+          "address sizes": "36 bits physical, 48 bits virtual",
+          "apicid": "2",
+          "bogomips": "5187.99",
+          "bugs": "",
+          "cache size": "3072 KB",
+          "cache_alignment": "64",
+          "ck_cpu_name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+          "clflush size": "64",
+          "core id": "1",
+          "cpu MHz": "2595.632",
+          "cpu cores": "2",
+          "cpu family": "6",
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm arat epb pln pts dtherm tpr_shadow vnmi flexpriority ept vpid xsaveopt",
+          "cpuid level": "13",
+          "cur_freq": 2595.632,
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm arat epb pln pts dtherm tpr_shadow vnmi flexpriority ept vpid xsaveopt",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "2",
+          "max_freq": 3300.0,
+          "microcode": "0x29",
+          "model": "42",
+          "model name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+          "physical id": "0",
+          "power management": "",
+          "processor": "1",
+          "siblings": "2",
+          "stepping": "7",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        }
+      },
+      "cpu_new_format": "",
+      "cpu_unique": [
+        {
+          "address sizes": "36 bits physical, 48 bits virtual",
+          "apicid": "0",
+          "bogomips": "5187.99",
+          "bugs": "",
+          "cache size": "3072 KB",
+          "cache_alignment": "64",
+          "ck_cpu_name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+          "clflush size": "64",
+          "core id": "0",
+          "cpu MHz": "2600.000",
+          "cpu cores": "2",
+          "cpu family": "6",
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm arat epb pln pts dtherm tpr_shadow vnmi flexpriority ept vpid xsaveopt",
+          "cpuid level": "13",
+          "cur_freq": 2600.0,
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm arat epb pln pts dtherm tpr_shadow vnmi flexpriority ept vpid xsaveopt",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "0",
+          "max_freq": 3300.0,
+          "microcode": "0x29",
+          "model": "42",
+          "model name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+          "physical id": "0",
+          "power management": "",
+          "processor": "0",
+          "siblings": "2",
+          "stepping": "7",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        }
+      ],
+      "gpu": {
+        "name": "Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller (rev 09)",
+        "vendor": "Intel"
+      },
+      "gpu_misc": {},
+      "os": {
+        "bits": "64",
+        "ck_os_base_uoa": "",
+        "ck_os_uoa": "linux-64",
+        "name": "Ubuntu 15.10",
+        "name_long": "Linux-4.2.0-42-generic-x86_64-with-debian-jessie-sid",
+        "name_short": "Linux 4.2.0"
+      },
+      "os_misc": {},
+      "platform": {
+        "model": "Latitude E6320",
+        "name": "Dell Inc. 01 (Latitude E6320)",
+        "vendor": "Dell Inc."
+      },
+      "platform_misc": {}
+    },
+    "solution_uid": "4104a98d4e6bd823",
+    "statistical_repetitions": 4
+  }
+}

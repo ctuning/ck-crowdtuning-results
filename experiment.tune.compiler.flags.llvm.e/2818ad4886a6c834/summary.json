@@ -1,0 +1,528 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0,
+      "cmd_key": "default",
+      "compile_type": "dynamic",
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "data_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1",
+      "dataset_file": "",
+      "dataset_uoa": "",
+      "device_id": "",
+      "host_os": "linux-64",
+      "module_uoa": "b0ac08fe1d3c2615",
+      "no_state_check": "yes",
+      "program_tags": "",
+      "target_os": "linux-64",
+      "target_os_bits": "64"
+    },
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "compiler_flag_tags": "",
+      "compiler_version": "3.9.0",
+      "cpu_cur_freq": {
+        "0": 2595.734,
+        "1": 2599.898
+      },
+      "cpu_name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+      "cpu_num_proc": "2",
+      "cpu_uid": "425ae4e3483c82e8",
+      "gpu_misc_uid": "3158262b4934fe7b",
+      "gpu_name": "Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller (rev 09)",
+      "kernel_repetitions": 19734998,
+      "omit_probability": "",
+      "os_name": "Ubuntu 15.10",
+      "os_uid": "5c7ab4c7e19a8429",
+      "platform_name": "Dell Inc. 01 (Latitude E6320)",
+      "platform_uid": "001405db31550dd5"
+    },
+    "iterations": 117,
+    "last_touch_uid": "06a61016afb94847",
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.4976851851851851,
+          "##characteristics#run#execution_time_kernel_0#min_imp": 2.654632698089168
+        },
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -msoft-float",
+          "##characteristics#compile#md5_sum#min": "e763f5bbfd63ba8fe27b4a78414a68a1",
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0008738358925569084
+        },
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp",
+          "##characteristics#compile#obj_size#min_imp",
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ],
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3",
+          "##compiler_flags#msoft-float": "-msoft-float"
+        },
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt",
+          "##compiler_flags#msoft-float"
+        ],
+        "pruned_influence": {
+          "##compiler_flags#msoft-float": {
+            "##characteristics#compile#obj_size#min_imp": 0.6676970633693973,
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.3767549133371313,
+            "##characteristics#run#execution_time_kernel_0#range_percent": 7.853975682495277e-05
+          }
+        },
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-builtin": "-fno-builtin"
+        }
+      }
+    ],
+    "pruned": "yes",
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    },
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ],
+    "solution_uid": "0de9a196a2475688",
+    "touched": 86,
+    "validated": 1
+  },
+  {
+    "choices": {
+      "calibration_time": 10.0,
+      "cmd_key": "default",
+      "compile_type": "dynamic",
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-8-1",
+      "dataset_file": "",
+      "dataset_uoa": "",
+      "device_id": "",
+      "host_os": "linux-64",
+      "module_uoa": "b0ac08fe1d3c2615",
+      "no_state_check": "yes",
+      "program_tags": "",
+      "target_os": "linux-64",
+      "target_os_bits": "64"
+    },
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "compiler_flag_tags": "",
+      "compiler_version": "3.9.0",
+      "cpu_cur_freq": {
+        "0": 2600.0,
+        "1": 2599.898
+      },
+      "cpu_name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+      "cpu_num_proc": "2",
+      "cpu_uid": "425ae4e3483c82e8",
+      "gpu_misc_uid": "3158262b4934fe7b",
+      "gpu_name": "Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller (rev 09)",
+      "kernel_repetitions": 742260450,
+      "omit_probability": "",
+      "os_name": "Ubuntu 15.10",
+      "os_uid": "5c7ab4c7e19a8429",
+      "platform_name": "Dell Inc. 01 (Latitude E6320)",
+      "platform_uid": "001405db31550dd5"
+    },
+    "iterations": 125,
+    "last_touch_uid": "3a64ec4cd7be48f3",
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9798792756539235,
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3430865559182494
+        },
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-unroll-loops -mrelax-all",
+          "##characteristics#compile#md5_sum#min": "06595246e53bff3f79643f5f0880e47a",
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.002784998542124537
+        },
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp",
+          "##characteristics#compile#obj_size#min_imp",
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ],
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3",
+          "##compiler_flags#funroll-loops": "-fno-unroll-loops",
+          "##compiler_flags#mrelax-all": "-mrelax-all"
+        },
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt",
+          "##compiler_flags#funroll-loops",
+          "##compiler_flags#mrelax-all"
+        ],
+        "pruned_influence": {
+          "##compiler_flags#funroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.0,
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8964995780745193,
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0015625754567385865
+          },
+          "##compiler_flags#mrelax-all": {
+            "##characteristics#compile#obj_size#min_imp": 1.0205338809034907,
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8964691329271216,
+            "##characteristics#run#execution_time_kernel_0#range_percent": 2.7938743341658883e-05
+          }
+        },
+        "pruned_inversed_flags": {}
+      }
+    ],
+    "pruned": "yes",
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    },
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ],
+    "solution_uid": "34436aa2d798e13a",
+    "touched": 106,
+    "validated": 1
+  },
+  {
+    "choices": {
+      "calibration_time": 10.0,
+      "cmd_key": "default",
+      "compile_type": "dynamic",
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-10-1",
+      "dataset_file": "",
+      "dataset_uoa": "",
+      "device_id": "",
+      "host_os": "linux-64",
+      "module_uoa": "b0ac08fe1d3c2615",
+      "no_state_check": "yes",
+      "program_tags": "",
+      "target_os": "linux-64",
+      "target_os_bits": "64"
+    },
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "compiler_flag_tags": "",
+      "compiler_version": "3.9.0",
+      "cpu_cur_freq": {
+        "0": 2599.898,
+        "1": 2600.0
+      },
+      "cpu_name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+      "cpu_num_proc": "2",
+      "cpu_uid": "425ae4e3483c82e8",
+      "gpu_misc_uid": "3158262b4934fe7b",
+      "gpu_name": "Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller (rev 09)",
+      "kernel_repetitions": 60331424,
+      "omit_probability": "",
+      "os_name": "Ubuntu 15.10",
+      "os_uid": "5c7ab4c7e19a8429",
+      "platform_name": "Dell Inc. 01 (Latitude E6320)",
+      "platform_uid": "001405db31550dd5"
+    },
+    "iterations": 128,
+    "last_touch_uid": "4ef0bfc288c4c84a",
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9964221824686941,
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4110162123488026
+        },
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math",
+          "##characteristics#compile#md5_sum#min": "d12566ba2477d80e56baf6ec46243ef8",
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0010472437154499623
+        },
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp",
+          "##characteristics#compile#obj_size#min_imp",
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ],
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3",
+          "##compiler_flags#ffast-math": "-ffast-math"
+        },
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt",
+          "##compiler_flags#ffast-math"
+        ],
+        "pruned_influence": {
+          "##compiler_flags#ffast-math": {
+            "##characteristics#compile#obj_size#min_imp": 1.0035906642728905,
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.733841560302464,
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.04411520658288029
+          }
+        },
+        "pruned_inversed_flags": {
+          "##compiler_flags#ftree-vectorize": "-ftree-vectorize"
+        }
+      }
+    ],
+    "pruned": "yes",
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    },
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ],
+    "solution_uid": "0fc4d62a851fd2c7",
+    "touched": 98,
+    "validated": 1
+  },
+  {
+    "choices": {
+      "calibration_time": 10.0,
+      "cmd_key": "default",
+      "compile_type": "dynamic",
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1",
+      "dataset_file": "",
+      "dataset_uoa": "",
+      "device_id": "",
+      "host_os": "linux-64",
+      "module_uoa": "b0ac08fe1d3c2615",
+      "no_state_check": "yes",
+      "program_tags": "crowd-tuning,small",
+      "target_os": "linux-64",
+      "target_os_bits": "64"
+    },
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "compiler_flag_tags": "",
+      "compiler_version": "3.9.0",
+      "cpu_cur_freq": {
+        "0": 2599.898,
+        "1": 2600.0
+      },
+      "cpu_name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+      "cpu_num_proc": "2",
+      "cpu_uid": "425ae4e3483c82e8",
+      "gpu_misc_uid": "3158262b4934fe7b",
+      "gpu_name": "Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller (rev 09)",
+      "kernel_repetitions": 55004350,
+      "omit_probability": "",
+      "os_name": "Ubuntu 15.10",
+      "os_uid": "5c7ab4c7e19a8429",
+      "platform_name": "Dell Inc. 01 (Latitude E6320)",
+      "platform_uid": "001405db31550dd5"
+    },
+    "iterations": 52,
+    "last_touch_uid": "44f6bfcb3e4c0efd",
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0914728682170542,
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1384732520584087
+        },
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math",
+          "##characteristics#compile#md5_sum#min": "bf20f3bf26ab292a1c9a090d33296441",
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00452031114952457
+        },
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp",
+          "##characteristics#compile#obj_size#min_imp",
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ],
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3",
+          "##compiler_flags#ffast-math": "-ffast-math"
+        },
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt",
+          "##compiler_flags#ffast-math"
+        ],
+        "pruned_influence": {
+          "##compiler_flags#ffast-math": {
+            "##characteristics#compile#obj_size#min_imp": 0.9161931818181818,
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8788358618037647,
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0015678823655417946
+          }
+        },
+        "pruned_inversed_flags": {
+          "##compiler_flags#fmodules-prune-after": "-fmodules-prune-after=47",
+          "##compiler_flags#fno-signed-char": "-fno-signed-char"
+        }
+      }
+    ],
+    "pruned": "yes",
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    },
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ],
+    "solution_uid": "32b90b4d4d836f04",
+    "touched": 34,
+    "validated": 1
+  },
+  {
+    "choices": {
+      "calibration_time": 10.0,
+      "cmd_key": "edges",
+      "compile_type": "dynamic",
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "data_uoa": "cbench-automotive-susan",
+      "dataset_file": "data.pgm",
+      "dataset_uoa": "image-pgm-from-pamela-100",
+      "device_id": "",
+      "host_os": "linux-64",
+      "module_uoa": "b0ac08fe1d3c2615",
+      "no_state_check": "yes",
+      "program_tags": "crowd-tuning,small",
+      "target_os": "linux-64",
+      "target_os_bits": "64"
+    },
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "compiler_flag_tags": "",
+      "compiler_version": "3.9.0",
+      "cpu_cur_freq": {
+        "0": 2600.0,
+        "1": 2599.898
+      },
+      "cpu_name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+      "cpu_num_proc": "2",
+      "cpu_uid": "425ae4e3483c82e8",
+      "gpu_misc_uid": "3158262b4934fe7b",
+      "gpu_name": "Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller (rev 09)",
+      "kernel_repetitions": 709,
+      "omit_probability": "",
+      "os_name": "Ubuntu 15.10",
+      "os_uid": "5c7ab4c7e19a8429",
+      "platform_name": "Dell Inc. 01 (Latitude E6320)",
+      "platform_uid": "001405db31550dd5"
+    },
+    "iterations": 86,
+    "last_touch_uid": "947419b9e069e959",
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9828431372549019,
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.108566042588076
+        },
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fwrapv",
+          "##characteristics#compile#md5_sum#min": "c3bb8b8a4ccc50f7eb69abd6f3c8bc19",
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0030042796969806437
+        },
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp",
+          "##characteristics#compile#obj_size#min_imp",
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ],
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3",
+          "##compiler_flags#fwrapv": "-fwrapv"
+        },
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt",
+          "##compiler_flags#fwrapv"
+        ],
+        "pruned_influence": {
+          "##compiler_flags#fwrapv": {
+            "##characteristics#compile#obj_size#min_imp": 1.0212765957446808,
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9169312020759807,
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0004505166455196865
+          }
+        },
+        "pruned_inversed_flags": {
+          "##compiler_flags#fmerge-all-constants": "-fmerge-all-constants",
+          "##compiler_flags#fmodules-prune-after": "-fmodules-prune-after=105",
+          "##compiler_flags#mglobal-merge": "-mglobal-merge",
+          "##compiler_flags#mno-long-calls": "-mno-long-calls",
+          "##compiler_flags#mrelax-all": "-mrelax-all"
+        }
+      }
+    ],
+    "pruned": "yes",
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    },
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ],
+    "solution_uid": "a2c74c92865aa52c",
+    "touched": 69,
+    "validated": 1
+  },
+  {
+    "choices": {
+      "calibration_time": 10.0,
+      "cmd_key": "default",
+      "compile_type": "dynamic",
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1",
+      "dataset_file": "",
+      "dataset_uoa": "",
+      "device_id": "",
+      "host_os": "linux-64",
+      "module_uoa": "b0ac08fe1d3c2615",
+      "no_state_check": "yes",
+      "program_tags": "",
+      "target_os": "linux-64",
+      "target_os_bits": "64"
+    },
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto",
+      "compiler_flag_tags": "",
+      "compiler_version": "3.9.0",
+      "cpu_cur_freq": {
+        "0": 2537.539,
+        "1": 2600.0
+      },
+      "cpu_name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+      "cpu_num_proc": "2",
+      "cpu_uid": "425ae4e3483c82e8",
+      "gpu_misc_uid": "3158262b4934fe7b",
+      "gpu_name": "Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller (rev 09)",
+      "kernel_repetitions": 765828135,
+      "omit_probability": "",
+      "os_name": "Ubuntu 15.10",
+      "os_uid": "5c7ab4c7e19a8429",
+      "platform_name": "Dell Inc. 01 (Latitude E6320)",
+      "platform_uid": "001405db31550dd5"
+    },
+    "iterations": 124,
+    "last_touch_uid": "c64b6832b274f45b",
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9918533604887984,
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2565804343987286
+        },
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -mstackrealign",
+          "##characteristics#compile#md5_sum#min": "50b3f45326d888b3f9551906d3a834da",
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.003650008829242355
+        },
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp",
+          "##characteristics#compile#obj_size#min_imp",
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ],
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3",
+          "##compiler_flags#mstackrealign": "-mstackrealign"
+        },
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt",
+          "##compiler_flags#mstackrealign"
+        ],
+        "pruned_influence": {
+          "##compiler_flags#mstackrealign": {
+            "##characteristics#compile#obj_size#min_imp": 1.0082135523613962,
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.7989412954535928,
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0010756306633051677
+          }
+        },
+        "pruned_inversed_flags": {
+          "##compiler_flags#ffp-contract": "-ffp-contract=fast"
+        }
+      }
+    ],
+    "pruned": "yes",
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    },
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ],
+    "solution_uid": "a09414888bbe1d77",
+    "touched": 105,
+    "validated": 1
+  }
+]

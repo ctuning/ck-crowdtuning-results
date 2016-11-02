@@ -1,0 +1,224 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 46792, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.14750385284423828, 
+        "compilation_time_with_module": 1.529646873474121, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "834f77448a4d52489c334a52ffe7ac8e", 
+        "obj_size": 5152, 
+        "obj_sizes": {
+          "isqrt.codelet__1.o": 1464, 
+          "isqrt.codelet__1.wrapper.o": 3688
+        }, 
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      }, 
+      "run": {
+        "execution_time": 9.147120722770978e-08, 
+        "execution_time_kernel_0": 9.982071, 
+        "execution_time_with_module": 10.49449896812439, 
+        "repeat": 109128012, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.982071
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 9.145595908042382e-08, 
+        "execution_time_kernel_0": 9.980407, 
+        "execution_time_with_module": 10.497251987457275, 
+        "repeat": 109128012, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.980407
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 9.149891780306599e-08, 
+        "execution_time_kernel_0": 9.985095, 
+        "execution_time_with_module": 10.501428127288818, 
+        "repeat": 109128012, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.985095
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 9.139142019740999e-08, 
+        "execution_time_kernel_0": 9.973364, 
+        "execution_time_with_module": 10.490283966064453, 
+        "repeat": 109128012, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.973364
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-5.3.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-automotive-basicmath-isqrt-codelet-1-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_id": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 109128012, 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "5", 
+        "3", 
+        "0"
+      ], 
+      "raw": [
+        "gcc (Gentoo 5.3.0 p1.0, pie-0.6.5) 5.3.0", 
+        "Copyright (C) 2015 Free Software Foundation, Inc.", 
+        "Dies ist freie Software; die Kopierbedingungen stehen in den Quellen. Es", 
+        "gibt KEINE Garantie; auch nicht für MARKTGÄNGIGKEIT oder FÜR SPEZIELLE ZWECKE.", 
+        "", 
+        ""
+      ], 
+      "str": "5.3.0"
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            2700000, 
+            2400000, 
+            2000000, 
+            1700000, 
+            1400000
+          ], 
+          "1": [
+            2700000, 
+            2400000, 
+            2000000, 
+            1700000, 
+            1400000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 popcnt aes xsave avx f16c lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 tce nodeid_msr tbm topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold vmmcall bmi1", 
+        "current_freq": {
+          "0": 1400.0, 
+          "1": 2700.0
+        }, 
+        "max_freq": {
+          "0": 2700.0, 
+          "1": 2700.0
+        }, 
+        "name": "AMD A6-4400M APU with Radeon(tm) HD Graphics", 
+        "num_proc": "2", 
+        "sub_name": "AMD A6-4400M APU with Radeon(tm) HD Graphics"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "TLB size": "1536 4K pages", 
+          "address sizes": "48 bits physical, 48 bits virtual", 
+          "apicid": "16", 
+          "bogomips": "5389.51", 
+          "bugs": "fxsave_leak sysret_ss_attrs", 
+          "cache size": "1024 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "1400.000", 
+          "cpu cores": "1", 
+          "cpu family": "21", 
+          "cpuid level": "13", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 popcnt aes xsave avx f16c lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 tce nodeid_msr tbm topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold vmmcall bmi1", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "0", 
+          "microcode": "0x6001116", 
+          "model": "16", 
+          "model name": "AMD A6-4400M APU with Radeon(tm) HD Graphics", 
+          "physical id": "0", 
+          "power managemen": "ts ttp tm 100mhzsteps hwpstate cpb eff_freq_ro", 
+          "processor": "0", 
+          "siblings": "2", 
+          "stepping": "1", 
+          "vendor_id": "AuthenticAMD", 
+          "wp": "yes"
+        }, 
+        "1": {
+          "TLB size": "1536 4K pages", 
+          "address sizes": "48 bits physical, 48 bits virtual", 
+          "apicid": "17", 
+          "bogomips": "5389.51", 
+          "bugs": "fxsave_leak sysret_ss_attrs", 
+          "cache size": "1024 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "1", 
+          "cpu MHz": "2700.000", 
+          "cpu cores": "1", 
+          "cpu family": "21", 
+          "cpuid level": "13", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 popcnt aes xsave avx f16c lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 tce nodeid_msr tbm topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold vmmcall bmi1", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "1", 
+          "microcode": "0x6001116", 
+          "model": "16", 
+          "model name": "AMD A6-4400M APU with Radeon(tm) HD Graphics", 
+          "physical id": "0", 
+          "power managemen": "ts ttp tm 100mhzsteps hwpstate cpb eff_freq_ro", 
+          "processor": "1", 
+          "siblings": "2", 
+          "stepping": "1", 
+          "vendor_id": "AuthenticAMD", 
+          "wp": "yes"
+        }
+      }, 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "", 
+        "name_long": "Linux-4.4.3-gentoo-x86_64-AMD_A6-4400M_APU_with_Radeon-tm-_HD_Graphics-with-gentoo-2.2", 
+        "name_short": "Linux 4.4.3"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "", 
+        "name": "", 
+        "vendor": ""
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "bdf7254508b2f801", 
+    "statistical_repetitions": 4
+  }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-8-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.9.0", 
+      "cpu_cur_freq": {
+        "0": 2300, 
+        "1": 2300, 
+        "10": 2299.921, 
+        "11": 2300, 
+        "2": 2300, 
+        "3": 2300, 
+        "4": 4949.14, 
+        "5": 5909.296, 
+        "6": 2300, 
+        "7": 2300, 
+        "8": 2300, 
+        "9": 2300
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz", 
+      "cpu_num_proc": "12", 
+      "cpu_uid": "e19a02cd63d40d08", 
+      "gpu_misc_uid": "db9fce346758b190", 
+      "gpu_name": "ASPEED Technology, Inc. ASPEED Graphics Family (rev 21)", 
+      "kernel_repetitions": 681558260, 
+      "omit_probability": "", 
+      "os_name": "Debian 3.16.7", 
+      "os_uid": "a22064d4e879f092", 
+      "platform_name": "Dell Inc. (PowerEdge C6220)", 
+      "platform_uid": "ad343c780747feb2"
+    }, 
+    "iterations": 36, 
+    "last_touch_uid": "9c4aeace0f5c4478", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3920, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.30188, 
+          "##characteristics#run#repeat#min": 681558260
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.98979591836735, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2068702755352
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -mstackrealign", 
+          "##characteristics#compile#md5_sum#min": "bc27ab324e57a08b67bdff663170210b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0006005974173589
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#mstackrealign": "-mstackrealign"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#mstackrealign"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#mstackrealign": {
+            "##characteristics#compile#obj_size#min_imp": 1.0103092783505, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.82822509150404, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00011232568943376
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fmax-type-align": "-fmax-type-align=17", 
+          "##compiler_flags#fmodules-prune-after": "-fmodules-prune-after=84", 
+          "##compiler_flags#fmodules-prune-interval": "-fmodules-prune-interval=16", 
+          "##compiler_flags#fwrapv": "-fwrapv", 
+          "##compiler_flags#mstrict-align": "-mstrict-align"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "c20ba94c7876daa9", 
+    "touched": 8, 
+    "validated": 1
+  }
+]

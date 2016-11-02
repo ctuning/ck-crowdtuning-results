@@ -1,0 +1,203 @@
+{
+  "##characteristics#compile#binary_size#all": [
+    6912
+  ], 
+  "##characteristics#compile#binary_size#all_unique": [
+    6912
+  ], 
+  "##characteristics#compile#binary_size#center": 6912, 
+  "##characteristics#compile#binary_size#center_imp": 1.0005787037037037, 
+  "##characteristics#compile#binary_size#exp": 6912.0, 
+  "##characteristics#compile#binary_size#exp_allx": [
+    6912.0
+  ], 
+  "##characteristics#compile#binary_size#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#binary_size#exp_imp": 1.0005787037037037, 
+  "##characteristics#compile#binary_size#exp_warning": "no", 
+  "##characteristics#compile#binary_size#halfrange": 0, 
+  "##characteristics#compile#binary_size#max": 6912, 
+  "##characteristics#compile#binary_size#mean": 6912.0, 
+  "##characteristics#compile#binary_size#mean_imp": 1.0005787037037037, 
+  "##characteristics#compile#binary_size#min": 6912, 
+  "##characteristics#compile#binary_size#min_imp": 1.0005787037037037, 
+  "##characteristics#compile#binary_size#range": 0, 
+  "##characteristics#compile#binary_size#range_percent": 0, 
+  "##characteristics#compile#binary_size#repeats": 1, 
+  "##characteristics#compile#compilation_success#all": [
+    "yes"
+  ], 
+  "##characteristics#compile#compilation_success#all_unique": [
+    "yes"
+  ], 
+  "##characteristics#compile#compilation_success#min": "yes", 
+  "##characteristics#compile#compilation_success#min_imp": 0, 
+  "##characteristics#compile#compilation_success#repeats": 1, 
+  "##characteristics#compile#compilation_success_bool#all": [
+    true
+  ], 
+  "##characteristics#compile#compilation_success_bool#all_unique": [
+    true
+  ], 
+  "##characteristics#compile#compilation_success_bool#min": true, 
+  "##characteristics#compile#compilation_success_bool#min_imp": 0, 
+  "##characteristics#compile#compilation_success_bool#repeats": 1, 
+  "##characteristics#compile#compilation_time#all": [
+    0.08746981620788574
+  ], 
+  "##characteristics#compile#compilation_time#all_unique": [
+    0.08746981620788574
+  ], 
+  "##characteristics#compile#compilation_time#center": 0.08746981620788574, 
+  "##characteristics#compile#compilation_time#center_imp": 1.537937989778535, 
+  "##characteristics#compile#compilation_time#exp": 0.08746981620788574, 
+  "##characteristics#compile#compilation_time#exp_allx": [
+    0.08746981620788574
+  ], 
+  "##characteristics#compile#compilation_time#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#compilation_time#exp_imp": 1.537937989778535, 
+  "##characteristics#compile#compilation_time#exp_warning": "no", 
+  "##characteristics#compile#compilation_time#halfrange": 0.0, 
+  "##characteristics#compile#compilation_time#max": 0.08746981620788574, 
+  "##characteristics#compile#compilation_time#mean": 0.08746981620788574, 
+  "##characteristics#compile#compilation_time#mean_imp": 1.537937989778535, 
+  "##characteristics#compile#compilation_time#min": 0.08746981620788574, 
+  "##characteristics#compile#compilation_time#min_imp": 1.537937989778535, 
+  "##characteristics#compile#compilation_time#range": 0.0, 
+  "##characteristics#compile#compilation_time#range_percent": 0.0, 
+  "##characteristics#compile#compilation_time#repeats": 1, 
+  "##characteristics#compile#compilation_time_with_module#all": [
+    1.371636152267456
+  ], 
+  "##characteristics#compile#compilation_time_with_module#all_unique": [
+    1.371636152267456
+  ], 
+  "##characteristics#compile#compilation_time_with_module#center": 1.371636152267456, 
+  "##characteristics#compile#compilation_time_with_module#center_imp": 1.0136463053829277, 
+  "##characteristics#compile#compilation_time_with_module#exp": 1.371636152267456, 
+  "##characteristics#compile#compilation_time_with_module#exp_allx": [
+    1.371636152267456
+  ], 
+  "##characteristics#compile#compilation_time_with_module#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#compilation_time_with_module#exp_imp": 1.0136463053829277, 
+  "##characteristics#compile#compilation_time_with_module#exp_warning": "no", 
+  "##characteristics#compile#compilation_time_with_module#halfrange": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#max": 1.371636152267456, 
+  "##characteristics#compile#compilation_time_with_module#mean": 1.371636152267456, 
+  "##characteristics#compile#compilation_time_with_module#mean_imp": 1.0136463053829277, 
+  "##characteristics#compile#compilation_time_with_module#min": 1.371636152267456, 
+  "##characteristics#compile#compilation_time_with_module#min_imp": 1.0136463053829277, 
+  "##characteristics#compile#compilation_time_with_module#range": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#range_percent": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#repeats": 1, 
+  "##characteristics#compile#joined_compiler_flags#all": [
+    "-O3 -fmerge-all-constants -fno-elide-constructors -fomit-frame-pointer  -fvisibility-inlines-hidden -msoft-float -fshort-wchar -ffp-contract=off"
+  ], 
+  "##characteristics#compile#joined_compiler_flags#all_unique": [
+    "-O3 -fmerge-all-constants -fno-elide-constructors -fomit-frame-pointer  -fvisibility-inlines-hidden -msoft-float -fshort-wchar -ffp-contract=off"
+  ], 
+  "##characteristics#compile#joined_compiler_flags#min": "-O3 -fmerge-all-constants -fno-elide-constructors -fomit-frame-pointer  -fvisibility-inlines-hidden -msoft-float -fshort-wchar -ffp-contract=off", 
+  "##characteristics#compile#joined_compiler_flags#min_imp": 0, 
+  "##characteristics#compile#joined_compiler_flags#repeats": 1, 
+  "##characteristics#compile#md5_sum#all": [
+    "27e1a84a532a7aaa76dde1c51eb99c96"
+  ], 
+  "##characteristics#compile#md5_sum#all_unique": [
+    "27e1a84a532a7aaa76dde1c51eb99c96"
+  ], 
+  "##characteristics#compile#md5_sum#min": "27e1a84a532a7aaa76dde1c51eb99c96", 
+  "##characteristics#compile#md5_sum#min_imp": 0, 
+  "##characteristics#compile#md5_sum#repeats": 1, 
+  "##characteristics#compile#obj_size#all": [
+    3616
+  ], 
+  "##characteristics#compile#obj_size#all_unique": [
+    3616
+  ], 
+  "##characteristics#compile#obj_size#center": 3616, 
+  "##characteristics#compile#obj_size#center_imp": 1.0033185840707965, 
+  "##characteristics#compile#obj_size#exp": 3616.0, 
+  "##characteristics#compile#obj_size#exp_allx": [
+    3616.0
+  ], 
+  "##characteristics#compile#obj_size#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_size#exp_imp": 1.0033185840707965, 
+  "##characteristics#compile#obj_size#exp_warning": "no", 
+  "##characteristics#compile#obj_size#halfrange": 0, 
+  "##characteristics#compile#obj_size#max": 3616, 
+  "##characteristics#compile#obj_size#mean": 3616.0, 
+  "##characteristics#compile#obj_size#mean_imp": 1.0033185840707965, 
+  "##characteristics#compile#obj_size#min": 3616, 
+  "##characteristics#compile#obj_size#min_imp": 1.0033185840707965, 
+  "##characteristics#compile#obj_size#range": 0, 
+  "##characteristics#compile#obj_size#range_percent": 0, 
+  "##characteristics#compile#obj_size#repeats": 1, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#all": [
+    1112
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#all_unique": [
+    1112
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#center": 1112, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#center_imp": 1.0035971223021583, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#exp": 1112.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#exp_allx": [
+    1112.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#exp_imp": 1.0035971223021583, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#exp_warning": "no", 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#halfrange": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#max": 1112, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#mean": 1112.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#mean_imp": 1.0035971223021583, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#min": 1112, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#min_imp": 1.0035971223021583, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#range": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#range_percent": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#repeats": 1, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#all": [
+    2504
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#all_unique": [
+    2504
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#center": 2504, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#center_imp": 1.0031948881789137, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#exp": 2504.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#exp_allx": [
+    2504.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#exp_imp": 1.0031948881789137, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#exp_warning": "no", 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#halfrange": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#max": 2504, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#mean": 2504.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#mean_imp": 1.0031948881789137, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#min": 2504, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#min_imp": 1.0031948881789137, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#range": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#range_percent": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#repeats": 1, 
+  "##characteristics#compile#program_git_hash#all": [
+    "ebb128a094a9981cc32d00b103628cee925ff171"
+  ], 
+  "##characteristics#compile#program_git_hash#all_unique": [
+    "ebb128a094a9981cc32d00b103628cee925ff171"
+  ], 
+  "##characteristics#compile#program_git_hash#min": "ebb128a094a9981cc32d00b103628cee925ff171", 
+  "##characteristics#compile#program_git_hash#min_imp": 0, 
+  "##characteristics#compile#program_git_hash#repeats": 1
+}

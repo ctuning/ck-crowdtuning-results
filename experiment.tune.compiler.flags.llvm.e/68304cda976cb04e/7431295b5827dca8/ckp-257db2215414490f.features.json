@@ -1,0 +1,202 @@
+{
+  "choices": {
+    "calibration_time": 10.0,
+    "cmd_key": "default",
+    "compile_type": "dynamic",
+    "compiler_description_uoa": "llvm-3.8.0-auto",
+    "compiler_flags": {
+      "base_opt": "-O3"
+    },
+    "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1",
+    "dataset_file": "",
+    "dataset_uoa": "",
+    "device_id": "",
+    "host_os": "linux-64",
+    "module_uoa": "b0ac08fe1d3c2615",
+    "no_state_check": "yes",
+    "program_tags": "",
+    "repeat": 935865160,
+    "target_os": "linux-64",
+    "target_os_bits": "64"
+  },
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ],
+  "features": {
+    "compiler_version": {
+      "list": [
+        3,
+        8,
+        0
+      ],
+      "raw": [
+        "clang version 3.8.0 (tags/RELEASE_380/final)",
+        "Target: x86_64-unknown-linux-gnu",
+        "Thread model: posix",
+        "InstalledDir: /home/fursin/fggwork/ck-tools/llvm-3.8.0-linux-64/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-14.04/bin",
+        ""
+      ],
+      "str": "3.8.0"
+    },
+    "number_of_selected_compiler_flags": 1,
+    "platform": {
+      "cpu": {
+        "all_freqs": {},
+        "cpu_abi": "",
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx lm constant_tsc rep_good nopl eagerfpu pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm fsgsbase bmi1 avx2 smep bmi2 erms xsaveopt",
+        "current_freq": {
+          "0": 2397.185,
+          "1": 2397.185,
+          "2": 2397.185,
+          "3": 2397.185
+        },
+        "max_freq": {
+          "0": 0
+        },
+        "name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz",
+        "num_proc": "4",
+        "sub_name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz"
+      },
+      "cpu_misc": {
+        "0": {
+          "address sizes": "42 bits physical, 48 bits virtual",
+          "apicid": "0",
+          "bogomips": "4794.37",
+          "bugs": "",
+          "cache size": "30720 KB",
+          "cache_alignment": "64",
+          "clflush size": "64",
+          "core id": "0",
+          "cpu MHz": "2397.185",
+          "cpu cores": "4",
+          "cpu family": "6",
+          "cpuid level": "13",
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx lm constant_tsc rep_good nopl eagerfpu pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm fsgsbase bmi1 avx2 smep bmi2 erms xsaveopt",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "0",
+          "microcode": "0xffffffff",
+          "model": "63",
+          "model name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz",
+          "physical id": "0",
+          "power managemen": "",
+          "processor": "0",
+          "siblings": "4",
+          "stepping": "2",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        },
+        "1": {
+          "address sizes": "42 bits physical, 48 bits virtual",
+          "apicid": "1",
+          "bogomips": "4794.37",
+          "bugs": "",
+          "cache size": "30720 KB",
+          "cache_alignment": "64",
+          "clflush size": "64",
+          "core id": "1",
+          "cpu MHz": "2397.185",
+          "cpu cores": "4",
+          "cpu family": "6",
+          "cpuid level": "13",
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx lm constant_tsc rep_good nopl eagerfpu pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm fsgsbase bmi1 avx2 smep bmi2 erms xsaveopt",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "1",
+          "microcode": "0xffffffff",
+          "model": "63",
+          "model name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz",
+          "physical id": "0",
+          "power managemen": "",
+          "processor": "1",
+          "siblings": "4",
+          "stepping": "2",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        },
+        "2": {
+          "address sizes": "42 bits physical, 48 bits virtual",
+          "apicid": "2",
+          "bogomips": "4794.37",
+          "bugs": "",
+          "cache size": "30720 KB",
+          "cache_alignment": "64",
+          "clflush size": "64",
+          "core id": "2",
+          "cpu MHz": "2397.185",
+          "cpu cores": "4",
+          "cpu family": "6",
+          "cpuid level": "13",
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx lm constant_tsc rep_good nopl eagerfpu pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm fsgsbase bmi1 avx2 smep bmi2 erms xsaveopt",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "2",
+          "microcode": "0xffffffff",
+          "model": "63",
+          "model name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz",
+          "physical id": "0",
+          "power managemen": "",
+          "processor": "2",
+          "siblings": "4",
+          "stepping": "2",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        },
+        "3": {
+          "address sizes": "42 bits physical, 48 bits virtual",
+          "apicid": "3",
+          "bogomips": "4794.37",
+          "bugs": "",
+          "cache size": "30720 KB",
+          "cache_alignment": "64",
+          "clflush size": "64",
+          "core id": "3",
+          "cpu MHz": "2397.185",
+          "cpu cores": "4",
+          "cpu family": "6",
+          "cpuid level": "13",
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx lm constant_tsc rep_good nopl eagerfpu pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm fsgsbase bmi1 avx2 smep bmi2 erms xsaveopt",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "3",
+          "microcode": "0xffffffff",
+          "model": "63",
+          "model name": "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz",
+          "physical id": "0",
+          "power managemen": "",
+          "processor": "3",
+          "siblings": "4",
+          "stepping": "2",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        }
+      },
+      "gpu": {
+        "all_freqs": [],
+        "current_freq": "",
+        "name": "Microsoft Corporation Hyper-V virtual VGA",
+        "vendor": "Microsoft"
+      },
+      "gpu_misc": {},
+      "os": {
+        "bits": "64",
+        "ck_os_base_uoa": "",
+        "ck_os_uoa": "linux-64",
+        "name": "Ubuntu 16.04 LTS",
+        "name_long": "Linux-4.4.0-21-generic-x86_64-with-debian-stretch-sid",
+        "name_short": "Linux 4.4.0"
+      },
+      "os_misc": {},
+      "platform": {
+        "model": "Virtual Machine",
+        "name": "Microsoft Corporation 7.0 (Virtual Machine)",
+        "vendor": "Microsoft Corporation"
+      },
+      "platform_misc": {}
+    },
+    "solution_uid": "7431295b5827dca8",
+    "statistical_repetitions": 4
+  },
+  "permanent": "yes",
+  "sub_points": 1
+}

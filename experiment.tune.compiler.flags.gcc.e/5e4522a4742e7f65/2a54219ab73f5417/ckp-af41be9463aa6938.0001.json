@@ -1,0 +1,129 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 224820, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 6.425377130508423, 
+        "compilation_time_with_module": 7.528226137161255, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "592efd2ebb542bdb019d31c257819cb0", 
+        "obj_size": 236084, 
+        "obj_sizes": {
+          "cdjpeg.o": 1240, 
+          "cjpeg.o": 12296, 
+          "ctuning-rtl.o": 1536, 
+          "jcapimin.o": 2332, 
+          "jcapistd.o": 1712, 
+          "jccoefct.o": 5112, 
+          "jccolor.o": 3040, 
+          "jcdctmgr.o": 6816, 
+          "jchuff.o": 7248, 
+          "jcinit.o": 1540, 
+          "jcmainct.o": 1468, 
+          "jcmarker.o": 12432, 
+          "jcmaster.o": 6432, 
+          "jcomapi.o": 1076, 
+          "jcparam.o": 8400, 
+          "jcphuff.o": 11356, 
+          "jcprepct.o": 3028, 
+          "jcsample.o": 4376, 
+          "jctrans.o": 4708, 
+          "jdapimin.o": 3748, 
+          "jdapistd.o": 2344, 
+          "jdatadst.o": 1420, 
+          "jdatasrc.o": 1676, 
+          "jdcoefct.o": 6876, 
+          "jdcolor.o": 2748, 
+          "jddctmgr.o": 3132, 
+          "jdhuff.o": 5488, 
+          "jdinput.o": 3548, 
+          "jdmainct.o": 3240, 
+          "jdmarker.o": 11224, 
+          "jdmaster.o": 4244, 
+          "jdmerge.o": 2880, 
+          "jdphuff.o": 6124, 
+          "jdpostct.o": 2188, 
+          "jdsample.o": 3544, 
+          "jdtrans.o": 1404, 
+          "jerror.o": 8064, 
+          "jfdctflt.o": 2696, 
+          "jfdctfst.o": 1384, 
+          "jfdctint.o": 1724, 
+          "jidctflt.o": 3444, 
+          "jidctfst.o": 1900, 
+          "jidctint.o": 2288, 
+          "jidctred.o": 2524, 
+          "jmemansi.o": 2108, 
+          "jmemmgr.o": 8180, 
+          "jquant1.o": 6176, 
+          "jquant2.o": 8388, 
+          "jutils.o": 1692, 
+          "rdbmp.o": 4208, 
+          "rdgif.o": 5112, 
+          "rdppm.o": 3592, 
+          "rdrle.o": 760, 
+          "rdswitch.o": 5792, 
+          "rdtarga.o": 4076
+        }, 
+        "program_git_hash": "935232b0a32c97cba6e9f4ccde34c92e859a64df"
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "encode", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "cbench-consumer-jpeg-c", 
+    "dataset_file": "data.ppm", 
+    "dataset_uoa": "image-ppm-0001", 
+    "device_id": "", 
+    "extra_dataset_tags": [
+      "small"
+    ], 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_run": "yes", 
+    "no_state_check": "yes", 
+    "program_tags": "crowd-tuning,small", 
+    "repeat": "", 
+    "target_os": "android19-arm", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        9
+      ], 
+      "raw": [
+        "arm-linux-androideabi-gcc (GCC) 4.9 20150123 (prerelease)", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9"
+    }, 
+    "dataset": {
+      "compression": "", 
+      "format": "PPM", 
+      "height": 208, 
+      "mode": "RGB", 
+      "raw_info": {}, 
+      "total_size": 101103, 
+      "width": 162
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "statistical_repetitions": 1
+  }
+}

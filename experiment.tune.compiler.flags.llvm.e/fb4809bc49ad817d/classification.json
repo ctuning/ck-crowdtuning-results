@@ -1,0 +1,146 @@
+{
+  "0c0b0475d4c8691a": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 227917, 
+          "##characteristics#run#execution_time_kernel_0#min": 13.281000137329, 
+          "##characteristics#run#repeat#min": 1169
+        }, 
+        "checked": [
+          "0c0b0475d4c8691a"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0510185725505337, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.7241334569572981
+        }, 
+        "workload": {
+          "cmd_key": "encode", 
+          "dataset_file": "data.ppm", 
+          "dataset_uoa": "image-ppm-0001", 
+          "program_uoa": "cbench-consumer-jpeg-c"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0510185725505337, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.7241334569572981
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "encode", 
+      "dataset_file": "data.ppm", 
+      "dataset_uoa": "image-ppm-0001", 
+      "program_uoa": "cbench-consumer-jpeg-c"
+    }
+  }, 
+  "51cbbbfbc34507b4": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4272, 
+          "##characteristics#run#execution_time_kernel_0#min": 13.604999542236, 
+          "##characteristics#run#repeat#min": 118
+        }, 
+        "checked": [
+          "51cbbbfbc34507b4"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.9550221764562903
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.pgm", 
+          "dataset_uoa": "image-pgm-from-pamela-100", 
+          "program_uoa": "cbench-telecom-crc32"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.9550221764562903
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-from-pamela-100", 
+      "program_uoa": "cbench-telecom-crc32"
+    }
+  }, 
+  "b58f17f04cc1bed3": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 235593, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.3500003814697, 
+          "##characteristics#run#repeat#min": 46
+        }, 
+        "checked": [
+          "b58f17f04cc1bed3"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0002037411977436, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4212766606756937
+        }, 
+        "workload": {
+          "cmd_key": "decode", 
+          "dataset_file": "3970203935_2be6dbb13e_o.jpg", 
+          "dataset_uoa": "image-jpeg-carp-3970203935-2be6dbb13e-o", 
+          "program_uoa": "cbench-consumer-jpeg-d"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0002037411977436, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.4212766606756937
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "decode", 
+      "dataset_file": "3970203935_2be6dbb13e_o.jpg", 
+      "dataset_uoa": "image-jpeg-carp-3970203935-2be6dbb13e-o", 
+      "program_uoa": "cbench-consumer-jpeg-d"
+    }
+  }, 
+  "e3b37f895de91f12": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 35220, 
+          "##characteristics#run#execution_time_kernel_0#min": 14.789999961853, 
+          "##characteristics#run#repeat#min": 14
+        }, 
+        "checked": [
+          "e3b37f895de91f12"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.011130039750142, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1638337857057928
+        }, 
+        "workload": {
+          "cmd_key": "smoothing", 
+          "dataset_file": "data.pgm", 
+          "dataset_uoa": "image-pgm-from-pamela-100", 
+          "program_uoa": "cbench-automotive-susan"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.011130039750142, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1638337857057928
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "smoothing", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-from-pamela-100", 
+      "program_uoa": "cbench-automotive-susan"
+    }
+  }
+}

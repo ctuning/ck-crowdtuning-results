@@ -1,0 +1,96 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.9.0", 
+      "cpu_cur_freq": {
+        "0": 2393.157, 
+        "1": 2393.157
+      }, 
+      "cpu_name": "AMD Opteron(tm) Processor 250", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "432a75e274d4498c", 
+      "gpu_misc_uid": "a4c67b40cd07f87e", 
+      "gpu_name": "Trident Microsystems Blade 3D PCI/AGP (rev 3a)", 
+      "kernel_repetitions": 645068067, 
+      "omit_probability": "", 
+      "os_name": "Debian 3.16.7", 
+      "os_uid": "a22064d4e879f092", 
+      "platform_name": "Sun Microsystems 00 (Sun Fire V20z)", 
+      "platform_uid": "63e9c449eb423014"
+    }, 
+    "iterations": 50, 
+    "last_touch_uid": "f7cd46e4b15043a7", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3904, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.917187, 
+          "##characteristics#run#repeat#min": 645068067
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.99385245901639, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1212081826908
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-unroll-loops", 
+          "##characteristics#compile#md5_sum#min": "59559380812530b70be8df82ba39d023", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 4.6874859823962e-05
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-unroll-loops": "-fno-unroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fno-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.0061855670103, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.89193728224879, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 5.6614940682942e-05
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#freroll-loops": "-fno-reroll-loops", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive", 
+          "##compiler_flags#ftemplate-backtrace-limit": "-ftemplate-backtrace-limit=624", 
+          "##compiler_flags#mstrict-align": "-mstrict-align"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b600d554660d461c", 
+    "touched": 22, 
+    "validated": 1
+  }
+]

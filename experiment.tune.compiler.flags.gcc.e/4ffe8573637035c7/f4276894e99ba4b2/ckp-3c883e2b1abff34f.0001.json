@@ -1,0 +1,192 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 16624, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.558708906173706, 
+        "compilation_time_with_module": 2.1241400241851807, 
+        "joined_compiler_flags": "-O3 -funroll-all-loops --param max-average-unrolled-insns=101 --param max-completely-peel-times=2", 
+        "md5_sum": "22eb40221a2807b4ab4342d44785d74f", 
+        "obj_size": 15232, 
+        "obj_sizes": {
+          "ctuning-rtl.o": 3040, 
+          "sha.o": 7504, 
+          "sha_driver.o": 4688
+        }, 
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      }, 
+      "run": {
+        "execution_time": 0.0013099453866053463, 
+        "execution_time_kernel_0": 9.1146, 
+        "execution_time_with_module": 9.641907215118408, 
+        "repeat": 6958, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.1146
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.0013073673469387755, 
+        "execution_time_kernel_0": 9.096662, 
+        "execution_time_with_module": 9.624470949172974, 
+        "repeat": 6958, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.096662
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "bool-unroll-all-loops": "-funroll-all-loops", 
+      "param-max-average-unrolled-insns": "--param max-average-unrolled-insns=101", 
+      "param-max-completely-peel-times": "--param max-completely-peel-times=2"
+    }, 
+    "data_uoa": "cbench-security-sha", 
+    "dataset_file": "data.au", 
+    "dataset_uoa": "au-0001", 
+    "device_id": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 6958, 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#bool-unroll-all-loops", 
+    "##compiler_flags#param-max-average-unrolled-insns", 
+    "##compiler_flags#param-max-completely-peel-times"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "4", 
+        "9", 
+        "2"
+      ], 
+      "raw": [
+        "gcc (Debian 4.9.2-10) 4.9.2", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9.2"
+    }, 
+    "dataset": {
+      "total_size": 154405
+    }, 
+    "number_of_selected_compiler_flags": 4, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {}, 
+        "cpu_abi": "", 
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow rep_good nopl extd_apicid vmmcall", 
+        "current_freq": {
+          "0": 2393.198, 
+          "1": 2393.198
+        }, 
+        "max_freq": {
+          "0": 0
+        }, 
+        "name": "AMD Opteron(tm) Processor 250", 
+        "num_proc": "2", 
+        "sub_name": "AMD Opteron(tm) Processor 250"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "TLB size": "1024 4K pages", 
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "apicid": "0", 
+          "bogomips": "4786.39", 
+          "cache size": "1024 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "2393.198", 
+          "cpu cores": "1", 
+          "cpu family": "15", 
+          "cpuid level": "1", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow rep_good nopl extd_apicid vmmcall", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "0", 
+          "microcode": "0x3a", 
+          "model": "5", 
+          "model name": "AMD Opteron(tm) Processor 250", 
+          "physical id": "0", 
+          "power managemen": "ts fid vid ttp", 
+          "processor": "0", 
+          "siblings": "1", 
+          "stepping": "10", 
+          "vendor_id": "AuthenticAMD", 
+          "wp": "yes"
+        }, 
+        "1": {
+          "TLB size": "1024 4K pages", 
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "apicid": "1", 
+          "bogomips": "4786.36", 
+          "cache size": "1024 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "2393.198", 
+          "cpu cores": "1", 
+          "cpu family": "15", 
+          "cpuid level": "1", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow rep_good nopl extd_apicid vmmcall", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "1", 
+          "microcode": "0x3a", 
+          "model": "5", 
+          "model name": "AMD Opteron(tm) Processor 250", 
+          "physical id": "1", 
+          "power managemen": "ts fid vid ttp", 
+          "processor": "1", 
+          "siblings": "1", 
+          "stepping": "10", 
+          "vendor_id": "AuthenticAMD", 
+          "wp": "yes"
+        }
+      }, 
+      "gpu": {
+        "name": "Trident Microsystems Blade 3D PCI/AGP (rev 3a)", 
+        "vendor": "Trident"
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "", 
+        "name_long": "Linux-3.16.0-4-amd64-x86_64-with-debian-8.2", 
+        "name_short": "Linux 3.16.0"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "Sun Fire V20z", 
+        "name": "Sun Microsystems 00 (Sun Fire V20z)", 
+        "vendor": "Sun Microsystems"
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "f4276894e99ba4b2", 
+    "statistical_repetitions": 2
+  }
+}

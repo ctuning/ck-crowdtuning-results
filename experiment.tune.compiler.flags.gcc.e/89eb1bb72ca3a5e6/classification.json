@@ -1,0 +1,39 @@
+{
+  "b69dc3fc4135a1ef": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6656, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.4200000762939, 
+          "##characteristics#run#repeat#min": 360230528
+        }, 
+        "checked": [
+          "b69dc3fc4135a1ef"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0576923076923077, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.352282510474367
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "number-0001", 
+          "program_uoa": "cbench-telecom-crc32"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0576923076923077, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.352282510474367
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "number-0001", 
+      "program_uoa": "cbench-telecom-crc32"
+    }, 
+    "user": "patrik.h.hagglund@gmail.com"
+  }
+}

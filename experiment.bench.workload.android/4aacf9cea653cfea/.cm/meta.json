@@ -1,0 +1,121 @@
+{
+  "characteristics": {
+    "run": {
+      "execution_time": 8.8499929904938, 
+      "execution_time_kernel_0": 8.8499929904938, 
+      "execution_time_with_module": 67.525812864304, 
+      "repeat": 1, 
+      "return_code": 0, 
+      "run_success": "yes", 
+      "run_success_bool": true, 
+      "thread 0 DMIPS": 1670, 
+      "thread 0 score": 2934272, 
+      "thread 1 DMIPS": 1664, 
+      "thread 1 score": 2923977, 
+      "thread 2 DMIPS": 1667, 
+      "thread 2 score": 2929115, 
+      "thread 3 DMIPS": 1660, 
+      "thread 3 score": 2917153, 
+      "time": 8.697728, 
+      "total DMIPS": 6661, 
+      "total score": 11704517, 
+      "total_execution_time": 8.8499929904938
+    }
+  }, 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "", 
+    "data_uoa": "wa-dhrystone", 
+    "dataset_file": "", 
+    "device_cfg": {
+      "access_type": "wa_android", 
+      "wa_config": {
+        "device": "generic_android", 
+        "device_config": {
+          "adb_name": "4100fa45e436b1f9", 
+          "core_clusters": [
+            0, 
+            0, 
+            1
+          ], 
+          "core_names": [
+            "ARMv7 Processor rev 1 (v7l)", 
+            "ARMv7 Processor rev 1 (v7l)", 
+            "Samsung EXYNOS5433"
+          ]
+        }, 
+        "execution_order": "by_iteration", 
+        "instrumentation": [
+          "execution_time"
+        ], 
+        "logging": {
+          "colour_enabled": false, 
+          "file format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s", 
+          "regular format": "%(levelname)-8s %(message)s", 
+          "verbose format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s"
+        }, 
+        "max_retries": 3, 
+        "reboot_policy": "as_needed", 
+        "result_processors": [
+          "status", 
+          "standard", 
+          "json"
+        ], 
+        "retry_on_status": [
+          "FAILED", 
+          "PARTIAL"
+        ]
+      }
+    }, 
+    "device_id": "4100fa45e436b1f9", 
+    "energy": "no", 
+    "env": {
+      "CK_WA_RAW_RESULT_PATH": "/home/defremov/CK/local/wa-result/642ca78b22d4c7ba/20161014-223831", 
+      "CK_WA_SCRIPTS_PATH": "/home/defremov/CK/ck-wa/script/process-wa"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "params": {
+      "config": {}, 
+      "params": {
+        "delay": 0, 
+        "duration": 0, 
+        "mloops": 0, 
+        "taskset_mask": 0, 
+        "threads": 4
+      }
+    }, 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "wa-samsung-sm-n910c", 
+    "target_os": "android21-arm", 
+    "target_os_bits": "32"
+  }, 
+  "meta": {
+    "apk_name": "", 
+    "apk_version": "", 
+    "cpu_name": "Samsung EXYNOS5433", 
+    "gpu_name": "ARM Mali-T760", 
+    "local_target_uid": "519e280b26499d9a", 
+    "local_target_uoa": "wa-samsung-sm-n910c", 
+    "os_name": "Android 5.0.1", 
+    "plat_name": "SAMSUNG SM-N910C", 
+    "program_uid": "f4b1abacc1c4fa53", 
+    "program_uoa": "wa-dhrystone", 
+    "scenario": "-", 
+    "serial_number": "4100fa45e436b1f9", 
+    "wa_version": "trunk-fa7d89d", 
+    "workload_name": "dhrystone"
+  }, 
+  "state": {
+    "fail": "no", 
+    "fail_reason": ""
+  }, 
+  "user": "daniil.efremov@xore.com"
+}

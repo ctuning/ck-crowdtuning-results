@@ -1,0 +1,224 @@
+{
+  "0f951e112d54980a": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3848, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.423999786377, 
+          "##characteristics#run#repeat#min": 440722
+        }, 
+        "checked": [
+          "0f951e112d54980a"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.101767203307863
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.pgm", 
+          "dataset_uoa": "image-pgm-from-pamela-100", 
+          "program_uoa": "milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.101767203307863
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-from-pamela-100", 
+      "program_uoa": "milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1"
+    }, 
+    "user": "hamptongaddy11235@gmail.com"
+  }, 
+  "1cbc540d4b84ba16": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3384, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.3509998321533, 
+          "##characteristics#run#repeat#min": 14224751
+        }, 
+        "checked": [
+          "1cbc540d4b84ba16"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0047281323877069, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.294972937296335
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "number-0001", 
+          "program_uoa": "milepost-codelet-mibench-consumer-tiff2rgba-src-tif-predict-codelet-4-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0047281323877069, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.294972937296335
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "number-0001", 
+      "program_uoa": "milepost-codelet-mibench-consumer-tiff2rgba-src-tif-predict-codelet-4-1"
+    }, 
+    "user": "hamptongaddy11235@gmail.com"
+  }, 
+  "629c1e5a4a0790ee": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3584, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.6139998435974, 
+          "##characteristics#run#repeat#min": 1317523072
+        }, 
+        "checked": [
+          "629c1e5a4a0790ee"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1362482615831424
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "DGEMM_NT_2x1.json", 
+          "dataset_uoa": "DGEMM_NT", 
+          "program_uoa": "milepost-codelet-mibench-office-ghostscript-src-gdevpbm-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1362482615831424
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "DGEMM_NT_2x1.json", 
+      "dataset_uoa": "DGEMM_NT", 
+      "program_uoa": "milepost-codelet-mibench-office-ghostscript-src-gdevpbm-codelet-1-1"
+    }, 
+    "user": "hamptongaddy11235@gmail.com"
+  }, 
+  "7ffac749700dcd0f": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3816, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6770000457764, 
+          "##characteristics#run#repeat#min": 7686395
+        }, 
+        "checked": [
+          "7ffac749700dcd0f"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.626386614451275
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.bz2", 
+          "dataset_uoa": "bzip2-0001", 
+          "program_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-5-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.626386614451275
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.bz2", 
+      "dataset_uoa": "bzip2-0001", 
+      "program_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-5-1"
+    }, 
+    "user": "hamptongaddy11235@gmail.com"
+  }, 
+  "a3091b7d9edf456f": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3728, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.9370002746582, 
+          "##characteristics#run#repeat#min": 22079930
+        }, 
+        "checked": [
+          "a3091b7d9edf456f"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3118152508075445
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.txt", 
+          "dataset_uoa": "cdataset-patricia-0001", 
+          "program_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.3118152508075445
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.txt", 
+      "dataset_uoa": "cdataset-patricia-0001", 
+      "program_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1"
+    }, 
+    "user": "hamptongaddy11235@gmail.com"
+  }, 
+  "e864396b9f14853b": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3840, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.3420000076294, 
+          "##characteristics#run#repeat#min": 15105741
+        }, 
+        "checked": [
+          "e864396b9f14853b"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2767527838798873
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.txt", 
+          "dataset_uoa": "cdataset-dijkstra-0001", 
+          "program_uoa": "milepost-codelet-mibench-automotive-susan-s-src-susan-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.2767527838798873
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.txt", 
+      "dataset_uoa": "cdataset-dijkstra-0001", 
+      "program_uoa": "milepost-codelet-mibench-automotive-susan-s-src-susan-codelet-1-1"
+    }, 
+    "user": "hamptongaddy11235@gmail.com"
+  }
+}

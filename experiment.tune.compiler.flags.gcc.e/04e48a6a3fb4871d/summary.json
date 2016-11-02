@@ -1,0 +1,243 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.4", 
+      "cpu_cur_freq": {
+        "0": 1400, 
+        "1": 1400, 
+        "2": 1400, 
+        "3": 1400, 
+        "4": 2000, 
+        "5": 2000, 
+        "6": 2000, 
+        "7": 2000
+      }, 
+      "cpu_name": "ODROID-XU3", 
+      "cpu_num_proc": "8", 
+      "cpu_uid": "a10931014c04174b", 
+      "gpu_misc_uid": "52825a4fe4f7fad7", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 220727114, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 14.04.4 LTS", 
+      "os_uid": "30f45cf803c14e26", 
+      "platform_name": "Hardkernel Odroid-XU3", 
+      "platform_uid": "66450182c919adf4"
+    }, 
+    "iterations": 40, 
+    "last_touch_uid": "1f29499487296d42", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3573, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.652277, 
+          "##characteristics#run#repeat#min": 220727114
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.83618513323983, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.5151558312096
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "65b23201f7f608b2d92a3e27596030c2", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 9.3640095052307e-05
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.1969849246231, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.68040467893009, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0002347361177367
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-auto-inc-dec": "-fauto-inc-dec", 
+          "##compiler_flags#bool-finite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#bool-graphite-identity": "-fgraphite-identity", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-inline-functions": "-finline-functions", 
+          "##compiler_flags#bool-ipa-reference": "-fno-ipa-reference", 
+          "##compiler_flags#bool-keep-static-consts": "-fkeep-static-consts", 
+          "##compiler_flags#bool-lto": "-fno-lto", 
+          "##compiler_flags#bool-peel-loops": "-fpeel-loops", 
+          "##compiler_flags#bool-reciprocal-math": "-freciprocal-math", 
+          "##compiler_flags#bool-rerun-cse-after-loop": "-fno-rerun-cse-after-loop", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-freschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-sched-spec": "-fsched-spec", 
+          "##compiler_flags#bool-signaling-nans": "-fsignaling-nans", 
+          "##compiler_flags#bool-toplevel-reorder": "-ftoplevel-reorder", 
+          "##compiler_flags#bool-trapping-math": "-fno-trapping-math", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-ftree-coalesce-vars", 
+          "##compiler_flags#bool-tree-forwprop": "-ftree-forwprop", 
+          "##compiler_flags#bool-tree-loop-distribution": "-ftree-loop-distribution"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "ed4ae48ebd4a6baf", 
+    "touched": 22, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.4", 
+      "cpu_cur_freq": {
+        "0": 1400, 
+        "1": 1400, 
+        "2": 1400, 
+        "3": 1400, 
+        "4": 2000, 
+        "5": 2000, 
+        "6": 2000, 
+        "7": 2000
+      }, 
+      "cpu_name": "ODROID-XU3", 
+      "cpu_num_proc": "8", 
+      "cpu_uid": "a10931014c04174b", 
+      "gpu_misc_uid": "52825a4fe4f7fad7", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 118931660, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 14.04.4 LTS", 
+      "os_uid": "30f45cf803c14e26", 
+      "platform_name": "Hardkernel Odroid-XU3", 
+      "platform_uid": "66450182c919adf4"
+    }, 
+    "iterations": 35, 
+    "last_touch_uid": "28d5fcf0c28446d8", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 13176, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.029372, 
+          "##characteristics#run#repeat#min": 118931660
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.76748104465038, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2603047691854
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fira-algorithm=priority -fsched2-use-superblocks -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "0a669d63fc827e6480c558bcf1dcde3b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 9.2028816869394e-06
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=priority", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fsched2-use-superblocks", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool--fira-algorithm=", 
+          "##compiler_flags#bool-sched2-use-superblocks", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool--fira-algorithm=": {
+            "##characteristics#compile#obj_size#min_imp": 2.7177759056445, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97605159866426, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 6.1525421937234e-06
+          }, 
+          "##compiler_flags#bool-sched2-use-superblocks": {
+            "##characteristics#compile#obj_size#min_imp": 2.7200674536256, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97245517439057, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 2.9913775992694e-05
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.0969058143489, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.80302464754476, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 3.1586047835166e-05
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-probabilities": "-fno-branch-probabilities", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fno-cse-follow-jumps", 
+          "##compiler_flags#bool-finite-math-only": "-fno-finite-math-only", 
+          "##compiler_flags#bool-indirect-inlining": "-fno-indirect-inlining", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fira-share-save-slots", 
+          "##compiler_flags#bool-loop-nest-optimize": "-floop-nest-optimize", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-move-loop-invariants": "-fmove-loop-invariants", 
+          "##compiler_flags#bool-optimize-sibling-calls": "-fno-optimize-sibling-calls", 
+          "##compiler_flags#bool-sched-spec": "-fsched-spec", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fsel-sched-pipelining", 
+          "##compiler_flags#bool-shrink-wrap": "-fshrink-wrap", 
+          "##compiler_flags#bool-tree-ccp": "-fno-tree-ccp", 
+          "##compiler_flags#bool-tree-loop-distribution": "-fno-tree-loop-distribution", 
+          "##compiler_flags#bool-tree-sra": "-ftree-sra", 
+          "##compiler_flags#bool-tree-ter": "-ftree-ter"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8e6f59b4a008af76", 
+    "touched": 16, 
+    "validated": 1
+  }
+]

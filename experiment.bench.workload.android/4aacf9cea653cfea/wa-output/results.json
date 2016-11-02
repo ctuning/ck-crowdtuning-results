@@ -1,0 +1,93 @@
+[
+    {
+        "metrics": [
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "thread 0 score", 
+                "value": 2934272, 
+                "classifiers": {}
+            }, 
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "thread 0 DMIPS", 
+                "value": 1670, 
+                "classifiers": {}
+            }, 
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "thread 1 score", 
+                "value": 2923977, 
+                "classifiers": {}
+            }, 
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "thread 1 DMIPS", 
+                "value": 1664, 
+                "classifiers": {}
+            }, 
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "thread 2 score", 
+                "value": 2929115, 
+                "classifiers": {}
+            }, 
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "thread 2 DMIPS", 
+                "value": 1667, 
+                "classifiers": {}
+            }, 
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "thread 3 score", 
+                "value": 2917153, 
+                "classifiers": {}
+            }, 
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "thread 3 DMIPS", 
+                "value": 1660, 
+                "classifiers": {}
+            }, 
+            {
+                "units": "seconds", 
+                "lower_is_better": true, 
+                "name": "time", 
+                "value": 8.697728, 
+                "classifiers": {}
+            }, 
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "total DMIPS", 
+                "value": 6661, 
+                "classifiers": {}
+            }, 
+            {
+                "units": null, 
+                "lower_is_better": false, 
+                "name": "total score", 
+                "value": 11704517, 
+                "classifiers": {}
+            }, 
+            {
+                "units": "seconds", 
+                "lower_is_better": false, 
+                "name": "execution_time", 
+                "value": 8.849992990493774, 
+                "classifiers": {}
+            }
+        ], 
+        "workload": "dhrystone", 
+        "iteration": 1, 
+        "id": "1"
+    }
+]

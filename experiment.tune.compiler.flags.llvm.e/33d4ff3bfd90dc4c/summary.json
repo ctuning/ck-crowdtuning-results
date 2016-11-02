@@ -1,0 +1,170 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "decode", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "cbench-security-blowfish", 
+      "dataset_file": "data.benc", 
+      "dataset_uoa": "benc-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y330-U01", 
+      "platform_uid": "7439eab2acfa2507"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "91f54a63a4dfb122", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 18376, 
+          "##characteristics#run#execution_time_kernel_0#min": 11.873000144958, 
+          "##characteristics#run#repeat#min": 1724138
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.327185335717077
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-reroll-loops -fstrict-vtable-pointers -mno-unaligned-access -ffp-contract=fast", 
+          "##characteristics#compile#md5_sum#min": "0f03fd037bdaaabb1129b318038bb041", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#arch-munaligned-access": "-mno-unaligned-access", 
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffp-contract": "-ffp-contract=fast", 
+          "##compiler_flags#freroll-loops": "-fno-reroll-loops", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#arch-munaligned-access", 
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffp-contract", 
+          "##compiler_flags#freroll-loops", 
+          "##compiler_flags#fstrict-vtable-pointers"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "68048fb96574b037", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-pvt-codelet-6-1", 
+      "dataset_file": "data.mp3", 
+      "dataset_uoa": "audio-mp3-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.2", 
+      "os_uid": "7b16920d73a7a240", 
+      "platform_name": "ZTE V815W", 
+      "platform_uid": "58b320fc829554ed"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "42c79cb3d444bae8", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3260, 
+          "##characteristics#run#execution_time_kernel_0#min": 11.970999717712, 
+          "##characteristics#run#repeat#min": 356633
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9975460122699387, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.217678701885409
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fsched-interblock -fstrict-enums -trigraphs -mstackrealign", 
+          "##characteristics#compile#md5_sum#min": "1e6d53f17c1d592d0d1f5e26c23effe8", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fsched-interblock": "-fsched-interblock", 
+          "##compiler_flags#fstrict-enums": "-fstrict-enums", 
+          "##compiler_flags#mstackrealign": "-mstackrealign", 
+          "##compiler_flags#trigraphs": "-trigraphs"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fsched-interblock", 
+          "##compiler_flags#fstrict-enums", 
+          "##compiler_flags#mstackrealign", 
+          "##compiler_flags#trigraphs"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "72cec2d43bf94243", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

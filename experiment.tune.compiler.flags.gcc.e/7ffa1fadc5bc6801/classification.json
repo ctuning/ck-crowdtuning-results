@@ -1,0 +1,150 @@
+{
+  "4124c928176ebda7": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 14088, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.0629997253418, 
+          "##characteristics#run#repeat#min": 549450560
+        }, 
+        "checked": [
+          "4124c928176ebda7"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.23509369676320271, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 4.722772061343533
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.tiff", 
+          "dataset_uoa": "image-tiff-0001-bw", 
+          "program_uoa": "milepost-codelet-mibench-office-ghostscript-src-gdevpbm-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.23509369676320271, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 4.722772061343533
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.tiff", 
+      "dataset_uoa": "image-tiff-0001-bw", 
+      "program_uoa": "milepost-codelet-mibench-office-ghostscript-src-gdevpbm-codelet-1-1"
+    }, 
+    "user": "mr.jamshidi1911@gmail.com"
+  }, 
+  "641e1849eb271443": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4296, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.8059997558594, 
+          "##characteristics#run#repeat#min": 74128984
+        }, 
+        "checked": [
+          "641e1849eb271443"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.7839851024208566, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1369275079257275
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.wav", 
+          "dataset_uoa": "audio-wav-0001", 
+          "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-4-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.7839851024208566, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1369275079257275
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.wav", 
+      "dataset_uoa": "audio-wav-0001", 
+      "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-4-1"
+    }, 
+    "user": "1934ce5e88074634"
+  }, 
+  "7dabafe2cc003502": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3128, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.628999710083, 
+          "##characteristics#run#repeat#min": 3161
+        }, 
+        "checked": [
+          "7dabafe2cc003502"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0089514066496164, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3938911002775844
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.tiff", 
+          "dataset_uoa": "image-tiff-0001-bw", 
+          "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0089514066496164, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.3938911002775844
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.tiff", 
+      "dataset_uoa": "image-tiff-0001-bw", 
+      "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1"
+    }, 
+    "user": "mr.jamshidi1911@gmail.com "
+  }, 
+  "ea226391a03e4112": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3456, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6549997329712, 
+          "##characteristics#run#repeat#min": 2384358
+        }, 
+        "checked": [
+          "ea226391a03e4112"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9988425925925926, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1072247061135683
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "SGEMM_NT_4x1.json", 
+          "dataset_uoa": "SGEMM_NT", 
+          "program_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tiffdither-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9988425925925926, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1072247061135683
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "SGEMM_NT_4x1.json", 
+      "dataset_uoa": "SGEMM_NT", 
+      "program_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tiffdither-codelet-1-1"
+    }, 
+    "user": "8d8cbac901d349cc"
+  }
+}

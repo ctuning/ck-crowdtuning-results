@@ -1,0 +1,57 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "4dcabfb2bf71d5bf", 
+      "image_height": 4208, 
+      "image_width": 3120, 
+      "prediction": "---------- Prediction for /storage/sdcard1/DCIM/P61023-202031.jpg ----------\n0.4147 - \"n04328186 stopwatch, stop watch\"\n0.1016 - \"n04141975 scale, weighing machine\"\n0.0898 - \"n02795169 barrel, cask\"\n0.0607 - \"n02794156 barometer\"\n0.0588 - \"n02708093 analog clock\"\n", 
+      "time": [
+        14242, 
+        14557, 
+        14003
+      ], 
+      "time1": 14242, 
+      "time2": 14557, 
+      "time3": 14003, 
+      "user": "94aa60204ad143cb"
+    }, 
+    {
+      "behavior_uid": "e466a842af31b193", 
+      "image_height": 1920, 
+      "image_width": 2560, 
+      "mispredictions": [
+        {
+          "correct_answer": "ball", 
+          "mispredicted_image": "misprediction-image-8912c7d440adbb1e.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477555772404.jpg ----------\n0.0615 - \"n02782093 balloon\"\n0.0569 - \"n04254680 soccer ball\"\n0.0436 - \"n03720891 maraca\"\n0.0427 - \"n02790996 barbell\"\n0.0349 - \"n03995372 power drill\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1477555772404.jpg ----------\n0.0615 - \"n02782093 balloon\"\n0.0569 - \"n04254680 soccer ball\"\n0.0436 - \"n03720891 maraca\"\n0.0427 - \"n02790996 barbell\"\n0.0349 - \"n03995372 power drill\"\n", 
+      "time": [
+        14085, 
+        14796, 
+        14754, 
+        14040, 
+        14733, 
+        14738
+      ], 
+      "time1": 14085, 
+      "time2": 14796, 
+      "time3": 14754, 
+      "user": "94aa60204ad143cb"
+    }
+  ], 
+  "meta": {
+    "cpu_name": "MT6755M", 
+    "cpu_uid": "b2b739294c514b95", 
+    "crowd_uid": "1046ff8d479dc6af", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T860", 
+    "gpu_uid": "69507d604571859f", 
+    "os_name": "Android 5.1", 
+    "os_uid": "4a7a7aa243109ec2", 
+    "plat_name": "MEIZU M3 NOTE", 
+    "platform_uid": "9be481d1fab9c2ab"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "##characteristics#compile#binary_size#all": [
+    8056
+  ], 
+  "##characteristics#compile#binary_size#all_unique": [
+    8056
+  ], 
+  "##characteristics#compile#binary_size#center": 8056, 
+  "##characteristics#compile#binary_size#center_imp": 1.0, 
+  "##characteristics#compile#binary_size#exp": 8056.0, 
+  "##characteristics#compile#binary_size#exp_allx": [
+    8056.0
+  ], 
+  "##characteristics#compile#binary_size#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#binary_size#exp_imp": 1.0, 
+  "##characteristics#compile#binary_size#exp_warning": "no", 
+  "##characteristics#compile#binary_size#halfrange": 0, 
+  "##characteristics#compile#binary_size#max": 8056, 
+  "##characteristics#compile#binary_size#mean": 8056.0, 
+  "##characteristics#compile#binary_size#mean_imp": 1.0, 
+  "##characteristics#compile#binary_size#min": 8056, 
+  "##characteristics#compile#binary_size#min_imp": 1.0, 
+  "##characteristics#compile#binary_size#range": 0, 
+  "##characteristics#compile#binary_size#range_percent": 0, 
+  "##characteristics#compile#binary_size#repeats": 1, 
+  "##characteristics#compile#compilation_success#all": [
+    "yes"
+  ], 
+  "##characteristics#compile#compilation_success#all_unique": [
+    "yes"
+  ], 
+  "##characteristics#compile#compilation_success#min": "yes", 
+  "##characteristics#compile#compilation_success#min_imp": 0, 
+  "##characteristics#compile#compilation_success#repeats": 1, 
+  "##characteristics#compile#compilation_success_bool#all": [
+    true
+  ], 
+  "##characteristics#compile#compilation_success_bool#all_unique": [
+    true
+  ], 
+  "##characteristics#compile#compilation_success_bool#min": true, 
+  "##characteristics#compile#compilation_success_bool#min_imp": 0, 
+  "##characteristics#compile#compilation_success_bool#repeats": 1, 
+  "##characteristics#compile#compilation_time#all": [
+    0.10929298400878906
+  ], 
+  "##characteristics#compile#compilation_time#all_unique": [
+    0.10929298400878906
+  ], 
+  "##characteristics#compile#compilation_time#center": 0.10929298400878906, 
+  "##characteristics#compile#compilation_time#center_imp": 2.461887663391564, 
+  "##characteristics#compile#compilation_time#exp": 0.10929298400878906, 
+  "##characteristics#compile#compilation_time#exp_allx": [
+    0.10929298400878906
+  ], 
+  "##characteristics#compile#compilation_time#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#compilation_time#exp_imp": 2.461887663391564, 
+  "##characteristics#compile#compilation_time#exp_warning": "no", 
+  "##characteristics#compile#compilation_time#halfrange": 0.0, 
+  "##characteristics#compile#compilation_time#max": 0.10929298400878906, 
+  "##characteristics#compile#compilation_time#mean": 0.10929298400878906, 
+  "##characteristics#compile#compilation_time#mean_imp": 2.461887663391564, 
+  "##characteristics#compile#compilation_time#min": 0.10929298400878906, 
+  "##characteristics#compile#compilation_time#min_imp": 2.461887663391564, 
+  "##characteristics#compile#compilation_time#range": 0.0, 
+  "##characteristics#compile#compilation_time#range_percent": 0.0, 
+  "##characteristics#compile#compilation_time#repeats": 1, 
+  "##characteristics#compile#compilation_time_with_module#all": [
+    1.2529489994049072
+  ], 
+  "##characteristics#compile#compilation_time_with_module#all_unique": [
+    1.2529489994049072
+  ], 
+  "##characteristics#compile#compilation_time_with_module#center": 1.2529489994049072, 
+  "##characteristics#compile#compilation_time_with_module#center_imp": 1.129935803232159, 
+  "##characteristics#compile#compilation_time_with_module#exp": 1.2529489994049072, 
+  "##characteristics#compile#compilation_time_with_module#exp_allx": [
+    1.2529489994049072
+  ], 
+  "##characteristics#compile#compilation_time_with_module#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#compilation_time_with_module#exp_imp": 1.129935803232159, 
+  "##characteristics#compile#compilation_time_with_module#exp_warning": "no", 
+  "##characteristics#compile#compilation_time_with_module#halfrange": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#max": 1.2529489994049072, 
+  "##characteristics#compile#compilation_time_with_module#mean": 1.2529489994049072, 
+  "##characteristics#compile#compilation_time_with_module#mean_imp": 1.129935803232159, 
+  "##characteristics#compile#compilation_time_with_module#min": 1.2529489994049072, 
+  "##characteristics#compile#compilation_time_with_module#min_imp": 1.129935803232159, 
+  "##characteristics#compile#compilation_time_with_module#range": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#range_percent": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#repeats": 1, 
+  "##characteristics#compile#joined_compiler_flags#all": [
+    "-O3 -fcx-limited-range -fno-early-inlining -fno-gcse -fgcse-lm -fno-graphite-identity -fno-inline-functions -fdefer-pop -fno-signed-zeros -fpartial-inlining -frename-registers -fsched-spec-insn-heuristic -fselective-scheduling2 -fno-sel-sched-pipelining -fno-split-wide-types -ftracer -fno-tree-copyrename -fno-tree-loop-optimize -fvect-cost-model -fsched-stalled-insns-dep=0 -fsched-stalled-insns=0 --param gcse-unrestricted-cost=6 --param max-peel-times=13 --param max-completely-peel-times=2 --param hot-bb-count-ws-permille=903 --param max-grow-copy-bb-insns=14 --param max-cse-path-length=6 --param iv-consider-all-candidates-bound=45 --param omega-max-vars=166 --param omega-max-wild-cards=7 --param vect-max-version-for-alias-checks=4 --param selsched-max-sched-times=4 --param prefetch-latency=77 --param min-insn-to-prefetch-ratio=14 --param max-vartrack-reverse-op-size=92 --param asan-use-after-return=0"
+  ], 
+  "##characteristics#compile#joined_compiler_flags#all_unique": [
+    "-O3 -fcx-limited-range -fno-early-inlining -fno-gcse -fgcse-lm -fno-graphite-identity -fno-inline-functions -fdefer-pop -fno-signed-zeros -fpartial-inlining -frename-registers -fsched-spec-insn-heuristic -fselective-scheduling2 -fno-sel-sched-pipelining -fno-split-wide-types -ftracer -fno-tree-copyrename -fno-tree-loop-optimize -fvect-cost-model -fsched-stalled-insns-dep=0 -fsched-stalled-insns=0 --param gcse-unrestricted-cost=6 --param max-peel-times=13 --param max-completely-peel-times=2 --param hot-bb-count-ws-permille=903 --param max-grow-copy-bb-insns=14 --param max-cse-path-length=6 --param iv-consider-all-candidates-bound=45 --param omega-max-vars=166 --param omega-max-wild-cards=7 --param vect-max-version-for-alias-checks=4 --param selsched-max-sched-times=4 --param prefetch-latency=77 --param min-insn-to-prefetch-ratio=14 --param max-vartrack-reverse-op-size=92 --param asan-use-after-return=0"
+  ], 
+  "##characteristics#compile#joined_compiler_flags#min": "-O3 -fcx-limited-range -fno-early-inlining -fno-gcse -fgcse-lm -fno-graphite-identity -fno-inline-functions -fdefer-pop -fno-signed-zeros -fpartial-inlining -frename-registers -fsched-spec-insn-heuristic -fselective-scheduling2 -fno-sel-sched-pipelining -fno-split-wide-types -ftracer -fno-tree-copyrename -fno-tree-loop-optimize -fvect-cost-model -fsched-stalled-insns-dep=0 -fsched-stalled-insns=0 --param gcse-unrestricted-cost=6 --param max-peel-times=13 --param max-completely-peel-times=2 --param hot-bb-count-ws-permille=903 --param max-grow-copy-bb-insns=14 --param max-cse-path-length=6 --param iv-consider-all-candidates-bound=45 --param omega-max-vars=166 --param omega-max-wild-cards=7 --param vect-max-version-for-alias-checks=4 --param selsched-max-sched-times=4 --param prefetch-latency=77 --param min-insn-to-prefetch-ratio=14 --param max-vartrack-reverse-op-size=92 --param asan-use-after-return=0", 
+  "##characteristics#compile#joined_compiler_flags#min_imp": 0, 
+  "##characteristics#compile#joined_compiler_flags#repeats": 1, 
+  "##characteristics#compile#md5_sum#all": [
+    "0899d8a71419d077d0367235bfe5bab4"
+  ], 
+  "##characteristics#compile#md5_sum#all_unique": [
+    "0899d8a71419d077d0367235bfe5bab4"
+  ], 
+  "##characteristics#compile#md5_sum#min": "0899d8a71419d077d0367235bfe5bab4", 
+  "##characteristics#compile#md5_sum#min_imp": 0, 
+  "##characteristics#compile#md5_sum#repeats": 1, 
+  "##characteristics#compile#obj_size#all": [
+    4088
+  ], 
+  "##characteristics#compile#obj_size#all_unique": [
+    4088
+  ], 
+  "##characteristics#compile#obj_size#center": 4088, 
+  "##characteristics#compile#obj_size#center_imp": 1.0, 
+  "##characteristics#compile#obj_size#exp": 4088.0, 
+  "##characteristics#compile#obj_size#exp_allx": [
+    4088.0
+  ], 
+  "##characteristics#compile#obj_size#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_size#exp_imp": 1.0, 
+  "##characteristics#compile#obj_size#exp_warning": "no", 
+  "##characteristics#compile#obj_size#halfrange": 0, 
+  "##characteristics#compile#obj_size#max": 4088, 
+  "##characteristics#compile#obj_size#mean": 4088.0, 
+  "##characteristics#compile#obj_size#mean_imp": 1.0, 
+  "##characteristics#compile#obj_size#min": 4088, 
+  "##characteristics#compile#obj_size#min_imp": 1.0, 
+  "##characteristics#compile#obj_size#range": 0, 
+  "##characteristics#compile#obj_size#range_percent": 0, 
+  "##characteristics#compile#obj_size#repeats": 1, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#all": [
+    1088
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#all_unique": [
+    1088
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#center": 1088, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#center_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#exp": 1088.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#exp_allx": [
+    1088.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#exp_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#exp_warning": "no", 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#halfrange": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#max": 1088, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#mean": 1088.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#mean_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#min": 1088, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#min_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#range": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#range_percent": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.o#repeats": 1, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#all": [
+    3000
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#all_unique": [
+    3000
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#center": 3000, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#center_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#exp": 3000.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#exp_allx": [
+    3000.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#exp_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#exp_warning": "no", 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#halfrange": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#max": 3000, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#mean": 3000.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#mean_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#min": 3000, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#min_imp": 1.0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#range": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#range_percent": 0, 
+  "##characteristics#compile#obj_sizes#tiffmedian.codelet__3.wrapper.o#repeats": 1, 
+  "##characteristics#compile#program_git_hash#all": [
+    "935232b0a32c97cba6e9f4ccde34c92e859a64df"
+  ], 
+  "##characteristics#compile#program_git_hash#all_unique": [
+    "935232b0a32c97cba6e9f4ccde34c92e859a64df"
+  ], 
+  "##characteristics#compile#program_git_hash#min": "935232b0a32c97cba6e9f4ccde34c92e859a64df", 
+  "##characteristics#compile#program_git_hash#min_imp": 0, 
+  "##characteristics#compile#program_git_hash#repeats": 1
+}

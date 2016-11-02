@@ -1,0 +1,64 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 6596, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.12960386276245117, 
+        "compilation_time_with_module": 1.3964178562164307, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "b9ba394da55d5fee020895275424ceef", 
+        "obj_size": 3476, 
+        "obj_sizes": {
+          "isqrt.codelet__1.o": 924, 
+          "isqrt.codelet__1.wrapper.o": 2552
+        }, 
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-automotive-basicmath-isqrt-codelet-1-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_id": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_run": "yes", 
+    "no_state_check": "yes", 
+    "program_tags": "crowd-tuning,small", 
+    "repeat": "", 
+    "target_os": "android19-arm", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "4", 
+        "9"
+      ], 
+      "raw": [
+        "arm-linux-androideabi-gcc (GCC) 4.9 20140827 (prerelease)", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9"
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "statistical_repetitions": 1
+  }
+}

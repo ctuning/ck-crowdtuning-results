@@ -1,0 +1,62 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 6916, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.1345231533050537, 
+        "compilation_time_with_module": 1.3903539180755615, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "3d2ad56ed023fd22c8a8d302c550a070", 
+        "obj_size": 3628, 
+        "obj_sizes": {
+          "tiffmedian.codelet__3.o": 1116, 
+          "tiffmedian.codelet__3.wrapper.o": 2512
+        }, 
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "llvm-3.6.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-3-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_id": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_run": "yes", 
+    "no_state_check": "yes", 
+    "program_tags": "crowd-tuning,small", 
+    "repeat": "", 
+    "target_os": "android19-arm", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "3", 
+        "6"
+      ], 
+      "raw": [
+        "clang version 3.6 ", 
+        "Target: armv5te-none-linux-androideabi", 
+        "Thread model: posix", 
+        ""
+      ], 
+      "str": "3.6"
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "statistical_repetitions": 1
+  }
+}

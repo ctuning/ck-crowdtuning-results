@@ -1,0 +1,208 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 82552, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 3.9778521060943604, 
+        "compilation_time_with_module": 5.561532974243164, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "8860afc00fce2446e4329361c8f7f58f", 
+        "obj_size": 126344, 
+        "obj_sizes": {
+          "add.o": 5072, 
+          "code.o": 2336, 
+          "ctuning-rtl.o": 2392, 
+          "debug.o": 2968, 
+          "decode.o": 2136, 
+          "getopt.o": 928, 
+          "gsm_create.o": 1480, 
+          "gsm_decode.o": 2968, 
+          "gsm_destroy.o": 1440, 
+          "gsm_encode.o": 2760, 
+          "gsm_explode.o": 2760, 
+          "gsm_implode.o": 2488, 
+          "gsm_option.o": 1352, 
+          "gsm_print.o": 4120, 
+          "long_term.o": 9552, 
+          "lpc.o": 10576, 
+          "preprocess.o": 2576, 
+          "rpe.o": 8248, 
+          "short_term.o": 8136, 
+          "table.o": 1400, 
+          "toast.o": 25552, 
+          "toast_alaw.o": 6872, 
+          "toast_audio.o": 5512, 
+          "toast_lin.o": 1752, 
+          "toast_ulaw.o": 10968
+        }, 
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      }, 
+      "run": {
+        "execution_time": 0.02036762932790224, 
+        "execution_time_kernel_0": 10.000506, 
+        "execution_time_with_module": 10.596718072891235, 
+        "repeat": 491, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 10.000506
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.020375020366598776, 
+        "execution_time_kernel_0": 10.004135, 
+        "execution_time_with_module": 10.60511302947998, 
+        "repeat": 491, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 10.004135
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "cbench-telecom-gsm", 
+    "dataset_file": "data.au", 
+    "dataset_uoa": "au-0001", 
+    "device_id": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 491, 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "4", 
+        "9", 
+        "2"
+      ], 
+      "raw": [
+        "gcc (Debian 4.9.2-10) 4.9.2", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9.2"
+    }, 
+    "dataset": {
+      "total_size": 154405
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {}, 
+        "cpu_abi": "", 
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow rep_good nopl extd_apicid vmmcall", 
+        "current_freq": {
+          "0": 2393.198, 
+          "1": 2393.198
+        }, 
+        "max_freq": {
+          "0": 0
+        }, 
+        "name": "AMD Opteron(tm) Processor 250", 
+        "num_proc": "2", 
+        "sub_name": "AMD Opteron(tm) Processor 250"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "TLB size": "1024 4K pages", 
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "apicid": "0", 
+          "bogomips": "4786.39", 
+          "cache size": "1024 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "2393.198", 
+          "cpu cores": "1", 
+          "cpu family": "15", 
+          "cpuid level": "1", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow rep_good nopl extd_apicid vmmcall", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "0", 
+          "microcode": "0x3a", 
+          "model": "5", 
+          "model name": "AMD Opteron(tm) Processor 250", 
+          "physical id": "0", 
+          "power managemen": "ts fid vid ttp", 
+          "processor": "0", 
+          "siblings": "1", 
+          "stepping": "10", 
+          "vendor_id": "AuthenticAMD", 
+          "wp": "yes"
+        }, 
+        "1": {
+          "TLB size": "1024 4K pages", 
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "apicid": "1", 
+          "bogomips": "4786.36", 
+          "cache size": "1024 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "2393.198", 
+          "cpu cores": "1", 
+          "cpu family": "15", 
+          "cpuid level": "1", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow rep_good nopl extd_apicid vmmcall", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "1", 
+          "microcode": "0x3a", 
+          "model": "5", 
+          "model name": "AMD Opteron(tm) Processor 250", 
+          "physical id": "1", 
+          "power managemen": "ts fid vid ttp", 
+          "processor": "1", 
+          "siblings": "1", 
+          "stepping": "10", 
+          "vendor_id": "AuthenticAMD", 
+          "wp": "yes"
+        }
+      }, 
+      "gpu": {
+        "name": "Trident Microsystems Blade 3D PCI/AGP (rev 3a)", 
+        "vendor": "Trident"
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "", 
+        "name_long": "Linux-3.16.0-4-amd64-x86_64-with-debian-8.2", 
+        "name_short": "Linux 3.16.0"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "Sun Fire V20z", 
+        "name": "Sun Microsystems 00 (Sun Fire V20z)", 
+        "vendor": "Sun Microsystems"
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "309742b6446f90cc", 
+    "statistical_repetitions": 2
+  }
+}

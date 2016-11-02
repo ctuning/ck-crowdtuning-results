@@ -1,0 +1,2002 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-fft-fftmisc-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3488, 
+        "1": 3385.125, 
+        "2": 3527.625, 
+        "3": 3425.125
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 1020123985, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 272, 
+    "last_touch_uid": "2b45127a5ef46189", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 12288, 
+          "##characteristics#run#execution_time_kernel_0#min": 1.145345, 
+          "##characteristics#run#repeat#min": 1020123985
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.40242165242165, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 8.7046068142479
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-inline -flto", 
+          "##characteristics#compile#md5_sum#min": "bd27a463329f08542c93cce4139b74d2", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.012997226850926
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-inline", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-inline": {
+            "##characteristics#compile#obj_size#min_imp": 1.0092105263158, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 2.0084572960806, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.14015972947854
+          }, 
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 2.7150442477876, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.11496605311778, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00064019530866077
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-caller-saves": "-fcaller-saves", 
+          "##compiler_flags#bool-cprop-registers": "-fcprop-registers", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fno-cse-follow-jumps", 
+          "##compiler_flags#bool-devirtualize-speculatively": "-fdevirtualize-speculatively", 
+          "##compiler_flags#bool-dse": "-fdse", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fhoist-adjacent-loads", 
+          "##compiler_flags#bool-ipa-cp": "-fipa-cp", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fno-ira-hoist-pressure", 
+          "##compiler_flags#bool-isolate-erroneous-paths-attribute": "-fisolate-erroneous-paths-attribute", 
+          "##compiler_flags#bool-lra-remat": "-fno-lra-remat", 
+          "##compiler_flags#bool-rerun-cse-after-loop": "-frerun-cse-after-loop", 
+          "##compiler_flags#bool-sched-critical-path-heuristic": "-fno-sched-critical-path-heuristic", 
+          "##compiler_flags#bool-sched-interblock": "-fno-sched-interblock", 
+          "##compiler_flags#bool-sched-rank-heuristic": "-fno-sched-rank-heuristic", 
+          "##compiler_flags#bool-shrink-wrap": "-fno-shrink-wrap", 
+          "##compiler_flags#bool-thread-jumps": "-fthread-jumps", 
+          "##compiler_flags#bool-tree-dce": "-ftree-dce", 
+          "##compiler_flags#bool-tree-loop-if-convert": "-fno-tree-loop-if-convert", 
+          "##compiler_flags#bool-tree-loop-ivcanon": "-ftree-loop-ivcanon", 
+          "##compiler_flags#bool-tree-tail-merge": "-fno-tree-tail-merge", 
+          "##compiler_flags#bool-tree-vrp": "-ftree-vrp", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-funsafe-math-optimizations", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fno-zero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4bfc8423cba3caee", 
+    "touched": 232, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "encode", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "cbench-consumer-jpeg-c", 
+      "dataset_file": "data.ppm", 
+      "dataset_uoa": "image-ppm-0001", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3436, 
+        "1": 3491.75, 
+        "2": 3433.75, 
+        "3": 3491.75
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 3823, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 258, 
+    "last_touch_uid": "e8d9c4ea8b56c28c", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 447552, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.3579, 
+          "##characteristics#run#repeat#min": 3823
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.77951181186722, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1437172484601
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-crossjumping -fno-tree-fre -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "9d8f622cc853fc7ae8aa78b4c7c756c3", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.026931857617297
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-crossjumping": "-fno-crossjumping", 
+          "##compiler_flags#bool-tree-fre": "-fno-tree-fre", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-crossjumping", 
+          "##compiler_flags#bool-tree-fre", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-crossjumping": {
+            "##characteristics#compile#obj_size#min_imp": 1.0169051423591, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97427101220986, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.022255740715975
+          }, 
+          "##compiler_flags#bool-tree-fre": {
+            "##characteristics#compile#obj_size#min_imp": 0.96904415836102, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.92948805668839, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.018025051824353
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2828248121679, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.90323203514315, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.033916702084476
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-count-reg": "-fno-branch-count-reg", 
+          "##compiler_flags#bool-inline-functions-called-once": "-fno-inline-functions-called-once", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fno-ira-share-save-slots", 
+          "##compiler_flags#bool-isolate-erroneous-paths-attribute": "-fno-isolate-erroneous-paths-attribute", 
+          "##compiler_flags#bool-keep-static-consts": "-fno-keep-static-consts", 
+          "##compiler_flags#bool-loop-nest-optimize": "-fno-loop-nest-optimize", 
+          "##compiler_flags#bool-math-errno": "-fmath-errno", 
+          "##compiler_flags#bool-modulo-sched": "-fmodulo-sched", 
+          "##compiler_flags#bool-predictive-commoning": "-fno-predictive-commoning", 
+          "##compiler_flags#bool-ree": "-free", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fno-sched-group-heuristic", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fno-sched-spec-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fsched-spec-load-dangerous", 
+          "##compiler_flags#bool-section-anchors": "-fsection-anchors", 
+          "##compiler_flags#bool-unswitch-loops": "-funswitch-loops"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "a3b9f25a440d9a61", 
+    "touched": 218, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-isqrt-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3525.875, 
+        "1": 3355.625, 
+        "2": 3429.875, 
+        "3": 3508.25
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 197123184, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 53, 
+    "last_touch_uid": "e952eb3c9a854bc2", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6184, 
+          "##characteristics#run#execution_time_kernel_0#min": 4.636331, 
+          "##characteristics#run#repeat#min": 197123184
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.83570504527814, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 2.1375743213918
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-loop-vectorize -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "d725ffb6ca7769669f83c3b86bbf5712", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0021571179610418
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-fno-tree-loop-vectorize", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-loop-vectorize", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-loop-vectorize": {
+            "##characteristics#compile#obj_size#min_imp": 1.0265604249668, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.47649612965216, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00065600508617065
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2059282371295, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.73609620526633, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0016134805674679
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-compare-elim": "-fcompare-elim", 
+          "##compiler_flags#bool-delayed-branch": "-fno-delayed-branch", 
+          "##compiler_flags#bool-dse": "-fno-dse", 
+          "##compiler_flags#bool-expensive-optimizations": "-fexpensive-optimizations", 
+          "##compiler_flags#bool-gcse-las": "-fgcse-las", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-ipa-icf": "-fno-ipa-icf", 
+          "##compiler_flags#bool-keep-static-consts": "-fkeep-static-consts", 
+          "##compiler_flags#bool-lra-remat": "-flra-remat", 
+          "##compiler_flags#bool-semantic-interposition": "-fsemantic-interposition", 
+          "##compiler_flags#bool-trapping-math": "-fno-trapping-math", 
+          "##compiler_flags#bool-tree-copyrename": "-ftree-copyrename", 
+          "##compiler_flags#bool-tree-slsr": "-ftree-slsr", 
+          "##compiler_flags#bool-tree-ter": "-ftree-ter"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "f8574e88846f5987", 
+    "touched": 8, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "cbench-security-sha", 
+      "dataset_file": "photo.jpg", 
+      "dataset_uoa": "image-jpeg-fgg", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3437.5, 
+        "1": 3429.375, 
+        "2": 3540.625, 
+        "3": 3458.25
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 53023, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 315, 
+    "last_touch_uid": "69d81b46ba8dd906", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 13664, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.016035, 
+          "##characteristics#run#repeat#min": 53023
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.77980035231944, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.5064562602527
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-loop-optimize -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "55fc4e9d2cb9929a17df6f61fb220ae2", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.013685476655548
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-loop-optimize": "-fno-tree-loop-optimize", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-loop-optimize", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-loop-optimize": {
+            "##characteristics#compile#obj_size#min_imp": 0.87950566426365, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.69127466203781, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.02160303397259
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.401646090535, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.83932715727313, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.01999224187633
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=priority", 
+          "##compiler_flags#bool-devirtualize": "-fdevirtualize", 
+          "##compiler_flags#bool-fat-lto-objects": "-fno-fat-lto-objects", 
+          "##compiler_flags#bool-gcse-lm": "-fno-gcse-lm", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fira-loop-pressure", 
+          "##compiler_flags#bool-ivopts": "-fno-ivopts", 
+          "##compiler_flags#bool-loop-interchange": "-floop-interchange", 
+          "##compiler_flags#bool-loop-nest-optimize": "-floop-nest-optimize", 
+          "##compiler_flags#bool-peephole2": "-fpeephole2", 
+          "##compiler_flags#bool-ree": "-free", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fsched-group-heuristic", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fsched-spec-insn-heuristic", 
+          "##compiler_flags#bool-signed-zeros": "-fsigned-zeros", 
+          "##compiler_flags#bool-tree-ch": "-ftree-ch", 
+          "##compiler_flags#bool-tree-loop-distribution": "-ftree-loop-distribution", 
+          "##compiler_flags#bool-tree-sra": "-ftree-sra", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops", 
+          "##compiler_flags#bool-whole-program": "-fno-whole-program"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "a4feaa9b3d14b780", 
+    "touched": 285, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3476.375, 
+        "1": 3410.875, 
+        "2": 3452.875, 
+        "3": 3465.625
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 24998, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 315, 
+    "last_touch_uid": "024169a75389e0d5", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 12616, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.777224, 
+          "##characteristics#run#repeat#min": 24998
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.37903757415953, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4629339355549
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "0aea4cfafbbb19bd145f322227a40b6c", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.013550130740455
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 1.9962025316456, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98998673275007, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.029336938056112
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.0388669301713, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.68377705942984, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.01194223512529
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-region=": "-fira-region=mixed", 
+          "##compiler_flags#bool-auto-inc-dec": "-fno-auto-inc-dec", 
+          "##compiler_flags#bool-branch-count-reg": "-fbranch-count-reg", 
+          "##compiler_flags#bool-crossjumping": "-fcrossjumping", 
+          "##compiler_flags#bool-cx-limited-range": "-fno-cx-limited-range", 
+          "##compiler_flags#bool-forward-propagate": "-fforward-propagate", 
+          "##compiler_flags#bool-function-sections": "-fno-function-sections", 
+          "##compiler_flags#bool-reciprocal-math": "-fno-reciprocal-math", 
+          "##compiler_flags#bool-rerun-cse-after-loop": "-frerun-cse-after-loop", 
+          "##compiler_flags#bool-tree-dominator-opts": "-ftree-dominator-opts", 
+          "##compiler_flags#bool-tree-loop-im": "-fno-tree-loop-im"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "ed456b8c6bb8e6d4", 
+    "touched": 287, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3539.875, 
+        "1": 3569.75, 
+        "2": 3490.875, 
+        "3": 3583.625
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 1447343473, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 298, 
+    "last_touch_uid": "f73406c847d1b741", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 14536, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.896939, 
+          "##characteristics#run#repeat#min": 1447343473
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.36529680365297, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4501009338189
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-cse-follow-jumps -flto", 
+          "##characteristics#compile#md5_sum#min": "fe00f97a45f96d66f97f724160be7167", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.01008121071898
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fno-cse-follow-jumps", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-cse-follow-jumps", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-cse-follow-jumps": {
+            "##characteristics#compile#obj_size#min_imp": 1.0401146131805, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8911905469581, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0040667586565683
+          }, 
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 2.8359375, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.68996588744247, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0022808099773101
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fexcess-precision=": "-fexcess-precision=fast", 
+          "##compiler_flags#bool-branch-probabilities": "-fbranch-probabilities", 
+          "##compiler_flags#bool-gcse-lm": "-fgcse-lm", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fhoist-adjacent-loads", 
+          "##compiler_flags#bool-ipa-cp-alignment": "-fipa-cp-alignment", 
+          "##compiler_flags#bool-ipa-icf": "-fno-ipa-icf", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fira-hoist-pressure", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fira-loop-pressure", 
+          "##compiler_flags#bool-merge-constants": "-fno-merge-constants", 
+          "##compiler_flags#bool-predictive-commoning": "-fpredictive-commoning", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-tree-loop-if-convert": "-ftree-loop-if-convert", 
+          "##compiler_flags#bool-tree-loop-optimize": "-ftree-loop-optimize", 
+          "##compiler_flags#bool-tree-partial-pre": "-fno-tree-partial-pre", 
+          "##compiler_flags#bool-tree-switch-conversion": "-fno-tree-switch-conversion", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-funsafe-loop-optimizations", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fno-variable-expansion-in-unroller"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "efb3b673a1f58254", 
+    "touched": 262, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3540.25, 
+        "1": 3527.375, 
+        "2": 3401.75, 
+        "3": 3406.25
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 792433213, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 298, 
+    "last_touch_uid": "9d44c499c4c84836", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 12232, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.332491, 
+          "##characteristics#run#repeat#min": 792433213
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.37970430107527, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3517621741076
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-expensive-optimizations -flto", 
+          "##characteristics#compile#md5_sum#min": "c19ef01c66989951cdb747e63f181b5b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.013742607792873
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-expensive-optimizations": "-fno-expensive-optimizations", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-expensive-optimizations", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-expensive-optimizations": {
+            "##characteristics#compile#obj_size#min_imp": 1.0172987358616, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98501515135442, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.010354510943659
+          }, 
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 2.7061946902655, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.7391812429432, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.012263671352471
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-fast-math": "-fno-fast-math", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fhoist-adjacent-loads", 
+          "##compiler_flags#bool-sched-pressure": "-fno-sched-pressure", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant", 
+          "##compiler_flags#bool-tree-loop-linear": "-fno-tree-loop-linear", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-ftree-loop-vectorize", 
+          "##compiler_flags#bool-tree-slsr": "-fno-tree-slsr"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "a8997f7e674656b9", 
+    "touched": 263, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3512.25, 
+        "1": 3511.125, 
+        "2": 3299.75, 
+        "3": 3393.25
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 74717195, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 296, 
+    "last_touch_uid": "d47508efba33a8aa", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4600, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.849178, 
+          "##characteristics#run#repeat#min": 74717195
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0034782608696, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1295063066959
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-loop-vectorize", 
+          "##characteristics#compile#md5_sum#min": "1ed4fb8cf690e793249254ee64ad09b5", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.012580072547658
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-fno-tree-loop-vectorize"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-loop-vectorize"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-loop-vectorize": {
+            "##characteristics#compile#obj_size#min_imp": 0.99653379549393, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.89360503761831, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.011439644783734
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fbranch-target-load-optimize2", 
+          "##compiler_flags#bool-cprop-registers": "-fno-cprop-registers", 
+          "##compiler_flags#bool-cx-fortran-rules": "-fcx-fortran-rules", 
+          "##compiler_flags#bool-early-inlining": "-fno-early-inlining", 
+          "##compiler_flags#bool-fast-math": "-fno-fast-math", 
+          "##compiler_flags#bool-gcse-sm": "-fno-gcse-sm", 
+          "##compiler_flags#bool-ipa-ra": "-fipa-ra", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fno-ira-loop-pressure", 
+          "##compiler_flags#bool-merge-constants": "-fmerge-constants", 
+          "##compiler_flags#bool-reciprocal-math": "-freciprocal-math", 
+          "##compiler_flags#bool-sched-last-insn-heuristic": "-fno-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-tree-loop-im": "-ftree-loop-im", 
+          "##compiler_flags#bool-tree-loop-ivcanon": "-fno-tree-loop-ivcanon", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-tree-pta": "-ftree-pta", 
+          "##compiler_flags#bool-tree-switch-conversion": "-fno-tree-switch-conversion", 
+          "##compiler_flags#bool-tree-ter": "-ftree-ter", 
+          "##compiler_flags#bool-tree-vrp": "-ftree-vrp", 
+          "##compiler_flags#bool-vpt": "-fno-vpt"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "165fd972cbb240ab", 
+    "touched": 258, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3497.625, 
+        "1": 3400.25, 
+        "2": 3469.625, 
+        "3": 3501.75
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 2312437, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 251, 
+    "last_touch_uid": "e9097678c56f4981", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 14968, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.637056, 
+          "##characteristics#run#repeat#min": 2312437
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9882005899705, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2959118268512
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ftracer -fno-tree-pre -fno-tree-ter", 
+          "##characteristics#compile#md5_sum#min": "cafa76652eb8d83d7ae44a75121dcf5c", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0097291637501907
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tracer": "-ftracer", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-tree-ter": "-fno-tree-ter"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tracer", 
+          "##compiler_flags#bool-tree-pre", 
+          "##compiler_flags#bool-tree-ter"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tracer": {
+            "##characteristics#compile#obj_size#min_imp": 1.0195488721805, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.86307282953024, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0094074527416933
+          }, 
+          "##compiler_flags#bool-tree-pre": {
+            "##characteristics#compile#obj_size#min_imp": 1.0135354629128, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.82663739320502, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0098477704985995
+          }, 
+          "##compiler_flags#bool-tree-ter": {
+            "##characteristics#compile#obj_size#min_imp": 0.99559471365639, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.95058672980301, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.042242212693611
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fexcess-precision=": "-fexcess-precision=standard", 
+          "##compiler_flags#bool-caller-saves": "-fcaller-saves", 
+          "##compiler_flags#bool-inline": "-finline", 
+          "##compiler_flags#bool-ipa-cp-alignment": "-fno-ipa-cp-alignment", 
+          "##compiler_flags#bool-live-range-shrinkage": "-fno-live-range-shrinkage", 
+          "##compiler_flags#bool-loop-nest-optimize": "-fno-loop-nest-optimize", 
+          "##compiler_flags#bool-lra-remat": "-fno-lra-remat", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-peephole": "-fpeephole", 
+          "##compiler_flags#bool-prefetch-loop-arrays": "-fprefetch-loop-arrays", 
+          "##compiler_flags#bool-sched-interblock": "-fno-sched-interblock", 
+          "##compiler_flags#bool-schedule-insns2": "-fschedule-insns2", 
+          "##compiler_flags#bool-strict-aliasing": "-fstrict-aliasing", 
+          "##compiler_flags#bool-trapping-math": "-fno-trapping-math", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-tree-vrp": "-ftree-vrp", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops", 
+          "##compiler_flags#bool-use-linker-plugin": "-fuse-linker-plugin"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "f1e9d14b614efb9a", 
+    "touched": 210, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3393.25, 
+        "1": 3400.25, 
+        "2": 3419.5, 
+        "3": 3298.75
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 37801652, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 294, 
+    "last_touch_uid": "f5ede9befb24215a", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 13208, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.055328, 
+          "##characteristics#run#repeat#min": 37801652
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.37895416397676, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2146919037719
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fira-algorithm=priority -flto -fno-schedule-insns2", 
+          "##characteristics#compile#md5_sum#min": "888da4c7812488e5b05f026b3b398fd9", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.012702711056147
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=priority", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-schedule-insns2": "-fno-schedule-insns2"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool--fira-algorithm=", 
+          "##compiler_flags#bool-lto", 
+          "##compiler_flags#bool-schedule-insns2"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool--fira-algorithm=": {
+            "##characteristics#compile#obj_size#min_imp": 1.0044843049327, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.88885437455242, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.001787992158382
+          }, 
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 2.8109028960818, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.91761650675382, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00062876778249896
+          }, 
+          "##compiler_flags#bool-schedule-insns2": {
+            "##characteristics#compile#obj_size#min_imp": 1.0185185185185, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.92297329158912, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00065075993943334
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-crossjumping": "-fcrossjumping", 
+          "##compiler_flags#bool-gcse": "-fno-gcse", 
+          "##compiler_flags#bool-ipa-icf": "-fipa-icf", 
+          "##compiler_flags#bool-loop-block": "-fno-loop-block", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves": "-fno-modulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-omit-frame-pointer": "-fno-omit-frame-pointer", 
+          "##compiler_flags#bool-partial-inlining": "-fpartial-inlining", 
+          "##compiler_flags#bool-predictive-commoning": "-fno-predictive-commoning", 
+          "##compiler_flags#bool-sched-critical-path-heuristic": "-fsched-critical-path-heuristic", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fno-sched2-use-superblocks", 
+          "##compiler_flags#bool-strict-aliasing": "-fno-strict-aliasing", 
+          "##compiler_flags#bool-tree-dce": "-fno-tree-dce", 
+          "##compiler_flags#bool-tree-slsr": "-ftree-slsr", 
+          "##compiler_flags#bool-tree-switch-conversion": "-ftree-switch-conversion", 
+          "##compiler_flags#bool-use-linker-plugin": "-fuse-linker-plugin", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fvariable-expansion-in-unroller"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "d455882815df0f78", 
+    "touched": 255, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-10-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3453.375, 
+        "1": 3374.125, 
+        "2": 3304.25, 
+        "3": 3563.375
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 98009620, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 244, 
+    "last_touch_uid": "aedd70e346a476f8", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 15800, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.579775, 
+          "##characteristics#run#repeat#min": 98009620
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.37732836615221, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3156780715875
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto -funsafe-math-optimizations", 
+          "##characteristics#compile#md5_sum#min": "e284e8ffa74528cc2408ba78f9e0800d", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0014017604812103
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-funsafe-math-optimizations"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto", 
+          "##compiler_flags#bool-unsafe-math-optimizations"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 2.9044117647059, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97505923622927, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0093369327878355
+          }, 
+          "##compiler_flags#bool-unsafe-math-optimizations": {
+            "##characteristics#compile#obj_size#min_imp": 1.0140114167099, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.76984217602223, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0016536099869746
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-associative-math": "-fno-associative-math", 
+          "##compiler_flags#bool-auto-inc-dec": "-fno-auto-inc-dec", 
+          "##compiler_flags#bool-branch-target-load-optimize": "-fno-branch-target-load-optimize", 
+          "##compiler_flags#bool-combine-stack-adjustments": "-fno-combine-stack-adjustments", 
+          "##compiler_flags#bool-cprop-registers": "-fcprop-registers", 
+          "##compiler_flags#bool-defer-pop": "-fno-defer-pop", 
+          "##compiler_flags#bool-fast-math": "-fno-fast-math", 
+          "##compiler_flags#bool-ipa-pta": "-fipa-pta", 
+          "##compiler_flags#bool-partial-inlining": "-fpartial-inlining", 
+          "##compiler_flags#bool-reorder-functions": "-fno-reorder-functions", 
+          "##compiler_flags#bool-schedule-fusion": "-fschedule-fusion", 
+          "##compiler_flags#bool-section-anchors": "-fno-section-anchors", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-thread-jumps": "-fthread-jumps", 
+          "##compiler_flags#bool-toplevel-reorder": "-ftoplevel-reorder", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-ftree-coalesce-vars", 
+          "##compiler_flags#bool-tree-loop-ivcanon": "-ftree-loop-ivcanon"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "84e9fad460907fc9", 
+    "touched": 202, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "edges", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "cbench-automotive-susan", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-0001", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3452.25, 
+        "1": 3437.125, 
+        "2": 3481.875, 
+        "3": 3419
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 839, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 143, 
+    "last_touch_uid": "5f94a21334148b1a", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 47536, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.792268, 
+          "##characteristics#run#repeat#min": 839
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.84772344013491, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1401680855971
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-ivopts -flive-range-shrinkage -fno-tree-pre -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "961f301c40f64b88516553a27e34da77", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0021646219298617
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-ivopts": "-fno-ivopts", 
+          "##compiler_flags#bool-live-range-shrinkage": "-flive-range-shrinkage", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-ivopts", 
+          "##compiler_flags#bool-live-range-shrinkage", 
+          "##compiler_flags#bool-tree-pre", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-ivopts": {
+            "##characteristics#compile#obj_size#min_imp": 0.95169314716739, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.94436301163233, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0076090077394001
+          }, 
+          "##compiler_flags#bool-live-range-shrinkage": {
+            "##characteristics#compile#obj_size#min_imp": 0.99781255258287, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97866031572468, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0053040513104752
+          }, 
+          "##compiler_flags#bool-tree-pre": {
+            "##characteristics#compile#obj_size#min_imp": 0.99280093755232, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.96218012050966, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0021390562149339
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2571549713801, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98551929109592, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0047921207854858
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--flto-partition=": "-flto-partition=max", 
+          "##compiler_flags#bool-btr-bb-exclusive": "-fno-btr-bb-exclusive", 
+          "##compiler_flags#bool-data-sections": "-fdata-sections", 
+          "##compiler_flags#bool-fast-math": "-ffast-math", 
+          "##compiler_flags#bool-indirect-inlining": "-fno-indirect-inlining", 
+          "##compiler_flags#bool-inline-functions-called-once": "-fno-inline-functions-called-once", 
+          "##compiler_flags#bool-ipa-cp": "-fipa-cp", 
+          "##compiler_flags#bool-ipa-icf": "-fipa-icf", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fno-ira-share-save-slots", 
+          "##compiler_flags#bool-move-loop-invariants": "-fmove-loop-invariants", 
+          "##compiler_flags#bool-reorder-blocks": "-freorder-blocks", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-freschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fno-sched2-use-superblocks", 
+          "##compiler_flags#bool-schedule-fusion": "-fno-schedule-fusion", 
+          "##compiler_flags#bool-split-wide-types": "-fsplit-wide-types", 
+          "##compiler_flags#bool-strict-aliasing": "-fno-strict-aliasing", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-fno-tree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-fno-tree-coalesce-vars", 
+          "##compiler_flags#bool-tree-dce": "-fno-tree-dce", 
+          "##compiler_flags#bool-tree-forwprop": "-ftree-forwprop", 
+          "##compiler_flags#bool-tree-loop-distribution": "-fno-tree-loop-distribution", 
+          "##compiler_flags#bool-tree-loop-optimize": "-ftree-loop-optimize"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "bb36946a08325da3", 
+    "touched": 99, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3391, 
+        "1": 3364.75, 
+        "2": 3386.5, 
+        "3": 3347.5
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 420093050, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 270, 
+    "last_touch_uid": "c106d9a24c349a79", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5712, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.543291, 
+          "##characteristics#run#repeat#min": 420093050
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.82352941176471, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3230448879826
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-dominator-opts -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "f30cbbbbe1b7c85a4df907c43bcaacef", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0075334183978237
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-dominator-opts": "-fno-tree-dominator-opts", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-dominator-opts", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-dominator-opts": {
+            "##characteristics#compile#obj_size#min_imp": 0.99442896935933, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98819967749679, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0099529943649027
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2246998284734, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.6367087324673, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0091084949299689
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fexcess-precision=": "-fexcess-precision=fast", 
+          "##compiler_flags#bool-defer-pop": "-fno-defer-pop", 
+          "##compiler_flags#bool-delayed-branch": "-fno-delayed-branch", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fdelete-null-pointer-checks", 
+          "##compiler_flags#bool-fat-lto-objects": "-fno-fat-lto-objects", 
+          "##compiler_flags#bool-graphite-identity": "-fno-graphite-identity", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fno-hoist-adjacent-loads", 
+          "##compiler_flags#bool-inline-small-functions": "-fno-inline-small-functions", 
+          "##compiler_flags#bool-ipa-cp": "-fno-ipa-cp", 
+          "##compiler_flags#bool-loop-nest-optimize": "-fno-loop-nest-optimize", 
+          "##compiler_flags#bool-modulo-sched": "-fno-modulo-sched", 
+          "##compiler_flags#bool-move-loop-invariants": "-fno-move-loop-invariants", 
+          "##compiler_flags#bool-prefetch-loop-arrays": "-fprefetch-loop-arrays", 
+          "##compiler_flags#bool-rerun-cse-after-loop": "-frerun-cse-after-loop", 
+          "##compiler_flags#bool-rounding-math": "-fno-rounding-math", 
+          "##compiler_flags#bool-sched-last-insn-heuristic": "-fno-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec-load": "-fno-sched-spec-load", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fsel-sched-pipelining", 
+          "##compiler_flags#bool-tree-pta": "-fno-tree-pta", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fno-zero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "2a9854e55154f0a9", 
+    "touched": 230, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3521.75, 
+        "1": 3359, 
+        "2": 3533.75, 
+        "3": 3471.5
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 1481843709, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 311, 
+    "last_touch_uid": "54cdd46b9acf32c6", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5648, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.791112, 
+          "##characteristics#run#repeat#min": 1481843709
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0284090909091, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.449040012029
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-omit-frame-pointer -fsingle-precision-constant", 
+          "##characteristics#compile#md5_sum#min": "fb9c9581f3c443fc8f602b77c816105d", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.011344086857783
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-omit-frame-pointer": "-fno-omit-frame-pointer", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-omit-frame-pointer", 
+          "##compiler_flags#bool-single-precision-constant"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-omit-frame-pointer": {
+            "##characteristics#compile#obj_size#min_imp": 0.99441340782123, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.95595721467424, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00057028168679212
+          }, 
+          "##compiler_flags#bool-single-precision-constant": {
+            "##characteristics#compile#obj_size#min_imp": 0.97913769123783, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.67542723714262, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00038017878324576
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=CB", 
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fno-branch-target-load-optimize2", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fcse-follow-jumps", 
+          "##compiler_flags#bool-data-sections": "-fno-data-sections", 
+          "##compiler_flags#bool-inline-small-functions": "-finline-small-functions", 
+          "##compiler_flags#bool-ivopts": "-fno-ivopts", 
+          "##compiler_flags#bool-live-range-shrinkage": "-flive-range-shrinkage", 
+          "##compiler_flags#bool-modulo-sched": "-fno-modulo-sched", 
+          "##compiler_flags#bool-reorder-blocks": "-freorder-blocks", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fno-sel-sched-pipelining", 
+          "##compiler_flags#bool-shrink-wrap": "-fshrink-wrap", 
+          "##compiler_flags#bool-tracer": "-ftracer", 
+          "##compiler_flags#bool-tree-pre": "-ftree-pre", 
+          "##compiler_flags#bool-tree-reassoc": "-ftree-reassoc", 
+          "##compiler_flags#bool-tree-sra": "-fno-tree-sra", 
+          "##compiler_flags#bool-tree-vectorize": "-fno-tree-vectorize"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "64a88a29fe4fe2ba", 
+    "touched": 278, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "cbench-automotive-bitcount", 
+      "dataset_file": "", 
+      "dataset_uoa": "number-0001", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3476.125, 
+        "1": 3519.75, 
+        "2": 3474.875, 
+        "3": 3479.5
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 227, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 287, 
+    "last_touch_uid": "e23f332d3a4169aa", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 21880, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.20554, 
+          "##characteristics#run#repeat#min": 227
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.90676416819013, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3793276791545
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-toplevel-reorder -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "eb6faade5bd4b0a9f1592212cd6a295e", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0011669865259286
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-toplevel-reorder": "-fno-toplevel-reorder", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-toplevel-reorder", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-toplevel-reorder": {
+            "##characteristics#compile#obj_size#min_imp": 1.0058845163663, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.94254187430374, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00078450729604865
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.116782360147, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.69862020100225, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0071357107073003
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-btr-bb-exclusive": "-fbtr-bb-exclusive", 
+          "##compiler_flags#bool-caller-saves": "-fcaller-saves", 
+          "##compiler_flags#bool-compare-elim": "-fno-compare-elim", 
+          "##compiler_flags#bool-cse-skip-blocks": "-fcse-skip-blocks", 
+          "##compiler_flags#bool-defer-pop": "-fdefer-pop", 
+          "##compiler_flags#bool-delayed-branch": "-fno-delayed-branch", 
+          "##compiler_flags#bool-devirtualize-at-ltrans": "-fdevirtualize-at-ltrans", 
+          "##compiler_flags#bool-gcse-after-reload": "-fgcse-after-reload", 
+          "##compiler_flags#bool-graphite-identity": "-fno-graphite-identity", 
+          "##compiler_flags#bool-if-conversion": "-fif-conversion", 
+          "##compiler_flags#bool-ipa-cp-alignment": "-fipa-cp-alignment", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fira-share-save-slots", 
+          "##compiler_flags#bool-ira-share-spill-slots": "-fno-ira-share-spill-slots", 
+          "##compiler_flags#bool-loop-nest-optimize": "-fno-loop-nest-optimize", 
+          "##compiler_flags#bool-prefetch-loop-arrays": "-fprefetch-loop-arrays", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-sched-pressure": "-fno-sched-pressure", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-shrink-wrap": "-fshrink-wrap", 
+          "##compiler_flags#bool-strict-overflow": "-fstrict-overflow", 
+          "##compiler_flags#bool-tree-ch": "-ftree-ch", 
+          "##compiler_flags#bool-tree-loop-if-convert": "-ftree-loop-if-convert", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-ftree-loop-vectorize", 
+          "##compiler_flags#bool-tree-vectorize": "-ftree-vectorize", 
+          "##compiler_flags#bool-use-linker-plugin": "-fno-use-linker-plugin"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "797947c423e96e90", 
+    "touched": 247, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-6-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3399.25, 
+        "1": 3360, 
+        "2": 3339.5, 
+        "3": 3421.625
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 3128684, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 208, 
+    "last_touch_uid": "f45b344a7884b616", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5992, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.909764, 
+          "##characteristics#run#repeat#min": 3128684
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0040053404539, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1200515557796
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fschedule-insns", 
+          "##characteristics#compile#md5_sum#min": "81bf24e1d9ebca66cc372fce787b035f", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0008835761110376
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-schedule-insns": "-fschedule-insns"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-schedule-insns"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-schedule-insns": {
+            "##characteristics#compile#obj_size#min_imp": 0.99601063829787, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8928214174598, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.001515246402893
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-conserve-stack": "-fconserve-stack", 
+          "##compiler_flags#bool-cprop-registers": "-fcprop-registers", 
+          "##compiler_flags#bool-defer-pop": "-fdefer-pop", 
+          "##compiler_flags#bool-devirtualize-at-ltrans": "-fno-devirtualize-at-ltrans", 
+          "##compiler_flags#bool-devirtualize-speculatively": "-fdevirtualize-speculatively", 
+          "##compiler_flags#bool-finite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#bool-function-sections": "-fno-function-sections", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fno-ira-loop-pressure", 
+          "##compiler_flags#bool-ira-share-spill-slots": "-fno-ira-share-spill-slots", 
+          "##compiler_flags#bool-loop-nest-optimize": "-floop-nest-optimize", 
+          "##compiler_flags#bool-merge-constants": "-fmerge-constants", 
+          "##compiler_flags#bool-prefetch-loop-arrays": "-fprefetch-loop-arrays", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fno-sched-group-heuristic", 
+          "##compiler_flags#bool-tree-copyrename": "-fno-tree-copyrename", 
+          "##compiler_flags#bool-tree-loop-optimize": "-fno-tree-loop-optimize", 
+          "##compiler_flags#bool-tree-slsr": "-ftree-slsr", 
+          "##compiler_flags#bool-tree-vrp": "-fno-tree-vrp", 
+          "##compiler_flags#bool-web": "-fno-web"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "a6092541ba772c52", 
+    "touched": 165, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "cbench-telecom-gsm", 
+      "dataset_file": "data.au", 
+      "dataset_uoa": "au-0001", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.1", 
+      "cpu_cur_freq": {
+        "0": 3460, 
+        "1": 3446.875, 
+        "2": 3353.25, 
+        "3": 3410.125
+      }, 
+      "cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "1d1efc8b8fb4c8db", 
+      "gpu_misc_uid": "1c5f760db4f4dbd5", 
+      "gpu_name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+      "kernel_repetitions": 1326, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04 LTS", 
+      "os_uid": "47f96fb05bd1a538", 
+      "platform_name": "Dell Inc. 01 (OptiPlex 9020)", 
+      "platform_uid": "86572946479f12eb"
+    }, 
+    "iterations": 159, 
+    "last_touch_uid": "96e87a581e5e376c", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 127360, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.356523, 
+          "##characteristics#run#repeat#min": 1326
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.1155681104834, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.0974530277992
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-inline-functions -fno-predictive-commoning", 
+          "##characteristics#compile#md5_sum#min": "10a80ede90006b4e8404052da8320ff9", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0037615325691033
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-inline-functions": "-fno-inline-functions", 
+          "##compiler_flags#bool-predictive-commoning": "-fno-predictive-commoning"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-inline-functions", 
+          "##compiler_flags#bool-predictive-commoning"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-inline-functions": {
+            "##characteristics#compile#obj_size#min_imp": 0.91279169772375, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9958071318815, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0066718700990565
+          }, 
+          "##compiler_flags#bool-predictive-commoning": {
+            "##characteristics#compile#obj_size#min_imp": 0.98041630742702, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.90825377529185, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.035062696811009
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-region=": "-fira-region=all", 
+          "##compiler_flags#bool-branch-probabilities": "-fno-branch-probabilities", 
+          "##compiler_flags#bool-cprop-registers": "-fcprop-registers", 
+          "##compiler_flags#bool-cx-fortran-rules": "-fno-cx-fortran-rules", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fdelete-null-pointer-checks", 
+          "##compiler_flags#bool-gcse-las": "-fno-gcse-las", 
+          "##compiler_flags#bool-graphite-identity": "-fno-graphite-identity", 
+          "##compiler_flags#bool-inline-functions-called-once": "-finline-functions-called-once", 
+          "##compiler_flags#bool-keep-static-consts": "-fno-keep-static-consts", 
+          "##compiler_flags#bool-math-errno": "-fno-math-errno", 
+          "##compiler_flags#bool-optimize-sibling-calls": "-foptimize-sibling-calls", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-fno-reschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fno-sched-spec-load-dangerous", 
+          "##compiler_flags#bool-vpt": "-fvpt"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "a642c54325acc843", 
+    "touched": 115, 
+    "validated": 1
+  }
+]

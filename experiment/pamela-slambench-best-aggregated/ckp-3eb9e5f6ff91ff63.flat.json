@@ -1,0 +1,3254 @@
+{
+  "##characteristics#compile#binary_size#all": [
+    392192, 
+    392192
+  ], 
+  "##characteristics#compile#binary_size#all_unique": [
+    392192
+  ], 
+  "##characteristics#compile#binary_size#min": 392192, 
+  "##characteristics#compile#binary_size#repeats": 2, 
+  "##characteristics#compile#compilation_time#all": [
+    15.756000041962, 
+    15.914999961853
+  ], 
+  "##characteristics#compile#compilation_time#all_unique": [
+    15.756000041962, 
+    15.914999961853
+  ], 
+  "##characteristics#compile#compilation_time#min": 15.756000041962, 
+  "##characteristics#compile#compilation_time#repeats": 2, 
+  "##characteristics#compile#compilation_time_with_module#all": [
+    16.958000183105, 
+    17.164999961853
+  ], 
+  "##characteristics#compile#compilation_time_with_module#all_unique": [
+    16.958000183105, 
+    17.164999961853
+  ], 
+  "##characteristics#compile#compilation_time_with_module#min": 16.958000183105, 
+  "##characteristics#compile#compilation_time_with_module#repeats": 2, 
+  "##characteristics#compile#md5_sum#all": [
+    "aea3640284c5dc5932170f77d8821140", 
+    "aea3640284c5dc5932170f77d8821140"
+  ], 
+  "##characteristics#compile#md5_sum#all_unique": [
+    "aea3640284c5dc5932170f77d8821140"
+  ], 
+  "##characteristics#compile#md5_sum#min": "aea3640284c5dc5932170f77d8821140", 
+  "##characteristics#compile#md5_sum#repeats": 2, 
+  "##characteristics#compile#obj_size#all": [
+    637342, 
+    637342
+  ], 
+  "##characteristics#compile#obj_size#all_unique": [
+    637342
+  ], 
+  "##characteristics#compile#obj_size#min": 637342, 
+  "##characteristics#compile#obj_size#repeats": 2, 
+  "##characteristics#compile#obj_sizes#benchmark.o#all": [
+    228719, 
+    228719
+  ], 
+  "##characteristics#compile#obj_sizes#benchmark.o#all_unique": [
+    228719
+  ], 
+  "##characteristics#compile#obj_sizes#benchmark.o#min": 228719, 
+  "##characteristics#compile#obj_sizes#benchmark.o#repeats": 2, 
+  "##characteristics#compile#obj_sizes#getoptwin.o#all": [
+    22921, 
+    22921
+  ], 
+  "##characteristics#compile#obj_sizes#getoptwin.o#all_unique": [
+    22921
+  ], 
+  "##characteristics#compile#obj_sizes#getoptwin.o#min": 22921, 
+  "##characteristics#compile#obj_sizes#getoptwin.o#repeats": 2, 
+  "##characteristics#compile#obj_sizes#kernels.o#all": [
+    185839, 
+    185839
+  ], 
+  "##characteristics#compile#obj_sizes#kernels.o#all_unique": [
+    185839
+  ], 
+  "##characteristics#compile#obj_sizes#kernels.o#min": 185839, 
+  "##characteristics#compile#obj_sizes#kernels.o#repeats": 2, 
+  "##characteristics#compile#obj_sizes#reader.o#all": [
+    198303, 
+    198303
+  ], 
+  "##characteristics#compile#obj_sizes#reader.o#all_unique": [
+    198303
+  ], 
+  "##characteristics#compile#obj_sizes#reader.o#min": 198303, 
+  "##characteristics#compile#obj_sizes#reader.o#repeats": 2, 
+  "##characteristics#compile#obj_sizes#winmisc.o#all": [
+    1560, 
+    1560
+  ], 
+  "##characteristics#compile#obj_sizes#winmisc.o#all_unique": [
+    1560
+  ], 
+  "##characteristics#compile#obj_sizes#winmisc.o#min": 1560, 
+  "##characteristics#compile#obj_sizes#winmisc.o#repeats": 2, 
+  "##characteristics#current_freq#0#all": [
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680
+  ], 
+  "##characteristics#current_freq#0#all_unique": [
+    1680
+  ], 
+  "##characteristics#current_freq#0#center": 1680, 
+  "##characteristics#current_freq#0#halfrange": 0, 
+  "##characteristics#current_freq#0#max": 1680, 
+  "##characteristics#current_freq#0#mean": 1680.0, 
+  "##characteristics#current_freq#0#min": 1680, 
+  "##characteristics#current_freq#0#range": 0, 
+  "##characteristics#current_freq#0#range_percent": 0, 
+  "##characteristics#current_freq#0#repeats": 8, 
+  "##characteristics#run#execution_time#all": [
+    -0.593, 
+    0.54, 
+    0.5, 
+    0.49, 
+    -0.741, 
+    0.49, 
+    0.545, 
+    0.485
+  ], 
+  "##characteristics#run#execution_time#all_unique": [
+    -0.593, 
+    0.54, 
+    0.5, 
+    0.49, 
+    -0.741, 
+    0.545, 
+    0.485
+  ], 
+  "##characteristics#run#execution_time#center": -0.05149999999999999, 
+  "##characteristics#run#execution_time#exp": 0.45407070707070718, 
+  "##characteristics#run#execution_time#exp_allx": [
+    0.45407070707070718
+  ], 
+  "##characteristics#run#execution_time#exp_ally": [
+    0.84842017051944529
+  ], 
+  "##characteristics#run#execution_time#exp_warning": "no", 
+  "##characteristics#run#execution_time#halfrange": 0.5415, 
+  "##characteristics#run#execution_time#max": 0.49, 
+  "##characteristics#run#execution_time#mean": 0.21450000000000002, 
+  "##characteristics#run#execution_time#min": -0.593, 
+  "##characteristics#run#execution_time#range": 1.083, 
+  "##characteristics#run#execution_time#range_percent": -1.8263069139966273, 
+  "##characteristics#run#execution_time#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_0#all": [
+    0.593, 
+    0.54, 
+    0.5, 
+    0.49, 
+    0.741, 
+    0.49, 
+    0.545, 
+    0.485
+  ], 
+  "##characteristics#run#execution_time_kernel_0#all_unique": [
+    0.593, 
+    0.54, 
+    0.5, 
+    0.49, 
+    0.741, 
+    0.545, 
+    0.485
+  ], 
+  "##characteristics#run#execution_time_kernel_0#center": 0.4875, 
+  "##characteristics#run#execution_time_kernel_0#exp": 0.53154545454545454, 
+  "##characteristics#run#execution_time_kernel_0#exp_allx": [
+    0.53154545454545454
+  ], 
+  "##characteristics#run#execution_time_kernel_0#exp_ally": [
+    1.8655735835429419
+  ], 
+  "##characteristics#run#execution_time_kernel_0#exp_warning": "no", 
+  "##characteristics#run#execution_time_kernel_0#halfrange": 0.0025000000000000022, 
+  "##characteristics#run#execution_time_kernel_0#max": 0.49, 
+  "##characteristics#run#execution_time_kernel_0#mean": 0.548, 
+  "##characteristics#run#execution_time_kernel_0#min": 0.485, 
+  "##characteristics#run#execution_time_kernel_0#range": 0.0050000000000000044, 
+  "##characteristics#run#execution_time_kernel_0#range_percent": 0.010309278350515474, 
+  "##characteristics#run#execution_time_kernel_0#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_X#all": [
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_X#all_unique": [
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_X#center": 0.0, 
+  "##characteristics#run#execution_time_kernel_X#halfrange": 0.0, 
+  "##characteristics#run#execution_time_kernel_X#max": 0.0, 
+  "##characteristics#run#execution_time_kernel_X#mean": 0.0, 
+  "##characteristics#run#execution_time_kernel_X#min": 0.0, 
+  "##characteristics#run#execution_time_kernel_X#range": 0.0, 
+  "##characteristics#run#execution_time_kernel_X#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_Y#all": [
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_Y#all_unique": [
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_Y#center": 0.0, 
+  "##characteristics#run#execution_time_kernel_Y#halfrange": 0.0, 
+  "##characteristics#run#execution_time_kernel_Y#max": 0.0, 
+  "##characteristics#run#execution_time_kernel_Y#mean": 0.0, 
+  "##characteristics#run#execution_time_kernel_Y#min": 0.0, 
+  "##characteristics#run#execution_time_kernel_Y#range": 0.0, 
+  "##characteristics#run#execution_time_kernel_Y#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_Z#all": [
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_Z#all_unique": [
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_Z#center": 0.0, 
+  "##characteristics#run#execution_time_kernel_Z#halfrange": 0.0, 
+  "##characteristics#run#execution_time_kernel_Z#max": 0.0, 
+  "##characteristics#run#execution_time_kernel_Z#mean": 0.0, 
+  "##characteristics#run#execution_time_kernel_Z#min": 0.0, 
+  "##characteristics#run#execution_time_kernel_Z#range": 0.0, 
+  "##characteristics#run#execution_time_kernel_Z#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_acquisition#all": [
+    0.00147, 
+    0.001798, 
+    0.001705, 
+    0.001704, 
+    0.001414, 
+    0.001325, 
+    0.002053, 
+    0.000986
+  ], 
+  "##characteristics#run#execution_time_kernel_acquisition#all_unique": [
+    0.00147, 
+    0.001798, 
+    0.001705, 
+    0.001704, 
+    0.001414, 
+    0.001325, 
+    0.002053, 
+    0.000986
+  ], 
+  "##characteristics#run#execution_time_kernel_acquisition#center": 0.0013449999999999998, 
+  "##characteristics#run#execution_time_kernel_acquisition#exp": 0.0015679999999999999, 
+  "##characteristics#run#execution_time_kernel_acquisition#exp_allx": [
+    0.0015679999999999999
+  ], 
+  "##characteristics#run#execution_time_kernel_acquisition#exp_ally": [
+    580.04724974772751
+  ], 
+  "##characteristics#run#execution_time_kernel_acquisition#exp_warning": "no", 
+  "##characteristics#run#execution_time_kernel_acquisition#halfrange": 0.00035900000000000005, 
+  "##characteristics#run#execution_time_kernel_acquisition#max": 0.001704, 
+  "##characteristics#run#execution_time_kernel_acquisition#mean": 0.001556875, 
+  "##characteristics#run#execution_time_kernel_acquisition#min": 0.000986, 
+  "##characteristics#run#execution_time_kernel_acquisition#range": 0.0007180000000000001, 
+  "##characteristics#run#execution_time_kernel_acquisition#range_percent": 0.7281947261663287, 
+  "##characteristics#run#execution_time_kernel_acquisition#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_computation#all": [
+    0.320617, 
+    0.28731, 
+    0.259066, 
+    0.255614, 
+    0.387264, 
+    0.242853, 
+    0.30449, 
+    0.249708
+  ], 
+  "##characteristics#run#execution_time_kernel_computation#all_unique": [
+    0.320617, 
+    0.28731, 
+    0.259066, 
+    0.255614, 
+    0.387264, 
+    0.242853, 
+    0.30449, 
+    0.249708
+  ], 
+  "##characteristics#run#execution_time_kernel_computation#center": 0.252661, 
+  "##characteristics#run#execution_time_kernel_computation#exp": 0.28077912121212123, 
+  "##characteristics#run#execution_time_kernel_computation#exp_allx": [
+    0.28077912121212123
+  ], 
+  "##characteristics#run#execution_time_kernel_computation#exp_ally": [
+    3.4409489061998846
+  ], 
+  "##characteristics#run#execution_time_kernel_computation#exp_warning": "no", 
+  "##characteristics#run#execution_time_kernel_computation#halfrange": 0.0029529999999999973, 
+  "##characteristics#run#execution_time_kernel_computation#max": 0.255614, 
+  "##characteristics#run#execution_time_kernel_computation#mean": 0.28836525, 
+  "##characteristics#run#execution_time_kernel_computation#min": 0.249708, 
+  "##characteristics#run#execution_time_kernel_computation#range": 0.005905999999999995, 
+  "##characteristics#run#execution_time_kernel_computation#range_percent": 0.023651625098114575, 
+  "##characteristics#run#execution_time_kernel_computation#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_frame#all": [
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_frame#all_unique": [
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_frame#center": 0.0, 
+  "##characteristics#run#execution_time_kernel_frame#halfrange": 0.0, 
+  "##characteristics#run#execution_time_kernel_frame#max": 0.0, 
+  "##characteristics#run#execution_time_kernel_frame#mean": 0.0, 
+  "##characteristics#run#execution_time_kernel_frame#min": 0.0, 
+  "##characteristics#run#execution_time_kernel_frame#range": 0.0, 
+  "##characteristics#run#execution_time_kernel_frame#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_integrated#all": [
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0, 
+    1.0
+  ], 
+  "##characteristics#run#execution_time_kernel_integrated#all_unique": [
+    1.0
+  ], 
+  "##characteristics#run#execution_time_kernel_integrated#center": 1.0, 
+  "##characteristics#run#execution_time_kernel_integrated#halfrange": 0.0, 
+  "##characteristics#run#execution_time_kernel_integrated#max": 1.0, 
+  "##characteristics#run#execution_time_kernel_integrated#mean": 1.0, 
+  "##characteristics#run#execution_time_kernel_integrated#min": 1.0, 
+  "##characteristics#run#execution_time_kernel_integrated#range": 0.0, 
+  "##characteristics#run#execution_time_kernel_integrated#range_percent": 0.0, 
+  "##characteristics#run#execution_time_kernel_integrated#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_integration#all": [
+    0.181851, 
+    0.147239, 
+    0.14115, 
+    0.142737, 
+    0.22856, 
+    0.142727, 
+    0.152775, 
+    0.146737
+  ], 
+  "##characteristics#run#execution_time_kernel_integration#all_unique": [
+    0.181851, 
+    0.147239, 
+    0.14115, 
+    0.142737, 
+    0.22856, 
+    0.142727, 
+    0.152775, 
+    0.146737
+  ], 
+  "##characteristics#run#execution_time_kernel_integration#center": 0.144737, 
+  "##characteristics#run#execution_time_kernel_integration#exp": 0.1526280808080808, 
+  "##characteristics#run#execution_time_kernel_integration#exp_allx": [
+    0.1526280808080808
+  ], 
+  "##characteristics#run#execution_time_kernel_integration#exp_ally": [
+    6.0681916235545028
+  ], 
+  "##characteristics#run#execution_time_kernel_integration#exp_warning": "no", 
+  "##characteristics#run#execution_time_kernel_integration#halfrange": 0.0020000000000000018, 
+  "##characteristics#run#execution_time_kernel_integration#max": 0.146737, 
+  "##characteristics#run#execution_time_kernel_integration#mean": 0.160472, 
+  "##characteristics#run#execution_time_kernel_integration#min": 0.142737, 
+  "##characteristics#run#execution_time_kernel_integration#range": 0.0040000000000000036, 
+  "##characteristics#run#execution_time_kernel_integration#range_percent": 0.028023567820537096, 
+  "##characteristics#run#execution_time_kernel_integration#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_preprocessing#all": [
+    0.047131, 
+    0.042035, 
+    0.041995, 
+    0.038432, 
+    0.061519, 
+    0.038963, 
+    0.041846, 
+    0.040497
+  ], 
+  "##characteristics#run#execution_time_kernel_preprocessing#all_unique": [
+    0.047131, 
+    0.042035, 
+    0.041995, 
+    0.038432, 
+    0.061519, 
+    0.038963, 
+    0.041846, 
+    0.040497
+  ], 
+  "##characteristics#run#execution_time_kernel_preprocessing#center": 0.0394645, 
+  "##characteristics#run#execution_time_kernel_preprocessing#exp": 0.042396434343434347, 
+  "##characteristics#run#execution_time_kernel_preprocessing#exp_allx": [
+    0.042396434343434347
+  ], 
+  "##characteristics#run#execution_time_kernel_preprocessing#exp_ally": [
+    22.893883100664567
+  ], 
+  "##characteristics#run#execution_time_kernel_preprocessing#exp_warning": "no", 
+  "##characteristics#run#execution_time_kernel_preprocessing#halfrange": 0.0010324999999999987, 
+  "##characteristics#run#execution_time_kernel_preprocessing#max": 0.040497, 
+  "##characteristics#run#execution_time_kernel_preprocessing#mean": 0.044052249999999994, 
+  "##characteristics#run#execution_time_kernel_preprocessing#min": 0.038432, 
+  "##characteristics#run#execution_time_kernel_preprocessing#range": 0.0020649999999999974, 
+  "##characteristics#run#execution_time_kernel_preprocessing#range_percent": 0.05373126561198994, 
+  "##characteristics#run#execution_time_kernel_preprocessing#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_raycasting#all": [
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_raycasting#all_unique": [
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_raycasting#center": 0.0, 
+  "##characteristics#run#execution_time_kernel_raycasting#halfrange": 0.0, 
+  "##characteristics#run#execution_time_kernel_raycasting#max": 0.0, 
+  "##characteristics#run#execution_time_kernel_raycasting#mean": 0.0, 
+  "##characteristics#run#execution_time_kernel_raycasting#min": 0.0, 
+  "##characteristics#run#execution_time_kernel_raycasting#range": 0.0, 
+  "##characteristics#run#execution_time_kernel_raycasting#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_rendering#all": [
+    0.280038, 
+    0.244812, 
+    0.24339, 
+    0.233739, 
+    0.354684, 
+    0.247964, 
+    0.24084, 
+    0.234481
+  ], 
+  "##characteristics#run#execution_time_kernel_rendering#all_unique": [
+    0.280038, 
+    0.244812, 
+    0.24339, 
+    0.233739, 
+    0.354684, 
+    0.247964, 
+    0.24084, 
+    0.234481
+  ], 
+  "##characteristics#run#execution_time_kernel_rendering#center": 0.23410999999999998, 
+  "##characteristics#run#execution_time_kernel_rendering#exp": 0.25206400000000001, 
+  "##characteristics#run#execution_time_kernel_rendering#exp_allx": [
+    0.25206400000000001
+  ], 
+  "##characteristics#run#execution_time_kernel_rendering#exp_ally": [
+    3.9549140353047485
+  ], 
+  "##characteristics#run#execution_time_kernel_rendering#exp_warning": "no", 
+  "##characteristics#run#execution_time_kernel_rendering#halfrange": 0.00037099999999999633, 
+  "##characteristics#run#execution_time_kernel_rendering#max": 0.234481, 
+  "##characteristics#run#execution_time_kernel_rendering#mean": 0.2599935, 
+  "##characteristics#run#execution_time_kernel_rendering#min": 0.233739, 
+  "##characteristics#run#execution_time_kernel_rendering#range": 0.0007419999999999927, 
+  "##characteristics#run#execution_time_kernel_rendering#range_percent": 0.003174480938140373, 
+  "##characteristics#run#execution_time_kernel_rendering#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_total#all": [
+    0.602126, 
+    0.53392, 
+    0.504161, 
+    0.491057, 
+    0.743362, 
+    0.492142, 
+    0.547383, 
+    0.485175
+  ], 
+  "##characteristics#run#execution_time_kernel_total#all_unique": [
+    0.602126, 
+    0.53392, 
+    0.504161, 
+    0.491057, 
+    0.743362, 
+    0.492142, 
+    0.547383, 
+    0.485175
+  ], 
+  "##characteristics#run#execution_time_kernel_total#center": 0.488116, 
+  "##characteristics#run#execution_time_kernel_total#exp": 0.53472604040404037, 
+  "##characteristics#run#execution_time_kernel_total#exp_allx": [
+    0.53472604040404037
+  ], 
+  "##characteristics#run#execution_time_kernel_total#exp_ally": [
+    1.8538028047274968
+  ], 
+  "##characteristics#run#execution_time_kernel_total#exp_warning": "no", 
+  "##characteristics#run#execution_time_kernel_total#halfrange": 0.002940999999999999, 
+  "##characteristics#run#execution_time_kernel_total#max": 0.491057, 
+  "##characteristics#run#execution_time_kernel_total#mean": 0.5499157499999999, 
+  "##characteristics#run#execution_time_kernel_total#min": 0.485175, 
+  "##characteristics#run#execution_time_kernel_total#range": 0.005881999999999998, 
+  "##characteristics#run#execution_time_kernel_total#range_percent": 0.01212346060699747, 
+  "##characteristics#run#execution_time_kernel_total#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_tracked#all": [
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0, 
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_tracked#all_unique": [
+    0.0
+  ], 
+  "##characteristics#run#execution_time_kernel_tracked#center": 0.0, 
+  "##characteristics#run#execution_time_kernel_tracked#halfrange": 0.0, 
+  "##characteristics#run#execution_time_kernel_tracked#max": 0.0, 
+  "##characteristics#run#execution_time_kernel_tracked#mean": 0.0, 
+  "##characteristics#run#execution_time_kernel_tracked#min": 0.0, 
+  "##characteristics#run#execution_time_kernel_tracked#range": 0.0, 
+  "##characteristics#run#execution_time_kernel_tracked#repeats": 8, 
+  "##characteristics#run#execution_time_kernel_tracking#all": [
+    0.091635, 
+    0.098036, 
+    0.075922, 
+    0.074445, 
+    0.097185, 
+    0.061163, 
+    0.109868, 
+    0.062473
+  ], 
+  "##characteristics#run#execution_time_kernel_tracking#all_unique": [
+    0.091635, 
+    0.098036, 
+    0.075922, 
+    0.074445, 
+    0.097185, 
+    0.061163, 
+    0.109868, 
+    0.062473
+  ], 
+  "##characteristics#run#execution_time_kernel_tracking#center": 0.06845899999999999, 
+  "##characteristics#run#execution_time_kernel_tracking#exp": 0.083793606060606055, 
+  "##characteristics#run#execution_time_kernel_tracking#exp_allx": [
+    0.083793606060606055
+  ], 
+  "##characteristics#run#execution_time_kernel_tracking#exp_ally": [
+    10.515588041480497
+  ], 
+  "##characteristics#run#execution_time_kernel_tracking#exp_warning": "no", 
+  "##characteristics#run#execution_time_kernel_tracking#halfrange": 0.005985999999999998, 
+  "##characteristics#run#execution_time_kernel_tracking#max": 0.074445, 
+  "##characteristics#run#execution_time_kernel_tracking#mean": 0.083840875, 
+  "##characteristics#run#execution_time_kernel_tracking#min": 0.062473, 
+  "##characteristics#run#execution_time_kernel_tracking#range": 0.011971999999999997, 
+  "##characteristics#run#execution_time_kernel_tracking#range_percent": 0.1916347862276503, 
+  "##characteristics#run#execution_time_kernel_tracking#repeats": 8, 
+  "##characteristics#run#execution_time_with_module#all": [
+    2.4960000514984, 
+    3.0599999427795, 
+    2.5500001907349, 
+    2.3399999141693, 
+    2.8860001564026, 
+    2.3650000095367, 
+    2.5750000476837, 
+    2.5599999427795
+  ], 
+  "##characteristics#run#execution_time_with_module#all_unique": [
+    2.4960000514984, 
+    3.0599999427795, 
+    2.5500001907349, 
+    2.3399999141693, 
+    2.8860001564026, 
+    2.3650000095367, 
+    2.5750000476837, 
+    2.5599999427795
+  ], 
+  "##characteristics#run#execution_time_with_module#center": 2.4499999284744, 
+  "##characteristics#run#execution_time_with_module#exp": 2.5945453788294719, 
+  "##characteristics#run#execution_time_with_module#exp_allx": [
+    2.5945453788294719
+  ], 
+  "##characteristics#run#execution_time_with_module#exp_ally": [
+    0.42910450843314896
+  ], 
+  "##characteristics#run#execution_time_with_module#exp_warning": "no", 
+  "##characteristics#run#execution_time_with_module#halfrange": 0.11000001430510009, 
+  "##characteristics#run#execution_time_with_module#max": 2.5599999427795, 
+  "##characteristics#run#execution_time_with_module#mean": 2.6040000319480754, 
+  "##characteristics#run#execution_time_with_module#min": 2.3399999141693, 
+  "##characteristics#run#execution_time_with_module#range": 0.22000002861020018, 
+  "##characteristics#run#execution_time_with_module#range_percent": 0.09401710969220278, 
+  "##characteristics#run#execution_time_with_module#repeats": 8, 
+  "##characteristics#run#fps#all": [
+    1.6607819625793, 
+    1.8729397662571, 
+    1.9834933681899, 
+    2.0364234701878, 
+    1.3452396006253, 
+    2.031933872744, 
+    1.8268744188256, 
+    2.0611119699078
+  ], 
+  "##characteristics#run#fps#all_unique": [
+    1.6607819625793, 
+    1.8729397662571, 
+    1.9834933681899, 
+    2.0364234701878, 
+    1.3452396006253, 
+    2.031933872744, 
+    1.8268744188256, 
+    2.0611119699078
+  ], 
+  "##characteristics#run#fps#center": 1.8609469662435503, 
+  "##characteristics#run#fps#exp": 1.8803361190788861, 
+  "##characteristics#run#fps#exp_allx": [
+    1.8803361190788861
+  ], 
+  "##characteristics#run#fps#exp_ally": [
+    0.57089947812658814
+  ], 
+  "##characteristics#run#fps#exp_warning": "no", 
+  "##characteristics#run#fps#halfrange": 0.20016500366425005, 
+  "##characteristics#run#fps#max": 2.0611119699078, 
+  "##characteristics#run#fps#mean": 1.8523498036646, 
+  "##characteristics#run#fps#min": 1.6607819625793, 
+  "##characteristics#run#fps#range": 0.4003300073285001, 
+  "##characteristics#run#fps#range_percent": 0.24104910599267476, 
+  "##characteristics#run#fps#repeats": 8, 
+  "##characteristics#run#frames#all": [
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1
+  ], 
+  "##characteristics#run#frames#all_unique": [
+    1
+  ], 
+  "##characteristics#run#frames#center": 1, 
+  "##characteristics#run#frames#halfrange": 0, 
+  "##characteristics#run#frames#max": 1, 
+  "##characteristics#run#frames#mean": 1.0, 
+  "##characteristics#run#frames#min": 1, 
+  "##characteristics#run#frames#range": 0, 
+  "##characteristics#run#frames#range_percent": 0, 
+  "##characteristics#run#frames#repeats": 8, 
+  "##characteristics#run#repeat#all": [
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1
+  ], 
+  "##characteristics#run#repeat#all_unique": [
+    1
+  ], 
+  "##characteristics#run#repeat#center": 1, 
+  "##characteristics#run#repeat#halfrange": 0, 
+  "##characteristics#run#repeat#max": 1, 
+  "##characteristics#run#repeat#mean": 1.0, 
+  "##characteristics#run#repeat#min": 1, 
+  "##characteristics#run#repeat#range": 0, 
+  "##characteristics#run#repeat#range_percent": 0, 
+  "##characteristics#run#repeat#repeats": 8, 
+  "##characteristics#run#return_code#all": [
+    0, 
+    0, 
+    0, 
+    0, 
+    0, 
+    0, 
+    0, 
+    0
+  ], 
+  "##characteristics#run#return_code#all_unique": [
+    0
+  ], 
+  "##characteristics#run#return_code#center": 0, 
+  "##characteristics#run#return_code#halfrange": 0, 
+  "##characteristics#run#return_code#max": 0, 
+  "##characteristics#run#return_code#mean": 0.0, 
+  "##characteristics#run#return_code#min": 0, 
+  "##characteristics#run#return_code#range": 0, 
+  "##characteristics#run#return_code#repeats": 8, 
+  "##characteristics#run#run_time_state#frames#all": [
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1
+  ], 
+  "##characteristics#run#run_time_state#frames#all_unique": [
+    1
+  ], 
+  "##characteristics#run#run_time_state#frames#center": 1, 
+  "##characteristics#run#run_time_state#frames#halfrange": 0, 
+  "##characteristics#run#run_time_state#frames#max": 1, 
+  "##characteristics#run#run_time_state#frames#mean": 1.0, 
+  "##characteristics#run#run_time_state#frames#min": 1, 
+  "##characteristics#run#run_time_state#frames#range": 0, 
+  "##characteristics#run#run_time_state#frames#range_percent": 0, 
+  "##characteristics#run#run_time_state#frames#repeats": 8, 
+  "##characteristics#run#run_time_state#input_size_x#all": [
+    640, 
+    640, 
+    640, 
+    640, 
+    640, 
+    640, 
+    640, 
+    640
+  ], 
+  "##characteristics#run#run_time_state#input_size_x#all_unique": [
+    640
+  ], 
+  "##characteristics#run#run_time_state#input_size_x#center": 640, 
+  "##characteristics#run#run_time_state#input_size_x#halfrange": 0, 
+  "##characteristics#run#run_time_state#input_size_x#max": 640, 
+  "##characteristics#run#run_time_state#input_size_x#mean": 640.0, 
+  "##characteristics#run#run_time_state#input_size_x#min": 640, 
+  "##characteristics#run#run_time_state#input_size_x#range": 0, 
+  "##characteristics#run#run_time_state#input_size_x#range_percent": 0, 
+  "##characteristics#run#run_time_state#input_size_x#repeats": 8, 
+  "##characteristics#run#run_time_state#input_size_y#all": [
+    480, 
+    480, 
+    480, 
+    480, 
+    480, 
+    480, 
+    480, 
+    480
+  ], 
+  "##characteristics#run#run_time_state#input_size_y#all_unique": [
+    480
+  ], 
+  "##characteristics#run#run_time_state#input_size_y#center": 480, 
+  "##characteristics#run#run_time_state#input_size_y#halfrange": 0, 
+  "##characteristics#run#run_time_state#input_size_y#max": 480, 
+  "##characteristics#run#run_time_state#input_size_y#mean": 480.0, 
+  "##characteristics#run#run_time_state#input_size_y#min": 480, 
+  "##characteristics#run#run_time_state#input_size_y#range": 0, 
+  "##characteristics#run#run_time_state#input_size_y#range_percent": 0, 
+  "##characteristics#run#run_time_state#input_size_y#repeats": 8, 
+  "##characteristics#run#run_time_state#openmp_max_threads#all": [
+    -1, 
+    -1, 
+    -1, 
+    -1, 
+    -1, 
+    -1, 
+    -1, 
+    -1
+  ], 
+  "##characteristics#run#run_time_state#openmp_max_threads#all_unique": [
+    -1
+  ], 
+  "##characteristics#run#run_time_state#openmp_max_threads#center": -1, 
+  "##characteristics#run#run_time_state#openmp_max_threads#halfrange": 0, 
+  "##characteristics#run#run_time_state#openmp_max_threads#max": -1, 
+  "##characteristics#run#run_time_state#openmp_max_threads#mean": -1.0, 
+  "##characteristics#run#run_time_state#openmp_max_threads#min": -1, 
+  "##characteristics#run#run_time_state#openmp_max_threads#range": 0, 
+  "##characteristics#run#run_time_state#openmp_max_threads#range_percent": 0, 
+  "##characteristics#run#run_time_state#openmp_max_threads#repeats": 8, 
+  "##characteristics#run#run_time_state#run_time_fps#all": [
+    3.104748, 
+    3.458921, 
+    3.834781, 
+    3.886238, 
+    2.572823, 
+    4.095368, 
+    3.262183, 
+    3.988934
+  ], 
+  "##characteristics#run#run_time_state#run_time_fps#all_unique": [
+    3.104748, 
+    3.458921, 
+    3.834781, 
+    3.886238, 
+    2.572823, 
+    4.095368, 
+    3.262183, 
+    3.988934
+  ], 
+  "##characteristics#run#run_time_state#run_time_fps#center": 3.5468409999999997, 
+  "##characteristics#run#run_time_state#run_time_fps#exp": 3.557094515151515, 
+  "##characteristics#run#run_time_state#run_time_fps#exp_allx": [
+    3.557094515151515
+  ], 
+  "##characteristics#run#run_time_state#run_time_fps#exp_ally": [
+    0.2897200566143317
+  ], 
+  "##characteristics#run#run_time_state#run_time_fps#exp_warning": "no", 
+  "##characteristics#run#run_time_state#run_time_fps#halfrange": 0.44209300000000007, 
+  "##characteristics#run#run_time_state#run_time_fps#max": 3.988934, 
+  "##characteristics#run#run_time_state#run_time_fps#mean": 3.5254995000000005, 
+  "##characteristics#run#run_time_state#run_time_fps#min": 3.104748, 
+  "##characteristics#run#run_time_state#run_time_fps#range": 0.8841860000000001, 
+  "##characteristics#run#run_time_state#run_time_fps#range_percent": 0.28478510977380456, 
+  "##characteristics#run#run_time_state#run_time_fps#repeats": 8, 
+  "##characteristics#run#run_time_state#run_time_total#all": [
+    0.322087, 
+    0.289107, 
+    0.260771, 
+    0.257318, 
+    0.388678, 
+    0.244178, 
+    0.306543, 
+    0.250694
+  ], 
+  "##characteristics#run#run_time_state#run_time_total#all_unique": [
+    0.322087, 
+    0.289107, 
+    0.260771, 
+    0.257318, 
+    0.388678, 
+    0.244178, 
+    0.306543, 
+    0.250694
+  ], 
+  "##characteristics#run#run_time_state#run_time_total#center": 0.25400599999999995, 
+  "##characteristics#run#run_time_state#run_time_total#exp": 0.28212749494949496, 
+  "##characteristics#run#run_time_state#run_time_total#exp_allx": [
+    0.28212749494949496
+  ], 
+  "##characteristics#run#run_time_state#run_time_total#exp_ally": [
+    3.426182804506626
+  ], 
+  "##characteristics#run#run_time_state#run_time_total#exp_warning": "no", 
+  "##characteristics#run#run_time_state#run_time_total#halfrange": 0.0033120000000000094, 
+  "##characteristics#run#run_time_state#run_time_total#max": 0.257318, 
+  "##characteristics#run#run_time_state#run_time_total#mean": 0.289922, 
+  "##characteristics#run#run_time_state#run_time_total#min": 0.250694, 
+  "##characteristics#run#run_time_state#run_time_total#range": 0.006624000000000019, 
+  "##characteristics#run#run_time_state#run_time_total#range_percent": 0.026422650721596923, 
+  "##characteristics#run#run_time_state#run_time_total#repeats": 8, 
+  "##characteristics#run#total_execution_time#all": [
+    0.593, 
+    0.54, 
+    0.5, 
+    0.49, 
+    0.741, 
+    0.49, 
+    0.545, 
+    0.485
+  ], 
+  "##characteristics#run#total_execution_time#all_unique": [
+    0.593, 
+    0.54, 
+    0.5, 
+    0.49, 
+    0.741, 
+    0.545, 
+    0.485
+  ], 
+  "##characteristics#run#total_execution_time#center": 0.4875, 
+  "##characteristics#run#total_execution_time#exp": 0.53154545454545454, 
+  "##characteristics#run#total_execution_time#exp_allx": [
+    0.53154545454545454
+  ], 
+  "##characteristics#run#total_execution_time#exp_ally": [
+    1.8655735835429419
+  ], 
+  "##characteristics#run#total_execution_time#exp_warning": "no", 
+  "##characteristics#run#total_execution_time#halfrange": 0.0025000000000000022, 
+  "##characteristics#run#total_execution_time#max": 0.49, 
+  "##characteristics#run#total_execution_time#mean": 0.548, 
+  "##characteristics#run#total_execution_time#min": 0.485, 
+  "##characteristics#run#total_execution_time#range": 0.0050000000000000044, 
+  "##characteristics#run#total_execution_time#range_percent": 0.010309278350515474, 
+  "##characteristics#run#total_execution_time#repeats": 8, 
+  "##characteristics#run#total_execution_time_from_kernels#all": [
+    0.602126, 
+    0.53392, 
+    0.504161, 
+    0.491057, 
+    0.743362, 
+    0.492142, 
+    0.547383, 
+    0.485175
+  ], 
+  "##characteristics#run#total_execution_time_from_kernels#all_unique": [
+    0.602126, 
+    0.53392, 
+    0.504161, 
+    0.491057, 
+    0.743362, 
+    0.492142, 
+    0.547383, 
+    0.485175
+  ], 
+  "##characteristics#run#total_execution_time_from_kernels#center": 0.488116, 
+  "##characteristics#run#total_execution_time_from_kernels#exp": 0.53472604040404037, 
+  "##characteristics#run#total_execution_time_from_kernels#exp_allx": [
+    0.53472604040404037
+  ], 
+  "##characteristics#run#total_execution_time_from_kernels#exp_ally": [
+    1.8538028047274968
+  ], 
+  "##characteristics#run#total_execution_time_from_kernels#exp_warning": "no", 
+  "##characteristics#run#total_execution_time_from_kernels#halfrange": 0.002940999999999999, 
+  "##characteristics#run#total_execution_time_from_kernels#max": 0.491057, 
+  "##characteristics#run#total_execution_time_from_kernels#mean": 0.5499157499999999, 
+  "##characteristics#run#total_execution_time_from_kernels#min": 0.485175, 
+  "##characteristics#run#total_execution_time_from_kernels#range": 0.005881999999999998, 
+  "##characteristics#run#total_execution_time_from_kernels#range_percent": 0.01212346060699747, 
+  "##characteristics#run#total_execution_time_from_kernels#repeats": 8, 
+  "##choices#cmd_key#all": [
+    "cmd1", 
+    "cmd1", 
+    "cmd1", 
+    "cmd1", 
+    "cmd1", 
+    "cmd1", 
+    "cmd1", 
+    "cmd1"
+  ], 
+  "##choices#cmd_key#all_unique": [
+    "cmd1"
+  ], 
+  "##choices#cmd_key#min": "cmd1", 
+  "##choices#cmd_key#repeats": 8, 
+  "##choices#compile_type#all": [
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic"
+  ], 
+  "##choices#compile_type#all_unique": [
+    "dynamic"
+  ], 
+  "##choices#compile_type#min": "dynamic", 
+  "##choices#compile_type#repeats": 8, 
+  "##choices#compiler_flags#base_opt#all": [
+    "-O3", 
+    "-O3", 
+    "-O3", 
+    "-O3", 
+    "-O3", 
+    "-O3", 
+    "-O3", 
+    "-O3"
+  ], 
+  "##choices#compiler_flags#base_opt#all_unique": [
+    "-O3"
+  ], 
+  "##choices#compiler_flags#base_opt#min": "-O3", 
+  "##choices#compiler_flags#base_opt#repeats": 8, 
+  "##choices#data_uoa#all": [
+    "slambench-1.1-cpu", 
+    "slambench-1.1-cpu", 
+    "slambench-1.1-cpu", 
+    "slambench-1.1-cpu", 
+    "slambench-1.1-cpu", 
+    "slambench-1.1-cpu", 
+    "slambench-1.1-cpu", 
+    "slambench-1.1-cpu"
+  ], 
+  "##choices#data_uoa#all_unique": [
+    "slambench-1.1-cpu"
+  ], 
+  "##choices#data_uoa#min": "slambench-1.1-cpu", 
+  "##choices#data_uoa#repeats": 8, 
+  "##choices#dataset_uoa#all": [
+    "slambench-living-room-traj2-loop-1frame", 
+    "slambench-living-room-traj2-loop-1frame", 
+    "slambench-living-room-traj2-loop-1frame", 
+    "slambench-living-room-traj2-loop-1frame", 
+    "slambench-living-room-traj2-loop-1frame", 
+    "slambench-living-room-traj2-loop-1frame", 
+    "slambench-living-room-traj2-loop-1frame", 
+    "slambench-living-room-traj2-loop-1frame"
+  ], 
+  "##choices#dataset_uoa#all_unique": [
+    "slambench-living-room-traj2-loop-1frame"
+  ], 
+  "##choices#dataset_uoa#min": "slambench-living-room-traj2-loop-1frame", 
+  "##choices#dataset_uoa#repeats": 8, 
+  "##choices#device_id#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##choices#device_id#all_unique": [
+    ""
+  ], 
+  "##choices#device_id#min": "", 
+  "##choices#device_id#repeats": 8, 
+  "##choices#host_os#all": [
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64"
+  ], 
+  "##choices#host_os#all_unique": [
+    "windows-64"
+  ], 
+  "##choices#host_os#min": "windows-64", 
+  "##choices#host_os#repeats": 8, 
+  "##choices#module_uoa#all": [
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615"
+  ], 
+  "##choices#module_uoa#all_unique": [
+    "b0ac08fe1d3c2615"
+  ], 
+  "##choices#module_uoa#min": "b0ac08fe1d3c2615", 
+  "##choices#module_uoa#repeats": 8, 
+  "##choices#repeat#all": [
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1, 
+    1
+  ], 
+  "##choices#repeat#all_unique": [
+    1
+  ], 
+  "##choices#repeat#center": 1, 
+  "##choices#repeat#halfrange": 0, 
+  "##choices#repeat#max": 1, 
+  "##choices#repeat#mean": 1.0, 
+  "##choices#repeat#min": 1, 
+  "##choices#repeat#range": 0, 
+  "##choices#repeat#range_percent": 0, 
+  "##choices#repeat#repeats": 8, 
+  "##choices#target_os#all": [
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64"
+  ], 
+  "##choices#target_os#all_unique": [
+    "windows-64"
+  ], 
+  "##choices#target_os#min": "windows-64", 
+  "##choices#target_os#repeats": 8, 
+  "##choices#target_os_bits#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##choices#target_os_bits#all_unique": [
+    "64"
+  ], 
+  "##choices#target_os_bits#min": "64", 
+  "##choices#target_os_bits#repeats": 8, 
+  "##features#compiler_version#list@0#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#compiler_version#list@0#all_unique": [
+    "3"
+  ], 
+  "##features#compiler_version#list@0#min": "3", 
+  "##features#compiler_version#list@0#repeats": 8, 
+  "##features#compiler_version#list@1#all": [
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6"
+  ], 
+  "##features#compiler_version#list@1#all_unique": [
+    "6"
+  ], 
+  "##features#compiler_version#list@1#min": "6", 
+  "##features#compiler_version#list@1#repeats": 8, 
+  "##features#compiler_version#list@2#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#compiler_version#list@2#all_unique": [
+    "0"
+  ], 
+  "##features#compiler_version#list@2#min": "0", 
+  "##features#compiler_version#list@2#repeats": 8, 
+  "##features#compiler_version#raw@0#all": [
+    "clang version 3.6.0 (tags/RELEASE_360/final)", 
+    "clang version 3.6.0 (tags/RELEASE_360/final)", 
+    "clang version 3.6.0 (tags/RELEASE_360/final)", 
+    "clang version 3.6.0 (tags/RELEASE_360/final)", 
+    "clang version 3.6.0 (tags/RELEASE_360/final)", 
+    "clang version 3.6.0 (tags/RELEASE_360/final)", 
+    "clang version 3.6.0 (tags/RELEASE_360/final)", 
+    "clang version 3.6.0 (tags/RELEASE_360/final)"
+  ], 
+  "##features#compiler_version#raw@0#all_unique": [
+    "clang version 3.6.0 (tags/RELEASE_360/final)"
+  ], 
+  "##features#compiler_version#raw@0#min": "clang version 3.6.0 (tags/RELEASE_360/final)", 
+  "##features#compiler_version#raw@0#repeats": 8, 
+  "##features#compiler_version#raw@1#all": [
+    "Target: i686-pc-windows-gnu", 
+    "Target: i686-pc-windows-gnu", 
+    "Target: i686-pc-windows-gnu", 
+    "Target: i686-pc-windows-gnu", 
+    "Target: i686-pc-windows-gnu", 
+    "Target: i686-pc-windows-gnu", 
+    "Target: i686-pc-windows-gnu", 
+    "Target: i686-pc-windows-gnu"
+  ], 
+  "##features#compiler_version#raw@1#all_unique": [
+    "Target: i686-pc-windows-gnu"
+  ], 
+  "##features#compiler_version#raw@1#min": "Target: i686-pc-windows-gnu", 
+  "##features#compiler_version#raw@1#repeats": 8, 
+  "##features#compiler_version#raw@2#all": [
+    "Thread model: posix", 
+    "Thread model: posix", 
+    "Thread model: posix", 
+    "Thread model: posix", 
+    "Thread model: posix", 
+    "Thread model: posix", 
+    "Thread model: posix", 
+    "Thread model: posix"
+  ], 
+  "##features#compiler_version#raw@2#all_unique": [
+    "Thread model: posix"
+  ], 
+  "##features#compiler_version#raw@2#min": "Thread model: posix", 
+  "##features#compiler_version#raw@2#repeats": 8, 
+  "##features#compiler_version#raw@3#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#compiler_version#raw@3#all_unique": [
+    ""
+  ], 
+  "##features#compiler_version#raw@3#min": "", 
+  "##features#compiler_version#raw@3#repeats": 8, 
+  "##features#compiler_version#str#all": [
+    "3.6.0", 
+    "3.6.0", 
+    "3.6.0", 
+    "3.6.0", 
+    "3.6.0", 
+    "3.6.0", 
+    "3.6.0", 
+    "3.6.0"
+  ], 
+  "##features#compiler_version#str#all_unique": [
+    "3.6.0"
+  ], 
+  "##features#compiler_version#str#min": "3.6.0", 
+  "##features#compiler_version#str#repeats": 8, 
+  "##features#dataset#total_size#all": [
+    1536016, 
+    1536016, 
+    1536016, 
+    1536016, 
+    1536016, 
+    1536016, 
+    1536016, 
+    1536016
+  ], 
+  "##features#dataset#total_size#all_unique": [
+    1536016
+  ], 
+  "##features#dataset#total_size#center": 1536016, 
+  "##features#dataset#total_size#halfrange": 0, 
+  "##features#dataset#total_size#max": 1536016, 
+  "##features#dataset#total_size#mean": 1536016.0, 
+  "##features#dataset#total_size#min": 1536016, 
+  "##features#dataset#total_size#range": 0, 
+  "##features#dataset#total_size#range_percent": 0, 
+  "##features#dataset#total_size#repeats": 8, 
+  "##features#platform#acc#name#all": [
+    "Intel(R) HD Graphics Family", 
+    "Intel(R) HD Graphics Family", 
+    "Intel(R) HD Graphics Family", 
+    "Intel(R) HD Graphics Family", 
+    "Intel(R) HD Graphics Family", 
+    "Intel(R) HD Graphics Family", 
+    "Intel(R) HD Graphics Family", 
+    "Intel(R) HD Graphics Family"
+  ], 
+  "##features#platform#acc#name#all_unique": [
+    "Intel(R) HD Graphics Family"
+  ], 
+  "##features#platform#acc#name#min": "Intel(R) HD Graphics Family", 
+  "##features#platform#acc#name#repeats": 8, 
+  "##features#platform#acc#possibly_related_cpu_name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#acc#possibly_related_cpu_name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#acc#possibly_related_cpu_name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#acc#possibly_related_cpu_name#repeats": 8, 
+  "##features#platform#cpu#current_freq#0#all": [
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680
+  ], 
+  "##features#platform#cpu#current_freq#0#all_unique": [
+    1680
+  ], 
+  "##features#platform#cpu#current_freq#0#center": 1680, 
+  "##features#platform#cpu#current_freq#0#halfrange": 0, 
+  "##features#platform#cpu#current_freq#0#max": 1680, 
+  "##features#platform#cpu#current_freq#0#mean": 1680.0, 
+  "##features#platform#cpu#current_freq#0#min": 1680, 
+  "##features#platform#cpu#current_freq#0#range": 0, 
+  "##features#platform#cpu#current_freq#0#range_percent": 0, 
+  "##features#platform#cpu#current_freq#0#repeats": 8, 
+  "##features#platform#cpu#max_freq#0#all": [
+    2401, 
+    2401, 
+    2401, 
+    2401, 
+    2401, 
+    2401, 
+    2401, 
+    2401
+  ], 
+  "##features#platform#cpu#max_freq#0#all_unique": [
+    2401
+  ], 
+  "##features#platform#cpu#max_freq#0#center": 2401, 
+  "##features#platform#cpu#max_freq#0#halfrange": 0, 
+  "##features#platform#cpu#max_freq#0#max": 2401, 
+  "##features#platform#cpu#max_freq#0#mean": 2401.0, 
+  "##features#platform#cpu#max_freq#0#min": 2401, 
+  "##features#platform#cpu#max_freq#0#range": 0, 
+  "##features#platform#cpu#max_freq#0#range_percent": 0, 
+  "##features#platform#cpu#max_freq#0#repeats": 8, 
+  "##features#platform#cpu#name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu#name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu#name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#cpu#name#repeats": 8, 
+  "##features#platform#cpu#num_proc#all": [
+    4, 
+    4, 
+    4, 
+    4, 
+    4, 
+    4, 
+    4, 
+    4
+  ], 
+  "##features#platform#cpu#num_proc#all_unique": [
+    4
+  ], 
+  "##features#platform#cpu#num_proc#center": 4, 
+  "##features#platform#cpu#num_proc#halfrange": 0, 
+  "##features#platform#cpu#num_proc#max": 4, 
+  "##features#platform#cpu#num_proc#mean": 4.0, 
+  "##features#platform#cpu#num_proc#min": 4, 
+  "##features#platform#cpu#num_proc#range": 0, 
+  "##features#platform#cpu#num_proc#range_percent": 0, 
+  "##features#platform#cpu#num_proc#repeats": 8, 
+  "##features#platform#cpu#sub_name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu#sub_name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu#sub_name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#cpu#sub_name#repeats": 8, 
+  "##features#platform#cpu_misc#AddressWidth#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#cpu_misc#AddressWidth#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#AddressWidth#min": "64", 
+  "##features#platform#cpu_misc#AddressWidth#repeats": 8, 
+  "##features#platform#cpu_misc#Architecture#all": [
+    "9", 
+    "9", 
+    "9", 
+    "9", 
+    "9", 
+    "9", 
+    "9", 
+    "9"
+  ], 
+  "##features#platform#cpu_misc#Architecture#all_unique": [
+    "9"
+  ], 
+  "##features#platform#cpu_misc#Architecture#min": "9", 
+  "##features#platform#cpu_misc#Architecture#repeats": 8, 
+  "##features#platform#cpu_misc#Availability#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform#cpu_misc#Availability#all_unique": [
+    "3"
+  ], 
+  "##features#platform#cpu_misc#Availability#min": "3", 
+  "##features#platform#cpu_misc#Availability#repeats": 8, 
+  "##features#platform#cpu_misc#Caption#all": [
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1"
+  ], 
+  "##features#platform#cpu_misc#Caption#all_unique": [
+    "Intel64 Family 6 Model 69 Stepping 1"
+  ], 
+  "##features#platform#cpu_misc#Caption#min": "Intel64 Family 6 Model 69 Stepping 1", 
+  "##features#platform#cpu_misc#Caption#repeats": 8, 
+  "##features#platform#cpu_misc#ConfigManagerErrorCode#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#ConfigManagerErrorCode#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#ConfigManagerErrorCode#min": "", 
+  "##features#platform#cpu_misc#ConfigManagerErrorCode#repeats": 8, 
+  "##features#platform#cpu_misc#ConfigManagerUserConfig#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#ConfigManagerUserConfig#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#ConfigManagerUserConfig#min": "", 
+  "##features#platform#cpu_misc#ConfigManagerUserConfig#repeats": 8, 
+  "##features#platform#cpu_misc#CpuStatus#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform#cpu_misc#CpuStatus#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#CpuStatus#min": "1", 
+  "##features#platform#cpu_misc#CpuStatus#repeats": 8, 
+  "##features#platform#cpu_misc#CreationClassName#all": [
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor"
+  ], 
+  "##features#platform#cpu_misc#CreationClassName#all_unique": [
+    "Win32_Processor"
+  ], 
+  "##features#platform#cpu_misc#CreationClassName#min": "Win32_Processor", 
+  "##features#platform#cpu_misc#CreationClassName#repeats": 8, 
+  "##features#platform#cpu_misc#CurrentClockSpeed#all": [
+    "1680", 
+    "1680", 
+    "1680", 
+    "1680", 
+    "1680", 
+    "1680", 
+    "1680", 
+    "1680"
+  ], 
+  "##features#platform#cpu_misc#CurrentClockSpeed#all_unique": [
+    "1680"
+  ], 
+  "##features#platform#cpu_misc#CurrentClockSpeed#min": "1680", 
+  "##features#platform#cpu_misc#CurrentClockSpeed#repeats": 8, 
+  "##features#platform#cpu_misc#CurrentVoltage#all": [
+    "7", 
+    "7", 
+    "7", 
+    "7", 
+    "7", 
+    "7", 
+    "7", 
+    "7"
+  ], 
+  "##features#platform#cpu_misc#CurrentVoltage#all_unique": [
+    "7"
+  ], 
+  "##features#platform#cpu_misc#CurrentVoltage#min": "7", 
+  "##features#platform#cpu_misc#CurrentVoltage#repeats": 8, 
+  "##features#platform#cpu_misc#DataWidth#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#cpu_misc#DataWidth#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#DataWidth#min": "64", 
+  "##features#platform#cpu_misc#DataWidth#repeats": 8, 
+  "##features#platform#cpu_misc#Description#all": [
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1"
+  ], 
+  "##features#platform#cpu_misc#Description#all_unique": [
+    "Intel64 Family 6 Model 69 Stepping 1"
+  ], 
+  "##features#platform#cpu_misc#Description#min": "Intel64 Family 6 Model 69 Stepping 1", 
+  "##features#platform#cpu_misc#Description#repeats": 8, 
+  "##features#platform#cpu_misc#DeviceID#all": [
+    "CPU0", 
+    "CPU0", 
+    "CPU0", 
+    "CPU0", 
+    "CPU0", 
+    "CPU0", 
+    "CPU0", 
+    "CPU0"
+  ], 
+  "##features#platform#cpu_misc#DeviceID#all_unique": [
+    "CPU0"
+  ], 
+  "##features#platform#cpu_misc#DeviceID#min": "CPU0", 
+  "##features#platform#cpu_misc#DeviceID#repeats": 8, 
+  "##features#platform#cpu_misc#ErrorCleared#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#ErrorCleared#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#ErrorCleared#min": "", 
+  "##features#platform#cpu_misc#ErrorCleared#repeats": 8, 
+  "##features#platform#cpu_misc#ErrorDescription#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#ErrorDescription#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#ErrorDescription#min": "", 
+  "##features#platform#cpu_misc#ErrorDescription#repeats": 8, 
+  "##features#platform#cpu_misc#ExtClock#all": [
+    "100", 
+    "100", 
+    "100", 
+    "100", 
+    "100", 
+    "100", 
+    "100", 
+    "100"
+  ], 
+  "##features#platform#cpu_misc#ExtClock#all_unique": [
+    "100"
+  ], 
+  "##features#platform#cpu_misc#ExtClock#min": "100", 
+  "##features#platform#cpu_misc#ExtClock#repeats": 8, 
+  "##features#platform#cpu_misc#Family#all": [
+    "205", 
+    "205", 
+    "205", 
+    "205", 
+    "205", 
+    "205", 
+    "205", 
+    "205"
+  ], 
+  "##features#platform#cpu_misc#Family#all_unique": [
+    "205"
+  ], 
+  "##features#platform#cpu_misc#Family#min": "205", 
+  "##features#platform#cpu_misc#Family#repeats": 8, 
+  "##features#platform#cpu_misc#InstallDate#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#InstallDate#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#InstallDate#min": "", 
+  "##features#platform#cpu_misc#InstallDate#repeats": 8, 
+  "##features#platform#cpu_misc#L2CacheSize#all": [
+    "256", 
+    "256", 
+    "256", 
+    "256", 
+    "256", 
+    "256", 
+    "256", 
+    "256"
+  ], 
+  "##features#platform#cpu_misc#L2CacheSize#all_unique": [
+    "256"
+  ], 
+  "##features#platform#cpu_misc#L2CacheSize#min": "256", 
+  "##features#platform#cpu_misc#L2CacheSize#repeats": 8, 
+  "##features#platform#cpu_misc#L2CacheSpeed#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#L2CacheSpeed#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#L2CacheSpeed#min": "", 
+  "##features#platform#cpu_misc#L2CacheSpeed#repeats": 8, 
+  "##features#platform#cpu_misc#L3CacheSize#all": [
+    "3072", 
+    "3072", 
+    "3072", 
+    "3072", 
+    "3072", 
+    "3072", 
+    "3072", 
+    "3072"
+  ], 
+  "##features#platform#cpu_misc#L3CacheSize#all_unique": [
+    "3072"
+  ], 
+  "##features#platform#cpu_misc#L3CacheSize#min": "3072", 
+  "##features#platform#cpu_misc#L3CacheSize#repeats": 8, 
+  "##features#platform#cpu_misc#L3CacheSpeed#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform#cpu_misc#L3CacheSpeed#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#L3CacheSpeed#min": "0", 
+  "##features#platform#cpu_misc#L3CacheSpeed#repeats": 8, 
+  "##features#platform#cpu_misc#LastErrorCode#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#LastErrorCode#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#LastErrorCode#min": "", 
+  "##features#platform#cpu_misc#LastErrorCode#repeats": 8, 
+  "##features#platform#cpu_misc#Level#all": [
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6"
+  ], 
+  "##features#platform#cpu_misc#Level#all_unique": [
+    "6"
+  ], 
+  "##features#platform#cpu_misc#Level#min": "6", 
+  "##features#platform#cpu_misc#Level#repeats": 8, 
+  "##features#platform#cpu_misc#LoadPercentage#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "15", 
+    "15", 
+    "15", 
+    "15"
+  ], 
+  "##features#platform#cpu_misc#LoadPercentage#all_unique": [
+    "0", 
+    "15"
+  ], 
+  "##features#platform#cpu_misc#LoadPercentage#min": "0", 
+  "##features#platform#cpu_misc#LoadPercentage#repeats": 8, 
+  "##features#platform#cpu_misc#Manufacturer#all": [
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#Manufacturer#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#Manufacturer#min": "GenuineIntel", 
+  "##features#platform#cpu_misc#Manufacturer#repeats": 8, 
+  "##features#platform#cpu_misc#MaxClockSpeed#all": [
+    "2401", 
+    "2401", 
+    "2401", 
+    "2401", 
+    "2401", 
+    "2401", 
+    "2401", 
+    "2401"
+  ], 
+  "##features#platform#cpu_misc#MaxClockSpeed#all_unique": [
+    "2401"
+  ], 
+  "##features#platform#cpu_misc#MaxClockSpeed#min": "2401", 
+  "##features#platform#cpu_misc#MaxClockSpeed#repeats": 8, 
+  "##features#platform#cpu_misc#Name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#Name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#Name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#cpu_misc#Name#repeats": 8, 
+  "##features#platform#cpu_misc#NumberOfCores#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform#cpu_misc#NumberOfCores#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#NumberOfCores#min": "2", 
+  "##features#platform#cpu_misc#NumberOfCores#repeats": 8, 
+  "##features#platform#cpu_misc#NumberOfLogicalProcessors#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform#cpu_misc#NumberOfLogicalProcessors#all_unique": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#NumberOfLogicalProcessors#min": "4", 
+  "##features#platform#cpu_misc#NumberOfLogicalProcessors#repeats": 8, 
+  "##features#platform#cpu_misc#OtherFamilyDescription#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#OtherFamilyDescription#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#OtherFamilyDescription#min": "", 
+  "##features#platform#cpu_misc#OtherFamilyDescription#repeats": 8, 
+  "##features#platform#cpu_misc#PNPDeviceID#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#PNPDeviceID#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#PNPDeviceID#min": "", 
+  "##features#platform#cpu_misc#PNPDeviceID#repeats": 8, 
+  "##features#platform#cpu_misc#PowerManagementCapabilities#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#PowerManagementCapabilities#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#PowerManagementCapabilities#min": "", 
+  "##features#platform#cpu_misc#PowerManagementCapabilities#repeats": 8, 
+  "##features#platform#cpu_misc#PowerManagementSupported#all": [
+    "FALSE", 
+    "FALSE", 
+    "FALSE", 
+    "FALSE", 
+    "FALSE", 
+    "FALSE", 
+    "FALSE", 
+    "FALSE"
+  ], 
+  "##features#platform#cpu_misc#PowerManagementSupported#all_unique": [
+    "FALSE"
+  ], 
+  "##features#platform#cpu_misc#PowerManagementSupported#min": "FALSE", 
+  "##features#platform#cpu_misc#PowerManagementSupported#repeats": 8, 
+  "##features#platform#cpu_misc#ProcessorId#all": [
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651"
+  ], 
+  "##features#platform#cpu_misc#ProcessorId#all_unique": [
+    "BFEBFBFF00040651"
+  ], 
+  "##features#platform#cpu_misc#ProcessorId#min": "BFEBFBFF00040651", 
+  "##features#platform#cpu_misc#ProcessorId#repeats": 8, 
+  "##features#platform#cpu_misc#ProcessorType#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform#cpu_misc#ProcessorType#all_unique": [
+    "3"
+  ], 
+  "##features#platform#cpu_misc#ProcessorType#min": "3", 
+  "##features#platform#cpu_misc#ProcessorType#repeats": 8, 
+  "##features#platform#cpu_misc#Revision#all": [
+    "17665", 
+    "17665", 
+    "17665", 
+    "17665", 
+    "17665", 
+    "17665", 
+    "17665", 
+    "17665"
+  ], 
+  "##features#platform#cpu_misc#Revision#all_unique": [
+    "17665"
+  ], 
+  "##features#platform#cpu_misc#Revision#min": "17665", 
+  "##features#platform#cpu_misc#Revision#repeats": 8, 
+  "##features#platform#cpu_misc#Role#all": [
+    "CPU", 
+    "CPU", 
+    "CPU", 
+    "CPU", 
+    "CPU", 
+    "CPU", 
+    "CPU", 
+    "CPU"
+  ], 
+  "##features#platform#cpu_misc#Role#all_unique": [
+    "CPU"
+  ], 
+  "##features#platform#cpu_misc#Role#min": "CPU", 
+  "##features#platform#cpu_misc#Role#repeats": 8, 
+  "##features#platform#cpu_misc#SocketDesignation#all": [
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1"
+  ], 
+  "##features#platform#cpu_misc#SocketDesignation#all_unique": [
+    "CPU Socket - U3E1"
+  ], 
+  "##features#platform#cpu_misc#SocketDesignation#min": "CPU Socket - U3E1", 
+  "##features#platform#cpu_misc#SocketDesignation#repeats": 8, 
+  "##features#platform#cpu_misc#Status#all": [
+    "OK", 
+    "OK", 
+    "OK", 
+    "OK", 
+    "OK", 
+    "OK", 
+    "OK", 
+    "OK"
+  ], 
+  "##features#platform#cpu_misc#Status#all_unique": [
+    "OK"
+  ], 
+  "##features#platform#cpu_misc#Status#min": "OK", 
+  "##features#platform#cpu_misc#Status#repeats": 8, 
+  "##features#platform#cpu_misc#StatusInfo#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform#cpu_misc#StatusInfo#all_unique": [
+    "3"
+  ], 
+  "##features#platform#cpu_misc#StatusInfo#min": "3", 
+  "##features#platform#cpu_misc#StatusInfo#repeats": 8, 
+  "##features#platform#cpu_misc#Stepping#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#Stepping#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#Stepping#min": "", 
+  "##features#platform#cpu_misc#Stepping#repeats": 8, 
+  "##features#platform#cpu_misc#SystemCreationClassName#all": [
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem"
+  ], 
+  "##features#platform#cpu_misc#SystemCreationClassName#all_unique": [
+    "Win32_ComputerSystem"
+  ], 
+  "##features#platform#cpu_misc#SystemCreationClassName#min": "Win32_ComputerSystem", 
+  "##features#platform#cpu_misc#SystemCreationClassName#repeats": 8, 
+  "##features#platform#cpu_misc#SystemName#all": [
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015"
+  ], 
+  "##features#platform#cpu_misc#SystemName#all_unique": [
+    "FGGLAPTOP2015"
+  ], 
+  "##features#platform#cpu_misc#SystemName#min": "FGGLAPTOP2015", 
+  "##features#platform#cpu_misc#SystemName#repeats": 8, 
+  "##features#platform#cpu_misc#UniqueId#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#UniqueId#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#UniqueId#min": "", 
+  "##features#platform#cpu_misc#UniqueId#repeats": 8, 
+  "##features#platform#cpu_misc#UpgradeMethod#all": [
+    "33", 
+    "33", 
+    "33", 
+    "33", 
+    "33", 
+    "33", 
+    "33", 
+    "33"
+  ], 
+  "##features#platform#cpu_misc#UpgradeMethod#all_unique": [
+    "33"
+  ], 
+  "##features#platform#cpu_misc#UpgradeMethod#min": "33", 
+  "##features#platform#cpu_misc#UpgradeMethod#repeats": 8, 
+  "##features#platform#cpu_misc#Version#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#Version#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#Version#min": "", 
+  "##features#platform#cpu_misc#Version#repeats": 8, 
+  "##features#platform#cpu_misc#VoltageCaps#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#VoltageCaps#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#VoltageCaps#min": "", 
+  "##features#platform#cpu_misc#VoltageCaps#repeats": 8, 
+  "##features#platform#os#bits#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#os#bits#all_unique": [
+    "64"
+  ], 
+  "##features#platform#os#bits#min": "64", 
+  "##features#platform#os#bits#repeats": 8, 
+  "##features#platform#os#ck_os_base_uoa#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#os#ck_os_base_uoa#all_unique": [
+    ""
+  ], 
+  "##features#platform#os#ck_os_base_uoa#min": "", 
+  "##features#platform#os#ck_os_base_uoa#repeats": 8, 
+  "##features#platform#os#ck_os_uoa#all": [
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64"
+  ], 
+  "##features#platform#os#ck_os_uoa#all_unique": [
+    "windows-64"
+  ], 
+  "##features#platform#os#ck_os_uoa#min": "windows-64", 
+  "##features#platform#os#ck_os_uoa#repeats": 8, 
+  "##features#platform#os#name#all": [
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7"
+  ], 
+  "##features#platform#os#name#all_unique": [
+    "Windows 7"
+  ], 
+  "##features#platform#os#name#min": "Windows 7", 
+  "##features#platform#os#name#repeats": 8, 
+  "##features#platform#os#name_long#all": [
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1"
+  ], 
+  "##features#platform#os#name_long#all_unique": [
+    "Windows-7-6.1.7601-SP1"
+  ], 
+  "##features#platform#os#name_long#min": "Windows-7-6.1.7601-SP1", 
+  "##features#platform#os#name_long#repeats": 8, 
+  "##features#platform#os#name_short#all": [
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7"
+  ], 
+  "##features#platform#os#name_short#all_unique": [
+    "Windows 7"
+  ], 
+  "##features#platform#os#name_short#min": "Windows 7", 
+  "##features#platform#os#name_short#repeats": 8, 
+  "##features#platform#platform#model#all": [
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW"
+  ], 
+  "##features#platform#platform#model#all_unique": [
+    "20ALCTO1WW"
+  ], 
+  "##features#platform#platform#model#min": "20ALCTO1WW", 
+  "##features#platform#platform#model#repeats": 8, 
+  "##features#platform#platform#name#all": [
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)"
+  ], 
+  "##features#platform#platform#name#all_unique": [
+    "LENOVO ThinkPad X240 (20ALCTO1WW)"
+  ], 
+  "##features#platform#platform#name#min": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+  "##features#platform#platform#name#repeats": 8, 
+  "##features#platform#platform#vendor#all": [
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO"
+  ], 
+  "##features#platform#platform#vendor#all_unique": [
+    "LENOVO"
+  ], 
+  "##features#platform#platform#vendor#min": "LENOVO", 
+  "##features#platform#platform#vendor#repeats": 8, 
+  "##features#platform#platform_misc#cs_product#Caption#all": [
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product"
+  ], 
+  "##features#platform#platform_misc#cs_product#Caption#all_unique": [
+    "Computer System Product"
+  ], 
+  "##features#platform#platform_misc#cs_product#Caption#min": "Computer System Product", 
+  "##features#platform#platform_misc#cs_product#Caption#repeats": 8, 
+  "##features#platform#platform_misc#cs_product#Description#all": [
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product", 
+    "Computer System Product"
+  ], 
+  "##features#platform#platform_misc#cs_product#Description#all_unique": [
+    "Computer System Product"
+  ], 
+  "##features#platform#platform_misc#cs_product#Description#min": "Computer System Product", 
+  "##features#platform#platform_misc#cs_product#Description#repeats": 8, 
+  "##features#platform#platform_misc#cs_product#IdentifyingNumber#all": [
+    "PC02H3GH", 
+    "PC02H3GH", 
+    "PC02H3GH", 
+    "PC02H3GH", 
+    "PC02H3GH", 
+    "PC02H3GH", 
+    "PC02H3GH", 
+    "PC02H3GH"
+  ], 
+  "##features#platform#platform_misc#cs_product#IdentifyingNumber#all_unique": [
+    "PC02H3GH"
+  ], 
+  "##features#platform#platform_misc#cs_product#IdentifyingNumber#min": "PC02H3GH", 
+  "##features#platform#platform_misc#cs_product#IdentifyingNumber#repeats": 8, 
+  "##features#platform#platform_misc#cs_product#Name#all": [
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW"
+  ], 
+  "##features#platform#platform_misc#cs_product#Name#all_unique": [
+    "20ALCTO1WW"
+  ], 
+  "##features#platform#platform_misc#cs_product#Name#min": "20ALCTO1WW", 
+  "##features#platform#platform_misc#cs_product#Name#repeats": 8, 
+  "##features#platform#platform_misc#cs_product#SKUNumber#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#platform_misc#cs_product#SKUNumber#all_unique": [
+    ""
+  ], 
+  "##features#platform#platform_misc#cs_product#SKUNumber#min": "", 
+  "##features#platform#platform_misc#cs_product#SKUNumber#repeats": 8, 
+  "##features#platform#platform_misc#cs_product#UUID#all": [
+    "75E18D01-53F5-11CB-9517-E9CE07DA82A7", 
+    "75E18D01-53F5-11CB-9517-E9CE07DA82A7", 
+    "75E18D01-53F5-11CB-9517-E9CE07DA82A7", 
+    "75E18D01-53F5-11CB-9517-E9CE07DA82A7", 
+    "75E18D01-53F5-11CB-9517-E9CE07DA82A7", 
+    "75E18D01-53F5-11CB-9517-E9CE07DA82A7", 
+    "75E18D01-53F5-11CB-9517-E9CE07DA82A7", 
+    "75E18D01-53F5-11CB-9517-E9CE07DA82A7"
+  ], 
+  "##features#platform#platform_misc#cs_product#UUID#all_unique": [
+    "75E18D01-53F5-11CB-9517-E9CE07DA82A7"
+  ], 
+  "##features#platform#platform_misc#cs_product#UUID#min": "75E18D01-53F5-11CB-9517-E9CE07DA82A7", 
+  "##features#platform#platform_misc#cs_product#UUID#repeats": 8, 
+  "##features#platform#platform_misc#cs_product#Vendor#all": [
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO"
+  ], 
+  "##features#platform#platform_misc#cs_product#Vendor#all_unique": [
+    "LENOVO"
+  ], 
+  "##features#platform#platform_misc#cs_product#Vendor#min": "LENOVO", 
+  "##features#platform#platform_misc#cs_product#Vendor#repeats": 8, 
+  "##features#platform#platform_misc#cs_product#Version#all": [
+    "ThinkPad X240", 
+    "ThinkPad X240", 
+    "ThinkPad X240", 
+    "ThinkPad X240", 
+    "ThinkPad X240", 
+    "ThinkPad X240", 
+    "ThinkPad X240", 
+    "ThinkPad X240"
+  ], 
+  "##features#platform#platform_misc#cs_product#Version#all_unique": [
+    "ThinkPad X240"
+  ], 
+  "##features#platform#platform_misc#cs_product#Version#min": "ThinkPad X240", 
+  "##features#platform#platform_misc#cs_product#Version#repeats": 8, 
+  "##features#platform.cpu#cpu#current_freq#0#all": [
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680, 
+    1680
+  ], 
+  "##features#platform.cpu#cpu#current_freq#0#all_unique": [
+    1680
+  ], 
+  "##features#platform.cpu#cpu#current_freq#0#center": 1680, 
+  "##features#platform.cpu#cpu#current_freq#0#halfrange": 0, 
+  "##features#platform.cpu#cpu#current_freq#0#max": 1680, 
+  "##features#platform.cpu#cpu#current_freq#0#mean": 1680.0, 
+  "##features#platform.cpu#cpu#current_freq#0#min": 1680, 
+  "##features#platform.cpu#cpu#current_freq#0#range": 0, 
+  "##features#platform.cpu#cpu#current_freq#0#range_percent": 0, 
+  "##features#platform.cpu#cpu#current_freq#0#repeats": 8, 
+  "##features#platform.cpu#cpu#max_freq#0#all": [
+    2401, 
+    2401, 
+    2401, 
+    2401, 
+    2401, 
+    2401, 
+    2401, 
+    2401
+  ], 
+  "##features#platform.cpu#cpu#max_freq#0#all_unique": [
+    2401
+  ], 
+  "##features#platform.cpu#cpu#max_freq#0#center": 2401, 
+  "##features#platform.cpu#cpu#max_freq#0#halfrange": 0, 
+  "##features#platform.cpu#cpu#max_freq#0#max": 2401, 
+  "##features#platform.cpu#cpu#max_freq#0#mean": 2401.0, 
+  "##features#platform.cpu#cpu#max_freq#0#min": 2401, 
+  "##features#platform.cpu#cpu#max_freq#0#range": 0, 
+  "##features#platform.cpu#cpu#max_freq#0#range_percent": 0, 
+  "##features#platform.cpu#cpu#max_freq#0#repeats": 8, 
+  "##features#platform.cpu#cpu#name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu#name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu#name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu#name#repeats": 8, 
+  "##features#platform.cpu#cpu#num_proc#all": [
+    4, 
+    4, 
+    4, 
+    4, 
+    4, 
+    4, 
+    4, 
+    4
+  ], 
+  "##features#platform.cpu#cpu#num_proc#all_unique": [
+    4
+  ], 
+  "##features#platform.cpu#cpu#num_proc#center": 4, 
+  "##features#platform.cpu#cpu#num_proc#halfrange": 0, 
+  "##features#platform.cpu#cpu#num_proc#max": 4, 
+  "##features#platform.cpu#cpu#num_proc#mean": 4.0, 
+  "##features#platform.cpu#cpu#num_proc#min": 4, 
+  "##features#platform.cpu#cpu#num_proc#range": 0, 
+  "##features#platform.cpu#cpu#num_proc#range_percent": 0, 
+  "##features#platform.cpu#cpu#num_proc#repeats": 8, 
+  "##features#platform.cpu#cpu#sub_name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu#sub_name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu#sub_name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu#sub_name#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#AddressWidth#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#AddressWidth#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#AddressWidth#min": "64", 
+  "##features#platform.cpu#cpu_misc#AddressWidth#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Architecture#all": [
+    "9", 
+    "9", 
+    "9", 
+    "9", 
+    "9", 
+    "9", 
+    "9", 
+    "9"
+  ], 
+  "##features#platform.cpu#cpu_misc#Architecture#all_unique": [
+    "9"
+  ], 
+  "##features#platform.cpu#cpu_misc#Architecture#min": "9", 
+  "##features#platform.cpu#cpu_misc#Architecture#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Availability#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#Availability#all_unique": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#Availability#min": "3", 
+  "##features#platform.cpu#cpu_misc#Availability#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Caption#all": [
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1"
+  ], 
+  "##features#platform.cpu#cpu_misc#Caption#all_unique": [
+    "Intel64 Family 6 Model 69 Stepping 1"
+  ], 
+  "##features#platform.cpu#cpu_misc#Caption#min": "Intel64 Family 6 Model 69 Stepping 1", 
+  "##features#platform.cpu#cpu_misc#Caption#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#ConfigManagerErrorCode#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#ConfigManagerErrorCode#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#ConfigManagerErrorCode#min": "", 
+  "##features#platform.cpu#cpu_misc#ConfigManagerErrorCode#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#ConfigManagerUserConfig#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#ConfigManagerUserConfig#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#ConfigManagerUserConfig#min": "", 
+  "##features#platform.cpu#cpu_misc#ConfigManagerUserConfig#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#CpuStatus#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#CpuStatus#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#CpuStatus#min": "1", 
+  "##features#platform.cpu#cpu_misc#CpuStatus#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#CreationClassName#all": [
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor", 
+    "Win32_Processor"
+  ], 
+  "##features#platform.cpu#cpu_misc#CreationClassName#all_unique": [
+    "Win32_Processor"
+  ], 
+  "##features#platform.cpu#cpu_misc#CreationClassName#min": "Win32_Processor", 
+  "##features#platform.cpu#cpu_misc#CreationClassName#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#CurrentClockSpeed#all": [
+    "1680", 
+    "1680", 
+    "1680", 
+    "1680", 
+    "1680", 
+    "1680", 
+    "1680", 
+    "1680"
+  ], 
+  "##features#platform.cpu#cpu_misc#CurrentClockSpeed#all_unique": [
+    "1680"
+  ], 
+  "##features#platform.cpu#cpu_misc#CurrentClockSpeed#min": "1680", 
+  "##features#platform.cpu#cpu_misc#CurrentClockSpeed#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#CurrentVoltage#all": [
+    "7", 
+    "7", 
+    "7", 
+    "7", 
+    "7", 
+    "7", 
+    "7", 
+    "7"
+  ], 
+  "##features#platform.cpu#cpu_misc#CurrentVoltage#all_unique": [
+    "7"
+  ], 
+  "##features#platform.cpu#cpu_misc#CurrentVoltage#min": "7", 
+  "##features#platform.cpu#cpu_misc#CurrentVoltage#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#DataWidth#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#DataWidth#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#DataWidth#min": "64", 
+  "##features#platform.cpu#cpu_misc#DataWidth#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Description#all": [
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1", 
+    "Intel64 Family 6 Model 69 Stepping 1"
+  ], 
+  "##features#platform.cpu#cpu_misc#Description#all_unique": [
+    "Intel64 Family 6 Model 69 Stepping 1"
+  ], 
+  "##features#platform.cpu#cpu_misc#Description#min": "Intel64 Family 6 Model 69 Stepping 1", 
+  "##features#platform.cpu#cpu_misc#Description#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#DeviceID#all": [
+    "CPU0", 
+    "CPU0", 
+    "CPU0", 
+    "CPU0", 
+    "CPU0", 
+    "CPU0", 
+    "CPU0", 
+    "CPU0"
+  ], 
+  "##features#platform.cpu#cpu_misc#DeviceID#all_unique": [
+    "CPU0"
+  ], 
+  "##features#platform.cpu#cpu_misc#DeviceID#min": "CPU0", 
+  "##features#platform.cpu#cpu_misc#DeviceID#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#ErrorCleared#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#ErrorCleared#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#ErrorCleared#min": "", 
+  "##features#platform.cpu#cpu_misc#ErrorCleared#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#ErrorDescription#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#ErrorDescription#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#ErrorDescription#min": "", 
+  "##features#platform.cpu#cpu_misc#ErrorDescription#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#ExtClock#all": [
+    "100", 
+    "100", 
+    "100", 
+    "100", 
+    "100", 
+    "100", 
+    "100", 
+    "100"
+  ], 
+  "##features#platform.cpu#cpu_misc#ExtClock#all_unique": [
+    "100"
+  ], 
+  "##features#platform.cpu#cpu_misc#ExtClock#min": "100", 
+  "##features#platform.cpu#cpu_misc#ExtClock#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Family#all": [
+    "205", 
+    "205", 
+    "205", 
+    "205", 
+    "205", 
+    "205", 
+    "205", 
+    "205"
+  ], 
+  "##features#platform.cpu#cpu_misc#Family#all_unique": [
+    "205"
+  ], 
+  "##features#platform.cpu#cpu_misc#Family#min": "205", 
+  "##features#platform.cpu#cpu_misc#Family#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#InstallDate#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#InstallDate#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#InstallDate#min": "", 
+  "##features#platform.cpu#cpu_misc#InstallDate#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#L2CacheSize#all": [
+    "256", 
+    "256", 
+    "256", 
+    "256", 
+    "256", 
+    "256", 
+    "256", 
+    "256"
+  ], 
+  "##features#platform.cpu#cpu_misc#L2CacheSize#all_unique": [
+    "256"
+  ], 
+  "##features#platform.cpu#cpu_misc#L2CacheSize#min": "256", 
+  "##features#platform.cpu#cpu_misc#L2CacheSize#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#L2CacheSpeed#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#L2CacheSpeed#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#L2CacheSpeed#min": "", 
+  "##features#platform.cpu#cpu_misc#L2CacheSpeed#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#L3CacheSize#all": [
+    "3072", 
+    "3072", 
+    "3072", 
+    "3072", 
+    "3072", 
+    "3072", 
+    "3072", 
+    "3072"
+  ], 
+  "##features#platform.cpu#cpu_misc#L3CacheSize#all_unique": [
+    "3072"
+  ], 
+  "##features#platform.cpu#cpu_misc#L3CacheSize#min": "3072", 
+  "##features#platform.cpu#cpu_misc#L3CacheSize#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#L3CacheSpeed#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#L3CacheSpeed#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#L3CacheSpeed#min": "0", 
+  "##features#platform.cpu#cpu_misc#L3CacheSpeed#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#LastErrorCode#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#LastErrorCode#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#LastErrorCode#min": "", 
+  "##features#platform.cpu#cpu_misc#LastErrorCode#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Level#all": [
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#Level#all_unique": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#Level#min": "6", 
+  "##features#platform.cpu#cpu_misc#Level#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#LoadPercentage#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#LoadPercentage#all_unique": [
+    "0", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#LoadPercentage#min": "0", 
+  "##features#platform.cpu#cpu_misc#LoadPercentage#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Manufacturer#all": [
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#Manufacturer#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#Manufacturer#min": "GenuineIntel", 
+  "##features#platform.cpu#cpu_misc#Manufacturer#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#MaxClockSpeed#all": [
+    "2401", 
+    "2401", 
+    "2401", 
+    "2401", 
+    "2401", 
+    "2401", 
+    "2401", 
+    "2401"
+  ], 
+  "##features#platform.cpu#cpu_misc#MaxClockSpeed#all_unique": [
+    "2401"
+  ], 
+  "##features#platform.cpu#cpu_misc#MaxClockSpeed#min": "2401", 
+  "##features#platform.cpu#cpu_misc#MaxClockSpeed#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#Name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#Name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#Name#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#NumberOfCores#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#NumberOfCores#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#NumberOfCores#min": "2", 
+  "##features#platform.cpu#cpu_misc#NumberOfCores#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#NumberOfLogicalProcessors#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#NumberOfLogicalProcessors#all_unique": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#NumberOfLogicalProcessors#min": "4", 
+  "##features#platform.cpu#cpu_misc#NumberOfLogicalProcessors#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#OtherFamilyDescription#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#OtherFamilyDescription#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#OtherFamilyDescription#min": "", 
+  "##features#platform.cpu#cpu_misc#OtherFamilyDescription#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#PNPDeviceID#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#PNPDeviceID#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#PNPDeviceID#min": "", 
+  "##features#platform.cpu#cpu_misc#PNPDeviceID#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#PowerManagementCapabilities#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#PowerManagementCapabilities#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#PowerManagementCapabilities#min": "", 
+  "##features#platform.cpu#cpu_misc#PowerManagementCapabilities#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#PowerManagementSupported#all": [
+    "FALSE", 
+    "FALSE", 
+    "FALSE", 
+    "FALSE", 
+    "FALSE", 
+    "FALSE", 
+    "FALSE", 
+    "FALSE"
+  ], 
+  "##features#platform.cpu#cpu_misc#PowerManagementSupported#all_unique": [
+    "FALSE"
+  ], 
+  "##features#platform.cpu#cpu_misc#PowerManagementSupported#min": "FALSE", 
+  "##features#platform.cpu#cpu_misc#PowerManagementSupported#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#ProcessorId#all": [
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651", 
+    "BFEBFBFF00040651"
+  ], 
+  "##features#platform.cpu#cpu_misc#ProcessorId#all_unique": [
+    "BFEBFBFF00040651"
+  ], 
+  "##features#platform.cpu#cpu_misc#ProcessorId#min": "BFEBFBFF00040651", 
+  "##features#platform.cpu#cpu_misc#ProcessorId#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#ProcessorType#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#ProcessorType#all_unique": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#ProcessorType#min": "3", 
+  "##features#platform.cpu#cpu_misc#ProcessorType#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Revision#all": [
+    "17665", 
+    "17665", 
+    "17665", 
+    "17665", 
+    "17665", 
+    "17665", 
+    "17665", 
+    "17665"
+  ], 
+  "##features#platform.cpu#cpu_misc#Revision#all_unique": [
+    "17665"
+  ], 
+  "##features#platform.cpu#cpu_misc#Revision#min": "17665", 
+  "##features#platform.cpu#cpu_misc#Revision#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Role#all": [
+    "CPU", 
+    "CPU", 
+    "CPU", 
+    "CPU", 
+    "CPU", 
+    "CPU", 
+    "CPU", 
+    "CPU"
+  ], 
+  "##features#platform.cpu#cpu_misc#Role#all_unique": [
+    "CPU"
+  ], 
+  "##features#platform.cpu#cpu_misc#Role#min": "CPU", 
+  "##features#platform.cpu#cpu_misc#Role#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#SocketDesignation#all": [
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1", 
+    "CPU Socket - U3E1"
+  ], 
+  "##features#platform.cpu#cpu_misc#SocketDesignation#all_unique": [
+    "CPU Socket - U3E1"
+  ], 
+  "##features#platform.cpu#cpu_misc#SocketDesignation#min": "CPU Socket - U3E1", 
+  "##features#platform.cpu#cpu_misc#SocketDesignation#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Status#all": [
+    "OK", 
+    "OK", 
+    "OK", 
+    "OK", 
+    "OK", 
+    "OK", 
+    "OK", 
+    "OK"
+  ], 
+  "##features#platform.cpu#cpu_misc#Status#all_unique": [
+    "OK"
+  ], 
+  "##features#platform.cpu#cpu_misc#Status#min": "OK", 
+  "##features#platform.cpu#cpu_misc#Status#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#StatusInfo#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#StatusInfo#all_unique": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#StatusInfo#min": "3", 
+  "##features#platform.cpu#cpu_misc#StatusInfo#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Stepping#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#Stepping#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#Stepping#min": "", 
+  "##features#platform.cpu#cpu_misc#Stepping#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#SystemCreationClassName#all": [
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem", 
+    "Win32_ComputerSystem"
+  ], 
+  "##features#platform.cpu#cpu_misc#SystemCreationClassName#all_unique": [
+    "Win32_ComputerSystem"
+  ], 
+  "##features#platform.cpu#cpu_misc#SystemCreationClassName#min": "Win32_ComputerSystem", 
+  "##features#platform.cpu#cpu_misc#SystemCreationClassName#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#SystemName#all": [
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015", 
+    "FGGLAPTOP2015"
+  ], 
+  "##features#platform.cpu#cpu_misc#SystemName#all_unique": [
+    "FGGLAPTOP2015"
+  ], 
+  "##features#platform.cpu#cpu_misc#SystemName#min": "FGGLAPTOP2015", 
+  "##features#platform.cpu#cpu_misc#SystemName#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#UniqueId#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#UniqueId#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#UniqueId#min": "", 
+  "##features#platform.cpu#cpu_misc#UniqueId#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#UpgradeMethod#all": [
+    "33", 
+    "33", 
+    "33", 
+    "33", 
+    "33", 
+    "33", 
+    "33", 
+    "33"
+  ], 
+  "##features#platform.cpu#cpu_misc#UpgradeMethod#all_unique": [
+    "33"
+  ], 
+  "##features#platform.cpu#cpu_misc#UpgradeMethod#min": "33", 
+  "##features#platform.cpu#cpu_misc#UpgradeMethod#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#Version#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#Version#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#Version#min": "", 
+  "##features#platform.cpu#cpu_misc#Version#repeats": 8, 
+  "##features#platform.cpu#cpu_misc#VoltageCaps#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#VoltageCaps#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#VoltageCaps#min": "", 
+  "##features#platform.cpu#cpu_misc#VoltageCaps#repeats": 8, 
+  "##features#platform.cpu#os#bits#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#os#bits#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#os#bits#min": "64", 
+  "##features#platform.cpu#os#bits#repeats": 8, 
+  "##features#platform.cpu#os#ck_os_base_uoa#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#os#ck_os_base_uoa#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#os#ck_os_base_uoa#min": "", 
+  "##features#platform.cpu#os#ck_os_base_uoa#repeats": 8, 
+  "##features#platform.cpu#os#ck_os_uoa#all": [
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64", 
+    "windows-64"
+  ], 
+  "##features#platform.cpu#os#ck_os_uoa#all_unique": [
+    "windows-64"
+  ], 
+  "##features#platform.cpu#os#ck_os_uoa#min": "windows-64", 
+  "##features#platform.cpu#os#ck_os_uoa#repeats": 8, 
+  "##features#platform.cpu#os#name#all": [
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7"
+  ], 
+  "##features#platform.cpu#os#name#all_unique": [
+    "Windows 7"
+  ], 
+  "##features#platform.cpu#os#name#min": "Windows 7", 
+  "##features#platform.cpu#os#name#repeats": 8, 
+  "##features#platform.cpu#os#name_long#all": [
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1", 
+    "Windows-7-6.1.7601-SP1"
+  ], 
+  "##features#platform.cpu#os#name_long#all_unique": [
+    "Windows-7-6.1.7601-SP1"
+  ], 
+  "##features#platform.cpu#os#name_long#min": "Windows-7-6.1.7601-SP1", 
+  "##features#platform.cpu#os#name_long#repeats": 8, 
+  "##features#platform.cpu#os#name_short#all": [
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7", 
+    "Windows 7"
+  ], 
+  "##features#platform.cpu#os#name_short#all_unique": [
+    "Windows 7"
+  ], 
+  "##features#platform.cpu#os#name_short#min": "Windows 7", 
+  "##features#platform.cpu#os#name_short#repeats": 8
+}

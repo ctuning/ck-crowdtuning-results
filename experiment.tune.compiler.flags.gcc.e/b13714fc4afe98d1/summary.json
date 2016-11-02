@@ -1,0 +1,147 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-5-1", 
+      "dataset_file": "data.pcm", 
+      "dataset_uoa": "pcm-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1900, 
+        "1": 1900, 
+        "2": 1900, 
+        "3": 1900
+      }, 
+      "cpu_name": "Samsung EXYNOS5420", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "bd481aa9375dd257", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 5.1.1", 
+      "os_uid": "95e9c142c9bc0ebd", 
+      "platform_name": "SAMSUNG SM-T900", 
+      "platform_uid": "9404019540dda270"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "cff854c439ef5f1d", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3868, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.6029996871948, 
+          "##characteristics#run#repeat#min": 96618360
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.164613454644185
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fbranch-target-load-optimize -fbranch-target-load-optimize2 -fcx-fortran-rules -fno-fast-math -fno-finite-math-only -fgcse-sm -fno-ivopts -fmodulo-sched -fmodulo-sched-allow-regmoves -fmove-loop-invariants -fno-sched-spec -fno-sched-last-insn-heuristic -fsel-sched-pipelining -fno-tree-reassoc -fno-variable-expansion-in-unroller -falign-labels=0 --param max-inline-insns-single=15 --param max-variable-expansions-in-unroller=1 --param max-delay-slot-insn-search=70 --param gcse-after-reload-partial-fraction=5 --param gcse-unrestricted-cost=1 --param max-peeled-insns=186 --param max-completely-peeled-insns=96 --param max-grow-copy-bb-insns=8 --param scev-max-expr-complexity=6 --param omega-eliminate-redundant-constraints=1 --param sink-frequency-threshold=8 --param max-pipeline-region-insns=61 --param sched-mem-true-dep-cost=2 --param ira-loop-reserved-regs=4 --param max-vartrack-expr-depth=3 --param lto-min-partition=1589 --param max-stores-to-sink=2 --param tree-reassoc-width=0", 
+          "##characteristics#compile#md5_sum#min": "c0f2a12893bee8549f84353e099cca96", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-branch-target-load-optimize": "-fbranch-target-load-optimize", 
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fbranch-target-load-optimize2", 
+          "##compiler_flags#bool-cx-fortran-rules": "-fcx-fortran-rules", 
+          "##compiler_flags#bool-fast-math": "-fno-fast-math", 
+          "##compiler_flags#bool-finite-math-only": "-fno-finite-math-only", 
+          "##compiler_flags#bool-gcse-sm": "-fgcse-sm", 
+          "##compiler_flags#bool-ivopts": "-fno-ivopts", 
+          "##compiler_flags#bool-modulo-sched": "-fmodulo-sched", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves": "-fmodulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-move-loop-invariants": "-fmove-loop-invariants", 
+          "##compiler_flags#bool-sched-last-insn-heuristic": "-fno-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fsel-sched-pipelining", 
+          "##compiler_flags#bool-tree-reassoc": "-fno-tree-reassoc", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fno-variable-expansion-in-unroller", 
+          "##compiler_flags#param--falign-labels=": "-falign-labels=0", 
+          "##compiler_flags#param-gcse-after-reload-partial-fraction": "--param gcse-after-reload-partial-fraction=5", 
+          "##compiler_flags#param-gcse-unrestricted-cost": "--param gcse-unrestricted-cost=1", 
+          "##compiler_flags#param-ira-loop-reserved-regs": "--param ira-loop-reserved-regs=4", 
+          "##compiler_flags#param-lto-min-partition": "--param lto-min-partition=1589", 
+          "##compiler_flags#param-max-completely-peeled-insns": "--param max-completely-peeled-insns=96", 
+          "##compiler_flags#param-max-delay-slot-insn-search": "--param max-delay-slot-insn-search=70", 
+          "##compiler_flags#param-max-grow-copy-bb-insns": "--param max-grow-copy-bb-insns=8", 
+          "##compiler_flags#param-max-inline-insns-single": "--param max-inline-insns-single=15", 
+          "##compiler_flags#param-max-peeled-insns": "--param max-peeled-insns=186", 
+          "##compiler_flags#param-max-pipeline-region-insns": "--param max-pipeline-region-insns=61", 
+          "##compiler_flags#param-max-stores-to-sink": "--param max-stores-to-sink=2", 
+          "##compiler_flags#param-max-variable-expansions-in-unroller": "--param max-variable-expansions-in-unroller=1", 
+          "##compiler_flags#param-max-vartrack-expr-depth": "--param max-vartrack-expr-depth=3", 
+          "##compiler_flags#param-omega-eliminate-redundant-constraints": "--param omega-eliminate-redundant-constraints=1", 
+          "##compiler_flags#param-scev-max-expr-complexity": "--param scev-max-expr-complexity=6", 
+          "##compiler_flags#param-sched-mem-true-dep-cost": "--param sched-mem-true-dep-cost=2", 
+          "##compiler_flags#param-sink-frequency-threshold": "--param sink-frequency-threshold=8", 
+          "##compiler_flags#param-tree-reassoc-width": "--param tree-reassoc-width=0"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-branch-target-load-optimize", 
+          "##compiler_flags#bool-branch-target-load-optimize2", 
+          "##compiler_flags#bool-cx-fortran-rules", 
+          "##compiler_flags#bool-fast-math", 
+          "##compiler_flags#bool-finite-math-only", 
+          "##compiler_flags#bool-gcse-sm", 
+          "##compiler_flags#bool-ivopts", 
+          "##compiler_flags#bool-modulo-sched", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-move-loop-invariants", 
+          "##compiler_flags#bool-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec", 
+          "##compiler_flags#bool-sel-sched-pipelining", 
+          "##compiler_flags#bool-tree-reassoc", 
+          "##compiler_flags#bool-variable-expansion-in-unroller", 
+          "##compiler_flags#param--falign-labels=", 
+          "##compiler_flags#param-gcse-after-reload-partial-fraction", 
+          "##compiler_flags#param-gcse-unrestricted-cost", 
+          "##compiler_flags#param-ira-loop-reserved-regs", 
+          "##compiler_flags#param-lto-min-partition", 
+          "##compiler_flags#param-max-completely-peeled-insns", 
+          "##compiler_flags#param-max-delay-slot-insn-search", 
+          "##compiler_flags#param-max-grow-copy-bb-insns", 
+          "##compiler_flags#param-max-inline-insns-single", 
+          "##compiler_flags#param-max-peeled-insns", 
+          "##compiler_flags#param-max-pipeline-region-insns", 
+          "##compiler_flags#param-max-stores-to-sink", 
+          "##compiler_flags#param-max-variable-expansions-in-unroller", 
+          "##compiler_flags#param-max-vartrack-expr-depth", 
+          "##compiler_flags#param-omega-eliminate-redundant-constraints", 
+          "##compiler_flags#param-scev-max-expr-complexity", 
+          "##compiler_flags#param-sched-mem-true-dep-cost", 
+          "##compiler_flags#param-sink-frequency-threshold", 
+          "##compiler_flags#param-tree-reassoc-width"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "96e439b9a92621b0", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

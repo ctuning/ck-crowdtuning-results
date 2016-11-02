@@ -1,0 +1,185 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 13040,
+        "compilation_success": "yes",
+        "compilation_success_bool": true,
+        "compilation_time": 0.1276695728302002,
+        "compilation_time_with_module": 1.358916997909546,
+        "joined_compiler_flags": "-O3 -flto",
+        "md5_sum": "6d6bb4ec05829bdab835b07173e6f710",
+        "obj_size": 11856,
+        "obj_sizes": {
+          "mpilib.codelet__1.o": 4440,
+          "mpilib.codelet__1.wrapper.o": 7416
+        },
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      },
+      "run": {
+        "execution_time": 1.4580886266486356e-08,
+        "execution_time_kernel_0": 6.470886,
+        "execution_time_with_module": 6.978865385055542,
+        "repeat": 443792365,
+        "return_code": 0,
+        "run_success": "yes",
+        "run_success_bool": true,
+        "total_execution_time": 6.470886
+      }
+    },
+    {
+      "run": {
+        "execution_time": 1.4575417492817841e-08,
+        "execution_time_kernel_0": 6.468459,
+        "execution_time_with_module": 6.976480007171631,
+        "repeat": 443792365,
+        "return_code": 0,
+        "run_success": "yes",
+        "run_success_bool": true,
+        "total_execution_time": 6.468459
+      }
+    }
+  ],
+  "choices": {
+    "calibration_time": 10.0,
+    "cmd_key": "default",
+    "compile_type": "dynamic",
+    "compiler_description_uoa": "gcc-5.2.0-auto",
+    "compiler_flags": {
+      "base_opt": "-O3",
+      "bool-lto": "-flto"
+    },
+    "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-1-1",
+    "dataset_file": "",
+    "dataset_uoa": "",
+    "device_id": "",
+    "host_os": "linux-64",
+    "module_uoa": "b0ac08fe1d3c2615",
+    "no_state_check": "yes",
+    "program_tags": "",
+    "repeat": 443792365,
+    "target_os": "linux-64",
+    "target_os_bits": "64"
+  },
+  "choices_order": [
+    "##compiler_flags#base_opt",
+    "##compiler_flags#bool-lto"
+  ],
+  "features": {
+    "compiler_version": {
+      "list": [
+        "5",
+        "2",
+        "1"
+      ],
+      "raw": [
+        "gcc (Ubuntu 5.2.1-22ubuntu2) 5.2.1 20151010",
+        "Copyright (C) 2015 Free Software Foundation, Inc.",
+        "This is free software; see the source for copying conditions.  There is NO",
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+        "",
+        ""
+      ],
+      "str": "5.2.1"
+    },
+    "number_of_selected_compiler_flags": 2,
+    "platform": {
+      "cpu": {
+        "all_freqs": {},
+        "cpu_abi": "",
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm arat epb pln pts dtherm tpr_shadow vnmi flexpriority ept vpid xsaveopt",
+        "current_freq": {
+          "0": 2599.898,
+          "1": 2600.0
+        },
+        "max_freq": {
+          "0": 3300.0,
+          "1": 3300.0
+        },
+        "name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+        "num_proc": "2",
+        "sub_name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz"
+      },
+      "cpu_misc": {
+        "0": {
+          "address sizes": "36 bits physical, 48 bits virtual",
+          "apicid": "0",
+          "bogomips": "5188.68",
+          "bugs": "",
+          "cache size": "3072 KB",
+          "cache_alignment": "64",
+          "clflush size": "64",
+          "core id": "0",
+          "cpu MHz": "2599.898",
+          "cpu cores": "2",
+          "cpu family": "6",
+          "cpuid level": "13",
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm arat epb pln pts dtherm tpr_shadow vnmi flexpriority ept vpid xsaveopt",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "0",
+          "microcode": "0x29",
+          "model": "42",
+          "model name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+          "physical id": "0",
+          "power managemen": "",
+          "processor": "0",
+          "siblings": "2",
+          "stepping": "7",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        },
+        "1": {
+          "address sizes": "36 bits physical, 48 bits virtual",
+          "apicid": "2",
+          "bogomips": "5188.68",
+          "bugs": "",
+          "cache size": "3072 KB",
+          "cache_alignment": "64",
+          "clflush size": "64",
+          "core id": "1",
+          "cpu MHz": "2600.000",
+          "cpu cores": "2",
+          "cpu family": "6",
+          "cpuid level": "13",
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm arat epb pln pts dtherm tpr_shadow vnmi flexpriority ept vpid xsaveopt",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "2",
+          "microcode": "0x29",
+          "model": "42",
+          "model name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+          "physical id": "0",
+          "power managemen": "",
+          "processor": "1",
+          "siblings": "2",
+          "stepping": "7",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        }
+      },
+      "gpu": {
+        "name": "Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller (rev 09)",
+        "vendor": "Intel"
+      },
+      "gpu_misc": {},
+      "os": {
+        "bits": "64",
+        "ck_os_base_uoa": "",
+        "ck_os_uoa": "linux-64",
+        "name": "Ubuntu 15.10",
+        "name_long": "Linux-4.2.0-30-generic-x86_64-with-debian-jessie-sid",
+        "name_short": "Linux 4.2.0"
+      },
+      "os_misc": {},
+      "platform": {
+        "model": "Latitude E6320",
+        "name": "Dell Inc. 01 (Latitude E6320)",
+        "vendor": "Dell Inc."
+      },
+      "platform_misc": {}
+    },
+    "solution_uid": "011187a3349f8b34",
+    "statistical_repetitions": 2
+  }
+}

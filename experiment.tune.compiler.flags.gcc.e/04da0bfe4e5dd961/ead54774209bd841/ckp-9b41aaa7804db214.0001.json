@@ -1,0 +1,76 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 442736, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.19024896621704102, 
+        "compilation_time_with_module": 1.386732816696167, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "3a3847668afdca6b72f590cf10c79ed6", 
+        "obj_size": 3820, 
+        "obj_sizes": {
+          "nsynth.codelet__9.o": 988, 
+          "nsynth.codelet__9.wrapper.o": 2832
+        }, 
+        "program_git_hash": "9e5fbeb6e64fb94676778a733b0f92a23cd2917b"
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "static", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-9-1", 
+    "dataset_file": "data.ppm", 
+    "dataset_uoa": "image-ppm-0001", 
+    "device_id": "", 
+    "extra_dataset_tags": [
+      "small"
+    ], 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_run": "yes", 
+    "no_state_check": "yes", 
+    "program_tags": "crowd-tuning,small", 
+    "repeat": "", 
+    "target_os": "android19-x86", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        9
+      ], 
+      "raw": [
+        "i686-linux-android-gcc (GCC) 4.9 20140827 (prerelease)", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9"
+    }, 
+    "dataset": {
+      "compression": "", 
+      "format": "PPM", 
+      "height": 208, 
+      "mode": "RGB", 
+      "raw_info": {}, 
+      "total_size": 101103, 
+      "width": 162
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "statistical_repetitions": 1
+  }
+}

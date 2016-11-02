@@ -1,0 +1,303 @@
+{
+  "characteristics_list": [
+    {
+      "current_freq": {
+        "0": 70
+      }, 
+      "run": {
+        "crowdtuning_user": "gfursin@gmail.com", 
+        "execution_time": 0.277, 
+        "execution_time_kernel_0": 0.277, 
+        "execution_time_kernel_1": 0.541, 
+        "execution_time_with_module": 5.5910000801086, 
+        "post_processed": "yes", 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "run_time_state": {
+          "CL_DEVICE_GLOBAL_MEM_SIZE": 1708759450, 
+          "CL_DEVICE_LOCAL_MEM_SIZE": 65536, 
+          "CL_DEVICE_MAX_CLOCK_FREQUENCY": 1000, 
+          "CL_DEVICE_MAX_COMPUTE_UNITS": 20, 
+          "CL_DEVICE_MAX_WORK_GROUP_SIZE": 512, 
+          "CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS": 3, 
+          "CL_DEVICE_MAX_WORK_ITEM_SIZES_0": 512, 
+          "CL_DEVICE_MAX_WORK_ITEM_SIZES_1": 512, 
+          "CL_DEVICE_MAX_WORK_ITEM_SIZES_2": 512, 
+          "CL_DEVICE_NAME": "Intel(R) HD Graphics 4400", 
+          "CL_DEVICE_VENDOR": "Intel(R) Corporation", 
+          "CL_DEVICE_VERSION": "OpenCL 1.2 ", 
+          "CL_DRIVER_VERSION": "20.19.15.4331", 
+          "CL_KERNEL_WORK_GROUP_SIZE": 512, 
+          "CL_PLATFORM_NAME": "Intel(R) OpenCL", 
+          "CL_PLATFORM_VENDOR": "Intel(R) Corporation", 
+          "CL_PLATFORM_VERSION": "OpenCL 1.2 ", 
+          "CMD_LINE_ARGS#device_idx": 0, 
+          "CMD_LINE_ARGS#eps": 0.1, 
+          "CMD_LINE_ARGS#matrix_order": 1024, 
+          "CMD_LINE_ARGS#platform_idx": 0, 
+          "EXECUTION#Gflops": 2.15, 
+          "EXECUTION#Gflops/s": 7.885, 
+          "EXECUTION#flops": 2149580800, 
+          "EXECUTION#gws_i": 1024, 
+          "EXECUTION#gws_j": 1024, 
+          "EXECUTION#lws_i": 4, 
+          "EXECUTION#lws_j": 4, 
+          "EXECUTION#ms": 272.615, 
+          "EXECUTION#ns": 272615424, 
+          "EXECUTION#s": 0.273, 
+          "EXECUTION#us": 272615.438, 
+          "METADATA#di": 1, 
+          "METADATA#dj": 1, 
+          "METADATA#file": "SGEMM_NT_1x1.cl", 
+          "METADATA#name": "SGEMM_NT_1x1", 
+          "METADATA#opts": "", 
+          "METADATA#transA": 0, 
+          "METADATA#transB": 1, 
+          "METADATA#type": "S", 
+          "RESULTS#match": 1, 
+          "RESULTS#max_abs_diff": 0.04242969
+        }, 
+        "stderr": "", 
+        "stdout": "Hello GEMMbench!\nReading OpenCL kernel metadata from 'D:\\Work1\\CK\\ck-repos\\gemmbench\\dataset\\SGEMM_NT\\SGEMM_NT_1x1.json'...\n{\n    \"name\"   : \"SGEMM_NT_1x1\",\n    \"file\"   : \"SGEMM_NT_1x1.cl\",\n    \"type\"   : \"S\",\n    \"transA\" : \"N\",\n    \"transB\" : \"T\",\n    \"dj\"     : 1,\n    \"di\"     : 1\n}\nReading an OpenCL kernel from 'D:\\Work1\\CK\\ck-repos\\gemmbench\\dataset\\SGEMM_NT\\SGEMM_NT_1x1.cl'...\nBuilding program (with options: '') ...\nEnqueuing kernel ... \nProfiling kernel ... \nCalculating performance... 7.88503 Gflops/s (performed 2149580800 flops in 272615424 ns).\nComparing the OpenCL and reference results... MATCH!\nBye GEMMbench!\n", 
+        "total_execution_time": 0.277
+      }
+    }
+  ], 
+  "choices": {
+    "cmd_key": "sgemm_nt", 
+    "compile_only_once": "yes", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "compiler_vars": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "gemmbench-cl-launcher-1.0", 
+    "dataset_file": "SGEMM_NT_1x1.json", 
+    "dataset_uoa": "SGEMM_NT", 
+    "device_id": "", 
+    "energy": "no", 
+    "gpu_freq": "max", 
+    "host_os": "windows-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "repeat": 1, 
+    "run_cmd_key_lws": "4,4", 
+    "run_cmd_key_n": "1024", 
+    "skip_calibration": "yes", 
+    "target_os": "windows-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##dataset_file", 
+    "##choices#run_cmd_key_n", 
+    "##choices#run_cmd_key_lws"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "15", 
+        "0", 
+        "1", 
+        "148"
+      ], 
+      "raw": [
+        "Intel(R) C   Intel(R) 64 Compiler XE for applications running on Intel(R) 64, Version 15.0.1.148 Build 20141023", 
+        "Copyright (C) 1985-2014 Intel Corporation.  All rights reserved.", 
+        "", 
+        "icl: command line error: no files specified; for help type \"icl /help\"", 
+        ""
+      ], 
+      "str": "15.0.1.148"
+    }, 
+    "dataset": {
+      "total_size": 1116
+    }, 
+    "number_of_selected_compiler_flags": 0, 
+    "platform": {
+      "cpu": {
+        "current_freq": {
+          "0": 70
+        }, 
+        "max_freq": {
+          "0": 2394
+        }, 
+        "name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "num_proc": 4, 
+        "sub_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+      }, 
+      "cpu_misc": {
+        "AddressWidth": "64", 
+        "Architecture": "9", 
+        "AssetTag": "None", 
+        "Availability": "3", 
+        "Caption": "Intel64 Family 6 Model 69 Stepping 1", 
+        "Characteristics": "4", 
+        "ConfigManagerErrorCode": "", 
+        "ConfigManagerUserConfig": "", 
+        "CpuStatus": "1", 
+        "CreationClassName": "Win32_Processor", 
+        "CurrentClockSpeed": "70", 
+        "CurrentVoltage": "7", 
+        "DataWidth": "64", 
+        "Description": "Intel64 Family 6 Model 69 Stepping 1", 
+        "DeviceID": "CPU0", 
+        "ErrorCleared": "", 
+        "ErrorDescription": "", 
+        "ExtClock": "100", 
+        "Family": "205", 
+        "InstallDate": "", 
+        "L2CacheSize": "256", 
+        "L2CacheSpeed": "", 
+        "L3CacheSize": "3072", 
+        "L3CacheSpeed": "0", 
+        "LastErrorCode": "", 
+        "Level": "6", 
+        "LoadPercentage": "2", 
+        "Manufacturer": "GenuineIntel", 
+        "MaxClockSpeed": "2394", 
+        "Name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "NumberOfCores": "2", 
+        "NumberOfEnabledCore": "2", 
+        "NumberOfLogicalProcessors": "4", 
+        "OtherFamilyDescription": "", 
+        "PNPDeviceID": "", 
+        "PartNumber": "None", 
+        "PowerManagementCapabilities": "", 
+        "PowerManagementSupported": "FALSE", 
+        "ProcessorId": "BFEBFBFF00040651", 
+        "ProcessorType": "3", 
+        "Revision": "17665", 
+        "Role": "CPU", 
+        "SecondLevelAddressTranslationExtensions": "TRUE", 
+        "SerialNumber": "None", 
+        "SocketDesignation": "CPU Socket - U3E1", 
+        "Status": "OK", 
+        "StatusInfo": "3", 
+        "Stepping": "", 
+        "SystemCreationClassName": "Win32_ComputerSystem", 
+        "SystemName": "FGGLAPTOP2015", 
+        "ThreadCount": "4", 
+        "UniqueId": "", 
+        "UpgradeMethod": "33", 
+        "VMMonitorModeExtensions": "TRUE", 
+        "Version": "", 
+        "VirtualizationFirmwareEnabled": "TRUE", 
+        "VoltageCaps": ""
+      }, 
+      "gpu": {
+        "name": "Intel(R) HD Graphics Family", 
+        "possibly_related_cpu_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "vendor": "Intel(R)"
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "windows-64", 
+        "name": "Windows 10", 
+        "name_long": "Windows-10.0.10586", 
+        "name_short": "Windows 10"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "20ALCTO1WW", 
+        "name": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+        "vendor": "LENOVO"
+      }, 
+      "platform_misc": {
+        "cs_product": {
+          "Caption": "Computer System Product", 
+          "Description": "Computer System Product", 
+          "IdentifyingNumber": "PC02H3GH", 
+          "Name": "20ALCTO1WW", 
+          "SKUNumber": "", 
+          "UUID": "75E18D01-53F5-11CB-9517-E9CE07DA82A7", 
+          "Vendor": "LENOVO", 
+          "Version": "ThinkPad X240"
+        }
+      }
+    }, 
+    "platform.cpu": {
+      "cpu": {
+        "current_freq": {
+          "0": 70
+        }, 
+        "max_freq": {
+          "0": 2394
+        }, 
+        "name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "num_proc": 4, 
+        "sub_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+      }, 
+      "cpu_misc": {
+        "AddressWidth": "64", 
+        "Architecture": "9", 
+        "AssetTag": "None", 
+        "Availability": "3", 
+        "Caption": "Intel64 Family 6 Model 69 Stepping 1", 
+        "Characteristics": "4", 
+        "ConfigManagerErrorCode": "", 
+        "ConfigManagerUserConfig": "", 
+        "CpuStatus": "1", 
+        "CreationClassName": "Win32_Processor", 
+        "CurrentClockSpeed": "70", 
+        "CurrentVoltage": "7", 
+        "DataWidth": "64", 
+        "Description": "Intel64 Family 6 Model 69 Stepping 1", 
+        "DeviceID": "CPU0", 
+        "ErrorCleared": "", 
+        "ErrorDescription": "", 
+        "ExtClock": "100", 
+        "Family": "205", 
+        "InstallDate": "", 
+        "L2CacheSize": "256", 
+        "L2CacheSpeed": "", 
+        "L3CacheSize": "3072", 
+        "L3CacheSpeed": "0", 
+        "LastErrorCode": "", 
+        "Level": "6", 
+        "LoadPercentage": "1", 
+        "Manufacturer": "GenuineIntel", 
+        "MaxClockSpeed": "2394", 
+        "Name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "NumberOfCores": "2", 
+        "NumberOfEnabledCore": "2", 
+        "NumberOfLogicalProcessors": "4", 
+        "OtherFamilyDescription": "", 
+        "PNPDeviceID": "", 
+        "PartNumber": "None", 
+        "PowerManagementCapabilities": "", 
+        "PowerManagementSupported": "FALSE", 
+        "ProcessorId": "BFEBFBFF00040651", 
+        "ProcessorType": "3", 
+        "Revision": "17665", 
+        "Role": "CPU", 
+        "SecondLevelAddressTranslationExtensions": "TRUE", 
+        "SerialNumber": "None", 
+        "SocketDesignation": "CPU Socket - U3E1", 
+        "Status": "OK", 
+        "StatusInfo": "3", 
+        "Stepping": "", 
+        "SystemCreationClassName": "Win32_ComputerSystem", 
+        "SystemName": "FGGLAPTOP2015", 
+        "ThreadCount": "4", 
+        "UniqueId": "", 
+        "UpgradeMethod": "33", 
+        "VMMonitorModeExtensions": "TRUE", 
+        "Version": "", 
+        "VirtualizationFirmwareEnabled": "TRUE", 
+        "VoltageCaps": ""
+      }, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "windows-64", 
+        "name": "Windows 10", 
+        "name_long": "Windows-10.0.10586", 
+        "name_short": "Windows 10"
+      }, 
+      "os_misc": {}
+    }, 
+    "statistical_repetitions": 1
+  }
+}

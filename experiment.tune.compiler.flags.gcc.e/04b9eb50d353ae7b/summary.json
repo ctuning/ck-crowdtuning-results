@@ -1,0 +1,130 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-16-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.4.0", 
+      "cpu_cur_freq": {
+        "0": 1400, 
+        "1": 1400, 
+        "2": 1400, 
+        "3": 1400, 
+        "4": 2000, 
+        "5": 2000, 
+        "6": 2000, 
+        "7": 2000
+      }, 
+      "cpu_name": "ODROID-XU3", 
+      "cpu_num_proc": "8", 
+      "cpu_uid": "a10931014c04174b", 
+      "gpu_misc_uid": "b8b75cda440a8903", 
+      "gpu_name": "MALI-T628", 
+      "kernel_repetitions": 684974669, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 16.04.1 LTS", 
+      "os_uid": "38d94cf6b97bc381", 
+      "platform_name": "ODROID-XU3", 
+      "platform_uid": "2b4b086b47f2b96e"
+    }, 
+    "iterations": 31, 
+    "last_touch_uid": "e498c84aefc1603f", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3464, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.96383, 
+          "##characteristics#run#repeat#min": 684974669
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.079275198188, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1153825987563
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-merge-constants -fno-schedule-insns", 
+          "##characteristics#compile#md5_sum#min": "9bfce09f05637dcd80d1e307f527855c", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00013308888708916
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-merge-constants": "-fno-merge-constants", 
+          "##compiler_flags#bool-schedule-insns": "-fno-schedule-insns"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-merge-constants", 
+          "##compiler_flags#bool-schedule-insns"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-merge-constants": {
+            "##characteristics#compile#obj_size#min_imp": 0.92918454935622, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.0000429515262, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 8.2444617911719e-05
+          }, 
+          "##compiler_flags#bool-schedule-insns": {
+            "##characteristics#compile#obj_size#min_imp": 0.99654775604143, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.89655201383899, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00045297175072529
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-compare-elim": "-fcompare-elim", 
+          "##compiler_flags#bool-cprop-registers": "-fcprop-registers", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fno-delete-null-pointer-checks", 
+          "##compiler_flags#bool-function-sections": "-fno-function-sections", 
+          "##compiler_flags#bool-gcse-after-reload": "-fgcse-after-reload", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fira-share-save-slots", 
+          "##compiler_flags#bool-keep-inline-functions": "-fno-keep-inline-functions", 
+          "##compiler_flags#bool-modulo-sched": "-fno-modulo-sched", 
+          "##compiler_flags#bool-peel-loops": "-fno-peel-loops", 
+          "##compiler_flags#bool-reorder-blocks": "-freorder-blocks", 
+          "##compiler_flags#bool-reorder-functions": "-fno-reorder-functions", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-freschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-sched-dep-count-heuristic": "-fno-sched-dep-count-heuristic", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fno-sched-group-heuristic", 
+          "##compiler_flags#bool-sched-last-insn-heuristic": "-fno-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-schedule-insns2": "-fschedule-insns2", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant", 
+          "##compiler_flags#bool-split-wide-types": "-fno-split-wide-types", 
+          "##compiler_flags#bool-strict-overflow": "-fno-strict-overflow", 
+          "##compiler_flags#bool-trapping-math": "-ftrapping-math", 
+          "##compiler_flags#bool-tree-loop-distribute-patterns": "-ftree-loop-distribute-patterns", 
+          "##compiler_flags#bool-unswitch-loops": "-funswitch-loops", 
+          "##compiler_flags#bool-vpt": "-fno-vpt", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fno-zero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "d445b85a06763ae6", 
+    "touched": 3, 
+    "user": "gfursin-odroid", 
+    "validated": 1
+  }
+]

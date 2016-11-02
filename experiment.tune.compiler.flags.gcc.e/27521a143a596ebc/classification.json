@@ -1,0 +1,39 @@
+{
+  "81f91b0d913d68e0": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4600, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.7919998168945, 
+          "##characteristics#run#repeat#min": 4752851
+        }, 
+        "checked": [
+          "81f91b0d913d68e0"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9930434782608696, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 2.8740826623159745
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "data.wav", 
+          "dataset_uoa": "audio-wav-0001", 
+          "program_uoa": "milepost-codelet-mibench-automotive-susan-s-src-susan-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9930434782608696, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 2.8740826623159745
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "data.wav", 
+      "dataset_uoa": "audio-wav-0001", 
+      "program_uoa": "milepost-codelet-mibench-automotive-susan-s-src-susan-codelet-1-1"
+    }, 
+    "user": "6d685112825343ff"
+  }
+}

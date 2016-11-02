@@ -1,0 +1,112 @@
+{
+  "characteristics": {
+    "run": {
+      "execution_time": 6.7660684585571, 
+      "execution_time_with_module": 9.5336306095123, 
+      "repeat": 1, 
+      "return_code": 0, 
+      "run_success": "yes", 
+      "run_success_bool": true, 
+      "total_execution_time": 6.7660684585571
+    }
+  }, 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "", 
+    "data_uoa": "wa-skype", 
+    "dataset_file": "", 
+    "device_cfg": {
+      "access_type": "wa_android", 
+      "wa_config": {
+        "device": "generic_android", 
+        "device_config": {
+          "adb_name": "SWQ49TFIT8YLU4DE", 
+          "core_clusters": [
+            0
+          ], 
+          "core_names": [
+            "MT6572"
+          ]
+        }, 
+        "execution_order": "by_iteration", 
+        "instrumentation": [
+          "execution_time"
+        ], 
+        "logging": {
+          "colour_enabled": false, 
+          "file format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s", 
+          "regular format": "%(levelname)-8s %(message)s", 
+          "verbose format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s"
+        }, 
+        "max_retries": 3, 
+        "reboot_policy": "as_needed", 
+        "result_processors": [
+          "status", 
+          "standard", 
+          "json"
+        ], 
+        "retry_on_status": [
+          "FAILED", 
+          "PARTIAL"
+        ]
+      }
+    }, 
+    "device_id": "SWQ49TFIT8YLU4DE", 
+    "energy": "no", 
+    "env": {
+      "CK_WA_RAW_RESULT_PATH": "/home/fursin/CK/local/wa-result/0a5b4f7cb40d5596/20161013-153642", 
+      "CK_WA_SCRIPTS_PATH": "/home/fursin/CK/ck-wa/script/process-wa"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "params": {
+      "config": {}, 
+      "params": {
+        "action": "voice", 
+        "check_abi": false, 
+        "check_apk": true, 
+        "clean_assets": false, 
+        "contact_name": "Echo / Sound Test Service", 
+        "duration": 10, 
+        "force_install": false, 
+        "force_push_assets": false, 
+        "install_timeout": 300, 
+        "login_name": "xyz", 
+        "markers_enabled": false, 
+        "uninstall_apk": false
+      }
+    }, 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "wa-huawei-y330-u01", 
+    "target_os": "android17-arm", 
+    "target_os_bits": "32"
+  }, 
+  "meta": {
+    "apk_name": "com.skype.raider", 
+    "apk_version": "7.09.0.903", 
+    "cpu_name": "MT6572", 
+    "gpu_name": "ARM Mali-400 MP", 
+    "local_target_uid": "ed0871b422a1412c", 
+    "local_target_uoa": "wa-huawei-y330-u01", 
+    "os_name": "Android 4.2.2", 
+    "plat_name": "HUAWEI Y330-U01", 
+    "program_uid": "aa81cc48dee40cf9", 
+    "program_uoa": "wa-skype", 
+    "scenario": "-", 
+    "serial_number": "SWQ49TFIT8YLU4DE", 
+    "wa_version": "trunk-3b052cc", 
+    "workload_name": "skype"
+  }, 
+  "state": {
+    "fail": "yes", 
+    "fail_reason": "execution failed - \u001b[0mError while running skype:\u001b[31m\u001b[0m\n\u001b[0m\tWorkload \"skype\" requires internet. Device \"generic_android\" does not appear to be connected to the internet.\u001b[31m\u001b[0m\nFAILURE: Workload \"skype\" requires internet. Device \"generic_android\" does not appear to be connected to the internet."
+  }, 
+  "user": "-"
+}

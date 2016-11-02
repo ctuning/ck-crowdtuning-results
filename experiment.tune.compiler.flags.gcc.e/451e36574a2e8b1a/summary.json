@@ -1,0 +1,153 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-3-1", 
+      "dataset_file": "DGEMM_NN_1x1.json", 
+      "dataset_uoa": "DGEMM_NN", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 800, 
+        "1": 800, 
+        "2": 800, 
+        "3": 800, 
+        "4": 800, 
+        "5": 800, 
+        "6": 800, 
+        "7": 800
+      }, 
+      "cpu_name": "Qualcomm MSM 8939 HUAWEI KIW-AL10", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 5.1.1", 
+      "os_uid": "95e9c142c9bc0ebd", 
+      "platform_name": "HUAWEI KIW-AL10", 
+      "platform_uid": ""
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "b17daf159b644a50", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4088, 
+          "##characteristics#run#execution_time_kernel_0#min": 11.024000167847, 
+          "##characteristics#run#repeat#min": 6365372
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3677418851016954
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fcx-limited-range -fno-early-inlining -fno-gcse -fgcse-lm -fno-graphite-identity -fno-inline-functions -fdefer-pop -fno-signed-zeros -fpartial-inlining -frename-registers -fsched-spec-insn-heuristic -fselective-scheduling2 -fno-sel-sched-pipelining -fno-split-wide-types -ftracer -fno-tree-copyrename -fno-tree-loop-optimize -fvect-cost-model -fsched-stalled-insns-dep=0 -fsched-stalled-insns=0 --param gcse-unrestricted-cost=6 --param max-peel-times=13 --param max-completely-peel-times=2 --param hot-bb-count-ws-permille=903 --param max-grow-copy-bb-insns=14 --param max-cse-path-length=6 --param iv-consider-all-candidates-bound=45 --param omega-max-vars=166 --param omega-max-wild-cards=7 --param vect-max-version-for-alias-checks=4 --param selsched-max-sched-times=4 --param prefetch-latency=77 --param min-insn-to-prefetch-ratio=14 --param max-vartrack-reverse-op-size=92 --param asan-use-after-return=0", 
+          "##characteristics#compile#md5_sum#min": "0899d8a71419d077d0367235bfe5bab4", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-cx-limited-range": "-fcx-limited-range", 
+          "##compiler_flags#bool-defer-pop": "-fdefer-pop", 
+          "##compiler_flags#bool-early-inlining": "-fno-early-inlining", 
+          "##compiler_flags#bool-gcse": "-fno-gcse", 
+          "##compiler_flags#bool-gcse-lm": "-fgcse-lm", 
+          "##compiler_flags#bool-graphite-identity": "-fno-graphite-identity", 
+          "##compiler_flags#bool-inline-functions": "-fno-inline-functions", 
+          "##compiler_flags#bool-partial-inlining": "-fpartial-inlining", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fsched-spec-insn-heuristic", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fno-sel-sched-pipelining", 
+          "##compiler_flags#bool-selective-scheduling2": "-fselective-scheduling2", 
+          "##compiler_flags#bool-signed-zeros": "-fno-signed-zeros", 
+          "##compiler_flags#bool-split-wide-types": "-fno-split-wide-types", 
+          "##compiler_flags#bool-tracer": "-ftracer", 
+          "##compiler_flags#bool-tree-copyrename": "-fno-tree-copyrename", 
+          "##compiler_flags#bool-tree-loop-optimize": "-fno-tree-loop-optimize", 
+          "##compiler_flags#bool-vect-cost-model": "-fvect-cost-model", 
+          "##compiler_flags#param--fsched-stalled-insns-dep=": "-fsched-stalled-insns-dep=0", 
+          "##compiler_flags#param--fsched-stalled-insns=": "-fsched-stalled-insns=0", 
+          "##compiler_flags#param-asan-use-after-return": "--param asan-use-after-return=0", 
+          "##compiler_flags#param-gcse-unrestricted-cost": "--param gcse-unrestricted-cost=6", 
+          "##compiler_flags#param-hot-bb-count-ws-permille": "--param hot-bb-count-ws-permille=903", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound": "--param iv-consider-all-candidates-bound=45", 
+          "##compiler_flags#param-max-completely-peel-times": "--param max-completely-peel-times=2", 
+          "##compiler_flags#param-max-cse-path-length": "--param max-cse-path-length=6", 
+          "##compiler_flags#param-max-grow-copy-bb-insns": "--param max-grow-copy-bb-insns=14", 
+          "##compiler_flags#param-max-peel-times": "--param max-peel-times=13", 
+          "##compiler_flags#param-max-vartrack-reverse-op-size": "--param max-vartrack-reverse-op-size=92", 
+          "##compiler_flags#param-min-insn-to-prefetch-ratio": "--param min-insn-to-prefetch-ratio=14", 
+          "##compiler_flags#param-omega-max-vars": "--param omega-max-vars=166", 
+          "##compiler_flags#param-omega-max-wild-cards": "--param omega-max-wild-cards=7", 
+          "##compiler_flags#param-prefetch-latency": "--param prefetch-latency=77", 
+          "##compiler_flags#param-selsched-max-sched-times": "--param selsched-max-sched-times=4", 
+          "##compiler_flags#param-vect-max-version-for-alias-checks": "--param vect-max-version-for-alias-checks=4"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-cx-limited-range", 
+          "##compiler_flags#bool-defer-pop", 
+          "##compiler_flags#bool-early-inlining", 
+          "##compiler_flags#bool-gcse", 
+          "##compiler_flags#bool-gcse-lm", 
+          "##compiler_flags#bool-graphite-identity", 
+          "##compiler_flags#bool-inline-functions", 
+          "##compiler_flags#bool-partial-inlining", 
+          "##compiler_flags#bool-rename-registers", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic", 
+          "##compiler_flags#bool-sel-sched-pipelining", 
+          "##compiler_flags#bool-selective-scheduling2", 
+          "##compiler_flags#bool-signed-zeros", 
+          "##compiler_flags#bool-split-wide-types", 
+          "##compiler_flags#bool-tracer", 
+          "##compiler_flags#bool-tree-copyrename", 
+          "##compiler_flags#bool-tree-loop-optimize", 
+          "##compiler_flags#bool-vect-cost-model", 
+          "##compiler_flags#param--fsched-stalled-insns-dep=", 
+          "##compiler_flags#param--fsched-stalled-insns=", 
+          "##compiler_flags#param-asan-use-after-return", 
+          "##compiler_flags#param-gcse-unrestricted-cost", 
+          "##compiler_flags#param-hot-bb-count-ws-permille", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound", 
+          "##compiler_flags#param-max-completely-peel-times", 
+          "##compiler_flags#param-max-cse-path-length", 
+          "##compiler_flags#param-max-grow-copy-bb-insns", 
+          "##compiler_flags#param-max-peel-times", 
+          "##compiler_flags#param-max-vartrack-reverse-op-size", 
+          "##compiler_flags#param-min-insn-to-prefetch-ratio", 
+          "##compiler_flags#param-omega-max-vars", 
+          "##compiler_flags#param-omega-max-wild-cards", 
+          "##compiler_flags#param-prefetch-latency", 
+          "##compiler_flags#param-selsched-max-sched-times", 
+          "##compiler_flags#param-vect-max-version-for-alias-checks"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "425ca8354b6999af", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

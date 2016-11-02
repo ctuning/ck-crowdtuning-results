@@ -1,0 +1,236 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 8720, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.4450709819793701, 
+        "compilation_time_with_module": 2.3488800525665283, 
+        "joined_compiler_flags": "-O3 -funroll-all-loops", 
+        "md5_sum": "65b23201f7f608b2d92a3e27596030c2", 
+        "obj_size": 3565, 
+        "obj_sizes": {
+          "mpilib.codelet__1.o": 1077, 
+          "mpilib.codelet__1.wrapper.o": 2488
+        }, 
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      }, 
+      "run": {
+        "execution_time": 2.9902783035526845e-08, 
+        "execution_time_kernel_0": 6.600355, 
+        "execution_time_with_module": 7.134127140045166, 
+        "repeat": 220727114, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 6.600355
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 2.98999831982581e-08, 
+        "execution_time_kernel_0": 6.599737, 
+        "execution_time_with_module": 7.134052038192749, 
+        "repeat": 220727114, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 6.599737
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.8.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "bool-unroll-all-loops": "-funroll-all-loops"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-1-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_id": "", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 220727114, 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#bool-unroll-all-loops"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "4", 
+        "8", 
+        "4"
+      ], 
+      "raw": [
+        "gcc-4.8.real (Ubuntu/Linaro 4.8.4-2ubuntu1~14.04.1) 4.8.4", 
+        "Copyright (C) 2013 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.8.4"
+    }, 
+    "number_of_selected_compiler_flags": 2, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {}, 
+        "cpu_abi": "", 
+        "cpu_features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+        "current_freq": {
+          "0": 1400.0, 
+          "1": 1400.0, 
+          "2": 1400.0, 
+          "3": 1400.0, 
+          "4": 2000.0, 
+          "5": 2000.0, 
+          "6": 2000.0, 
+          "7": 2000.0
+        }, 
+        "max_freq": {
+          "0": 1400.0, 
+          "1": 1400.0, 
+          "2": 1400.0, 
+          "3": 1400.0, 
+          "4": 2000.0, 
+          "5": 2000.0, 
+          "6": 2000.0, 
+          "7": 2000.0
+        }, 
+        "name": "ODROID-XU3", 
+        "num_proc": "8", 
+        "sub_name": "ARMv7 Processor rev 3 (v7l)"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "84.00", 
+          "CPU architectur": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc07", 
+          "CPU revision": "3", 
+          "CPU variant": "0x0", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "0"
+        }, 
+        "1": {
+          "BogoMIPS": "84.00", 
+          "CPU architectur": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc07", 
+          "CPU revision": "3", 
+          "CPU variant": "0x0", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "1"
+        }, 
+        "2": {
+          "BogoMIPS": "84.00", 
+          "CPU architectur": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc07", 
+          "CPU revision": "3", 
+          "CPU variant": "0x0", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "2"
+        }, 
+        "3": {
+          "BogoMIPS": "84.00", 
+          "CPU architectur": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc07", 
+          "CPU revision": "3", 
+          "CPU variant": "0x0", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "3"
+        }, 
+        "4": {
+          "BogoMIPS": "120.00", 
+          "CPU architectur": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc0f", 
+          "CPU revision": "3", 
+          "CPU variant": "0x2", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "4"
+        }, 
+        "5": {
+          "BogoMIPS": "48.00", 
+          "CPU architectur": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc0f", 
+          "CPU revision": "3", 
+          "CPU variant": "0x2", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "5"
+        }, 
+        "6": {
+          "BogoMIPS": "48.00", 
+          "CPU architectur": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc0f", 
+          "CPU revision": "3", 
+          "CPU variant": "0x2", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "6"
+        }, 
+        "7": {
+          "BogoMIPS": "48.00", 
+          "CPU architectur": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc0f", 
+          "CPU revision": "3", 
+          "CPU variant": "0x2", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "Hardware": "ODROID-XU3", 
+          "Revision": "0000", 
+          "Serial": "0000000000000000", 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "7"
+        }
+      }, 
+      "gpu": {
+        "all_freqs": [
+          " 600 543 480 420 350 266 177"
+        ], 
+        "current_freq": "600", 
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Ubuntu 14.04.4 LTS", 
+        "name_long": "Linux-3.10.69-armv7l-with-Ubuntu-14.04-trusty", 
+        "name_short": "Linux 3.10.69"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "", 
+        "name": "", 
+        "vendor": ""
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "ed4ae48ebd4a6baf", 
+    "statistical_repetitions": 2
+  }
+}

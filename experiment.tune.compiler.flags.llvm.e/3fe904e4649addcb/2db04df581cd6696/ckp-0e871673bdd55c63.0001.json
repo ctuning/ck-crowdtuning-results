@@ -1,0 +1,127 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 6908, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.09225296974182129, 
+        "compilation_time_with_module": 1.3919310569763184, 
+        "joined_compiler_flags": "-O3 -ftree-slp-vectorize -funroll-loops -fno-vectorize -fmax-type-align=5 -ftemplate-backtrace-limit=446 -ffixed-r9 -ffp-contract=off", 
+        "md5_sum": "32804e52d130cfc68d8947262ed13cd4", 
+        "obj_size": 3688, 
+        "obj_sizes": {
+          "nsynth.codelet__9.o": 1084, 
+          "nsynth.codelet__9.wrapper.o": 2604
+        }, 
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "llvm-3.6.0-auto", 
+    "compiler_flags": {
+      "arch-ffixed-r9": "-ffixed-r9", 
+      "base_opt": "-O3", 
+      "ffp-contract": "-ffp-contract=off", 
+      "fmax-type-align": "-fmax-type-align=5", 
+      "ftemplate-backtrace-limit": "-ftemplate-backtrace-limit=446", 
+      "ftree-slp-vectorize": "-ftree-slp-vectorize", 
+      "funroll-loops": "-funroll-loops", 
+      "fvectorize": "-fno-vectorize"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-9-1", 
+    "dataset_file": "data.enc", 
+    "dataset_uoa": "enc-0001", 
+    "device_id": "", 
+    "extra_dataset_tags": [
+      "small"
+    ], 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_run": "yes", 
+    "no_state_check": "yes", 
+    "program_tags": "crowd-tuning,small", 
+    "repeat": "", 
+    "target_os": "android19-arm", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#fassociative-math", 
+    "##compiler_flags#ffast-math", 
+    "##compiler_flags#ffinite-math-only", 
+    "##compiler_flags#fmerge-all-constants", 
+    "##compiler_flags#fno-assume-sane-operator-new", 
+    "##compiler_flags#fno-autolink", 
+    "##compiler_flags#fno-builtin", 
+    "##compiler_flags#fno-constant-cfstrings", 
+    "##compiler_flags#fno-diagnostics-fixit-info", 
+    "##compiler_flags#fno-elide-constructors", 
+    "##compiler_flags#fno-inline", 
+    "##compiler_flags#fno-lax-vector-conversions", 
+    "##compiler_flags#fno-merge-all-constants", 
+    "##compiler_flags#fno-rtti", 
+    "##compiler_flags#fno-signed-char", 
+    "##compiler_flags#fno-signed-zeros", 
+    "##compiler_flags#fno-unroll-loops", 
+    "##compiler_flags#fomit-frame-pointer ", 
+    "##compiler_flags#foptimize-sibling-calls", 
+    "##compiler_flags#fsched-interblock", 
+    "##compiler_flags#fshort-enums", 
+    "##compiler_flags#fstrict-aliasing", 
+    "##compiler_flags#fstrict-enums", 
+    "##compiler_flags#ftree-slp-vectorize", 
+    "##compiler_flags#ftree-vectorize", 
+    "##compiler_flags#funroll-loops", 
+    "##compiler_flags#freroll-loops", 
+    "##compiler_flags#fvectorize", 
+    "##compiler_flags#fvisibility-inlines-hidden", 
+    "##compiler_flags#fwrapv", 
+    "##compiler_flags#mno-global-merge", 
+    "##compiler_flags#msoft-float", 
+    "##compiler_flags#mstrict-align", 
+    "##compiler_flags#fslp-vectorize-aggressive", 
+    "##compiler_flags#fslp-vectorize", 
+    "##compiler_flags#fshort-wchar", 
+    "##compiler_flags#mglobal-merge", 
+    "##compiler_flags#mlong-calls", 
+    "##compiler_flags#mno-long-calls", 
+    "##compiler_flags#mno-implicit-float", 
+    "##compiler_flags#mrelax-all", 
+    "##compiler_flags#mstackrealign", 
+    "##compiler_flags#fmodules-prune-after", 
+    "##compiler_flags#mstack-alignment", 
+    "##compiler_flags#fmax-type-align", 
+    "##compiler_flags#fmodules-prune-interval", 
+    "##compiler_flags#ftemplate-backtrace-limit", 
+    "##compiler_flags#arch-munaligned-access", 
+    "##compiler_flags#arch-mcrc", 
+    "##compiler_flags#arch-mno-movt", 
+    "##compiler_flags#arch-ffixed-r9", 
+    "##compiler_flags#ffp-contract"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "3", 
+        "6"
+      ], 
+      "raw": [
+        "clang version 3.6 ", 
+        "Target: armv5te-none-linux-androideabi", 
+        "Thread model: posix", 
+        ""
+      ], 
+      "str": "3.6"
+    }, 
+    "dataset": {
+      "total_size": 3984
+    }, 
+    "number_of_selected_compiler_flags": 8, 
+    "statistical_repetitions": 1
+  }
+}

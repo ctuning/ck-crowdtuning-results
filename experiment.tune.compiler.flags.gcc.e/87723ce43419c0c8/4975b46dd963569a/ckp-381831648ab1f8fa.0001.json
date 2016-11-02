@@ -1,0 +1,287 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 147199, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 6.281999826431274, 
+        "compilation_time_with_module": 7.765999794006348, 
+        "joined_compiler_flags": "-O3 -funroll-all-loops", 
+        "md5_sum": "28b1398aa1d7fcdf8c371cb695e30d9e", 
+        "obj_size": 13406, 
+        "obj_sizes": {
+          "bitarray.o": 1183, 
+          "bitcnt_1.o": 845, 
+          "bitcnt_2.o": 803, 
+          "bitcnt_3.o": 1555, 
+          "bitcnt_4.o": 1541, 
+          "bitcnts.o": 3488, 
+          "bitfiles.o": 1389, 
+          "bitstrng.o": 1201, 
+          "bstr_i.o": 1401
+        }, 
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      }, 
+      "current_freq": {
+        "0": 70
+      }, 
+      "run": {
+        "execution_time": 0.13640384615384615, 
+        "execution_time_kernel_0": 7.093, 
+        "execution_time_with_module": 7.7190001010894775, 
+        "repeat": 52, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 7.093
+      }
+    }, 
+    {
+      "current_freq": {
+        "0": 70
+      }, 
+      "run": {
+        "execution_time": 0.1361153846153846, 
+        "execution_time_kernel_0": 7.078, 
+        "execution_time_with_module": 7.828999996185303, 
+        "repeat": 52, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 7.078
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "bool-unroll-all-loops": "-funroll-all-loops"
+    }, 
+    "data_uoa": "cbench-automotive-bitcount", 
+    "dataset_file": "", 
+    "dataset_uoa": "number-0002", 
+    "device_id": "", 
+    "host_os": "windows-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "program_tags": "", 
+    "repeat": 52, 
+    "target_os": "mingw-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#bool-unroll-all-loops"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "4", 
+        "9", 
+        "2"
+      ], 
+      "raw": [
+        "gcc (tdm64-1) 4.9.2", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9.2"
+    }, 
+    "dataset": {}, 
+    "number_of_selected_compiler_flags": 2, 
+    "platform": {
+      "cpu": {
+        "current_freq": {
+          "0": 70
+        }, 
+        "max_freq": {
+          "0": 2394
+        }, 
+        "name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "num_proc": 4, 
+        "sub_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+      }, 
+      "cpu_misc": {
+        "AddressWidth": "64", 
+        "Architecture": "9", 
+        "AssetTag": "None", 
+        "Availability": "3", 
+        "Caption": "Intel64 Family 6 Model 69 Stepping 1", 
+        "Characteristics": "4", 
+        "ConfigManagerErrorCode": "", 
+        "ConfigManagerUserConfig": "", 
+        "CpuStatus": "1", 
+        "CreationClassName": "Win32_Processor", 
+        "CurrentClockSpeed": "70", 
+        "CurrentVoltage": "7", 
+        "DataWidth": "64", 
+        "Description": "Intel64 Family 6 Model 69 Stepping 1", 
+        "DeviceID": "CPU0", 
+        "ErrorCleared": "", 
+        "ErrorDescription": "", 
+        "ExtClock": "100", 
+        "Family": "205", 
+        "InstallDate": "", 
+        "L2CacheSize": "256", 
+        "L2CacheSpeed": "", 
+        "L3CacheSize": "3072", 
+        "L3CacheSpeed": "0", 
+        "LastErrorCode": "", 
+        "Level": "6", 
+        "LoadPercentage": "0", 
+        "Manufacturer": "GenuineIntel", 
+        "MaxClockSpeed": "2394", 
+        "Name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "NumberOfCores": "2", 
+        "NumberOfEnabledCore": "2", 
+        "NumberOfLogicalProcessors": "4", 
+        "OtherFamilyDescription": "", 
+        "PNPDeviceID": "", 
+        "PartNumber": "None", 
+        "PowerManagementCapabilities": "", 
+        "PowerManagementSupported": "FALSE", 
+        "ProcessorId": "BFEBFBFF00040651", 
+        "ProcessorType": "3", 
+        "Revision": "17665", 
+        "Role": "CPU", 
+        "SecondLevelAddressTranslationExtensions": "TRUE", 
+        "SerialNumber": "None", 
+        "SocketDesignation": "CPU Socket - U3E1", 
+        "Status": "OK", 
+        "StatusInfo": "3", 
+        "Stepping": "", 
+        "SystemCreationClassName": "Win32_ComputerSystem", 
+        "SystemName": "FGGLAPTOP2015", 
+        "ThreadCount": "4", 
+        "UniqueId": "", 
+        "UpgradeMethod": "33", 
+        "VMMonitorModeExtensions": "TRUE", 
+        "Version": "", 
+        "VirtualizationFirmwareEnabled": "TRUE", 
+        "VoltageCaps": ""
+      }, 
+      "gpu": {
+        "name": "Intel(R) HD Graphics Family", 
+        "possibly_related_cpu_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "vendor": "Intel(R)"
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "mingw-64", 
+        "name": "Windows 10", 
+        "name_long": "Windows-10.0.10586", 
+        "name_short": "Windows 10"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "20ALCTO1WW", 
+        "name": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+        "vendor": "LENOVO"
+      }, 
+      "platform_misc": {
+        "cs_product": {
+          "Caption": "Computer System Product", 
+          "Description": "Computer System Product", 
+          "IdentifyingNumber": "PC02H3GH", 
+          "Name": "20ALCTO1WW", 
+          "SKUNumber": "", 
+          "UUID": "75E18D01-53F5-11CB-9517-E9CE07DA82A7", 
+          "Vendor": "LENOVO", 
+          "Version": "ThinkPad X240"
+        }
+      }
+    }, 
+    "platform.cpu": {
+      "cpu": {
+        "current_freq": {
+          "0": 70
+        }, 
+        "max_freq": {
+          "0": 2394
+        }, 
+        "name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "num_proc": 4, 
+        "sub_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+      }, 
+      "cpu_misc": {
+        "AddressWidth": "64", 
+        "Architecture": "9", 
+        "AssetTag": "None", 
+        "Availability": "3", 
+        "Caption": "Intel64 Family 6 Model 69 Stepping 1", 
+        "Characteristics": "4", 
+        "ConfigManagerErrorCode": "", 
+        "ConfigManagerUserConfig": "", 
+        "CpuStatus": "1", 
+        "CreationClassName": "Win32_Processor", 
+        "CurrentClockSpeed": "70", 
+        "CurrentVoltage": "7", 
+        "DataWidth": "64", 
+        "Description": "Intel64 Family 6 Model 69 Stepping 1", 
+        "DeviceID": "CPU0", 
+        "ErrorCleared": "", 
+        "ErrorDescription": "", 
+        "ExtClock": "100", 
+        "Family": "205", 
+        "InstallDate": "", 
+        "L2CacheSize": "256", 
+        "L2CacheSpeed": "", 
+        "L3CacheSize": "3072", 
+        "L3CacheSpeed": "0", 
+        "LastErrorCode": "", 
+        "Level": "6", 
+        "LoadPercentage": "1", 
+        "Manufacturer": "GenuineIntel", 
+        "MaxClockSpeed": "2394", 
+        "Name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "NumberOfCores": "2", 
+        "NumberOfEnabledCore": "2", 
+        "NumberOfLogicalProcessors": "4", 
+        "OtherFamilyDescription": "", 
+        "PNPDeviceID": "", 
+        "PartNumber": "None", 
+        "PowerManagementCapabilities": "", 
+        "PowerManagementSupported": "FALSE", 
+        "ProcessorId": "BFEBFBFF00040651", 
+        "ProcessorType": "3", 
+        "Revision": "17665", 
+        "Role": "CPU", 
+        "SecondLevelAddressTranslationExtensions": "TRUE", 
+        "SerialNumber": "None", 
+        "SocketDesignation": "CPU Socket - U3E1", 
+        "Status": "OK", 
+        "StatusInfo": "3", 
+        "Stepping": "", 
+        "SystemCreationClassName": "Win32_ComputerSystem", 
+        "SystemName": "FGGLAPTOP2015", 
+        "ThreadCount": "4", 
+        "UniqueId": "", 
+        "UpgradeMethod": "33", 
+        "VMMonitorModeExtensions": "TRUE", 
+        "Version": "", 
+        "VirtualizationFirmwareEnabled": "TRUE", 
+        "VoltageCaps": ""
+      }, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "mingw-64", 
+        "name": "Windows 10", 
+        "name_long": "Windows-10.0.10586", 
+        "name_short": "Windows 10"
+      }, 
+      "os_misc": {}
+    }, 
+    "solution_uid": "4975b46dd963569a", 
+    "statistical_repetitions": 2
+  }
+}

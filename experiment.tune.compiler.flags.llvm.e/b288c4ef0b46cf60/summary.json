@@ -1,0 +1,90 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.6", 
+      "cpu_cur_freq": {
+        "0": 456, 
+        "1": 456
+      }, 
+      "cpu_name": "p3", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "", 
+      "gpu_name": "NVIDIA Corporation NVIDIA Tegra", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "SAMSUNG GT-P7500", 
+      "platform_uid": "88d3832f64ede8fd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "b61210408e99d7ce", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3616, 
+          "##characteristics#run#execution_time_kernel_0#min": 13.453000068665, 
+          "##characteristics#run#repeat#min": 4378284
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0033185840707965, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3484012979606084
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fmerge-all-constants -fno-elide-constructors -fomit-frame-pointer  -fvisibility-inlines-hidden -msoft-float -fshort-wchar -ffp-contract=off", 
+          "##characteristics#compile#md5_sum#min": "27e1a84a532a7aaa76dde1c51eb99c96", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffp-contract": "-ffp-contract=off", 
+          "##compiler_flags#fmerge-all-constants": "-fmerge-all-constants", 
+          "##compiler_flags#fno-elide-constructors": "-fno-elide-constructors", 
+          "##compiler_flags#fomit-frame-pointer ": "-fomit-frame-pointer ", 
+          "##compiler_flags#fshort-wchar": "-fshort-wchar", 
+          "##compiler_flags#fvisibility-inlines-hidden": "-fvisibility-inlines-hidden", 
+          "##compiler_flags#msoft-float": "-msoft-float"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffp-contract", 
+          "##compiler_flags#fmerge-all-constants", 
+          "##compiler_flags#fno-elide-constructors", 
+          "##compiler_flags#fomit-frame-pointer ", 
+          "##compiler_flags#fshort-wchar", 
+          "##compiler_flags#fvisibility-inlines-hidden", 
+          "##compiler_flags#msoft-float"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "3db64fa786d12b01", 
+    "user":"krakonos@krakonos.org",
+    "touched": 2, 
+    "validated": 1
+  }
+]

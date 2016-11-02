@@ -1,0 +1,1877 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-fft-fftmisc-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 348959750, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 129, 
+    "last_touch_uid": "9174e4691275e43c", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5392, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.763848, 
+          "##characteristics#run#repeat#min": 348959750
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.79970326409496, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4732287721498
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "6cf747644f1749eba373b6b23767f33d", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00061893763344329
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2504638218924, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.67718015862323, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00025433607474466
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--ffp-contract=": "-ffp-contract=on", 
+          "##compiler_flags#bool-default-inline": "-fdefault-inline", 
+          "##compiler_flags#bool-delayed-branch": "-fno-delayed-branch", 
+          "##compiler_flags#bool-gcse-lm": "-fno-gcse-lm", 
+          "##compiler_flags#bool-if-conversion2": "-fif-conversion2", 
+          "##compiler_flags#bool-ipa-pta": "-fipa-pta", 
+          "##compiler_flags#bool-optimize-register-move": "-foptimize-register-move", 
+          "##compiler_flags#bool-prefetch-loop-arrays": "-fprefetch-loop-arrays", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fsched-group-heuristic", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-sched-last-insn-heuristic": "-fno-sched-last-insn-heuristic", 
+          "##compiler_flags#bool-sched-spec-load": "-fno-sched-spec-load", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fno-sel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-shrink-wrap": "-fno-shrink-wrap", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8dfad43ceaa06e41", 
+    "touched": 96, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 166453606, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 149, 
+    "last_touch_uid": "9e06d19418e80955", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5912, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.118564, 
+          "##characteristics#run#repeat#min": 166453606
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.7875166002656, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3977065192698
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "95f5a5a2a447c2cca7d8cb55355799f9", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0080037619142153
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2698145025295, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.71545439924409, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0097536262477007
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-dse": "-fno-dse", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fira-loop-pressure", 
+          "##compiler_flags#bool-keep-inline-functions": "-fkeep-inline-functions", 
+          "##compiler_flags#bool-loop-nest-optimize": "-fno-loop-nest-optimize", 
+          "##compiler_flags#bool-math-errno": "-fmath-errno", 
+          "##compiler_flags#bool-partial-inlining": "-fno-partial-inlining", 
+          "##compiler_flags#bool-reorder-functions": "-fno-reorder-functions", 
+          "##compiler_flags#bool-reschedule-modulo-scheduled-loops": "-freschedule-modulo-scheduled-loops", 
+          "##compiler_flags#bool-toplevel-reorder": "-fno-toplevel-reorder", 
+          "##compiler_flags#bool-trapping-math": "-fno-trapping-math", 
+          "##compiler_flags#bool-tree-copyrename": "-ftree-copyrename", 
+          "##compiler_flags#bool-tree-phiprop": "-fno-tree-phiprop", 
+          "##compiler_flags#bool-tree-tail-merge": "-ftree-tail-merge", 
+          "##compiler_flags#bool-tree-vect-loop-version": "-fno-tree-vect-loop-version"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "314e8e9d2674c4e6", 
+    "touched": 121, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1995, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 82444036, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 75, 
+    "last_touch_uid": "64c91e09e341df15", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5800, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.643904, 
+          "##characteristics#run#repeat#min": 82444036
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.81329561527581, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2708751703512
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fira-algorithm=priority -fno-gcse -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "fd0bc0c3c918cfe35f626bc646e18b24", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.009210617130449
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=priority", 
+          "##compiler_flags#bool-gcse": "-fno-gcse", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool--fira-algorithm=", 
+          "##compiler_flags#bool-gcse", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool--fira-algorithm=": {
+            "##characteristics#compile#obj_size#min_imp": 0.99717912552891, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.85514835023147, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00024240803304942
+          }, 
+          "##compiler_flags#bool-gcse": {
+            "##characteristics#compile#obj_size#min_imp": 0.99717912552891, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98383632610745, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00053171463562074
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2674825174825, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.70535856646201, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.02321416069351
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--ffp-contract=": "-ffp-contract=off", 
+          "##compiler_flags#bool-early-inlining": "-fno-early-inlining", 
+          "##compiler_flags#bool-finite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#bool-function-sections": "-ffunction-sections", 
+          "##compiler_flags#bool-graphite-identity": "-fno-graphite-identity", 
+          "##compiler_flags#bool-if-conversion": "-fno-if-conversion", 
+          "##compiler_flags#bool-if-conversion2": "-fno-if-conversion2", 
+          "##compiler_flags#bool-ipa-reference": "-fipa-reference", 
+          "##compiler_flags#bool-loop-strip-mine": "-floop-strip-mine", 
+          "##compiler_flags#bool-rounding-math": "-fno-rounding-math", 
+          "##compiler_flags#bool-sched-rank-heuristic": "-fsched-rank-heuristic", 
+          "##compiler_flags#bool-schedule-insns": "-fschedule-insns", 
+          "##compiler_flags#bool-signaling-nans": "-fno-signaling-nans", 
+          "##compiler_flags#bool-tree-partial-pre": "-ftree-partial-pre", 
+          "##compiler_flags#bool-tree-phiprop": "-ftree-phiprop", 
+          "##compiler_flags#bool-tree-tail-merge": "-ftree-tail-merge", 
+          "##compiler_flags#bool-tree-vectorize": "-ftree-vectorize", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-funsafe-math-optimizations"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "9dcbfe9541c6a504", 
+    "touched": 32, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 31799626, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 105, 
+    "last_touch_uid": "d732591f8740e09e", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5216, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.111101, 
+          "##characteristics#run#repeat#min": 31799626
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.84049079754601, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.097115169655
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-move-loop-invariants -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "d52b16468dde20c2b67f73e186fc4336", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00043054548455687
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-move-loop-invariants": "-fno-move-loop-invariants", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-move-loop-invariants", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-move-loop-invariants": {
+            "##characteristics#compile#obj_size#min_imp": 1.0015360983103, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97582822625981, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00018806468268426
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.1897810218978, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.94859560934733, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00038843264046016
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fexcess-precision=": "-fexcess-precision=standard", 
+          "##compiler_flags#bool-branch-count-reg": "-fbranch-count-reg", 
+          "##compiler_flags#bool-cx-limited-range": "-fcx-limited-range", 
+          "##compiler_flags#bool-function-sections": "-fno-function-sections", 
+          "##compiler_flags#bool-gcse-after-reload": "-fgcse-after-reload", 
+          "##compiler_flags#bool-loop-interchange": "-fno-loop-interchange", 
+          "##compiler_flags#bool-loop-nest-optimize": "-floop-nest-optimize", 
+          "##compiler_flags#bool-math-errno": "-fmath-errno", 
+          "##compiler_flags#bool-sched-spec": "-fsched-spec", 
+          "##compiler_flags#bool-signed-zeros": "-fno-signed-zeros", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fsplit-ivs-in-unroller", 
+          "##compiler_flags#bool-strict-aliasing": "-fstrict-aliasing", 
+          "##compiler_flags#bool-tree-sink": "-fno-tree-sink", 
+          "##compiler_flags#bool-tree-vect-loop-version": "-ftree-vect-loop-version", 
+          "##compiler_flags#bool-tree-vrp": "-ftree-vrp", 
+          "##compiler_flags#bool-vpt": "-fvpt"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "cb965aa0b4c14669", 
+    "touched": 63, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-psymodel-codelet-17-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 1448437, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 97, 
+    "last_touch_uid": "9349cc27a41f6895", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 16192, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.357782, 
+          "##characteristics#run#repeat#min": 1448437
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.86053719008264, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2644408627065
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-copy-prop -fno-tree-dominator-opts -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "0c35cde663af5ccafca1f8e211ac439c", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0012066110279263
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-tree-dominator-opts": "-fno-tree-dominator-opts", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-copy-prop", 
+          "##compiler_flags#bool-tree-dominator-opts", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-copy-prop": {
+            "##characteristics#compile#obj_size#min_imp": 0.99486125385406, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.91848704589615, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0034041362205841
+          }, 
+          "##compiler_flags#bool-tree-dominator-opts": {
+            "##characteristics#compile#obj_size#min_imp": 0.99332991277578, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.94015997769333, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0020306295896318
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.1697885196375, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.80826549601899, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0032021419020381
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-finite-math-only": "-fno-finite-math-only", 
+          "##compiler_flags#bool-loop-interchange": "-floop-interchange", 
+          "##compiler_flags#bool-modulo-sched": "-fno-modulo-sched", 
+          "##compiler_flags#bool-peephole": "-fno-peephole", 
+          "##compiler_flags#bool-reorder-functions": "-freorder-functions", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-schedule-insns2": "-fschedule-insns2", 
+          "##compiler_flags#bool-trapping-math": "-fno-trapping-math", 
+          "##compiler_flags#bool-tree-ch": "-fno-tree-ch", 
+          "##compiler_flags#bool-tree-dse": "-ftree-dse", 
+          "##compiler_flags#bool-tree-pre": "-ftree-pre", 
+          "##compiler_flags#bool-tree-vect-loop-version": "-ftree-vect-loop-version", 
+          "##compiler_flags#bool-web": "-fweb"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "9c34e4b1483dd0ae", 
+    "touched": 54, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 310970994, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 122, 
+    "last_touch_uid": "7954db5a33d631be", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4320, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.827597, 
+          "##characteristics#run#repeat#min": 310970994
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.99814814814815, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1221335993718
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fbranch-probabilities -fno-peephole2", 
+          "##characteristics#compile#md5_sum#min": "a4ed908bfe0adb9516e7a4bb4ad3327c", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0091647102180826
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-branch-probabilities": "-fbranch-probabilities", 
+          "##compiler_flags#bool-peephole2": "-fno-peephole2"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-branch-probabilities", 
+          "##compiler_flags#bool-peephole2"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-branch-probabilities": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.90172754190418, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00014666845065618
+          }, 
+          "##compiler_flags#bool-peephole2": {
+            "##characteristics#compile#obj_size#min_imp": 1.0018552875696, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9793669708243, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00034943221148212
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-region=": "-fira-region=one", 
+          "##compiler_flags#bool-check-data-deps": "-fno-check-data-deps", 
+          "##compiler_flags#bool-dse": "-fno-dse", 
+          "##compiler_flags#bool-fast-math": "-fno-fast-math", 
+          "##compiler_flags#bool-inline-functions-called-once": "-fno-inline-functions-called-once", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fno-ira-hoist-pressure", 
+          "##compiler_flags#bool-loop-parallelize-all": "-fno-loop-parallelize-all", 
+          "##compiler_flags#bool-math-errno": "-fno-math-errno", 
+          "##compiler_flags#bool-partial-inlining": "-fpartial-inlining", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-schedule-insns2": "-fschedule-insns2", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fno-sel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-tree-pta": "-ftree-pta", 
+          "##compiler_flags#bool-vect-cost-model": "-fvect-cost-model"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8c2429466eb57c16", 
+    "touched": 84, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-6-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 1385970650, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 129, 
+    "last_touch_uid": "7ba8722d4c72b63b", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4600, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.961156, 
+          "##characteristics#run#repeat#min": 1385970650
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.433177635869
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-omit-frame-pointer", 
+          "##characteristics#compile#md5_sum#min": "745e64b9d57e99915c0cc9a87a064336", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0090540086351766
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-omit-frame-pointer": "-fno-omit-frame-pointer"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-omit-frame-pointer"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-omit-frame-pointer": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.69747683270753, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0084171373136142
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-auto-inc-dec": "-fauto-inc-dec", 
+          "##compiler_flags#bool-branch-target-load-optimize": "-fno-branch-target-load-optimize", 
+          "##compiler_flags#bool-dce": "-fno-dce", 
+          "##compiler_flags#bool-expensive-optimizations": "-fno-expensive-optimizations", 
+          "##compiler_flags#bool-function-sections": "-ffunction-sections", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fno-ira-hoist-pressure", 
+          "##compiler_flags#bool-ira-loop-pressure": "-fira-loop-pressure", 
+          "##compiler_flags#bool-merge-all-constants": "-fno-merge-all-constants", 
+          "##compiler_flags#bool-sched-group-heuristic": "-fno-sched-group-heuristic", 
+          "##compiler_flags#bool-sched-interblock": "-fsched-interblock", 
+          "##compiler_flags#bool-sched-pressure": "-fno-sched-pressure", 
+          "##compiler_flags#bool-sched-spec": "-fsched-spec", 
+          "##compiler_flags#bool-sched-spec-load": "-fno-sched-spec-load", 
+          "##compiler_flags#bool-sched-spec-load-dangerous": "-fno-sched-spec-load-dangerous", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fno-sel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-strict-overflow": "-fstrict-overflow", 
+          "##compiler_flags#bool-tree-copy-prop": "-ftree-copy-prop", 
+          "##compiler_flags#bool-tree-dse": "-fno-tree-dse", 
+          "##compiler_flags#bool-tree-loop-ivcanon": "-ftree-loop-ivcanon", 
+          "##compiler_flags#bool-tree-loop-optimize": "-ftree-loop-optimize", 
+          "##compiler_flags#bool-tree-phiprop": "-ftree-phiprop", 
+          "##compiler_flags#bool-tree-pre": "-ftree-pre", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fno-variable-expansion-in-unroller", 
+          "##compiler_flags#bool-vpt": "-fvpt", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fzero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8abd2a74bbd44b39", 
+    "touched": 95, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 530390, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 125, 
+    "last_touch_uid": "c7d9aec3225eb794", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 14328, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.779926, 
+          "##characteristics#run#repeat#min": 530390
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.006309148265, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1368691334551
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-pre", 
+          "##characteristics#compile#md5_sum#min": "f3ddffa9f96748e082758d7f08fd21f0", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0047581898467749
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-pre"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-pre": {
+            "##characteristics#compile#obj_size#min_imp": 1.0257731958763, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.88254109579899, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0082526283337699
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-count-reg": "-fno-branch-count-reg", 
+          "##compiler_flags#bool-crossjumping": "-fcrossjumping", 
+          "##compiler_flags#bool-cse-follow-jumps": "-fcse-follow-jumps", 
+          "##compiler_flags#bool-default-inline": "-fno-default-inline", 
+          "##compiler_flags#bool-fast-math": "-fno-fast-math", 
+          "##compiler_flags#bool-finite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#bool-gcse-sm": "-fno-gcse-sm", 
+          "##compiler_flags#bool-inline-functions-called-once": "-finline-functions-called-once", 
+          "##compiler_flags#bool-ipa-pta": "-fno-ipa-pta", 
+          "##compiler_flags#bool-ipa-pure-const": "-fno-ipa-pure-const", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fira-hoist-pressure", 
+          "##compiler_flags#bool-ira-share-spill-slots": "-fira-share-spill-slots", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-mudflapir": "-fmudflapir", 
+          "##compiler_flags#bool-sched-spec-load": "-fno-sched-spec-load", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-tree-bit-ccp": "-fno-tree-bit-ccp", 
+          "##compiler_flags#bool-tree-dse": "-fno-tree-dse", 
+          "##compiler_flags#bool-tree-forwprop": "-fno-tree-forwprop", 
+          "##compiler_flags#bool-tree-partial-pre": "-ftree-partial-pre", 
+          "##compiler_flags#bool-unit-at-a-time": "-fno-unit-at-a-time", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-fno-unsafe-math-optimizations", 
+          "##compiler_flags#bool-vpt": "-fno-vpt", 
+          "##compiler_flags#bool-whole-program": "-fno-whole-program", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fno-zero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "d64d73a9c0d24c5f", 
+    "touched": 90, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 636778816, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 145, 
+    "last_touch_uid": "41439691fec037a1", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4896, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.275891, 
+          "##characteristics#run#repeat#min": 636778816
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.99837133550489, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1379894675738
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-copyrename -fno-tree-pre -fno-tree-vrp", 
+          "##characteristics#compile#md5_sum#min": "cffdb8aadbce0da5054175440cc5d9ff", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0089869774326101
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-copyrename": "-fno-tree-copyrename", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-tree-vrp": "-fno-tree-vrp"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-copyrename", 
+          "##compiler_flags#bool-tree-pre", 
+          "##compiler_flags#bool-tree-vrp"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-copyrename": {
+            "##characteristics#compile#obj_size#min_imp": 1.0032786885246, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97203018146162, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.055753316233313
+          }, 
+          "##compiler_flags#bool-tree-pre": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.96669912698962, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0090656846307318
+          }, 
+          "##compiler_flags#bool-tree-vrp": {
+            "##characteristics#compile#obj_size#min_imp": 1.0032786885246, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.935587041337, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.016178408206176
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fbranch-target-load-optimize2", 
+          "##compiler_flags#bool-devirtualize": "-fdevirtualize", 
+          "##compiler_flags#bool-fast-math": "-ffast-math", 
+          "##compiler_flags#bool-gcse-lm": "-fno-gcse-lm", 
+          "##compiler_flags#bool-if-conversion": "-fno-if-conversion", 
+          "##compiler_flags#bool-inline-small-functions": "-finline-small-functions", 
+          "##compiler_flags#bool-keep-static-consts": "-fno-keep-static-consts", 
+          "##compiler_flags#bool-loop-strip-mine": "-fno-loop-strip-mine", 
+          "##compiler_flags#bool-merge-all-constants": "-fmerge-all-constants", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves": "-fno-modulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-regmove": "-fregmove", 
+          "##compiler_flags#bool-sched-spec-insn-heuristic": "-fno-sched-spec-insn-heuristic", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fno-sel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-tree-coalesce-vars": "-fno-tree-coalesce-vars", 
+          "##compiler_flags#bool-tree-switch-conversion": "-fno-tree-switch-conversion", 
+          "##compiler_flags#bool-unswitch-loops": "-funswitch-loops", 
+          "##compiler_flags#bool-vpt": "-fno-vpt"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "450296d66d67fd5f", 
+    "touched": 115, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 7151919, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 95, 
+    "last_touch_uid": "bc3ab44f2587e60d", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5832, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.089232, 
+          "##characteristics#run#repeat#min": 7151919
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.77671232876712, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4077783732279
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-merge-constants -ftracer -funroll-all-loops", 
+          "##characteristics#compile#md5_sum#min": "41ca3f9e48d6e842b1dc5d8792b2f8a7", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0075386625856767
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-merge-constants": "-fno-merge-constants", 
+          "##compiler_flags#bool-tracer": "-ftracer", 
+          "##compiler_flags#bool-unroll-all-loops": "-funroll-all-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-merge-constants", 
+          "##compiler_flags#bool-tracer", 
+          "##compiler_flags#bool-unroll-all-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-merge-constants": {
+            "##characteristics#compile#obj_size#min_imp": 0.97852348993289, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.99999675478095, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00028176967156552
+          }, 
+          "##compiler_flags#bool-tracer": {
+            "##characteristics#compile#obj_size#min_imp": 1.0458452722063, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.75610805357226, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0085657322483675
+          }, 
+          "##compiler_flags#bool-unroll-all-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.1496062992126, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.94270155939779, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.023639393002165
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-algorithm=": "-fira-algorithm=priority", 
+          "##compiler_flags#bool-branch-target-load-optimize": "-fno-branch-target-load-optimize", 
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fno-branch-target-load-optimize2", 
+          "##compiler_flags#bool-conserve-stack": "-fconserve-stack", 
+          "##compiler_flags#bool-cprop-registers": "-fcprop-registers", 
+          "##compiler_flags#bool-graphite-identity": "-fno-graphite-identity", 
+          "##compiler_flags#bool-ipa-pta": "-fipa-pta", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves": "-fno-modulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-optimize-sibling-calls": "-foptimize-sibling-calls", 
+          "##compiler_flags#bool-regmove": "-fno-regmove", 
+          "##compiler_flags#bool-reorder-blocks-and-partition": "-fno-reorder-blocks-and-partition", 
+          "##compiler_flags#bool-shrink-wrap": "-fshrink-wrap", 
+          "##compiler_flags#bool-thread-jumps": "-fthread-jumps", 
+          "##compiler_flags#bool-tree-forwprop": "-fno-tree-forwprop", 
+          "##compiler_flags#bool-tree-loop-im": "-fno-tree-loop-im", 
+          "##compiler_flags#bool-tree-pre": "-fno-tree-pre", 
+          "##compiler_flags#bool-tree-slsr": "-ftree-slsr", 
+          "##compiler_flags#bool-tree-vectorize": "-fno-tree-vectorize", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-fno-unsafe-loop-optimizations", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-funsafe-math-optimizations"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "a94735b4c660f955", 
+    "touched": 51, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "cbench-security-sha", 
+      "dataset_file": "data.tiff", 
+      "dataset_uoa": "image-tiff-0001-bw", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 29048, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 142, 
+    "last_touch_uid": "37c6b848999fe1f7", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 9752, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.053543, 
+          "##characteristics#run#repeat#min": 29048
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0690817186184, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4141111176345
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-inline-functions -fno-tree-vectorize", 
+          "##characteristics#compile#md5_sum#min": "8ec7e5e3d4a80dc353eb8eb9aefda437", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.008729042455823
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-inline-functions": "-fno-inline-functions", 
+          "##compiler_flags#bool-tree-vectorize": "-fno-tree-vectorize"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-inline-functions", 
+          "##compiler_flags#bool-tree-vectorize"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-inline-functions": {
+            "##characteristics#compile#obj_size#min_imp": 0.94276875483372, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.0032721195538, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.02804480676669
+          }, 
+          "##compiler_flags#bool-tree-vectorize": {
+            "##characteristics#compile#obj_size#min_imp": 0.99348003259984, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.70518140755793, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0076068633097341
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-check-data-deps": "-fcheck-data-deps", 
+          "##compiler_flags#bool-combine-stack-adjustments": "-fcombine-stack-adjustments", 
+          "##compiler_flags#bool-conserve-stack": "-fno-conserve-stack", 
+          "##compiler_flags#bool-early-inlining": "-fearly-inlining", 
+          "##compiler_flags#bool-expensive-optimizations": "-fno-expensive-optimizations", 
+          "##compiler_flags#bool-fast-math": "-fno-fast-math", 
+          "##compiler_flags#bool-float-store": "-fno-float-store", 
+          "##compiler_flags#bool-function-cse": "-fno-function-cse", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fira-share-save-slots", 
+          "##compiler_flags#bool-merge-all-constants": "-fmerge-all-constants", 
+          "##compiler_flags#bool-reorder-blocks-and-partition": "-freorder-blocks-and-partition", 
+          "##compiler_flags#bool-section-anchors": "-fsection-anchors", 
+          "##compiler_flags#bool-tracer": "-fno-tracer", 
+          "##compiler_flags#bool-vpt": "-fvpt", 
+          "##compiler_flags#bool-web": "-fweb"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "745adb33e7a0903e", 
+    "touched": 111, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-8-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 579924296, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 118, 
+    "last_touch_uid": "8b6a74ea6935d62a", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4976, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.864925, 
+          "##characteristics#run#repeat#min": 579924296
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.98553054662379, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.259079217986
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fbranch-probabilities -fno-crossjumping -fsched2-use-superblocks", 
+          "##characteristics#compile#md5_sum#min": "ba213d0978c923077146b3a34e911c2b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0089068734301328
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-branch-probabilities": "-fbranch-probabilities", 
+          "##compiler_flags#bool-crossjumping": "-fno-crossjumping", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fsched2-use-superblocks"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-branch-probabilities", 
+          "##compiler_flags#bool-crossjumping", 
+          "##compiler_flags#bool-sched2-use-superblocks"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-branch-probabilities": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9643884173721, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0075656407881859
+          }, 
+          "##compiler_flags#bool-crossjumping": {
+            "##characteristics#compile#obj_size#min_imp": 1.0146818923328, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.79434299314907, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0076034028557469
+          }, 
+          "##compiler_flags#bool-sched2-use-superblocks": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.96442710812732, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0075679178638783
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fdelete-null-pointer-checks", 
+          "##compiler_flags#bool-float-store": "-fno-float-store", 
+          "##compiler_flags#bool-merge-all-constants": "-fmerge-all-constants", 
+          "##compiler_flags#bool-modulo-sched-allow-regmoves": "-fno-modulo-sched-allow-regmoves", 
+          "##compiler_flags#bool-peephole": "-fno-peephole", 
+          "##compiler_flags#bool-ree": "-fno-ree", 
+          "##compiler_flags#bool-sched-rank-heuristic": "-fsched-rank-heuristic", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-section-anchors": "-fno-section-anchors", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fno-sel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-selective-scheduling2": "-fno-selective-scheduling2", 
+          "##compiler_flags#bool-shrink-wrap": "-fno-shrink-wrap", 
+          "##compiler_flags#bool-signed-zeros": "-fno-signed-zeros", 
+          "##compiler_flags#bool-single-precision-constant": "-fno-single-precision-constant", 
+          "##compiler_flags#bool-strict-aliasing": "-fno-strict-aliasing", 
+          "##compiler_flags#bool-tree-dominator-opts": "-fno-tree-dominator-opts", 
+          "##compiler_flags#bool-tree-loop-ivcanon": "-ftree-loop-ivcanon", 
+          "##compiler_flags#bool-tree-sink": "-ftree-sink", 
+          "##compiler_flags#bool-tree-sra": "-fno-tree-sra"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "c9ad430c93e0636a", 
+    "touched": 78, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-network-dijkstra-src-dijkstra-large-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 1314580405, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 149, 
+    "last_touch_uid": "4ee0bd635ca9dbbd", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4576, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.92427, 
+          "##characteristics#run#repeat#min": 1314580405
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.006993006993, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2499792073973
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fsched2-use-superblocks -fno-vect-cost-model", 
+          "##characteristics#compile#md5_sum#min": "61238283f35d85c381e1e429eb1c9972", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.033719732880368
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fsched2-use-superblocks", 
+          "##compiler_flags#bool-vect-cost-model": "-fno-vect-cost-model"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-sched2-use-superblocks", 
+          "##compiler_flags#bool-vect-cost-model"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-sched2-use-superblocks": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.92307726360662, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00047146336076138
+          }, 
+          "##compiler_flags#bool-vect-cost-model": {
+            "##characteristics#compile#obj_size#min_imp": 0.99305555555556, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.80003097696376, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00036994652939861
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-count-reg": "-fbranch-count-reg", 
+          "##compiler_flags#bool-conserve-stack": "-fno-conserve-stack", 
+          "##compiler_flags#bool-defer-pop": "-fno-defer-pop", 
+          "##compiler_flags#bool-gcse-sm": "-fno-gcse-sm", 
+          "##compiler_flags#bool-loop-interchange": "-fno-loop-interchange", 
+          "##compiler_flags#bool-sched-dep-count-heuristic": "-fno-sched-dep-count-heuristic", 
+          "##compiler_flags#bool-section-anchors": "-fsection-anchors", 
+          "##compiler_flags#bool-split-wide-types": "-fsplit-wide-types", 
+          "##compiler_flags#bool-strict-overflow": "-fno-strict-overflow", 
+          "##compiler_flags#bool-tree-copy-prop": "-ftree-copy-prop", 
+          "##compiler_flags#bool-tree-dce": "-ftree-dce", 
+          "##compiler_flags#bool-tree-dse": "-ftree-dse", 
+          "##compiler_flags#bool-tree-loop-distribution": "-ftree-loop-distribution", 
+          "##compiler_flags#bool-tree-switch-conversion": "-ftree-switch-conversion", 
+          "##compiler_flags#bool-tree-vrp": "-ftree-vrp", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-funsafe-math-optimizations", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fno-zero-initialized-in-bss"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "9fbf943b49ab94b6", 
+    "touched": 120, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "cbench-telecom-gsm", 
+      "dataset_file": "data.au", 
+      "dataset_uoa": "au-0001", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 534, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 118, 
+    "last_touch_uid": "ffa4defabb5e91c6", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 119160, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.617783, 
+          "##characteristics#run#repeat#min": 534
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0314295146913, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.166299095258
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-predictive-commoning -fno-tree-dominator-opts", 
+          "##characteristics#compile#md5_sum#min": "caa69d479760a5b045a2514c958c6674", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.019642425723628
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-predictive-commoning": "-fno-predictive-commoning", 
+          "##compiler_flags#bool-tree-dominator-opts": "-fno-tree-dominator-opts"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-predictive-commoning", 
+          "##compiler_flags#bool-tree-dominator-opts"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-predictive-commoning": {
+            "##characteristics#compile#obj_size#min_imp": 0.97576307433089, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.87141205459874, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.024340778413351
+          }, 
+          "##compiler_flags#bool-tree-dominator-opts": {
+            "##characteristics#compile#obj_size#min_imp": 0.99471493690956, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.98818924027569, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.016650627064744
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fira-region=": "-fira-region=all", 
+          "##compiler_flags#bool-caller-saves": "-fcaller-saves", 
+          "##compiler_flags#bool-data-sections": "-fno-data-sections", 
+          "##compiler_flags#bool-float-store": "-fno-float-store", 
+          "##compiler_flags#bool-gcse-lm": "-fgcse-lm", 
+          "##compiler_flags#bool-inline": "-finline", 
+          "##compiler_flags#bool-ipa-cp-clone": "-fno-ipa-cp-clone", 
+          "##compiler_flags#bool-ira-hoist-pressure": "-fira-hoist-pressure", 
+          "##compiler_flags#bool-loop-parallelize-all": "-floop-parallelize-all", 
+          "##compiler_flags#bool-loop-strip-mine": "-fno-loop-strip-mine", 
+          "##compiler_flags#bool-prefetch-loop-arrays": "-fno-prefetch-loop-arrays", 
+          "##compiler_flags#bool-reorder-functions": "-fno-reorder-functions", 
+          "##compiler_flags#bool-schedule-insns": "-fno-schedule-insns", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fno-split-ivs-in-unroller", 
+          "##compiler_flags#bool-strict-overflow": "-fno-strict-overflow", 
+          "##compiler_flags#bool-tree-loop-distribution": "-ftree-loop-distribution", 
+          "##compiler_flags#bool-tree-pta": "-fno-tree-pta"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "159a4dff75ba5ddf", 
+    "touched": 79, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 10676, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 115, 
+    "last_touch_uid": "1e9bf43e58d4445e", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 7456, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.618214, 
+          "##characteristics#run#repeat#min": 10676
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0043431053203, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1510229985394
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-ch -fno-tree-vrp", 
+          "##characteristics#compile#md5_sum#min": "643435f07a28b5fa351c768ceac1ce89", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00039098906222984
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-ch": "-fno-tree-ch", 
+          "##compiler_flags#bool-tree-vrp": "-fno-tree-vrp"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-ch", 
+          "##compiler_flags#bool-tree-vrp"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-ch": {
+            "##characteristics#compile#obj_size#min_imp": 0.9718456725756, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8208845598047, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0011551287306052
+          }, 
+          "##compiler_flags#bool-tree-vrp": {
+            "##characteristics#compile#obj_size#min_imp": 0.99785867237687, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.86100172051042, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.010554049114023
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-cse-skip-blocks": "-fcse-skip-blocks", 
+          "##compiler_flags#bool-devirtualize": "-fdevirtualize", 
+          "##compiler_flags#bool-dse": "-fdse", 
+          "##compiler_flags#bool-finite-math-only": "-fno-finite-math-only", 
+          "##compiler_flags#bool-float-store": "-ffloat-store", 
+          "##compiler_flags#bool-inline-functions": "-finline-functions", 
+          "##compiler_flags#bool-optimize-register-move": "-foptimize-register-move", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fno-sched2-use-superblocks", 
+          "##compiler_flags#bool-schedule-insns2": "-fschedule-insns2", 
+          "##compiler_flags#bool-signaling-nans": "-fno-signaling-nans", 
+          "##compiler_flags#bool-split-wide-types": "-fno-split-wide-types", 
+          "##compiler_flags#bool-strict-aliasing": "-fno-strict-aliasing", 
+          "##compiler_flags#bool-strict-overflow": "-fstrict-overflow", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-fno-tree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-ter": "-ftree-ter", 
+          "##compiler_flags#bool-tree-vect-loop-version": "-ftree-vect-loop-version", 
+          "##compiler_flags#bool-unit-at-a-time": "-fno-unit-at-a-time", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-funsafe-math-optimizations"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8475b8b0e5709314", 
+    "touched": 74, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.8.3", 
+      "cpu_cur_freq": {
+        "0": 1596, 
+        "1": 1596, 
+        "2": 1596, 
+        "3": 1596
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU           E5504  @ 2.00GHz", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "4f9cad50ef323897", 
+      "gpu_misc_uid": "b5a4469897d45735", 
+      "gpu_name": "NVIDIA Corporation G98 [Quadro NVS 295] (rev a1)", 
+      "kernel_repetitions": 37835534, 
+      "omit_probability": "", 
+      "os_name": "openSUSE 13.2", 
+      "os_uid": "74982e44b7410283", 
+      "platform_name": "Hewlett-Packard (HP Z800 Workstation)", 
+      "platform_uid": "42917df3136e41a6"
+    }, 
+    "iterations": 133, 
+    "last_touch_uid": "3eabeb3cde0da1cf", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 15456, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.030685, 
+          "##characteristics#run#repeat#min": 37835534
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.090206185567, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1013904907753
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffinite-math-only -funsafe-math-optimizations", 
+          "##characteristics#compile#md5_sum#min": "01fc3ffaeb86b255d501d8fd18969cfb", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0087975729888654
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-finite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-funsafe-math-optimizations"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-finite-math-only", 
+          "##compiler_flags#bool-unsafe-math-optimizations"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-finite-math-only": {
+            "##characteristics#compile#obj_size#min_imp": 2.252427184466, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.97167883926059, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.047738503106839
+          }, 
+          "##compiler_flags#bool-unsafe-math-optimizations": {
+            "##characteristics#compile#obj_size#min_imp": 1.0325854700855, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.92081036489911, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.054221104226274
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-combine-stack-adjustments": "-fcombine-stack-adjustments", 
+          "##compiler_flags#bool-delete-null-pointer-checks": "-fno-delete-null-pointer-checks", 
+          "##compiler_flags#bool-dse": "-fdse", 
+          "##compiler_flags#bool-early-inlining": "-fno-early-inlining", 
+          "##compiler_flags#bool-gcse-sm": "-fno-gcse-sm", 
+          "##compiler_flags#bool-inline-functions-called-once": "-finline-functions-called-once", 
+          "##compiler_flags#bool-ipa-pure-const": "-fipa-pure-const", 
+          "##compiler_flags#bool-keep-inline-functions": "-fkeep-inline-functions", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-regmove": "-fregmove", 
+          "##compiler_flags#bool-sched-pressure": "-fno-sched-pressure", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant", 
+          "##compiler_flags#bool-tree-copy-prop": "-fno-tree-copy-prop", 
+          "##compiler_flags#bool-tree-copyrename": "-fno-tree-copyrename", 
+          "##compiler_flags#bool-tree-fre": "-fno-tree-fre", 
+          "##compiler_flags#bool-tree-loop-ivcanon": "-fno-tree-loop-ivcanon", 
+          "##compiler_flags#bool-tree-loop-linear": "-fno-tree-loop-linear", 
+          "##compiler_flags#bool-tree-sra": "-fno-tree-sra"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "ca343dfb27e73165", 
+    "touched": 101, 
+    "validated": 1
+  }
+]

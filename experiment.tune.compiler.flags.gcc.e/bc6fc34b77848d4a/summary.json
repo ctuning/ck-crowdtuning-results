@@ -1,0 +1,163 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-susan-s-src-susan-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 2457.6, 
+        "1": 2457.6, 
+        "2": 2457.6, 
+        "3": 2457.6
+      }, 
+      "cpu_name": "Qualcomm MSM8974PRO-AC", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "1305ed04175b26fd", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 7.0", 
+      "os_uid": "de98569847a92092", 
+      "platform_name": "ONEPLUS A0001", 
+      "platform_uid": "e67af66f3002ab8c"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "210f3e34114b78fd", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3536, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6169996261597, 
+          "##characteristics#run#repeat#min": 7993604
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.001131221719457, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.163159172033485
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-compare-elim -fcprop-registers -fdata-sections -fearly-inlining -fno-gcse-las -fno-hoist-adjacent-loads -fno-ipa-pure-const -fno-loop-interchange -fno-math-errno -fno-peephole2 -frename-registers -fsched2-use-superblocks -fno-sched-pressure -fschedule-insns -fno-tree-vrp --param inline-min-speedup=12 --param min-inline-recursive-probability=0 --param min-vect-loop-bound=1 --param max-modulo-backtrack-attempts=28 --param large-unit-insns=3672 --param large-stack-frame=286 --param gcse-unrestricted-cost=4 --param sms-min-sc=1 --param sms-loop-average-count-threshold=0 --param align-threshold=136 --param builtin-expect-probability=43 --param tracer-min-branch-ratio=81 --param tracer-min-branch-probability-feedback=2 --param max-crossjump-edges=39 --param max-goto-duplication-insns=16 --param max-cse-insns=186 --param iv-consider-all-candidates-bound=37 --param max-cselib-memory-locations=14 --param sched-state-edge-prob-cutoff=57 --param selsched-max-sched-times=3 --param min-size-for-stack-sharing=33 --param max-jump-thread-duplication-stmts=27 --param max-partial-antic-length=44 --param max-vartrack-size=36744139 --param tm-max-aggregate-size=4 --param ipa-cp-array-index-hint-bonus=47 --param lto-partitions=58", 
+          "##characteristics#compile#md5_sum#min": "d05a171ea14b304293fe226d0b0dcf73", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-compare-elim": "-fno-compare-elim", 
+          "##compiler_flags#bool-cprop-registers": "-fcprop-registers", 
+          "##compiler_flags#bool-data-sections": "-fdata-sections", 
+          "##compiler_flags#bool-early-inlining": "-fearly-inlining", 
+          "##compiler_flags#bool-gcse-las": "-fno-gcse-las", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fno-hoist-adjacent-loads", 
+          "##compiler_flags#bool-ipa-pure-const": "-fno-ipa-pure-const", 
+          "##compiler_flags#bool-loop-interchange": "-fno-loop-interchange", 
+          "##compiler_flags#bool-math-errno": "-fno-math-errno", 
+          "##compiler_flags#bool-peephole2": "-fno-peephole2", 
+          "##compiler_flags#bool-rename-registers": "-frename-registers", 
+          "##compiler_flags#bool-sched-pressure": "-fno-sched-pressure", 
+          "##compiler_flags#bool-sched2-use-superblocks": "-fsched2-use-superblocks", 
+          "##compiler_flags#bool-schedule-insns": "-fschedule-insns", 
+          "##compiler_flags#bool-tree-vrp": "-fno-tree-vrp", 
+          "##compiler_flags#param-align-threshold": "--param align-threshold=136", 
+          "##compiler_flags#param-builtin-expect-probability": "--param builtin-expect-probability=43", 
+          "##compiler_flags#param-gcse-unrestricted-cost": "--param gcse-unrestricted-cost=4", 
+          "##compiler_flags#param-inline-min-speedup": "--param inline-min-speedup=12", 
+          "##compiler_flags#param-ipa-cp-array-index-hint-bonus": "--param ipa-cp-array-index-hint-bonus=47", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound": "--param iv-consider-all-candidates-bound=37", 
+          "##compiler_flags#param-large-stack-frame": "--param large-stack-frame=286", 
+          "##compiler_flags#param-large-unit-insns": "--param large-unit-insns=3672", 
+          "##compiler_flags#param-lto-partitions": "--param lto-partitions=58", 
+          "##compiler_flags#param-max-crossjump-edges": "--param max-crossjump-edges=39", 
+          "##compiler_flags#param-max-cse-insns": "--param max-cse-insns=186", 
+          "##compiler_flags#param-max-cselib-memory-locations": "--param max-cselib-memory-locations=14", 
+          "##compiler_flags#param-max-goto-duplication-insns": "--param max-goto-duplication-insns=16", 
+          "##compiler_flags#param-max-jump-thread-duplication-stmts": "--param max-jump-thread-duplication-stmts=27", 
+          "##compiler_flags#param-max-modulo-backtrack-attempts": "--param max-modulo-backtrack-attempts=28", 
+          "##compiler_flags#param-max-partial-antic-length": "--param max-partial-antic-length=44", 
+          "##compiler_flags#param-max-vartrack-size": "--param max-vartrack-size=36744139", 
+          "##compiler_flags#param-min-inline-recursive-probability": "--param min-inline-recursive-probability=0", 
+          "##compiler_flags#param-min-size-for-stack-sharing": "--param min-size-for-stack-sharing=33", 
+          "##compiler_flags#param-min-vect-loop-bound": "--param min-vect-loop-bound=1", 
+          "##compiler_flags#param-sched-state-edge-prob-cutoff": "--param sched-state-edge-prob-cutoff=57", 
+          "##compiler_flags#param-selsched-max-sched-times": "--param selsched-max-sched-times=3", 
+          "##compiler_flags#param-sms-loop-average-count-threshold": "--param sms-loop-average-count-threshold=0", 
+          "##compiler_flags#param-sms-min-sc": "--param sms-min-sc=1", 
+          "##compiler_flags#param-tm-max-aggregate-size": "--param tm-max-aggregate-size=4", 
+          "##compiler_flags#param-tracer-min-branch-probability-feedback": "--param tracer-min-branch-probability-feedback=2", 
+          "##compiler_flags#param-tracer-min-branch-ratio": "--param tracer-min-branch-ratio=81"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-compare-elim", 
+          "##compiler_flags#bool-cprop-registers", 
+          "##compiler_flags#bool-data-sections", 
+          "##compiler_flags#bool-early-inlining", 
+          "##compiler_flags#bool-gcse-las", 
+          "##compiler_flags#bool-hoist-adjacent-loads", 
+          "##compiler_flags#bool-ipa-pure-const", 
+          "##compiler_flags#bool-loop-interchange", 
+          "##compiler_flags#bool-math-errno", 
+          "##compiler_flags#bool-peephole2", 
+          "##compiler_flags#bool-rename-registers", 
+          "##compiler_flags#bool-sched-pressure", 
+          "##compiler_flags#bool-sched2-use-superblocks", 
+          "##compiler_flags#bool-schedule-insns", 
+          "##compiler_flags#bool-tree-vrp", 
+          "##compiler_flags#param-align-threshold", 
+          "##compiler_flags#param-builtin-expect-probability", 
+          "##compiler_flags#param-gcse-unrestricted-cost", 
+          "##compiler_flags#param-inline-min-speedup", 
+          "##compiler_flags#param-ipa-cp-array-index-hint-bonus", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound", 
+          "##compiler_flags#param-large-stack-frame", 
+          "##compiler_flags#param-large-unit-insns", 
+          "##compiler_flags#param-lto-partitions", 
+          "##compiler_flags#param-max-crossjump-edges", 
+          "##compiler_flags#param-max-cse-insns", 
+          "##compiler_flags#param-max-cselib-memory-locations", 
+          "##compiler_flags#param-max-goto-duplication-insns", 
+          "##compiler_flags#param-max-jump-thread-duplication-stmts", 
+          "##compiler_flags#param-max-modulo-backtrack-attempts", 
+          "##compiler_flags#param-max-partial-antic-length", 
+          "##compiler_flags#param-max-vartrack-size", 
+          "##compiler_flags#param-min-inline-recursive-probability", 
+          "##compiler_flags#param-min-size-for-stack-sharing", 
+          "##compiler_flags#param-min-vect-loop-bound", 
+          "##compiler_flags#param-sched-state-edge-prob-cutoff", 
+          "##compiler_flags#param-selsched-max-sched-times", 
+          "##compiler_flags#param-sms-loop-average-count-threshold", 
+          "##compiler_flags#param-sms-min-sc", 
+          "##compiler_flags#param-tm-max-aggregate-size", 
+          "##compiler_flags#param-tracer-min-branch-probability-feedback", 
+          "##compiler_flags#param-tracer-min-branch-ratio"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4f797f27b4b27a53", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

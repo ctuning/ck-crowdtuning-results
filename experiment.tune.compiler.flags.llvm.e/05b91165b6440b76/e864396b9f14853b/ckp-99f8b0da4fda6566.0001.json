@@ -1,0 +1,126 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 8448, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.0583951473236084, 
+        "compilation_time_with_module": 1.1819379329681396, 
+        "joined_compiler_flags": "-O3 -fno-assume-sane-operator-new -fstrict-enums -fslp-vectorize-aggressive -fmodules-prune-interval=118", 
+        "md5_sum": "ca4f4656e9fd0ce525f916db62c3885e", 
+        "obj_size": 3840, 
+        "obj_sizes": {
+          "susan.codelet__1.o": 832, 
+          "susan.codelet__1.wrapper.o": 3008
+        }, 
+        "program_git_hash": "935232b0a32c97cba6e9f4ccde34c92e859a64df"
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "llvm-3.8.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "fmodules-prune-interval": "-fmodules-prune-interval=118", 
+      "fno-assume-sane-operator-new": "-fno-assume-sane-operator-new", 
+      "fslp-vectorize-aggressive": "-fslp-vectorize-aggressive", 
+      "fstrict-enums": "-fstrict-enums"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-automotive-susan-s-src-susan-codelet-1-1", 
+    "dataset_file": "data.txt", 
+    "dataset_uoa": "cdataset-dijkstra-0001", 
+    "device_id": "", 
+    "extra_dataset_tags": [
+      "small"
+    ], 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_run": "yes", 
+    "no_state_check": "yes", 
+    "program_tags": "crowd-tuning,small", 
+    "repeat": "", 
+    "target_os": "android21-arm64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#fassociative-math", 
+    "##compiler_flags#ffast-math", 
+    "##compiler_flags#ffinite-math-only", 
+    "##compiler_flags#fmerge-all-constants", 
+    "##compiler_flags#fno-assume-sane-operator-new", 
+    "##compiler_flags#fno-autolink", 
+    "##compiler_flags#fno-builtin", 
+    "##compiler_flags#fno-constant-cfstrings", 
+    "##compiler_flags#fno-diagnostics-fixit-info", 
+    "##compiler_flags#fno-elide-constructors", 
+    "##compiler_flags#fno-inline", 
+    "##compiler_flags#fno-lax-vector-conversions", 
+    "##compiler_flags#fno-merge-all-constants", 
+    "##compiler_flags#fno-rtti", 
+    "##compiler_flags#fno-sanitize-stats", 
+    "##compiler_flags#fno-signed-char", 
+    "##compiler_flags#fno-signed-zeros", 
+    "##compiler_flags#fno-unroll-loops", 
+    "##compiler_flags#fomit-frame-pointer ", 
+    "##compiler_flags#foptimize-sibling-calls", 
+    "##compiler_flags#fsched-interblock", 
+    "##compiler_flags#fshort-enums", 
+    "##compiler_flags#fstrict-aliasing", 
+    "##compiler_flags#fstrict-enums", 
+    "##compiler_flags#ftree-slp-vectorize", 
+    "##compiler_flags#ftree-vectorize", 
+    "##compiler_flags#funroll-loops", 
+    "##compiler_flags#freroll-loops", 
+    "##compiler_flags#trigraphs", 
+    "##compiler_flags#fvectorize", 
+    "##compiler_flags#flto", 
+    "##compiler_flags#fvisibility-inlines-hidden", 
+    "##compiler_flags#fwrapv", 
+    "##compiler_flags#mno-global-merge", 
+    "##compiler_flags#msoft-float", 
+    "##compiler_flags#mstrict-align", 
+    "##compiler_flags#fslp-vectorize-aggressive", 
+    "##compiler_flags#fslp-vectorize", 
+    "##compiler_flags#fshort-wchar", 
+    "##compiler_flags#fstrict-vtable-pointers", 
+    "##compiler_flags#mglobal-merge", 
+    "##compiler_flags#mlong-calls", 
+    "##compiler_flags#mno-long-calls", 
+    "##compiler_flags#mno-implicit-float", 
+    "##compiler_flags#mrelax-all", 
+    "##compiler_flags#mstackrealign", 
+    "##compiler_flags#fmodules-prune-after", 
+    "##compiler_flags#mstack-alignment", 
+    "##compiler_flags#fmax-type-align", 
+    "##compiler_flags#fmodules-prune-interval", 
+    "##compiler_flags#ftemplate-backtrace-limit", 
+    "##compiler_flags#ffp-contract"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        3, 
+        8, 
+        0
+      ], 
+      "raw": [
+        "clang version 3.8.0 (tags/RELEASE_380/final)", 
+        "Target: x86_64-unknown-linux-gnu", 
+        "Thread model: posix", 
+        "InstalledDir: /home/fursin/fggwork/ck-tools/llvm-3.8.0-linux-64/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-14.04/bin", 
+        ""
+      ], 
+      "str": "3.8.0"
+    }, 
+    "dataset": {
+      "total_size": 59
+    }, 
+    "number_of_selected_compiler_flags": 5, 
+    "statistical_repetitions": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "characteristics_desc": {}, 
+  "choices_desc": {
+    "##dataset_file": {
+      "has_choice": "yes", 
+      "sort": 1100, 
+      "tags": [
+        "setup"
+      ], 
+      "type": "text", 
+      "choices": [
+        "SGEMM_NT_1x1.json", 
+        "SGEMM_NT_4x1.json", 
+        "SGEMM_NT_4x1_barrier.json"
+      ]
+    }, 
+    "##compiler_env_uoa": {
+      "has_choice": "yes", 
+      "sort": 2000, 
+      "type": "uoa", 
+      "choices": [
+        "289842d618a4e54a", 
+        "924e05b4e11f9dcc", 
+        "94e0f4653b0fe9fa", 
+        "ac64c238d32a89b3", 
+        "b90ce949dca060c0", 
+        "ba51adfd437ab8de", 
+        "d1cad28a354152b3"
+      ]
+    }
+  }, 
+  "features_desc": {}
+}

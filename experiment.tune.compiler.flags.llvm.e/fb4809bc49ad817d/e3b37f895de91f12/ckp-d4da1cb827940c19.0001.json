@@ -1,0 +1,73 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 487988, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 1.1210460662841797, 
+        "compilation_time_with_module": 2.383228063583374, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "13e949d2c16dabd5203ec9526efe5a83", 
+        "obj_size": 35612, 
+        "obj_sizes": {
+          "susan.o": 35612
+        }, 
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "smoothing", 
+    "compile_type": "static", 
+    "compiler_description_uoa": "llvm-3.6.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "cbench-automotive-susan", 
+    "dataset_file": "data.pgm", 
+    "dataset_uoa": "image-pgm-from-pamela-100", 
+    "device_id": "", 
+    "extra_dataset_tags": [
+      "small"
+    ], 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_run": "yes", 
+    "no_state_check": "yes", 
+    "program_tags": "crowd-tuning,small", 
+    "repeat": "", 
+    "target_os": "android19-x86", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "3", 
+        "6"
+      ], 
+      "raw": [
+        "clang version 3.6 ", 
+        "Target: i686-none-linux-android", 
+        "Thread model: posix", 
+        ""
+      ], 
+      "str": "3.6"
+    }, 
+    "dataset": {
+      "compression": "", 
+      "format": "PPM", 
+      "height": 480, 
+      "mode": "L", 
+      "raw_info": {}, 
+      "total_size": 307254, 
+      "width": 640
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "statistical_repetitions": 1
+  }
+}

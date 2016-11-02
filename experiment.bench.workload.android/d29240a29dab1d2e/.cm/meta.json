@@ -1,0 +1,106 @@
+{
+  "characteristics": {
+    "run": {
+      "execution_time": 1.7250444889069, 
+      "execution_time_with_module": 2.2725343704224, 
+      "fail_reason": "return code 1 !=0 ", 
+      "repeat": 1, 
+      "return_code": 1, 
+      "run_success": "no", 
+      "run_success_bool": false, 
+      "total_execution_time": 1.7250444889069
+    }
+  }, 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "", 
+    "data_uoa": "wa-dhrystone", 
+    "dataset_file": "", 
+    "device_cfg": {
+      "access_type": "wa_android", 
+      "wa_config": {
+        "device": "generic_android", 
+        "device_config": {
+          "adb_name": "0123456789ABCDEF", 
+          "core_clusters": [
+            0
+          ], 
+          "core_names": [
+            "BCM21553 ThunderbirdEDN31 platform"
+          ]
+        }, 
+        "execution_order": "by_iteration", 
+        "instrumentation": [
+          "execution_time"
+        ], 
+        "logging": {
+          "colour_enabled": false, 
+          "file format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s", 
+          "regular format": "%(levelname)-8s %(message)s", 
+          "verbose format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s"
+        }, 
+        "max_retries": 3, 
+        "reboot_policy": "as_needed", 
+        "result_processors": [
+          "status", 
+          "standard", 
+          "json"
+        ], 
+        "retry_on_status": [
+          "FAILED", 
+          "PARTIAL"
+        ]
+      }
+    }, 
+    "device_id": "0123456789ABCDEF", 
+    "energy": "no", 
+    "env": {
+      "CK_WA_RAW_RESULT_PATH": "/home/fursin/CK/local/wa-result/ac65ce914881b522/20161013-225127", 
+      "CK_WA_SCRIPTS_PATH": "/home/fursin/CK/ck-wa/script/process-wa"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "params": {
+      "config": {}, 
+      "params": {
+        "delay": 0, 
+        "duration": 0, 
+        "mloops": 0, 
+        "taskset_mask": 0, 
+        "threads": 4
+      }
+    }, 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "wa-samsung-gt-s5360", 
+    "target_os": "android10-arm", 
+    "target_os_bits": "32"
+  }, 
+  "meta": {
+    "apk_name": "", 
+    "apk_version": "", 
+    "cpu_name": "BCM21553 ThunderbirdEDN31 platform", 
+    "gpu_name": "", 
+    "local_target_uid": "577feaf920e64fd8", 
+    "local_target_uoa": "wa-samsung-gt-s5360", 
+    "os_name": "Android 2.3.6", 
+    "plat_name": "SAMSUNG GT-S5360", 
+    "program_uid": "f4b1abacc1c4fa53", 
+    "program_uoa": "wa-dhrystone", 
+    "scenario": "-", 
+    "serial_number": "0123456789ABCDEF", 
+    "wa_version": "trunk-3b052cc", 
+    "workload_name": "dhrystone"
+  }, 
+  "state": {
+    "fail": "yes", 
+    "fail_reason": "execution failed - return code 1 !=0 "
+  }, 
+  "user": "-"
+}

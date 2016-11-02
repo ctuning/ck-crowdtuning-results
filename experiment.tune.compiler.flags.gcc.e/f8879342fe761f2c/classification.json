@@ -1,0 +1,76 @@
+{
+  "40498dc26a016ed5": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4256, 
+          "##characteristics#run#execution_time_kernel_0#min": 13.03600025177, 
+          "##characteristics#run#repeat#min": 7639419
+        }, 
+        "checked": [
+          "40498dc26a016ed5"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9520676691729323, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3844519694953905
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-telecomm-gsm-src-short-term-codelet-2-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9520676691729323, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.3844519694953905
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-telecomm-gsm-src-short-term-codelet-2-1"
+    }, 
+    "user": "c4b937b7c97e4f23"
+  }, 
+  "d45dd2994de0a66a": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3040, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.1770000457764, 
+          "##characteristics#run#repeat#min": 100401608
+        }, 
+        "checked": [
+          "d45dd2994de0a66a"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0026315789473683, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1468383169233143
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0026315789473683, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1468383169233143
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-1-1"
+    }, 
+    "user": "c4b937b7c97e4f23"
+  }
+}

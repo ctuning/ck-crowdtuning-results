@@ -1,0 +1,312 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "static", 
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "data_uoa": "cbench-telecom-crc32", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-from-pamela-100", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-x86", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.6", 
+      "cpu_cur_freq": {}, 
+      "cpu_name": "Intel(R) Atom(TM) CPU  Z3580  @ 1.33GHz", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "084b940c494281be", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 5.0", 
+      "os_uid": "9a480940498fbb11", 
+      "platform_name": "ASUS Z00A", 
+      "platform_uid": "50d40da86f0cd4f8"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "9aa484531b43f3e4", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4272, 
+          "##characteristics#run#execution_time_kernel_0#min": 13.604999542236, 
+          "##characteristics#run#repeat#min": 118
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.9550221764562903
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fvectorize -fshort-wchar -fmodules-prune-after=85", 
+          "##characteristics#compile#md5_sum#min": "44d24b9de51c1c917551127408828e46", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmodules-prune-after": "-fmodules-prune-after=85", 
+          "##compiler_flags#fshort-wchar": "-fshort-wchar", 
+          "##compiler_flags#fvectorize": "-fvectorize"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmodules-prune-after", 
+          "##compiler_flags#fshort-wchar", 
+          "##compiler_flags#fvectorize"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "51cbbbfbc34507b4", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "encode", 
+      "compile_type": "static", 
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "data_uoa": "cbench-consumer-jpeg-c", 
+      "dataset_file": "data.ppm", 
+      "dataset_uoa": "image-ppm-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-x86", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.6", 
+      "cpu_cur_freq": {}, 
+      "cpu_name": "Intel(R) Atom(TM) CPU  Z3580  @ 1.33GHz", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "084b940c494281be", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 5.0", 
+      "os_uid": "9a480940498fbb11", 
+      "platform_name": "ASUS Z00A", 
+      "platform_uid": "50d40da86f0cd4f8"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "66facc4b3c953777", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 227917, 
+          "##characteristics#run#execution_time_kernel_0#min": 13.281000137329, 
+          "##characteristics#run#repeat#min": 1169
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0510185725505337, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.7241334569572981
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -msoft-float -mno-implicit-float", 
+          "##characteristics#compile#md5_sum#min": "ddd5eea3685b5b91415c13b3768ade16", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#mno-implicit-float": "-mno-implicit-float", 
+          "##compiler_flags#msoft-float": "-msoft-float"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#mno-implicit-float", 
+          "##compiler_flags#msoft-float"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "0c0b0475d4c8691a", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "decode", 
+      "compile_type": "static", 
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "data_uoa": "cbench-consumer-jpeg-d", 
+      "dataset_file": "3970203935_2be6dbb13e_o.jpg", 
+      "dataset_uoa": "image-jpeg-carp-3970203935-2be6dbb13e-o", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-x86", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.6", 
+      "cpu_cur_freq": {}, 
+      "cpu_name": "Intel(R) Atom(TM) CPU  Z3580  @ 1.33GHz", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "084b940c494281be", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 5.0", 
+      "os_uid": "9a480940498fbb11", 
+      "platform_name": "ASUS Z00A", 
+      "platform_uid": "50d40da86f0cd4f8"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "a920f8d9b4c5a9eb", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 235593, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.3500003814697, 
+          "##characteristics#run#repeat#min": 46
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0002037411977436, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4212766606756937
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fshort-enums", 
+          "##characteristics#compile#md5_sum#min": "6c5c1e67380cc6c06322a061a048e29b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fshort-enums": "-fshort-enums"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fshort-enums"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b58f17f04cc1bed3", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "smoothing", 
+      "compile_type": "static", 
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "data_uoa": "cbench-automotive-susan", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-from-pamela-100", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-x86", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.6", 
+      "cpu_cur_freq": {}, 
+      "cpu_name": "Intel(R) Atom(TM) CPU  Z3580  @ 1.33GHz", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "084b940c494281be", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 5.0", 
+      "os_uid": "9a480940498fbb11", 
+      "platform_name": "ASUS Z00A", 
+      "platform_uid": "50d40da86f0cd4f8"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "b045baa60ae65344", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 35220, 
+          "##characteristics#run#execution_time_kernel_0#min": 14.789999961853, 
+          "##characteristics#run#repeat#min": 14
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.011130039750142, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1638337857057928
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-signed-char -fno-unroll-loops -fno-reroll-loops -fwrapv -mno-global-merge", 
+          "##characteristics#compile#md5_sum#min": "90e7c8e1e7bd60c007854b360b9eddbb", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-signed-char": "-fno-signed-char", 
+          "##compiler_flags#freroll-loops": "-fno-reroll-loops", 
+          "##compiler_flags#funroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#fwrapv": "-fwrapv", 
+          "##compiler_flags#mno-global-merge": "-mno-global-merge"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-signed-char", 
+          "##compiler_flags#freroll-loops", 
+          "##compiler_flags#funroll-loops", 
+          "##compiler_flags#fwrapv", 
+          "##compiler_flags#mno-global-merge"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "e3b37f895de91f12", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

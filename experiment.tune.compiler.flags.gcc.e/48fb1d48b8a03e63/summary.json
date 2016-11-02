@@ -1,0 +1,152 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1", 
+      "dataset_file": "data.au", 
+      "dataset_uoa": "au-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {
+        "0": 1190.4, 
+        "1": 1190.4, 
+        "2": 1190.4, 
+        "3": 1190.4
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8216", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "d4c1f8dbee0ce499", 
+      "gpu_name": "Qualcomm Adreno (TM) 306", 
+      "gpu_uid": "4e79a7ee92836d24", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.4", 
+      "os_uid": "4adf90e1e0efcce1", 
+      "platform_name": "SAMSUNG SM-G530BT", 
+      "platform_uid": "aa9c47019f0c6025"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "da20d5b5ae437b8b", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 14472, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.7749996185303, 
+          "##characteristics#run#repeat#min": 258197
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.24875621890547264, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.0992108025271803
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-associative-math -fcheck-data-deps -fno-cx-limited-range -fno-dse -fipa-sra -fno-gcse-sm -fno-ira-share-save-slots -flto -fno-peephole -fpeephole2 -fno-reorder-functions -fshrink-wrap -fsplit-ivs-in-unroller -fno-web --param max-variable-expansions-in-unroller=0 --param inline-unit-growth=46 --param max-gcse-insertion-ratio=7 --param gcse-unrestricted-cost=5 --param max-hoist-depth=58 --param max-peel-branches=18 --param max-unswitch-insns=93 --param hot-bb-count-ws-permille=677 --param unlikely-bb-count-fraction=5162 --param tracer-max-code-growth=17 --param omega-max-wild-cards=23 --param max-sched-region-insns=31 --param integer-share-limit=104 --param l1-cache-size=41 --param switch-conversion-max-branch-ratio=1 --param ipa-cp-eval-threshold=974 --param lto-min-partition=1282 --param allow-packed-store-data-races=0 --param tree-reassoc-width=0 --param asan-globals=1 --param asan-instrument-writes=0 --param asan-memintrin=1", 
+          "##characteristics#compile#md5_sum#min": "368fa62fb30623fec1f5ce42367b805c", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-associative-math": "-fno-associative-math", 
+          "##compiler_flags#bool-check-data-deps": "-fcheck-data-deps", 
+          "##compiler_flags#bool-cx-limited-range": "-fno-cx-limited-range", 
+          "##compiler_flags#bool-dse": "-fno-dse", 
+          "##compiler_flags#bool-gcse-sm": "-fno-gcse-sm", 
+          "##compiler_flags#bool-ipa-sra": "-fipa-sra", 
+          "##compiler_flags#bool-ira-share-save-slots": "-fno-ira-share-save-slots", 
+          "##compiler_flags#bool-lto": "-flto", 
+          "##compiler_flags#bool-peephole": "-fno-peephole", 
+          "##compiler_flags#bool-peephole2": "-fpeephole2", 
+          "##compiler_flags#bool-reorder-functions": "-fno-reorder-functions", 
+          "##compiler_flags#bool-shrink-wrap": "-fshrink-wrap", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fsplit-ivs-in-unroller", 
+          "##compiler_flags#bool-web": "-fno-web", 
+          "##compiler_flags#param-allow-packed-store-data-races": "--param allow-packed-store-data-races=0", 
+          "##compiler_flags#param-asan-globals": "--param asan-globals=1", 
+          "##compiler_flags#param-asan-instrument-writes": "--param asan-instrument-writes=0", 
+          "##compiler_flags#param-asan-memintrin": "--param asan-memintrin=1", 
+          "##compiler_flags#param-gcse-unrestricted-cost": "--param gcse-unrestricted-cost=5", 
+          "##compiler_flags#param-hot-bb-count-ws-permille": "--param hot-bb-count-ws-permille=677", 
+          "##compiler_flags#param-inline-unit-growth": "--param inline-unit-growth=46", 
+          "##compiler_flags#param-integer-share-limit": "--param integer-share-limit=104", 
+          "##compiler_flags#param-ipa-cp-eval-threshold": "--param ipa-cp-eval-threshold=974", 
+          "##compiler_flags#param-l1-cache-size": "--param l1-cache-size=41", 
+          "##compiler_flags#param-lto-min-partition": "--param lto-min-partition=1282", 
+          "##compiler_flags#param-max-gcse-insertion-ratio": "--param max-gcse-insertion-ratio=7", 
+          "##compiler_flags#param-max-hoist-depth": "--param max-hoist-depth=58", 
+          "##compiler_flags#param-max-peel-branches": "--param max-peel-branches=18", 
+          "##compiler_flags#param-max-sched-region-insns": "--param max-sched-region-insns=31", 
+          "##compiler_flags#param-max-unswitch-insns": "--param max-unswitch-insns=93", 
+          "##compiler_flags#param-max-variable-expansions-in-unroller": "--param max-variable-expansions-in-unroller=0", 
+          "##compiler_flags#param-omega-max-wild-cards": "--param omega-max-wild-cards=23", 
+          "##compiler_flags#param-switch-conversion-max-branch-ratio": "--param switch-conversion-max-branch-ratio=1", 
+          "##compiler_flags#param-tracer-max-code-growth": "--param tracer-max-code-growth=17", 
+          "##compiler_flags#param-tree-reassoc-width": "--param tree-reassoc-width=0", 
+          "##compiler_flags#param-unlikely-bb-count-fraction": "--param unlikely-bb-count-fraction=5162"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-associative-math", 
+          "##compiler_flags#bool-check-data-deps", 
+          "##compiler_flags#bool-cx-limited-range", 
+          "##compiler_flags#bool-dse", 
+          "##compiler_flags#bool-gcse-sm", 
+          "##compiler_flags#bool-ipa-sra", 
+          "##compiler_flags#bool-ira-share-save-slots", 
+          "##compiler_flags#bool-lto", 
+          "##compiler_flags#bool-peephole", 
+          "##compiler_flags#bool-peephole2", 
+          "##compiler_flags#bool-reorder-functions", 
+          "##compiler_flags#bool-shrink-wrap", 
+          "##compiler_flags#bool-split-ivs-in-unroller", 
+          "##compiler_flags#bool-web", 
+          "##compiler_flags#param-allow-packed-store-data-races", 
+          "##compiler_flags#param-asan-globals", 
+          "##compiler_flags#param-asan-instrument-writes", 
+          "##compiler_flags#param-asan-memintrin", 
+          "##compiler_flags#param-gcse-unrestricted-cost", 
+          "##compiler_flags#param-hot-bb-count-ws-permille", 
+          "##compiler_flags#param-inline-unit-growth", 
+          "##compiler_flags#param-integer-share-limit", 
+          "##compiler_flags#param-ipa-cp-eval-threshold", 
+          "##compiler_flags#param-l1-cache-size", 
+          "##compiler_flags#param-lto-min-partition", 
+          "##compiler_flags#param-max-gcse-insertion-ratio", 
+          "##compiler_flags#param-max-hoist-depth", 
+          "##compiler_flags#param-max-peel-branches", 
+          "##compiler_flags#param-max-sched-region-insns", 
+          "##compiler_flags#param-max-unswitch-insns", 
+          "##compiler_flags#param-max-variable-expansions-in-unroller", 
+          "##compiler_flags#param-omega-max-wild-cards", 
+          "##compiler_flags#param-switch-conversion-max-branch-ratio", 
+          "##compiler_flags#param-tracer-max-code-growth", 
+          "##compiler_flags#param-tree-reassoc-width", 
+          "##compiler_flags#param-unlikely-bb-count-fraction"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "a880f320e20178b5", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

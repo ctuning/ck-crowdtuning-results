@@ -1,0 +1,23 @@
+{
+  "##choices#cmd_key": "cmd1", 
+  "##choices#compile_type": "dynamic", 
+  "##choices#compiler_flags#base_opt": "-O3", 
+  "##choices#compiler_flags#fdce": "-fdce", 
+  "##choices#compiler_flags#fipa_matrix_reorg": "-fno-ipa-matrix-reorg", 
+  "##choices#compiler_flags#fivopts": "-fno-ivopts", 
+  "##choices#compiler_flags#fselective_scheduling": "-fno-selective-scheduling", 
+  "##choices#compiler_flags#ftree_builtin_call_dce": "-fno-tree-builtin-call-dce", 
+  "##choices#compiler_flags#ftree_vrp": "-ftree-vrp", 
+  "##choices#compiler_flags#param_max_pipeline_region_insns": "--param max-pipeline-region-insns=502", 
+  "##choices#compiler_flags#param_min_spec_prob": "--param min-spec-prob=33", 
+  "##choices#compiler_flags#param_omega_max_geqs": "--param omega-max-geqs=191", 
+  "##choices#compiler_flags#param_selsched_max_lookahead": "--param selsched-max-lookahead=57", 
+  "##choices#data_uoa": "slambench-1.1-cpu", 
+  "##choices#dataset_uoa": "slambench-living-room-traj2-loop-1frame", 
+  "##choices#device_id": "", 
+  "##choices#host_os": "linux-32", 
+  "##choices#module_uoa": "b0ac08fe1d3c2615", 
+  "##choices#repeat": 200, 
+  "##choices#target_os": "linux-32", 
+  "##choices#target_os_bits": "32"
+}

@@ -1,0 +1,180 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1200, 
+        "1": 1200, 
+        "2": 1200, 
+        "3": 1200, 
+        "4": 1200, 
+        "5": 1200, 
+        "6": 1200, 
+        "7": 1200
+      }, 
+      "cpu_name": "SAMSUNG Exynos7420", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "d35780d449a19831", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "SAMSUNG SM-G920P", 
+      "platform_uid": ""
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "a51af948b2bcf220", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3640, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.8070001602173, 
+          "##characteristics#run#repeat#min": 7993604
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9956043956043956, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.6375021566750534
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-signed-zeros -fno-unroll-loops -trigraphs -mstackrealign -fmax-type-align=7", 
+          "##characteristics#compile#md5_sum#min": "dfc63d5f8c67cba21a63387c3f97f35b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmax-type-align": "-fmax-type-align=7", 
+          "##compiler_flags#fno-signed-zeros": "-fno-signed-zeros", 
+          "##compiler_flags#fno-unroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#mstackrealign": "-mstackrealign", 
+          "##compiler_flags#trigraphs": "-trigraphs"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmax-type-align", 
+          "##compiler_flags#fno-signed-zeros", 
+          "##compiler_flags#fno-unroll-loops", 
+          "##compiler_flags#mstackrealign", 
+          "##compiler_flags#trigraphs"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "4b3597b478fa434d", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jchuff-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1100, 
+        "1": 1100, 
+        "2": 1100, 
+        "3": 1100, 
+        "4": 1100, 
+        "5": 1100, 
+        "6": 1100, 
+        "7": 1100
+      }, 
+      "cpu_name": "SAMSUNG Exynos7420", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "d35780d449a19831", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "SAMSUNG SM-G920F", 
+      "platform_uid": "fb18fe26730049bd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "47ba9551052cac44", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4264, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.311999797821, 
+          "##characteristics#run#repeat#min": 2574665
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1460814524549225
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-constant-cfstrings", 
+          "##characteristics#compile#md5_sum#min": "04b995b20b89e427758d0a44a599fb89", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-constant-cfstrings": "-fno-constant-cfstrings"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-constant-cfstrings"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "6a9ddad4f8a8788a", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

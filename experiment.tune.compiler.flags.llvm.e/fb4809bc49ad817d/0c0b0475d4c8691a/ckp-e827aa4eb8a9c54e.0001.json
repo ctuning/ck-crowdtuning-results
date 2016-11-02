@@ -1,0 +1,127 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 661172, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 7.364409923553467, 
+        "compilation_time_with_module": 8.595387935638428, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "5c2076e4d34e8095c1898362ff9fc17b", 
+        "obj_size": 239545, 
+        "obj_sizes": {
+          "cdjpeg.o": 1140, 
+          "cjpeg.o": 13080, 
+          "ctuning-rtl.o": 1344, 
+          "jcapimin.o": 2272, 
+          "jcapistd.o": 1528, 
+          "jccoefct.o": 4884, 
+          "jccolor.o": 3976, 
+          "jcdctmgr.o": 4492, 
+          "jchuff.o": 7092, 
+          "jcinit.o": 1456, 
+          "jcmainct.o": 1452, 
+          "jcmarker.o": 7748, 
+          "jcmaster.o": 4760, 
+          "jcomapi.o": 1184, 
+          "jcparam.o": 8900, 
+          "jcphuff.o": 17424, 
+          "jcprepct.o": 3628, 
+          "jcsample.o": 5112, 
+          "jctrans.o": 4040, 
+          "jdapimin.o": 3288, 
+          "jdapistd.o": 2396, 
+          "jdatadst.o": 1440, 
+          "jdatasrc.o": 1640, 
+          "jdcoefct.o": 6808, 
+          "jdcolor.o": 4156, 
+          "jddctmgr.o": 3640, 
+          "jdhuff.o": 5120, 
+          "jdinput.o": 2972, 
+          "jdmainct.o": 3884, 
+          "jdmarker.o": 11096, 
+          "jdmaster.o": 5152, 
+          "jdmerge.o": 3756, 
+          "jdphuff.o": 6516, 
+          "jdpostct.o": 2200, 
+          "jdsample.o": 4468, 
+          "jdtrans.o": 1252, 
+          "jerror.o": 10856, 
+          "jfdctflt.o": 1712, 
+          "jfdctfst.o": 1231, 
+          "jfdctint.o": 1475, 
+          "jidctflt.o": 2244, 
+          "jidctfst.o": 1779, 
+          "jidctint.o": 2091, 
+          "jidctred.o": 2229, 
+          "jmemansi.o": 2248, 
+          "jmemmgr.o": 7556, 
+          "jquant1.o": 5996, 
+          "jquant2.o": 10220, 
+          "jutils.o": 1696, 
+          "rdbmp.o": 4312, 
+          "rdgif.o": 5288, 
+          "rdppm.o": 3804, 
+          "rdrle.o": 628, 
+          "rdswitch.o": 4752, 
+          "rdtarga.o": 4132
+        }, 
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "encode", 
+    "compile_type": "static", 
+    "compiler_description_uoa": "llvm-3.6.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "cbench-consumer-jpeg-c", 
+    "dataset_file": "data.ppm", 
+    "dataset_uoa": "image-ppm-0001", 
+    "device_id": "", 
+    "extra_dataset_tags": [
+      "small"
+    ], 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_run": "yes", 
+    "no_state_check": "yes", 
+    "program_tags": "crowd-tuning,small", 
+    "repeat": "", 
+    "target_os": "android19-x86", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "3", 
+        "6"
+      ], 
+      "raw": [
+        "clang version 3.6 ", 
+        "Target: i686-none-linux-android", 
+        "Thread model: posix", 
+        ""
+      ], 
+      "str": "3.6"
+    }, 
+    "dataset": {
+      "compression": "", 
+      "format": "PPM", 
+      "height": 208, 
+      "mode": "RGB", 
+      "raw_info": {}, 
+      "total_size": 101103, 
+      "width": 162
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "statistical_repetitions": 1
+  }
+}

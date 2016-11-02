@@ -1,0 +1,113 @@
+{
+  "choices": {
+    "calibration_time": 10.0,
+    "cmd_key": "default",
+    "compile_type": "dynamic",
+    "compiler_description_uoa": "gcc-4.8.0-auto",
+    "compiler_flags": {
+      "base_opt": "-O3"
+    },
+    "data_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1",
+    "dataset_file": "",
+    "dataset_uoa": "",
+    "device_id": "",
+    "host_os": "linux-64",
+    "module_uoa": "b0ac08fe1d3c2615",
+    "no_state_check": "yes",
+    "program_tags": "",
+    "repeat": 18333,
+    "target_os": "linux-64",
+    "target_os_bits": "64"
+  },
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ],
+  "features": {
+    "compiler_version": {
+      "list": [
+        "4",
+        "8",
+        "4"
+      ],
+      "raw": [
+        "gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4",
+        "Copyright (C) 2013 Free Software Foundation, Inc.",
+        "This is free software; see the source for copying conditions.  There is NO",
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+        "",
+        ""
+      ],
+      "str": "4.8.4"
+    },
+    "number_of_selected_compiler_flags": 1,
+    "platform": {
+      "cpu": {
+        "all_freqs": {},
+        "cpu_abi": "",
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm xsaveopt fsgsbase smep erms",
+        "current_freq": {
+          "0": 2500.054
+        },
+        "max_freq": {
+          "0": 0
+        },
+        "name": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
+        "num_proc": "1",
+        "sub_name": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+      },
+      "cpu_misc": {
+        "0": {
+          "address sizes": "46 bits physical, 48 bits virtual",
+          "apicid": "0",
+          "bogomips": "5000.10",
+          "cache size": "25600 KB",
+          "cache_alignment": "64",
+          "clflush size": "64",
+          "core id": "0",
+          "cpu MHz": "2500.054",
+          "cpu cores": "1",
+          "cpu family": "6",
+          "cpuid level": "13",
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm xsaveopt fsgsbase smep erms",
+          "fpu": "yes",
+          "fpu_exception": "yes",
+          "initial apicid": "0",
+          "microcode": "0x416",
+          "model": "62",
+          "model name": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
+          "physical id": "0",
+          "power managemen": "",
+          "processor": "0",
+          "siblings": "1",
+          "stepping": "4",
+          "vendor_id": "GenuineIntel",
+          "wp": "yes"
+        }
+      },
+      "gpu": {
+        "name": "Cirrus Logic GD 5446",
+        "vendor": "Cirrus"
+      },
+      "gpu_misc": {},
+      "os": {
+        "bits": "64",
+        "ck_os_base_uoa": "",
+        "ck_os_uoa": "linux-64",
+        "name": "Ubuntu 14.04.2 LTS",
+        "name_long": "Linux-3.13.0-48-generic-x86_64-with-debian-jessie-sid",
+        "name_short": "Linux 3.13.0"
+      },
+      "os_misc": {},
+      "platform": {
+        "model": "HVM domU",
+        "name": "Xen 4.2.amazon (HVM domU)",
+        "vendor": "Xen"
+      },
+      "platform_misc": {}
+    },
+    "solution_uid": "047abbc9388f77c0",
+    "statistical_repetitions": 2
+  },
+  "permanent": "yes",
+  "sub_points": 1
+}

@@ -1,0 +1,69 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 6904, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.05851292610168457, 
+        "compilation_time_with_module": 1.2125000953674316, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "0a1637c414da88551140352efc4832ab", 
+        "obj_size": 3168, 
+        "obj_sizes": {
+          "tiffmedian.codelet__1.o": 944, 
+          "tiffmedian.codelet__1.wrapper.o": 2224
+        }, 
+        "program_git_hash": "540987ceb20f9153dee31b7b45f428c8b3117198"
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "llvm-3.8.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-1-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "extra_dataset_tags": [
+      "small"
+    ], 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_run": "yes", 
+    "no_state_check": "yes", 
+    "program_tags": "crowd-tuning,small", 
+    "repeat": "", 
+    "target": "", 
+    "target_os": "android19-arm", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        3, 
+        8, 
+        0
+      ], 
+      "raw": [
+        "clang version 3.8.0 (tags/RELEASE_380/final)", 
+        "Target: x86_64-unknown-linux-gnu", 
+        "Thread model: posix", 
+        "InstalledDir: /home/fursin/fggwork/ck-tools/llvm-3.8.0-linux-64/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-14.04/bin", 
+        ""
+      ], 
+      "str": "3.8.0"
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "statistical_repetitions": 1
+  }
+}

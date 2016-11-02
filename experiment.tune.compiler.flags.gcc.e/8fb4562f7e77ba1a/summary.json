@@ -1,0 +1,146 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {}, 
+      "cpu_name": "MT6735M", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "", 
+      "gpu_uid": "", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 5.1", 
+      "os_uid": "4a7a7aa243109ec2", 
+      "platform_name": "4GOOD S450M 4G", 
+      "platform_uid": ""
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "06d8bb5dbaf34cfc", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4496, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6560001373291, 
+          "##characteristics#run#repeat#min": 280269056
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0266903914590748, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3180452983571265
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fcompare-elim -fcse-skip-blocks -fcx-limited-range -fno-devirtualize -fno-hoist-adjacent-loads -fno-guess-branch-probability -fno-inline -ftoplevel-reorder -fno-partial-inlining -fno-peel-loops -fno-sched-critical-path-heuristic -fsingle-precision-constant -fthread-jumps -fno-tree-dce -fno-tree-dominator-opts -ftree-phiprop -fno-tree-sra -funsafe-loop-optimizations -fsched-stalled-insns-dep=0 --param max-pending-list-length=54 --param gcse-after-reload-critical-fraction=10 --param gcse-unrestricted-cost=4 --param max-unroll-times=1 --param max-unswitch-level=4 --param tracer-min-branch-probability=95 --param max-goto-duplication-insns=16 --param omega-max-vars=27 --param omega-hash-table-size=327 --param max-sched-insn-conflict-delay=1 --param selsched-insns-to-rename=2 --param simultaneous-prefetches=0 --param graphite-max-bbs-per-function=198 --param max-vartrack-expr-depth=3 --param ipa-cp-value-list-size=2 --param lto-partitions=10 --param max-tail-merge-comparisons=3", 
+          "##characteristics#compile#md5_sum#min": "c7f54406e4424b494137c9b922a7a1fe", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-compare-elim": "-fcompare-elim", 
+          "##compiler_flags#bool-cse-skip-blocks": "-fcse-skip-blocks", 
+          "##compiler_flags#bool-cx-limited-range": "-fcx-limited-range", 
+          "##compiler_flags#bool-devirtualize": "-fno-devirtualize", 
+          "##compiler_flags#bool-guess-branch-probability": "-fno-guess-branch-probability", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fno-hoist-adjacent-loads", 
+          "##compiler_flags#bool-inline": "-fno-inline", 
+          "##compiler_flags#bool-partial-inlining": "-fno-partial-inlining", 
+          "##compiler_flags#bool-peel-loops": "-fno-peel-loops", 
+          "##compiler_flags#bool-sched-critical-path-heuristic": "-fno-sched-critical-path-heuristic", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant", 
+          "##compiler_flags#bool-thread-jumps": "-fthread-jumps", 
+          "##compiler_flags#bool-toplevel-reorder": "-ftoplevel-reorder", 
+          "##compiler_flags#bool-tree-dce": "-fno-tree-dce", 
+          "##compiler_flags#bool-tree-dominator-opts": "-fno-tree-dominator-opts", 
+          "##compiler_flags#bool-tree-phiprop": "-ftree-phiprop", 
+          "##compiler_flags#bool-tree-sra": "-fno-tree-sra", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-funsafe-loop-optimizations", 
+          "##compiler_flags#param--fsched-stalled-insns-dep=": "-fsched-stalled-insns-dep=0", 
+          "##compiler_flags#param-gcse-after-reload-critical-fraction": "--param gcse-after-reload-critical-fraction=10", 
+          "##compiler_flags#param-gcse-unrestricted-cost": "--param gcse-unrestricted-cost=4", 
+          "##compiler_flags#param-graphite-max-bbs-per-function": "--param graphite-max-bbs-per-function=198", 
+          "##compiler_flags#param-ipa-cp-value-list-size": "--param ipa-cp-value-list-size=2", 
+          "##compiler_flags#param-lto-partitions": "--param lto-partitions=10", 
+          "##compiler_flags#param-max-goto-duplication-insns": "--param max-goto-duplication-insns=16", 
+          "##compiler_flags#param-max-pending-list-length": "--param max-pending-list-length=54", 
+          "##compiler_flags#param-max-sched-insn-conflict-delay": "--param max-sched-insn-conflict-delay=1", 
+          "##compiler_flags#param-max-tail-merge-comparisons": "--param max-tail-merge-comparisons=3", 
+          "##compiler_flags#param-max-unroll-times": "--param max-unroll-times=1", 
+          "##compiler_flags#param-max-unswitch-level": "--param max-unswitch-level=4", 
+          "##compiler_flags#param-max-vartrack-expr-depth": "--param max-vartrack-expr-depth=3", 
+          "##compiler_flags#param-omega-hash-table-size": "--param omega-hash-table-size=327", 
+          "##compiler_flags#param-omega-max-vars": "--param omega-max-vars=27", 
+          "##compiler_flags#param-selsched-insns-to-rename": "--param selsched-insns-to-rename=2", 
+          "##compiler_flags#param-simultaneous-prefetches": "--param simultaneous-prefetches=0", 
+          "##compiler_flags#param-tracer-min-branch-probability": "--param tracer-min-branch-probability=95"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-compare-elim", 
+          "##compiler_flags#bool-cse-skip-blocks", 
+          "##compiler_flags#bool-cx-limited-range", 
+          "##compiler_flags#bool-devirtualize", 
+          "##compiler_flags#bool-guess-branch-probability", 
+          "##compiler_flags#bool-hoist-adjacent-loads", 
+          "##compiler_flags#bool-inline", 
+          "##compiler_flags#bool-partial-inlining", 
+          "##compiler_flags#bool-peel-loops", 
+          "##compiler_flags#bool-sched-critical-path-heuristic", 
+          "##compiler_flags#bool-single-precision-constant", 
+          "##compiler_flags#bool-thread-jumps", 
+          "##compiler_flags#bool-toplevel-reorder", 
+          "##compiler_flags#bool-tree-dce", 
+          "##compiler_flags#bool-tree-dominator-opts", 
+          "##compiler_flags#bool-tree-phiprop", 
+          "##compiler_flags#bool-tree-sra", 
+          "##compiler_flags#bool-unsafe-loop-optimizations", 
+          "##compiler_flags#param--fsched-stalled-insns-dep=", 
+          "##compiler_flags#param-gcse-after-reload-critical-fraction", 
+          "##compiler_flags#param-gcse-unrestricted-cost", 
+          "##compiler_flags#param-graphite-max-bbs-per-function", 
+          "##compiler_flags#param-ipa-cp-value-list-size", 
+          "##compiler_flags#param-lto-partitions", 
+          "##compiler_flags#param-max-goto-duplication-insns", 
+          "##compiler_flags#param-max-pending-list-length", 
+          "##compiler_flags#param-max-sched-insn-conflict-delay", 
+          "##compiler_flags#param-max-tail-merge-comparisons", 
+          "##compiler_flags#param-max-unroll-times", 
+          "##compiler_flags#param-max-unswitch-level", 
+          "##compiler_flags#param-max-vartrack-expr-depth", 
+          "##compiler_flags#param-omega-hash-table-size", 
+          "##compiler_flags#param-omega-max-vars", 
+          "##compiler_flags#param-selsched-insns-to-rename", 
+          "##compiler_flags#param-simultaneous-prefetches", 
+          "##compiler_flags#param-tracer-min-branch-probability"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "45064b11a7f50a11", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

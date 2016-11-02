@@ -1,0 +1,96 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "smoothing", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "data_uoa": "cbench-automotive-susan", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-from-pamela-100", 
+      "device_id": "", 
+      "host_os": "linux-32", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "program_tags": "", 
+      "target_os": "linux-32", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.6.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.6.0", 
+      "cpu_cur_freq": {
+        "0": 1900.0, 
+        "1": 1900.0, 
+        "2": 1900.0, 
+        "3": 1900.0
+      }, 
+      "cpu_name": "SAMSUNG EXYNOS5 (Flattened Device Tree)", 
+      "cpu_num_proc": "4", 
+      "cpu_uid": "c59762744f4d92f5", 
+      "gpu_misc_uid": "d88d66c1aa4434a2", 
+      "gpu_name": "Mali T628", 
+      "kernel_repetitions": 30, 
+      "omit_probability": "", 
+      "os_name": "Ubuntu 12.04.5 LTS", 
+      "os_uid": "c5aae49140dca03d", 
+      "platform_name": "Samsung Chromebook 2", 
+      "platform_uid": "c9eaa3eb7d744bbd"
+    }, 
+    "iterations": 35, 
+    "last_touch_uid": "145cb8dac3fcdaef", 
+    "points": [
+      {
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0352956670617675, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1625057157540046
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-unroll-loops -fomit-frame-pointer ", 
+          "##characteristics#compile#md5_sum#min": "03c5c112b196234bb8497f477ccd6693", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.001241860028780873
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-unroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#fomit-frame-pointer ": "-fomit-frame-pointer "
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-unroll-loops", 
+          "##compiler_flags#fomit-frame-pointer "
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fno-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 0.9793906810035843, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.9924530201853082, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0028081921509256857
+          }, 
+          "##compiler_flags#fomit-frame-pointer ": {
+            "##characteristics#compile#obj_size#min_imp": 0.9885431584429111, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8614605252950484, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.006480459170848921
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8fc0d06c47d596b7", 
+    "touched": 7, 
+    "validated": 1
+  }
+]

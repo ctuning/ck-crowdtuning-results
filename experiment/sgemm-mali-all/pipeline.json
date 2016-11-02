@@ -1,0 +1,441 @@
+{
+  "features": {
+    "compiler_version": {
+      "raw": [
+        "gcc (Ubuntu/Linaro 4.9.2-0ubuntu1~12.04) 4.9.2", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "list": [
+        "4", 
+        "9", 
+        "2"
+      ], 
+      "str": "4.9.2"
+    }
+  }, 
+  "characteristics": {}, 
+  "choices": {
+    "cmd_key": "default", 
+    "compiler_vars": {}, 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "data_uoa": "arm-mali-sgemm", 
+    "energy": "no", 
+    "compile_only_once": "yes", 
+    "target_os": "linux-32", 
+    "cpu_freq": "max", 
+    "skip_calibration": "yes", 
+    "compile_type": "dynamic", 
+    "target_os_bits": "32", 
+    "gpu_freq": "max", 
+    "host_os": "linux-32", 
+    "dataset_file": "", 
+    "device_id": ""
+  }, 
+  "ready": "yes", 
+  "state": {
+    "tmp_dir": "tmp", 
+    "cur_dir": "/home/fursin/fggwork/ck-repos/gemmbench/script/sgemm-mali"
+  }, 
+  "dependencies": {
+    "lib_opencl": {
+      "sort": 20, 
+      "bat": ". /home/fursin/fggwork/ck-repos/local/env/c41574ceeb251d45/env.sh\n", 
+      "cus": {
+        "add_include_path": "yes", 
+        "path_install": "/", 
+        "dynamic_lib": "libmali.so", 
+        "static_lib": "libmali.so", 
+        "path_include": "/usr/include", 
+        "include_name": "CL/opencl.h", 
+        "path_bin": "//bin", 
+        "path_lib": "/usr/lib", 
+        "version": "default", 
+        "tool_dir_extra_configured": "yes", 
+        "path_check": "/usr/lib/libmali.so", 
+        "tool_dir_extra": "", 
+        "env_prefix": "CK_ENV_LIB_OPENCL"
+      }, 
+      "tags": "lib,opencl", 
+      "uoa": "c41574ceeb251d45", 
+      "choices": [
+        "c41574ceeb251d45"
+      ], 
+      "num_entries": 1, 
+      "dict": {
+        "deps": {}, 
+        "tags": [
+          "32bits", 
+          "host-os-linux-32", 
+          "lib", 
+          "opencl", 
+          "target-os-linux-32", 
+          "vdefault"
+        ], 
+        "customize": {
+          "add_include_path": "yes", 
+          "path_install": "/", 
+          "dynamic_lib": "libmali.so", 
+          "static_lib": "libmali.so", 
+          "path_include": "/usr/include", 
+          "include_name": "CL/opencl.h", 
+          "path_bin": "//bin", 
+          "path_lib": "/usr/lib", 
+          "version": "default", 
+          "tool_dir_extra_configured": "yes", 
+          "path_check": "/usr/lib/libmali.so", 
+          "tool_dir_extra": "", 
+          "env_prefix": "CK_ENV_LIB_OPENCL"
+        }, 
+        "setup": {
+          "target_os_bits": "32", 
+          "version": "default", 
+          "host_os_uoa": "fb525e34243f49c1", 
+          "target_os_uoa": "fb525e34243f49c1"
+        }, 
+        "env_script": "env.sh", 
+        "soft_uoa": "a30b31e7c953eb6f", 
+        "env": {
+          "CK_ENV_LIB_OPENCL_DYNAMIC_NAME": "libmali.so", 
+          "CK_ENV_LIB_OPENCL_INCLUDE_NAME": "CL/opencl.h", 
+          "CK_ENV_LIB_OPENCL_STATIC_NAME": "libmali.so"
+        }
+      }, 
+      "ver": "default", 
+      "local": "yes"
+    }, 
+    "lib.xopenme": {
+      "sort": 30, 
+      "bat": ". /home/fursin/fggwork/ck-repos/local/env/b3be540f9b6ae5b5/env.sh\n", 
+      "cus": {
+        "add_include_path": "yes", 
+        "path_install": "/home/fursin/fggwork/ck-tools/lib-rtl-xopenme-0.3-gcc-local-linux-32", 
+        "skip_add_to_bin": "yes", 
+        "dynamic_lib": "librtlxopenme.so", 
+        "skip_add_to_path": "yes", 
+        "static_lib": "librtlxopenme.a", 
+        "path_include": "/home/fursin/fggwork/ck-tools/lib-rtl-xopenme-0.3-gcc-local-linux-32/include", 
+        "include_name": "xopenme.h", 
+        "version": "0.3", 
+        "path_lib": "/home/fursin/fggwork/ck-tools/lib-rtl-xopenme-0.3-gcc-local-linux-32/lib", 
+        "extra_dir": "", 
+        "env_prefix": "CK_ENV_LIB_RTL_XOPENME", 
+        "version_int": 3
+      }, 
+      "tags": "lib,xopenme", 
+      "uoa": "b3be540f9b6ae5b5", 
+      "choices": [
+        "b3be540f9b6ae5b5"
+      ], 
+      "num_entries": 1, 
+      "dict": {
+        "deps": {
+          "compiler": {
+            "sort": 10, 
+            "bat": ". /home/fursin/fggwork/ck-repos/ck-autotuning/env/compiler-gcc-local-linux-h32-t32/env.sh\n", 
+            "cus": {
+              "can_strip_dynamic_lib": "yes", 
+              "build_dir_name": "gcc", 
+              "skip_path": "yes", 
+              "retarget": "no", 
+              "add_m32": "yes", 
+              "languages": [
+                "C", 
+                "CPP", 
+                "F77", 
+                "F90", 
+                "F95"
+              ], 
+              "tool_prefix_configured": "yes", 
+              "version": "local", 
+              "version_int": 88888, 
+              "skip_add_to_ld_path": "yes", 
+              "env_prefix": "CK_ENV_COMPILER_GCC"
+            }, 
+            "tags": "compiler,lang-c", 
+            "build_dir_name": "gcc", 
+            "uoa": "b660ede86248c8bc", 
+            "num_entries": 1, 
+            "dict": {
+              "deps": {}, 
+              "tags": [
+                "32bits", 
+                "compiler", 
+                "gcc", 
+                "host-os-linux-32", 
+                "lang-c", 
+                "lang-cpp", 
+                "lang-f77", 
+                "lang-f90", 
+                "lang-f95", 
+                "target-os-linux-32", 
+                "vlocal"
+              ], 
+              "customize": {
+                "can_strip_dynamic_lib": "yes", 
+                "build_dir_name": "gcc", 
+                "skip_path": "yes", 
+                "retarget": "no", 
+                "add_m32": "yes", 
+                "languages": [
+                  "C", 
+                  "CPP", 
+                  "F77", 
+                  "F90", 
+                  "F95"
+                ], 
+                "tool_prefix_configured": "yes", 
+                "version": "local", 
+                "version_int": 88888, 
+                "skip_add_to_ld_path": "yes", 
+                "env_prefix": "CK_ENV_COMPILER_GCC"
+              }, 
+              "setup": {
+                "target_os_bits": "32", 
+                "version": "local", 
+                "host_os_uoa": "fb525e34243f49c1", 
+                "target_os_uoa": "fb525e34243f49c1"
+              }, 
+              "env_script": "env.sh", 
+              "soft_uoa": "3a8a82fa40bf992d", 
+              "env": {
+                "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                "CK_AR": "ar", 
+                "CK_FLAGS_DLL_EXTRA": "", 
+                "CK_LIB_EXT": ".a", 
+                "CK_OPT_SIZE": "-Os", 
+                "CK_F95": "gfortran", 
+                "CK_OPT_SPEED": "-O3", 
+                "CK_CC": "gcc", 
+                "CK_LB_OUTPUT": "-o ", 
+                "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                "CK_FLAG_PREFIX_VAR": "-D", 
+                "CK_EXTRA_LIB_M": "-lm", 
+                "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                "CK_FLAGS_CREATE_OBJ": "-c", 
+                "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                "CK_OBJ_EXT": ".o", 
+                "CK_FLAGS_OUTPUT": "-o ", 
+                "CK_LB": "ar rcs", 
+                "CK_LD": "ld", 
+                "CK_PLUGIN_FLAG": "-fplugin=", 
+                "CK_OPT_SPEED_SAFE": "-O2", 
+                "CK_DLL_EXT": ".so", 
+                "CK_CXX": "g  ", 
+                "CK_ASM_EXT": ".s", 
+                "CK_FC": "gfortran", 
+                "CK_LD_FLAGS_EXTRA": "", 
+                "CK_OBJDUMP": "objdump -d", 
+                "CK_EXE_EXT": ".out", 
+                "CK_F90": "gfortran", 
+                "CK_PROFILER": "gprof", 
+                "CK_FLAGS_DLL": "-shared -fPIC", 
+                "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                "CK_EXTRA_LIB_DL": "-ldl", 
+                "CK_MAKE": "make", 
+                "CK_FLAGS_CREATE_ASM": "-S"
+              }
+            }, 
+            "ver": "local", 
+            "local": "yes"
+          }
+        }, 
+        "tags": [
+          "32bits", 
+          "host-os-linux-32", 
+          "lang-c", 
+          "lang-cpp", 
+          "lang-f77", 
+          "lang-f90", 
+          "lang-f95", 
+          "lib", 
+          "rtl", 
+          "target-os-linux-32", 
+          "v0", 
+          "v0.3", 
+          "xopenme"
+        ], 
+        "customize": {
+          "add_include_path": "yes", 
+          "path_install": "/home/fursin/fggwork/ck-tools/lib-rtl-xopenme-0.3-gcc-local-linux-32", 
+          "skip_add_to_bin": "yes", 
+          "dynamic_lib": "librtlxopenme.so", 
+          "skip_add_to_path": "yes", 
+          "static_lib": "librtlxopenme.a", 
+          "path_include": "/home/fursin/fggwork/ck-tools/lib-rtl-xopenme-0.3-gcc-local-linux-32/include", 
+          "include_name": "xopenme.h", 
+          "version": "0.3", 
+          "path_lib": "/home/fursin/fggwork/ck-tools/lib-rtl-xopenme-0.3-gcc-local-linux-32/lib", 
+          "extra_dir": "", 
+          "env_prefix": "CK_ENV_LIB_RTL_XOPENME", 
+          "version_int": 3
+        }, 
+        "setup": {
+          "target_os_bits": "32", 
+          "version": "0.3", 
+          "host_os_uoa": "fb525e34243f49c1", 
+          "target_os_uoa": "fb525e34243f49c1", 
+          "deps_compiler": "b660ede86248c8bc"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "0573487b8121d094", 
+        "soft_uoa": "673507878d649b4a", 
+        "env": {
+          "CK_ENV_LIB_RTL_XOPENME_INCLUDE_NAME": "xopenme.h", 
+          "CK_ENV_LIB_RTL_XOPENME_DYNAMIC_NAME": "librtlxopenme.so", 
+          "CK_ENV_LIB_RTL_XOPENME_STATIC_NAME": "librtlxopenme.a"
+        }
+      }, 
+      "ver": "0.3", 
+      "local": "yes"
+    }, 
+    "compiler": {
+      "sort": 10, 
+      "bat": ". /home/fursin/fggwork/ck-repos/ck-autotuning/env/compiler-gcc-local-linux-h32-t32/env.sh\n", 
+      "cus": {
+        "can_strip_dynamic_lib": "yes", 
+        "build_dir_name": "gcc", 
+        "skip_path": "yes", 
+        "retarget": "no", 
+        "add_m32": "yes", 
+        "languages": [
+          "C", 
+          "CPP", 
+          "F77", 
+          "F90", 
+          "F95"
+        ], 
+        "tool_prefix_configured": "yes", 
+        "version": "local", 
+        "version_int": 88888, 
+        "skip_add_to_ld_path": "yes", 
+        "env_prefix": "CK_ENV_COMPILER_GCC"
+      }, 
+      "tags": "compiler,lang-cpp", 
+      "build_dir_name": "gcc", 
+      "uoa": "b660ede86248c8bc", 
+      "choices": [
+        "457bd283881847dc", 
+        "a1b99414d88b48b4", 
+        "b660ede86248c8bc"
+      ], 
+      "num_entries": 1, 
+      "dict": {
+        "deps": {}, 
+        "tags": [
+          "32bits", 
+          "compiler", 
+          "gcc", 
+          "host-os-linux-32", 
+          "lang-c", 
+          "lang-cpp", 
+          "lang-f77", 
+          "lang-f90", 
+          "lang-f95", 
+          "target-os-linux-32", 
+          "vlocal"
+        ], 
+        "customize": {
+          "can_strip_dynamic_lib": "yes", 
+          "build_dir_name": "gcc", 
+          "skip_path": "yes", 
+          "retarget": "no", 
+          "add_m32": "yes", 
+          "languages": [
+            "C", 
+            "CPP", 
+            "F77", 
+            "F90", 
+            "F95"
+          ], 
+          "tool_prefix_configured": "yes", 
+          "version": "local", 
+          "version_int": 88888, 
+          "skip_add_to_ld_path": "yes", 
+          "env_prefix": "CK_ENV_COMPILER_GCC"
+        }, 
+        "setup": {
+          "target_os_bits": "32", 
+          "version": "local", 
+          "host_os_uoa": "fb525e34243f49c1", 
+          "target_os_uoa": "fb525e34243f49c1"
+        }, 
+        "env_script": "env.sh", 
+        "soft_uoa": "3a8a82fa40bf992d", 
+        "env": {
+          "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+          "CK_AR": "ar", 
+          "CK_FLAGS_DLL_EXTRA": "", 
+          "CK_LIB_EXT": ".a", 
+          "CK_OPT_SIZE": "-Os", 
+          "CK_F95": "gfortran", 
+          "CK_OPT_SPEED": "-O3", 
+          "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+          "CK_CC": "gcc", 
+          "CK_COMPILER_FLAG_GPROF": "-pg", 
+          "CK_LB_OUTPUT": "-o ", 
+          "CK_FLAGS_STATIC_LIB": "-fPIC", 
+          "CK_FLAG_PREFIX_VAR": "-D", 
+          "CK_EXTRA_LIB_M": "-lm", 
+          "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+          "CK_FLAGS_CREATE_OBJ": "-c", 
+          "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+          "CK_FLAG_PREFIX_INCLUDE": "-I", 
+          "CK_OBJ_EXT": ".o", 
+          "CK_FLAGS_OUTPUT": "-o ", 
+          "CK_LB": "ar rcs", 
+          "CK_MAKE": "make", 
+          "CK_COMPILER_FLAG_CPP11": "-std=c  11", 
+          "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+          "CK_PLUGIN_FLAG": "-fplugin=", 
+          "CK_OPT_SPEED_SAFE": "-O2", 
+          "CK_DLL_EXT": ".so", 
+          "CK_CXX": "g  ", 
+          "CK_ASM_EXT": ".s", 
+          "CK_FC": "gfortran", 
+          "CK_LD_FLAGS_EXTRA": "", 
+          "CK_OBJDUMP": "objdump -d", 
+          "CK_EXE_EXT": ".out", 
+          "CK_F90": "gfortran", 
+          "CK_PROFILER": "gprof", 
+          "CK_FLAGS_DLL": "-shared -fPIC", 
+          "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+          "CK_EXTRA_LIB_DL": "-ldl", 
+          "CK_GPROF_OUT_FILE": "gmon.out", 
+          "CK_LD": "ld", 
+          "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+          "CK_FLAGS_CREATE_ASM": "-S"
+        }
+      }, 
+      "ver": "local", 
+      "local": "yes"
+    }
+  }, 
+  "no_compiler_description": "yes", 
+  "fail": "no", 
+  "choices_desc": {
+    "##dataset_file": {
+      "has_choice": "yes", 
+      "sort": 1100, 
+      "choices": [], 
+      "type": "text", 
+      "tags": [
+        "setup"
+      ]
+    }, 
+    "##compiler_env_uoa": {
+      "has_choice": "yes", 
+      "sort": 2000, 
+      "type": "uoa", 
+      "choices": [
+        "457bd283881847dc", 
+        "a1b99414d88b48b4", 
+        "b660ede86248c8bc"
+      ]
+    }
+  }, 
+  "speed": "yes"
+}

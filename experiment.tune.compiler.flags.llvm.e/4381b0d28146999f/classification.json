@@ -1,0 +1,63 @@
+{
+  "c20ba94c7876daa9": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3920, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.30188, 
+          "##characteristics#run#repeat#min": 681558260
+        }, 
+        "checked": [
+          "c20ba94c7876daa9"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.98979591836735, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2068702755352
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-8-1"
+        }
+      }
+    ], 
+    "highest_degradations": {
+      "##characteristics#compile#obj_size#min_imp": 0.99737446668855, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 0.8422503037984
+    }, 
+    "highest_degradations_workload": {
+      "cmd_key": "decode", 
+      "dataset_file": "data.enc", 
+      "dataset_uoa": "enc-0007", 
+      "program_uoa": "cbench-security-rijndael"
+    }, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.98979591836735, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.2068702755352
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-8-1"
+    }, 
+    "worst": [
+      {
+        "checked": [
+          "c20ba94c7876daa9"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.99737446668855, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 0.8422503037984
+        }, 
+        "workload": {
+          "cmd_key": "decode", 
+          "dataset_file": "data.enc", 
+          "dataset_uoa": "enc-0007", 
+          "program_uoa": "cbench-security-rijndael"
+        }
+      }
+    ]
+  }
+}

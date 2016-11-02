@@ -1,0 +1,693 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "demo-codelet-openme-auto-tuning-plugins", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.0", 
+      "cpu_cur_freq": {
+        "0": 2700, 
+        "1": 2700
+      }, 
+      "cpu_name": "AMD A6-4400M APU with Radeon(tm) HD Graphics", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "41d73f40af91546b", 
+      "gpu_misc_uid": "d4aa69174d1b19dc", 
+      "gpu_name": "HD 7520G", 
+      "kernel_repetitions": 8380, 
+      "omit_probability": "", 
+      "os_name": "gentoo", 
+      "os_uid": "2aeb69409fcfdcb5", 
+      "platform_name": "ThinkPad Edge E535", 
+      "platform_uid": "8a86c37f69ce4709"
+    }, 
+    "iterations": 37, 
+    "last_touch_uid": "1e584eefa388bb9d", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 23008, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.409672, 
+          "##characteristics#run#repeat#min": 8380
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.37908496732026, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2017082828593
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto", 
+          "##characteristics#compile#md5_sum#min": "4fc02d0e612f7b6dd4ac2b9eada28317", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0073290855502578
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 2.7298850574713, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.8335109153778, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0028332017282213
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-branch-count-reg": "-fbranch-count-reg", 
+          "##compiler_flags#bool-combine-stack-adjustments": "-fno-combine-stack-adjustments", 
+          "##compiler_flags#bool-early-inlining": "-fno-early-inlining", 
+          "##compiler_flags#bool-forward-propagate": "-fforward-propagate", 
+          "##compiler_flags#bool-hoist-adjacent-loads": "-fhoist-adjacent-loads", 
+          "##compiler_flags#bool-indirect-inlining": "-fno-indirect-inlining", 
+          "##compiler_flags#bool-inline-functions-called-once": "-fno-inline-functions-called-once", 
+          "##compiler_flags#bool-isolate-erroneous-paths-attribute": "-fisolate-erroneous-paths-attribute", 
+          "##compiler_flags#bool-isolate-erroneous-paths-dereference": "-fno-isolate-erroneous-paths-dereference", 
+          "##compiler_flags#bool-partial-inlining": "-fno-partial-inlining", 
+          "##compiler_flags#bool-reorder-functions": "-freorder-functions", 
+          "##compiler_flags#bool-sched-spec-load": "-fno-sched-spec-load", 
+          "##compiler_flags#bool-selective-scheduling": "-fno-selective-scheduling", 
+          "##compiler_flags#bool-stdarg-opt": "-fno-stdarg-opt", 
+          "##compiler_flags#bool-tree-bit-ccp": "-ftree-bit-ccp", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-fno-tree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-loop-if-convert": "-fno-tree-loop-if-convert", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fvariable-expansion-in-unroller"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "f8889647a8549cb8", 
+    "touched": 4, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.0", 
+      "cpu_cur_freq": {
+        "0": 2000, 
+        "1": 2700
+      }, 
+      "cpu_name": "AMD A6-4400M APU with Radeon(tm) HD Graphics", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "41d73f40af91546b", 
+      "gpu_misc_uid": "d4aa69174d1b19dc", 
+      "gpu_name": "HD 7520G", 
+      "kernel_repetitions": 74454897, 
+      "omit_probability": "", 
+      "os_name": "gentoo", 
+      "os_uid": "2aeb69409fcfdcb5", 
+      "platform_name": "ThinkPad Edge E535", 
+      "platform_uid": "8a86c37f69ce4709"
+    }, 
+    "iterations": 42, 
+    "last_touch_uid": "2b1736c4bf78ac2d", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 14672, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.179629, 
+          "##characteristics#run#repeat#min": 74454897
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.39285714285714, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2098149584315
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -flto", 
+          "##characteristics#compile#md5_sum#min": "2311f40f356fdbc7768b87415fe25188", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00098985968894077
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-lto": "-flto"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-lto"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-lto": {
+            "##characteristics#compile#obj_size#min_imp": 2.7787878787879, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.81183197157155, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.018470139793475
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fexcess-precision=": "-fexcess-precision=fast", 
+          "##compiler_flags#bool-defer-pop": "-fdefer-pop", 
+          "##compiler_flags#bool-float-store": "-fno-float-store", 
+          "##compiler_flags#bool-inline-functions-called-once": "-finline-functions-called-once", 
+          "##compiler_flags#bool-ipa-cp-clone": "-fno-ipa-cp-clone", 
+          "##compiler_flags#bool-ipa-ra": "-fipa-ra", 
+          "##compiler_flags#bool-ipa-sra": "-fipa-sra", 
+          "##compiler_flags#bool-isolate-erroneous-paths-dereference": "-fisolate-erroneous-paths-dereference", 
+          "##compiler_flags#bool-loop-nest-optimize": "-fno-loop-nest-optimize", 
+          "##compiler_flags#bool-prefetch-loop-arrays": "-fprefetch-loop-arrays", 
+          "##compiler_flags#bool-schedule-insns": "-fschedule-insns", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fsel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-selective-scheduling2": "-fno-selective-scheduling2", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fsplit-ivs-in-unroller", 
+          "##compiler_flags#bool-strict-aliasing": "-fno-strict-aliasing", 
+          "##compiler_flags#bool-tracer": "-fno-tracer", 
+          "##compiler_flags#bool-tree-forwprop": "-fno-tree-forwprop", 
+          "##compiler_flags#bool-tree-loop-distribute-patterns": "-fno-tree-loop-distribute-patterns", 
+          "##compiler_flags#bool-tree-loop-im": "-fno-tree-loop-im", 
+          "##compiler_flags#bool-tree-pta": "-ftree-pta", 
+          "##compiler_flags#bool-tree-tail-merge": "-fno-tree-tail-merge", 
+          "##compiler_flags#bool-tree-ter": "-ftree-ter", 
+          "##compiler_flags#bool-tree-vrp": "-fno-tree-vrp", 
+          "##compiler_flags#bool-unsafe-loop-optimizations": "-fno-unsafe-loop-optimizations", 
+          "##compiler_flags#bool-unswitch-loops": "-fno-unswitch-loops", 
+          "##compiler_flags#bool-use-linker-plugin": "-fuse-linker-plugin", 
+          "##compiler_flags#bool-vect-cost-model": "-fvect-cost-model", 
+          "##compiler_flags#bool-web": "-fweb"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "a9e6254de0bae9f7", 
+    "touched": 11, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-pvt-codelet-6-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.0", 
+      "cpu_cur_freq": {
+        "0": 2400, 
+        "1": 2700
+      }, 
+      "cpu_name": "AMD A6-4400M APU with Radeon(tm) HD Graphics", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "41d73f40af91546b", 
+      "gpu_misc_uid": "d4aa69174d1b19dc", 
+      "gpu_name": "HD 7520G", 
+      "kernel_repetitions": 9114731, 
+      "omit_probability": "", 
+      "os_name": "gentoo", 
+      "os_uid": "2aeb69409fcfdcb5", 
+      "platform_name": "ThinkPad Edge E535", 
+      "platform_uid": "8a86c37f69ce4709"
+    }, 
+    "iterations": 59, 
+    "last_touch_uid": "f04715a7c93a5da6", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6800, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.503057, 
+          "##characteristics#run#repeat#min": 9114731
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.74, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4647934708661
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-rename-registers -fschedule-insns -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "3cf8c532fb233cbb5d313f420685d94b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0039174003423931
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-rename-registers": "-fno-rename-registers", 
+          "##compiler_flags#bool-schedule-insns": "-fschedule-insns", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-rename-registers", 
+          "##compiler_flags#bool-schedule-insns", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-rename-registers": {
+            "##characteristics#compile#obj_size#min_imp": 0.99648300117233, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.86515814811298, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00037115335157287
+          }, 
+          "##compiler_flags#bool-schedule-insns": {
+            "##characteristics#compile#obj_size#min_imp": 1.0047281323877, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.83696202631748, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00054626575950853
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.3513513513514, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.68357610570379, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0011325264630867
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-compare-elim": "-fcompare-elim", 
+          "##compiler_flags#bool-cx-limited-range": "-fcx-limited-range", 
+          "##compiler_flags#bool-finite-math-only": "-fno-finite-math-only", 
+          "##compiler_flags#bool-function-sections": "-fno-function-sections", 
+          "##compiler_flags#bool-gcse-las": "-fno-gcse-las", 
+          "##compiler_flags#bool-graphite-identity": "-fgraphite-identity", 
+          "##compiler_flags#bool-if-conversion2": "-fif-conversion2", 
+          "##compiler_flags#bool-peel-loops": "-fpeel-loops", 
+          "##compiler_flags#bool-split-ivs-in-unroller": "-fsplit-ivs-in-unroller", 
+          "##compiler_flags#bool-tree-ch": "-ftree-ch", 
+          "##compiler_flags#bool-tree-switch-conversion": "-ftree-switch-conversion"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "6da615cb295a4ac4", 
+    "touched": 30, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.0", 
+      "cpu_cur_freq": {
+        "0": 2700, 
+        "1": 2700
+      }, 
+      "cpu_name": "AMD A6-4400M APU with Radeon(tm) HD Graphics", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "41d73f40af91546b", 
+      "gpu_misc_uid": "d4aa69174d1b19dc", 
+      "gpu_name": "HD 7520G", 
+      "kernel_repetitions": 54404596, 
+      "omit_probability": "", 
+      "os_name": "gentoo", 
+      "os_uid": "2aeb69409fcfdcb5", 
+      "platform_name": "ThinkPad Edge E535", 
+      "platform_uid": "8a86c37f69ce4709"
+    }, 
+    "iterations": 59, 
+    "last_touch_uid": "590d2f6de55d5008", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6576, 
+          "##characteristics#run#execution_time_kernel_0#min": 2.49749, 
+          "##characteristics#run#repeat#min": 54404596
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.82825822168088, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.23364081473
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-dce -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "8ffd9c91e7d501495f45eb28e76077c0", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.029506351775085
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-dce": "-fno-tree-dce", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-dce", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-dce": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.019337712207, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.051147798686021
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.2088235294118, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.84322691531361, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.035002271354242
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--fexcess-precision=": "-fexcess-precision=fast", 
+          "##compiler_flags#bool-delayed-branch": "-fdelayed-branch", 
+          "##compiler_flags#bool-expensive-optimizations": "-fexpensive-optimizations", 
+          "##compiler_flags#bool-fat-lto-objects": "-ffat-lto-objects", 
+          "##compiler_flags#bool-finite-math-only": "-ffinite-math-only", 
+          "##compiler_flags#bool-inline-functions-called-once": "-finline-functions-called-once", 
+          "##compiler_flags#bool-math-errno": "-fmath-errno", 
+          "##compiler_flags#bool-move-loop-invariants": "-fmove-loop-invariants", 
+          "##compiler_flags#bool-reciprocal-math": "-freciprocal-math", 
+          "##compiler_flags#bool-rerun-cse-after-loop": "-fno-rerun-cse-after-loop", 
+          "##compiler_flags#bool-stdarg-opt": "-fno-stdarg-opt", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-fno-tree-loop-vectorize", 
+          "##compiler_flags#bool-tree-sra": "-fno-tree-sra", 
+          "##compiler_flags#bool-unit-at-a-time": "-fno-unit-at-a-time", 
+          "##compiler_flags#bool-variable-expansion-in-unroller": "-fno-variable-expansion-in-unroller"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "1a6545a18ac9a57a", 
+    "touched": 31, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-basicmath-isqrt-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.0", 
+      "cpu_cur_freq": {
+        "0": 1400, 
+        "1": 2700
+      }, 
+      "cpu_name": "AMD A6-4400M APU with Radeon(tm) HD Graphics", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "41d73f40af91546b", 
+      "gpu_misc_uid": "d4aa69174d1b19dc", 
+      "gpu_name": "HD 7520G", 
+      "kernel_repetitions": 109128012, 
+      "omit_probability": "", 
+      "os_name": "gentoo", 
+      "os_uid": "2aeb69409fcfdcb5", 
+      "platform_name": "ThinkPad Edge E535", 
+      "platform_uid": "8a86c37f69ce4709"
+    }, 
+    "iterations": 38, 
+    "last_touch_uid": "f7d89ac6ab321ff4", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5960, 
+          "##characteristics#run#execution_time_kernel_0#min": 5.408894, 
+          "##characteristics#run#repeat#min": 109128012
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.83419689119171, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.8514092695916
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-tree-loop-vectorize -funroll-loops", 
+          "##characteristics#compile#md5_sum#min": "a9b701fba9fa118fcb03f87e85b955f5", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0051692029410584
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-tree-loop-vectorize": "-fno-tree-loop-vectorize", 
+          "##compiler_flags#bool-unroll-loops": "-funroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-tree-loop-vectorize", 
+          "##compiler_flags#bool-unroll-loops"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-tree-loop-vectorize": {
+            "##characteristics#compile#obj_size#min_imp": 1.0279627163782, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.67474528055726, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0020484128927929
+          }, 
+          "##compiler_flags#bool-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 1.20813771518, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.68545345171643, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0010352506203625
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool--flto-partition=": "-flto-partition=none", 
+          "##compiler_flags#bool-branch-target-load-optimize2": "-fno-branch-target-load-optimize2", 
+          "##compiler_flags#bool-if-conversion": "-fif-conversion", 
+          "##compiler_flags#bool-if-conversion2": "-fif-conversion2", 
+          "##compiler_flags#bool-ipa-pta": "-fipa-pta", 
+          "##compiler_flags#bool-ira-share-spill-slots": "-fira-share-spill-slots", 
+          "##compiler_flags#bool-loop-nest-optimize": "-fno-loop-nest-optimize", 
+          "##compiler_flags#bool-merge-constants": "-fno-merge-constants", 
+          "##compiler_flags#bool-move-loop-invariants": "-fmove-loop-invariants", 
+          "##compiler_flags#bool-peephole": "-fpeephole", 
+          "##compiler_flags#bool-sched-last-insn-heuristic": "-fsched-last-insn-heuristic", 
+          "##compiler_flags#bool-sel-sched-pipelining": "-fno-sel-sched-pipelining", 
+          "##compiler_flags#bool-tree-bit-ccp": "-fno-tree-bit-ccp", 
+          "##compiler_flags#bool-tree-builtin-call-dce": "-ftree-builtin-call-dce", 
+          "##compiler_flags#bool-tree-ch": "-fno-tree-ch", 
+          "##compiler_flags#bool-tree-dse": "-fno-tree-dse", 
+          "##compiler_flags#bool-tree-reassoc": "-ftree-reassoc", 
+          "##compiler_flags#bool-unswitch-loops": "-fno-unswitch-loops", 
+          "##compiler_flags#bool-web": "-fweb"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "bdf7254508b2f801", 
+    "touched": 6, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-5.3.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "5.3.0", 
+      "cpu_cur_freq": {
+        "0": 2000, 
+        "1": 2400
+      }, 
+      "cpu_name": "AMD A6-4400M APU with Radeon(tm) HD Graphics", 
+      "cpu_num_proc": "2", 
+      "cpu_uid": "41d73f40af91546b", 
+      "gpu_misc_uid": "d4aa69174d1b19dc", 
+      "gpu_name": "HD 7520G", 
+      "kernel_repetitions": 298115463, 
+      "omit_probability": "", 
+      "os_name": "gentoo", 
+      "os_uid": "2aeb69409fcfdcb5", 
+      "platform_name": "ThinkPad Edge E535", 
+      "platform_uid": "8a86c37f69ce4709"
+    }, 
+    "iterations": 55, 
+    "last_touch_uid": "42a677b30b2245b7", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4088, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.043199, 
+          "##characteristics#run#repeat#min": 298115463
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.1037181996086, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1020693015901
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-merge-all-constants -fno-reorder-functions -fselective-scheduling2", 
+          "##characteristics#compile#md5_sum#min": "64fb6381552ffbe5f968ae01aaa66d98", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0014463223298032
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool-merge-all-constants": "-fno-merge-all-constants", 
+          "##compiler_flags#bool-reorder-functions": "-fno-reorder-functions", 
+          "##compiler_flags#bool-selective-scheduling2": "-fselective-scheduling2"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool-merge-all-constants", 
+          "##compiler_flags#bool-reorder-functions", 
+          "##compiler_flags#bool-selective-scheduling2"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#bool-merge-all-constants": {
+            "##characteristics#compile#obj_size#min_imp": 0.97519083969466, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.99996659416568, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0017177456990819
+          }, 
+          "##compiler_flags#bool-reorder-functions": {
+            "##characteristics#compile#obj_size#min_imp": 0.92909090909091, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.0000293046612, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.081385458031855
+          }, 
+          "##compiler_flags#bool-selective-scheduling2": {
+            "##characteristics#compile#obj_size#min_imp": 1, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.89869276497466, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0012652232894931
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#bool-cse-skip-blocks": "-fno-cse-skip-blocks", 
+          "##compiler_flags#bool-defer-pop": "-fdefer-pop", 
+          "##compiler_flags#bool-dse": "-fdse", 
+          "##compiler_flags#bool-fast-math": "-fno-fast-math", 
+          "##compiler_flags#bool-gcse-after-reload": "-fno-gcse-after-reload", 
+          "##compiler_flags#bool-graphite-identity": "-fgraphite-identity", 
+          "##compiler_flags#bool-ipa-cp": "-fipa-cp", 
+          "##compiler_flags#bool-keep-static-consts": "-fno-keep-static-consts", 
+          "##compiler_flags#bool-rename-registers": "-fno-rename-registers", 
+          "##compiler_flags#bool-sched-spec": "-fsched-spec", 
+          "##compiler_flags#bool-schedule-insns": "-fschedule-insns", 
+          "##compiler_flags#bool-single-precision-constant": "-fsingle-precision-constant", 
+          "##compiler_flags#bool-strict-aliasing": "-fstrict-aliasing", 
+          "##compiler_flags#bool-tree-forwprop": "-fno-tree-forwprop", 
+          "##compiler_flags#bool-tree-loop-if-convert-stores": "-fno-tree-loop-if-convert-stores", 
+          "##compiler_flags#bool-tree-loop-im": "-ftree-loop-im", 
+          "##compiler_flags#bool-tree-sra": "-ftree-sra", 
+          "##compiler_flags#bool-tree-vectorize": "-ftree-vectorize"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "9c4c839479087c9c", 
+    "touched": 25, 
+    "validated": 1
+  }
+]

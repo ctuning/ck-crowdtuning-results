@@ -1,0 +1,117 @@
+{
+  "characteristics": {
+    "run": {
+      "execution_time": 109.01115608215, 
+      "execution_time_kernel_0": 109.01115608215, 
+      "execution_time_with_module": 131.15656995773, 
+      "repeat": 1, 
+      "return_code": 0, 
+      "run_success": "yes", 
+      "run_success_bool": true, 
+      "thread 0 DMIPS": 528, 
+      "thread 0 score": 928333, 
+      "thread 1 DMIPS": 529, 
+      "thread 1 score": 929023, 
+      "thread 2 DMIPS": 528, 
+      "thread 2 score": 928333, 
+      "thread 3 DMIPS": 528, 
+      "thread 3 score": 928333, 
+      "time": 27.11767, 
+      "total DMIPS": 2113, 
+      "total score": 3714022, 
+      "total_execution_time": 109.01115608215
+    }
+  }, 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "", 
+    "data_uoa": "wa-dhrystone", 
+    "dataset_file": "", 
+    "device_cfg": {
+      "access_type": "wa_android", 
+      "wa_config": {
+        "device": "generic_android", 
+        "device_config": {
+          "adb_name": "0ab78686", 
+          "core_clusters": [
+            0
+          ], 
+          "core_names": [
+            "QCT MSM7625a FFA"
+          ]
+        }, 
+        "execution_order": "by_iteration", 
+        "instrumentation": [
+          "execution_time"
+        ], 
+        "logging": {
+          "colour_enabled": false, 
+          "file format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s", 
+          "regular format": "%(levelname)-8s %(message)s", 
+          "verbose format": "%(asctime)s %(levelname)-8s %(name)s: %(message)s"
+        }, 
+        "max_retries": 3, 
+        "reboot_policy": "as_needed", 
+        "result_processors": [
+          "status", 
+          "standard", 
+          "json"
+        ], 
+        "retry_on_status": [
+          "FAILED", 
+          "PARTIAL"
+        ]
+      }
+    }, 
+    "device_id": "0ab78686", 
+    "energy": "no", 
+    "env": {
+      "CK_WA_RAW_RESULT_PATH": "/home/fursin/CK/local/wa-result/62683bdd214625b4/20161013-224142", 
+      "CK_WA_SCRIPTS_PATH": "/home/fursin/CK/ck-wa/script/process-wa"
+    }, 
+    "env_speed": "yes", 
+    "gpu_freq": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "params": {
+      "config": {}, 
+      "params": {
+        "delay": 0, 
+        "duration": 0, 
+        "mloops": 0, 
+        "taskset_mask": 0, 
+        "threads": 4
+      }
+    }, 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "wa-samsung-gt-s6312", 
+    "target_os": "android16-arm", 
+    "target_os_bits": "32"
+  }, 
+  "meta": {
+    "apk_name": "", 
+    "apk_version": "", 
+    "cpu_name": "QCT MSM7625a FFA", 
+    "gpu_name": "Qualcomm Adreno (TM) 200", 
+    "local_target_uid": "67cc854c308c70e0", 
+    "local_target_uoa": "wa-samsung-gt-s6312", 
+    "os_name": "Android 4.1.2", 
+    "plat_name": "SAMSUNG GT-S6312", 
+    "program_uid": "f4b1abacc1c4fa53", 
+    "program_uoa": "wa-dhrystone", 
+    "scenario": "-", 
+    "serial_number": "0ab78686", 
+    "wa_version": "trunk-3b052cc", 
+    "workload_name": "dhrystone"
+  }, 
+  "state": {
+    "fail": "no", 
+    "fail_reason": ""
+  }, 
+  "user": "-"
+}

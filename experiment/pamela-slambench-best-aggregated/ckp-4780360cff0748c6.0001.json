@@ -1,0 +1,398 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 99524, 
+        "compilation_time": 130.54155802727, 
+        "compilation_time_with_module": 139.24196791649, 
+        "md5_sum": "5a72f4ffe7b2de56f97df12467e12016", 
+        "obj_size": 129962, 
+        "obj_sizes": {
+          "benchmark.o": 46888, 
+          "getoptwin.o": 740, 
+          "kernels.o": 53492, 
+          "reader.o": 28104, 
+          "winmisc.o": 738
+        }
+      }, 
+      "current_freq": {
+        "0": 200
+      }, 
+      "run": {
+        "execution_time": -17.204339, 
+        "execution_time_kernel_0": 17.204339, 
+        "execution_time_kernel_X": "@@0.000000", 
+        "execution_time_kernel_Y": "@@0.000000", 
+        "execution_time_kernel_Z": "@@0.000000", 
+        "execution_time_kernel_acquisition": "@@0.053544", 
+        "execution_time_kernel_computation": "@@10.042266", 
+        "execution_time_kernel_frame": "@@0", 
+        "execution_time_kernel_integrated": "@@1", 
+        "execution_time_kernel_integration": "@@6.567757", 
+        "execution_time_kernel_preprocessing": "@@2.904250", 
+        "execution_time_kernel_raycasting": "@@0.000006", 
+        "execution_time_kernel_rendering": "@@6.992848", 
+        "execution_time_kernel_total": "@@17.088658", 
+        "execution_time_kernel_tracked": "@@0", 
+        "execution_time_kernel_tracking": "@@0.570253", 
+        "execution_time_with_module": 24.210242033005, 
+        "fps": 0.058518345911072, 
+        "frames": 1, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_time_state": {
+          "frames": 1, 
+          "input_size_x": 640, 
+          "input_size_y": 480, 
+          "openmp_max_threads": -1, 
+          "run_time_fps": 0.099051, 
+          "run_time_total": 10.09581
+        }, 
+        "total_execution_time": 17.204339, 
+        "total_execution_time_from_kernels": 17.088658
+      }
+    }, 
+    {
+      "current_freq": {
+        "0": 200
+      }, 
+      "run": {
+        "execution_time": 17.381141, 
+        "execution_time_kernel_0": 17.381141, 
+        "execution_time_kernel_X": "@@0.000000", 
+        "execution_time_kernel_Y": "@@0.000000", 
+        "execution_time_kernel_Z": "@@0.000000", 
+        "execution_time_kernel_acquisition": "@@0.047496", 
+        "execution_time_kernel_computation": "@@10.062120", 
+        "execution_time_kernel_frame": "@@0", 
+        "execution_time_kernel_integrated": "@@1", 
+        "execution_time_kernel_integration": "@@6.580769", 
+        "execution_time_kernel_preprocessing": "@@2.914918", 
+        "execution_time_kernel_raycasting": "@@0.000007", 
+        "execution_time_kernel_rendering": "@@7.099141", 
+        "execution_time_kernel_total": "@@17.208757", 
+        "execution_time_kernel_tracked": "@@0", 
+        "execution_time_kernel_tracking": "@@0.566427", 
+        "execution_time_with_module": 24.460462093353, 
+        "fps": 0.058109949486764, 
+        "frames": 1, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_time_state": {
+          "frames": 1, 
+          "input_size_x": 640, 
+          "input_size_y": 480, 
+          "openmp_max_threads": -1, 
+          "run_time_fps": 0.098916, 
+          "run_time_total": 10.109616
+        }, 
+        "total_execution_time": 17.381141, 
+        "total_execution_time_from_kernels": 17.208757
+      }
+    }, 
+    {
+      "current_freq": {
+        "0": 200
+      }, 
+      "run": {
+        "execution_time": 17.20914, 
+        "execution_time_kernel_0": 17.20914, 
+        "execution_time_kernel_X": "@@0.000000", 
+        "execution_time_kernel_Y": "@@0.000000", 
+        "execution_time_kernel_Z": "@@0.000000", 
+        "execution_time_kernel_acquisition": "@@0.046487", 
+        "execution_time_kernel_computation": "@@9.983957", 
+        "execution_time_kernel_frame": "@@0", 
+        "execution_time_kernel_integrated": "@@1", 
+        "execution_time_kernel_integration": "@@6.545595", 
+        "execution_time_kernel_preprocessing": "@@2.903062", 
+        "execution_time_kernel_raycasting": "@@0.000006", 
+        "execution_time_kernel_rendering": "@@7.018363", 
+        "execution_time_kernel_total": "@@17.048807", 
+        "execution_time_kernel_tracked": "@@0", 
+        "execution_time_kernel_tracking": "@@0.535293", 
+        "execution_time_with_module": 24.256722927094, 
+        "fps": 0.058655130532007, 
+        "frames": 1, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_time_state": {
+          "frames": 1, 
+          "input_size_x": 640, 
+          "input_size_y": 480, 
+          "openmp_max_threads": -1, 
+          "run_time_fps": 0.099696, 
+          "run_time_total": 10.030444
+        }, 
+        "total_execution_time": 17.20914, 
+        "total_execution_time_from_kernels": 17.048807
+      }
+    }, 
+    {
+      "current_freq": {
+        "0": 200
+      }, 
+      "run": {
+        "execution_time": 17.270472, 
+        "execution_time_kernel_0": 17.270472, 
+        "execution_time_kernel_X": "@@0.000000", 
+        "execution_time_kernel_Y": "@@0.000000", 
+        "execution_time_kernel_Z": "@@0.000000", 
+        "execution_time_kernel_acquisition": "@@0.046886", 
+        "execution_time_kernel_computation": "@@10.038064", 
+        "execution_time_kernel_frame": "@@0", 
+        "execution_time_kernel_integrated": "@@1", 
+        "execution_time_kernel_integration": "@@6.568689", 
+        "execution_time_kernel_preprocessing": "@@2.906027", 
+        "execution_time_kernel_raycasting": "@@0.000007", 
+        "execution_time_kernel_rendering": "@@6.997170", 
+        "execution_time_kernel_total": "@@17.082119", 
+        "execution_time_kernel_tracked": "@@0", 
+        "execution_time_kernel_tracking": "@@0.563341", 
+        "execution_time_with_module": 24.334995985031, 
+        "fps": 0.058540746613462, 
+        "frames": 1, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_time_state": {
+          "frames": 1, 
+          "input_size_x": 640, 
+          "input_size_y": 480, 
+          "openmp_max_threads": -1, 
+          "run_time_fps": 0.099158, 
+          "run_time_total": 10.08495
+        }, 
+        "total_execution_time": 17.270472, 
+        "total_execution_time_from_kernels": 17.082119
+      }
+    }
+  ], 
+  "choices": {
+    "cmd_key": "cmd1", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "cpu_freq": "min", 
+    "data_uoa": "slambench-1.1-cpu", 
+    "dataset_uoa": "slambench-living-room-traj2-loop-1frame", 
+    "device_id": "", 
+    "gpu_freq": "min", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "repeat": 1, 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#disable_inlining", 
+    "##compiler_flags#disable_simplify_libcalls", 
+    "##compiler_flags#funit_at_a_time", 
+    "##compiler_flags#std_compile_opts", 
+    "##compiler_flags#std_link_opts", 
+    "##compiler_flags#aa_eval", 
+    "##compiler_flags#adce", 
+    "##compiler_flags#always_inline", 
+    "##compiler_flags#argpromotion", 
+    "##compiler_flags#basicaa", 
+    "##compiler_flags#basiccg", 
+    "##compiler_flags#bb_vectorize", 
+    "##compiler_flags#block_freq", 
+    "##compiler_flags#block_placement", 
+    "##compiler_flags#branch_prob", 
+    "##compiler_flags#break_crit_edges", 
+    "##compiler_flags#codegenprepare", 
+    "##compiler_flags#constmerge", 
+    "##compiler_flags#constprop", 
+    "##compiler_flags#correlated_propagation", 
+    "##compiler_flags#count_aa", 
+    "##compiler_flags#dce", 
+    "##compiler_flags#deadargelim", 
+    "##compiler_flags#die", 
+    "##compiler_flags#domfrontier", 
+    "##compiler_flags#domtree", 
+    "##compiler_flags#dse", 
+    "##compiler_flags#early_cse", 
+    "##compiler_flags#functionattrs", 
+    "##compiler_flags#globaldce", 
+    "##compiler_flags#globalopt", 
+    "##compiler_flags#globalsmodref_aa", 
+    "##compiler_flags#gvn", 
+    "##compiler_flags#indvars", 
+    "##compiler_flags#inline", 
+    "##compiler_flags#instcombine", 
+    "##compiler_flags#instcount", 
+    "##compiler_flags#instnamer", 
+    "##compiler_flags#instsimplify", 
+    "##compiler_flags#internalize", 
+    "##compiler_flags#intervals", 
+    "##compiler_flags#ipconstprop", 
+    "##compiler_flags#ipsccp", 
+    "##compiler_flags#iv_users", 
+    "##compiler_flags#lazy_value_info", 
+    "##compiler_flags#lcssa", 
+    "##compiler_flags#lda", 
+    "##compiler_flags#libcall_aa", 
+    "##compiler_flags#licm", 
+    "##compiler_flags#lint", 
+    "##compiler_flags#loop_deletion", 
+    "##compiler_flags#loop_extract", 
+    "##compiler_flags#loop_extract_single", 
+    "##compiler_flags#loop_idiom", 
+    "##compiler_flags#loop_instsimplify", 
+    "##compiler_flags#loop_reduce", 
+    "##compiler_flags#loop_rotate", 
+    "##compiler_flags#loop_simplify", 
+    "##compiler_flags#loop_unroll", 
+    "##compiler_flags#loop_unswitch", 
+    "##compiler_flags#lower_expect", 
+    "##compiler_flags#loweratomic", 
+    "##compiler_flags#lowerinvoke", 
+    "##compiler_flags#lowerswitch", 
+    "##compiler_flags#mem2reg", 
+    "##compiler_flags#memcpyopt", 
+    "##compiler_flags#memdep", 
+    "##compiler_flags#mergefunc", 
+    "##compiler_flags#mergereturn", 
+    "##compiler_flags#module_debuginfo", 
+    "##compiler_flags#partial_inliner", 
+    "##compiler_flags#postdomtree", 
+    "##compiler_flags#preverify", 
+    "##compiler_flags#prune_eh", 
+    "##compiler_flags#reassociate", 
+    "##compiler_flags#reg2mem", 
+    "##compiler_flags#regions", 
+    "##compiler_flags#scalar_evolution", 
+    "##compiler_flags#scalarrepl", 
+    "##compiler_flags#scalarrepl_ssa", 
+    "##compiler_flags#sccp", 
+    "##compiler_flags#scev_aa", 
+    "##compiler_flags#simplify_libcalls", 
+    "##compiler_flags#simplifycfg", 
+    "##compiler_flags#sink", 
+    "##compiler_flags#strip", 
+    "##compiler_flags#strip_dead_debug_info", 
+    "##compiler_flags#strip_dead_prototypes", 
+    "##compiler_flags#strip_debug_declare", 
+    "##compiler_flags#strip_nondebug", 
+    "##compiler_flags#tailcallelim", 
+    "##compiler_flags#targetlibinfo", 
+    "##compiler_flags#tbaa", 
+    "##compiler_flags#vectorize"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "3", 
+        "4-1ubuntu3"
+      ], 
+      "raw": [
+        "Ubuntu clang version 3.4-1ubuntu3 (tags/RELEASE_34/final) (based on LLVM 3.4)", 
+        "Target: arm-unknown-linux-gnueabihf", 
+        "Thread model: posix", 
+        ""
+      ], 
+      "str": "3.4-1ubuntu3"
+    }, 
+    "dataset": {
+      "total_size": 1536016
+    }, 
+    "platform": {
+      "acc": {
+        "all_freqs": [
+          " 600 543 480 420 350 266 177"
+        ], 
+        "current_freq": "177", 
+        "name": ""
+      }, 
+      "acc_misc": {}, 
+      "cpu": {
+        "all_freqs": {}, 
+        "cpu_abi": "", 
+        "cpu_features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+        "current_freq": {
+          "0": 200
+        }, 
+        "max_freq": {
+          "0": 1400
+        }, 
+        "name": "ODROID-XU3", 
+        "num_proc": "1", 
+        "sub_name": "ARMv7 Processor rev 3 (v7l)"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "12.00", 
+          "CPU architectur": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc07", 
+          "CPU revision": "3", 
+          "CPU variant": "0x0", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "Hardware": "ODROID-XU3", 
+          "Revision": "0000", 
+          "Serial": "0000000000000000", 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "0"
+        }
+      }, 
+      "os": {
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Ubuntu 14.04.2 LTS", 
+        "name_long": "Linux-3.10.69-armv7l-with-Ubuntu-14.04-trusty", 
+        "name_short": "Linux 3.10.69"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "", 
+        "name": "", 
+        "vendor": ""
+      }, 
+      "platform_misc": {}
+    }, 
+    "platform.cpu": {
+      "cpu": {
+        "all_freqs": {}, 
+        "cpu_abi": "", 
+        "cpu_features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+        "current_freq": {
+          "0": 200
+        }, 
+        "max_freq": {
+          "0": 1400
+        }, 
+        "name": "ODROID-XU3", 
+        "num_proc": "1", 
+        "sub_name": "ARMv7 Processor rev 3 (v7l)"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "12.00", 
+          "CPU architectur": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xc07", 
+          "CPU revision": "3", 
+          "CPU variant": "0x0", 
+          "Features": "swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt", 
+          "Hardware": "ODROID-XU3", 
+          "Revision": "0000", 
+          "Serial": "0000000000000000", 
+          "model name": "ARMv7 Processor rev 3 (v7l)", 
+          "processor": "0"
+        }
+      }, 
+      "os": {
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Ubuntu 14.04.2 LTS", 
+        "name_long": "Linux-3.10.69-armv7l-with-Ubuntu-14.04-trusty", 
+        "name_short": "Linux 3.10.69"
+      }, 
+      "os_misc": {}
+    }
+  }
+}

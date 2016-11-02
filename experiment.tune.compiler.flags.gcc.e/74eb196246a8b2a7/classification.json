@@ -1,0 +1,298 @@
+{
+  "0a724957a565b254": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3304, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.8620004653931, 
+          "##characteristics#run#repeat#min": 3727171
+        }, 
+        "checked": [
+          "0a724957a565b254"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.2263922518159807, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1099606315524269
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-telecomm-gsm-src-short-term-codelet-2-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.2263922518159807, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1099606315524269
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-telecomm-gsm-src-short-term-codelet-2-1"
+    }, 
+    "user": "dominicano806@live.de"
+  }, 
+  "38055b840eb32a99": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 16896, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.8210000991821, 
+          "##characteristics#run#repeat#min": 279485760
+        }, 
+        "checked": [
+          "38055b840eb32a99"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.23011363636363635, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4977886013741732
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-16-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.23011363636363635, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.4977886013741732
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-16-1"
+    }, 
+    "user": "dominicano806@live.de"
+  }, 
+  "4838ad546ab0cfe3": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4300, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.8649997711182, 
+          "##characteristics#run#repeat#min": 37091988
+        }, 
+        "checked": [
+          "4838ad546ab0cfe3"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.8083720930232559, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1129286343070124
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-automotive-basicmath-isqrt-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.8083720930232559, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1129286343070124
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-automotive-basicmath-isqrt-codelet-1-1"
+    }, 
+    "user": "dominicano806@live.de"
+  }, 
+  "7d0469cc814e68a7": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 2936, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.8649997711182, 
+          "##characteristics#run#repeat#min": 2283
+        }, 
+        "checked": [
+          "7d0469cc814e68a7"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0749318801089918, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.6260095457031523
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0749318801089918, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.6260095457031523
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1"
+    }, 
+    "user": "dominicano806@live.de"
+  }, 
+  "aad352e7f43ee591": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 14468, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.3879995346069, 
+          "##characteristics#run#repeat#min": 47551116
+        }, 
+        "checked": [
+          "aad352e7f43ee591"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.2676251036770805, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 2.4127472260020077
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.2676251036770805, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 2.4127472260020077
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1"
+    }, 
+    "user": "dominicano806@live.de"
+  }, 
+  "c4982a809d3dc992": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4052, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6770000457764, 
+          "##characteristics#run#repeat#min": 42498936
+        }, 
+        "checked": [
+          "c4982a809d3dc992"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.7857847976307996, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1456138938624965
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.7857847976307996, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1456138938624965
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1"
+    }, 
+    "user": "dominicano806@live.de"
+  }, 
+  "d98b246379bab434": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 6424, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.7629995346069, 
+          "##characteristics#run#repeat#min": 2275
+        }, 
+        "checked": [
+          "d98b246379bab434"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9788293897882939, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1831070899307232
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9788293897882939, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1831070899307232
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1"
+    }, 
+    "user": "dominicano806@live.de"
+  }, 
+  "f3e1439792298e66": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4068, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.585000038147, 
+          "##characteristics#run#repeat#min": 9990009
+        }, 
+        "checked": [
+          "f3e1439792298e66"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.8731563421828908, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1531520357825238
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-5-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.8731563421828908, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1531520357825238
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-5-1"
+    }, 
+    "user": "dominicano806@live.de"
+  }
+}

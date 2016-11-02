@@ -1,0 +1,151 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1", 
+      "dataset_file": "data.gsm", 
+      "dataset_uoa": "gsm-0001", 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "gcc-4.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "4.9", 
+      "cpu_cur_freq": {}, 
+      "cpu_name": "mozart", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "", 
+      "gpu_name": "NVIDIA Corporation NVIDIA Tegra", 
+      "gpu_uid": "7ee42482b9ea5d8d", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.2", 
+      "os_uid": "7b16920d73a7a240", 
+      "platform_name": "ASUS K00C", 
+      "platform_uid": ""
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "18c4d3fa3891db8e", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3616, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.2320003509521, 
+          "##characteristics#run#repeat#min": 315159168
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9988938053097345, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1431401816185072
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-btr-bb-exclusive -fno-delayed-branch -fno-devirtualize -fno-indirect-inlining -fno-keep-static-consts -fno-loop-strip-mine -finline -fpeephole2 -fno-sched-spec -fno-zero-initialized-in-bss -fsched-critical-path-heuristic -fsched-dep-count-heuristic -fno-schedule-insns -fsel-sched-pipelining-outer-loops -fno-tree-bit-ccp -fno-tree-dce -fno-tree-dse -fno-tree-loop-if-convert-stores -fno-unsafe-math-optimizations -funswitch-loops -ffp-contract=on -fira-region=one --param max-inline-recursive-depth=0 --param max-unrolled-insns=129 --param max-unroll-times=16 --param sms-dfa-history=0 --param tracer-max-code-growth=5 --param tracer-min-branch-probability-feedback=9 --param max-cse-insns=300 --param iv-consider-all-candidates-bound=32 --param omega-eliminate-redundant-constraints=0 --param max-pipeline-region-insns=75 --param l1-cache-size=124 --param switch-conversion-max-branch-ratio=15 --param ipa-cp-array-index-hint-bonus=33 --param allow-load-data-races=0 --param max-tail-merge-iterations=1 --param asan-stack=0", 
+          "##characteristics#compile#md5_sum#min": "cb00cedae5f17305fad7ef9ef096896e", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#bool--ffp-contract=": "-ffp-contract=on", 
+          "##compiler_flags#bool--fira-region=": "-fira-region=one", 
+          "##compiler_flags#bool-btr-bb-exclusive": "-fno-btr-bb-exclusive", 
+          "##compiler_flags#bool-delayed-branch": "-fno-delayed-branch", 
+          "##compiler_flags#bool-devirtualize": "-fno-devirtualize", 
+          "##compiler_flags#bool-indirect-inlining": "-fno-indirect-inlining", 
+          "##compiler_flags#bool-inline": "-finline", 
+          "##compiler_flags#bool-keep-static-consts": "-fno-keep-static-consts", 
+          "##compiler_flags#bool-loop-strip-mine": "-fno-loop-strip-mine", 
+          "##compiler_flags#bool-peephole2": "-fpeephole2", 
+          "##compiler_flags#bool-sched-critical-path-heuristic": "-fsched-critical-path-heuristic", 
+          "##compiler_flags#bool-sched-dep-count-heuristic": "-fsched-dep-count-heuristic", 
+          "##compiler_flags#bool-sched-spec": "-fno-sched-spec", 
+          "##compiler_flags#bool-schedule-insns": "-fno-schedule-insns", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops": "-fsel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-tree-bit-ccp": "-fno-tree-bit-ccp", 
+          "##compiler_flags#bool-tree-dce": "-fno-tree-dce", 
+          "##compiler_flags#bool-tree-dse": "-fno-tree-dse", 
+          "##compiler_flags#bool-tree-loop-if-convert-stores": "-fno-tree-loop-if-convert-stores", 
+          "##compiler_flags#bool-unsafe-math-optimizations": "-fno-unsafe-math-optimizations", 
+          "##compiler_flags#bool-unswitch-loops": "-funswitch-loops", 
+          "##compiler_flags#bool-zero-initialized-in-bss": "-fno-zero-initialized-in-bss", 
+          "##compiler_flags#param-allow-load-data-races": "--param allow-load-data-races=0", 
+          "##compiler_flags#param-asan-stack": "--param asan-stack=0", 
+          "##compiler_flags#param-ipa-cp-array-index-hint-bonus": "--param ipa-cp-array-index-hint-bonus=33", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound": "--param iv-consider-all-candidates-bound=32", 
+          "##compiler_flags#param-l1-cache-size": "--param l1-cache-size=124", 
+          "##compiler_flags#param-max-cse-insns": "--param max-cse-insns=300", 
+          "##compiler_flags#param-max-inline-recursive-depth": "--param max-inline-recursive-depth=0", 
+          "##compiler_flags#param-max-pipeline-region-insns": "--param max-pipeline-region-insns=75", 
+          "##compiler_flags#param-max-tail-merge-iterations": "--param max-tail-merge-iterations=1", 
+          "##compiler_flags#param-max-unroll-times": "--param max-unroll-times=16", 
+          "##compiler_flags#param-max-unrolled-insns": "--param max-unrolled-insns=129", 
+          "##compiler_flags#param-omega-eliminate-redundant-constraints": "--param omega-eliminate-redundant-constraints=0", 
+          "##compiler_flags#param-sms-dfa-history": "--param sms-dfa-history=0", 
+          "##compiler_flags#param-switch-conversion-max-branch-ratio": "--param switch-conversion-max-branch-ratio=15", 
+          "##compiler_flags#param-tracer-max-code-growth": "--param tracer-max-code-growth=5", 
+          "##compiler_flags#param-tracer-min-branch-probability-feedback": "--param tracer-min-branch-probability-feedback=9"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#bool--ffp-contract=", 
+          "##compiler_flags#bool--fira-region=", 
+          "##compiler_flags#bool-btr-bb-exclusive", 
+          "##compiler_flags#bool-delayed-branch", 
+          "##compiler_flags#bool-devirtualize", 
+          "##compiler_flags#bool-indirect-inlining", 
+          "##compiler_flags#bool-inline", 
+          "##compiler_flags#bool-keep-static-consts", 
+          "##compiler_flags#bool-loop-strip-mine", 
+          "##compiler_flags#bool-peephole2", 
+          "##compiler_flags#bool-sched-critical-path-heuristic", 
+          "##compiler_flags#bool-sched-dep-count-heuristic", 
+          "##compiler_flags#bool-sched-spec", 
+          "##compiler_flags#bool-schedule-insns", 
+          "##compiler_flags#bool-sel-sched-pipelining-outer-loops", 
+          "##compiler_flags#bool-tree-bit-ccp", 
+          "##compiler_flags#bool-tree-dce", 
+          "##compiler_flags#bool-tree-dse", 
+          "##compiler_flags#bool-tree-loop-if-convert-stores", 
+          "##compiler_flags#bool-unsafe-math-optimizations", 
+          "##compiler_flags#bool-unswitch-loops", 
+          "##compiler_flags#bool-zero-initialized-in-bss", 
+          "##compiler_flags#param-allow-load-data-races", 
+          "##compiler_flags#param-asan-stack", 
+          "##compiler_flags#param-ipa-cp-array-index-hint-bonus", 
+          "##compiler_flags#param-iv-consider-all-candidates-bound", 
+          "##compiler_flags#param-l1-cache-size", 
+          "##compiler_flags#param-max-cse-insns", 
+          "##compiler_flags#param-max-inline-recursive-depth", 
+          "##compiler_flags#param-max-pipeline-region-insns", 
+          "##compiler_flags#param-max-tail-merge-iterations", 
+          "##compiler_flags#param-max-unroll-times", 
+          "##compiler_flags#param-max-unrolled-insns", 
+          "##compiler_flags#param-omega-eliminate-redundant-constraints", 
+          "##compiler_flags#param-sms-dfa-history", 
+          "##compiler_flags#param-switch-conversion-max-branch-ratio", 
+          "##compiler_flags#param-tracer-max-code-growth", 
+          "##compiler_flags#param-tracer-min-branch-probability-feedback"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "02dcad55b4c728d3", 
+    "touched": 2, 
+    "validated": 1
+  }
+]

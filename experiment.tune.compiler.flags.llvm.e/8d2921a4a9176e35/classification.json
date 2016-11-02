@@ -1,0 +1,76 @@
+{
+  "4b3597b478fa434d": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3640, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.8070001602173, 
+          "##characteristics#run#repeat#min": 7993604
+        }, 
+        "checked": [
+          "4b3597b478fa434d"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9956043956043956, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.6375021566750534
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9956043956043956, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.6375021566750534
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1"
+    }, 
+    "user": "202061b9376f4c7c"
+  }, 
+  "6a9ddad4f8a8788a": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4264, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.311999797821, 
+          "##characteristics#run#repeat#min": 2574665
+        }, 
+        "checked": [
+          "6a9ddad4f8a8788a"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1460814524549225
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jchuff-codelet-9-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1460814524549225
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jchuff-codelet-9-1"
+    }, 
+    "user": "4ac3ee923ffb46b6"
+  }
+}

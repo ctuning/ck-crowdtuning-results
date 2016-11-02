@@ -1,0 +1,72 @@
+{
+  "all_raw_results": [
+    {
+      "behavior_uid": "093ee8eaf98f4aee", 
+      "image_height": 3024, 
+      "image_width": 4032, 
+      "prediction": "---------- Prediction for /sdcard/openscience/data/4a6e91d75d682cec/demo/mouse.jpg ----------\n0.9549 - \"n03793489 mouse, computer mouse\"\n0.0138 - \"n03840681 ocarina, sweet potato\"\n0.0104 - \"n04596742 wok\"\n0.0034 - \"n07720875 bell pepper\"\n0.0024 - \"n03720891 maraca\"\n", 
+      "time": [
+        12988, 
+        12039, 
+        11219
+      ], 
+      "time1": 12988, 
+      "time2": 12039, 
+      "time3": 11219, 
+      "user": "3083e87c732a4a4c"
+    }, 
+    {
+      "behavior_uid": "9834ffe5e754555b", 
+      "image_height": 1836, 
+      "image_width": 3264, 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1477536752165.jpg ----------\n0.2071 - \"n01930112 nematode, nematode worm, roundworm\"\n0.1581 - \"n04286575 spotlight, spot\"\n0.0283 - \"n03729826 matchstick\"\n0.0281 - \"n04525038 velvet\"\n0.0270 - \"n03637318 lampshade, lamp shade\"\n", 
+      "time": [
+        11233, 
+        11173, 
+        10594
+      ], 
+      "time1": 11233, 
+      "time2": 11173, 
+      "time3": 10594, 
+      "user": "3083e87c732a4a4c"
+    }, 
+    {
+      "behavior_uid": "c1f0215b4f94bfa8", 
+      "image_height": 1080, 
+      "image_width": 1920, 
+      "mispredictions": [
+        {
+          "correct_answer": "wall receptacle", 
+          "mispredicted_image": "misprediction-image-3371e028bef7465c.jpg", 
+          "misprediction_results": "---------- Prediction for /sdcard/openscience//tmp//1477537722196.jpg ----------\n0.9552 - \"n04372370 switch, electric switch, electrical switch\"\n0.0052 - \"n04125021 safe\"\n0.0029 - \"n03196217 digital clock\"\n0.0027 - \"n04548280 wall clock\"\n0.0024 - \"n04116512 rubber eraser, rubber, pencil eraser\"\n"
+        }
+      ], 
+      "prediction": "---------- Prediction for /sdcard/openscience//tmp//1477537397010.jpg ----------\n0.1915 - \"n02667093 abaya\"\n0.1000 - \"n03045698 cloak\"\n0.0785 - \"n04350905 suit, suit of clothes\"\n0.0503 - \"n02883205 bow tie, bow-tie, bowtie\"\n0.0374 - \"n03124170 cowboy hat, ten-gallon hat\"\n", 
+      "time": [
+        10132, 
+        9992, 
+        9814, 
+        10809, 
+        10582, 
+        10026
+      ], 
+      "time1": 10132, 
+      "time2": 9992, 
+      "time3": 9814, 
+      "user": "3083e87c732a4a4c"
+    }
+  ], 
+  "meta": {
+    "cpu_name": "Samsung EXYNOS5420", 
+    "cpu_uid": "bd481aa9375dd257", 
+    "crowd_uid": "1046ff8d479dc6af", 
+    "gpgpu_name": "", 
+    "gpgpu_uid": "", 
+    "gpu_name": "ARM Mali-T628", 
+    "gpu_uid": "", 
+    "os_name": "Android 5.1.1", 
+    "os_uid": "95e9c142c9bc0ebd", 
+    "plat_name": "SAMSUNG SM-T900", 
+    "platform_uid": "9404019540dda270"
+  }
+}

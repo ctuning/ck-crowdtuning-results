@@ -1,0 +1,203 @@
+{
+  "##characteristics#compile#binary_size#all": [
+    12144
+  ], 
+  "##characteristics#compile#binary_size#all_unique": [
+    12144
+  ], 
+  "##characteristics#compile#binary_size#center": 12144, 
+  "##characteristics#compile#binary_size#center_imp": 0.6627140974967062, 
+  "##characteristics#compile#binary_size#exp": 12144.0, 
+  "##characteristics#compile#binary_size#exp_allx": [
+    12144.0
+  ], 
+  "##characteristics#compile#binary_size#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#binary_size#exp_imp": 0.6627140974967062, 
+  "##characteristics#compile#binary_size#exp_warning": "no", 
+  "##characteristics#compile#binary_size#halfrange": 0, 
+  "##characteristics#compile#binary_size#max": 12144, 
+  "##characteristics#compile#binary_size#mean": 12144.0, 
+  "##characteristics#compile#binary_size#mean_imp": 0.6627140974967062, 
+  "##characteristics#compile#binary_size#min": 12144, 
+  "##characteristics#compile#binary_size#min_imp": 0.6627140974967062, 
+  "##characteristics#compile#binary_size#range": 0, 
+  "##characteristics#compile#binary_size#range_percent": 0, 
+  "##characteristics#compile#binary_size#repeats": 1, 
+  "##characteristics#compile#compilation_success#all": [
+    "yes"
+  ], 
+  "##characteristics#compile#compilation_success#all_unique": [
+    "yes"
+  ], 
+  "##characteristics#compile#compilation_success#min": "yes", 
+  "##characteristics#compile#compilation_success#min_imp": 0, 
+  "##characteristics#compile#compilation_success#repeats": 1, 
+  "##characteristics#compile#compilation_success_bool#all": [
+    true
+  ], 
+  "##characteristics#compile#compilation_success_bool#all_unique": [
+    true
+  ], 
+  "##characteristics#compile#compilation_success_bool#min": true, 
+  "##characteristics#compile#compilation_success_bool#min_imp": 0, 
+  "##characteristics#compile#compilation_success_bool#repeats": 1, 
+  "##characteristics#compile#compilation_time#all": [
+    0.07658505439758301
+  ], 
+  "##characteristics#compile#compilation_time#all_unique": [
+    0.07658505439758301
+  ], 
+  "##characteristics#compile#compilation_time#center": 0.07658505439758301, 
+  "##characteristics#compile#compilation_time#center_imp": 0.7745757593681608, 
+  "##characteristics#compile#compilation_time#exp": 0.07658505439758301, 
+  "##characteristics#compile#compilation_time#exp_allx": [
+    0.07658505439758301
+  ], 
+  "##characteristics#compile#compilation_time#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#compilation_time#exp_imp": 0.7745757593681608, 
+  "##characteristics#compile#compilation_time#exp_warning": "no", 
+  "##characteristics#compile#compilation_time#halfrange": 0.0, 
+  "##characteristics#compile#compilation_time#max": 0.07658505439758301, 
+  "##characteristics#compile#compilation_time#mean": 0.07658505439758301, 
+  "##characteristics#compile#compilation_time#mean_imp": 0.7745757593681608, 
+  "##characteristics#compile#compilation_time#min": 0.07658505439758301, 
+  "##characteristics#compile#compilation_time#min_imp": 0.7745757593681608, 
+  "##characteristics#compile#compilation_time#range": 0.0, 
+  "##characteristics#compile#compilation_time#range_percent": 0.0, 
+  "##characteristics#compile#compilation_time#repeats": 1, 
+  "##characteristics#compile#compilation_time_with_module#all": [
+    1.1909558773040771
+  ], 
+  "##characteristics#compile#compilation_time_with_module#all_unique": [
+    1.1909558773040771
+  ], 
+  "##characteristics#compile#compilation_time_with_module#center": 1.1909558773040771, 
+  "##characteristics#compile#compilation_time_with_module#center_imp": 0.9812234909656831, 
+  "##characteristics#compile#compilation_time_with_module#exp": 1.1909558773040771, 
+  "##characteristics#compile#compilation_time_with_module#exp_allx": [
+    1.1909558773040771
+  ], 
+  "##characteristics#compile#compilation_time_with_module#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#compilation_time_with_module#exp_imp": 0.9812234909656831, 
+  "##characteristics#compile#compilation_time_with_module#exp_warning": "no", 
+  "##characteristics#compile#compilation_time_with_module#halfrange": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#max": 1.1909558773040771, 
+  "##characteristics#compile#compilation_time_with_module#mean": 1.1909558773040771, 
+  "##characteristics#compile#compilation_time_with_module#mean_imp": 0.9812234909656831, 
+  "##characteristics#compile#compilation_time_with_module#min": 1.1909558773040771, 
+  "##characteristics#compile#compilation_time_with_module#min_imp": 0.9812234909656831, 
+  "##characteristics#compile#compilation_time_with_module#range": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#range_percent": 0.0, 
+  "##characteristics#compile#compilation_time_with_module#repeats": 1, 
+  "##characteristics#compile#joined_compiler_flags#all": [
+    "-O3 -fcheck-data-deps -fif-conversion2 -fno-indirect-inlining -fipa-cp -fno-math-errno -fno-peephole2 -fno-rename-registers -fsched-group-heuristic -fno-sched-last-insn-heuristic -fsched-dep-count-heuristic -fsel-sched-pipelining -fstrict-aliasing -fno-tree-dominator-opts -fno-tree-loop-optimize -ftree-loop-vectorize -fno-tree-pre -fno-tree-sra -fno-tree-ter -funroll-all-loops -fno-unroll-loops -fuse-linker-plugin --param comdat-sharing-probability=12 --param max-variable-expansions-in-unroller=1 --param max-pending-list-length=35 --param large-unit-insns=15443 --param large-stack-frame-growth=298 --param max-iterations-to-track=1041 --param hot-bb-count-ws-permille=790 --param vect-max-version-for-alias-checks=8 --param selsched-max-lookahead=16 --param integer-share-limit=122 --param min-size-for-stack-sharing=37 --param loop-invariant-max-bbs-in-loop=14151 --param slp-max-insns-in-bb=419 --param max-vartrack-reverse-op-size=65 --param ipa-sra-ptr-growth-factor=1 --param ipa-cp-eval-threshold=518 --param lto-partitions=40 --param case-values-threshold=0"
+  ], 
+  "##characteristics#compile#joined_compiler_flags#all_unique": [
+    "-O3 -fcheck-data-deps -fif-conversion2 -fno-indirect-inlining -fipa-cp -fno-math-errno -fno-peephole2 -fno-rename-registers -fsched-group-heuristic -fno-sched-last-insn-heuristic -fsched-dep-count-heuristic -fsel-sched-pipelining -fstrict-aliasing -fno-tree-dominator-opts -fno-tree-loop-optimize -ftree-loop-vectorize -fno-tree-pre -fno-tree-sra -fno-tree-ter -funroll-all-loops -fno-unroll-loops -fuse-linker-plugin --param comdat-sharing-probability=12 --param max-variable-expansions-in-unroller=1 --param max-pending-list-length=35 --param large-unit-insns=15443 --param large-stack-frame-growth=298 --param max-iterations-to-track=1041 --param hot-bb-count-ws-permille=790 --param vect-max-version-for-alias-checks=8 --param selsched-max-lookahead=16 --param integer-share-limit=122 --param min-size-for-stack-sharing=37 --param loop-invariant-max-bbs-in-loop=14151 --param slp-max-insns-in-bb=419 --param max-vartrack-reverse-op-size=65 --param ipa-sra-ptr-growth-factor=1 --param ipa-cp-eval-threshold=518 --param lto-partitions=40 --param case-values-threshold=0"
+  ], 
+  "##characteristics#compile#joined_compiler_flags#min": "-O3 -fcheck-data-deps -fif-conversion2 -fno-indirect-inlining -fipa-cp -fno-math-errno -fno-peephole2 -fno-rename-registers -fsched-group-heuristic -fno-sched-last-insn-heuristic -fsched-dep-count-heuristic -fsel-sched-pipelining -fstrict-aliasing -fno-tree-dominator-opts -fno-tree-loop-optimize -ftree-loop-vectorize -fno-tree-pre -fno-tree-sra -fno-tree-ter -funroll-all-loops -fno-unroll-loops -fuse-linker-plugin --param comdat-sharing-probability=12 --param max-variable-expansions-in-unroller=1 --param max-pending-list-length=35 --param large-unit-insns=15443 --param large-stack-frame-growth=298 --param max-iterations-to-track=1041 --param hot-bb-count-ws-permille=790 --param vect-max-version-for-alias-checks=8 --param selsched-max-lookahead=16 --param integer-share-limit=122 --param min-size-for-stack-sharing=37 --param loop-invariant-max-bbs-in-loop=14151 --param slp-max-insns-in-bb=419 --param max-vartrack-reverse-op-size=65 --param ipa-sra-ptr-growth-factor=1 --param ipa-cp-eval-threshold=518 --param lto-partitions=40 --param case-values-threshold=0", 
+  "##characteristics#compile#joined_compiler_flags#min_imp": 0, 
+  "##characteristics#compile#joined_compiler_flags#repeats": 1, 
+  "##characteristics#compile#md5_sum#all": [
+    "0ac36475d02a520d8ac9104b8debccff"
+  ], 
+  "##characteristics#compile#md5_sum#all_unique": [
+    "0ac36475d02a520d8ac9104b8debccff"
+  ], 
+  "##characteristics#compile#md5_sum#min": "0ac36475d02a520d8ac9104b8debccff", 
+  "##characteristics#compile#md5_sum#min_imp": 0, 
+  "##characteristics#compile#md5_sum#repeats": 1, 
+  "##characteristics#compile#obj_size#all": [
+    5136
+  ], 
+  "##characteristics#compile#obj_size#all_unique": [
+    5136
+  ], 
+  "##characteristics#compile#obj_size#center": 5136, 
+  "##characteristics#compile#obj_size#center_imp": 0.8021806853582555, 
+  "##characteristics#compile#obj_size#exp": 5136.0, 
+  "##characteristics#compile#obj_size#exp_allx": [
+    5136.0
+  ], 
+  "##characteristics#compile#obj_size#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_size#exp_imp": 0.8021806853582555, 
+  "##characteristics#compile#obj_size#exp_warning": "no", 
+  "##characteristics#compile#obj_size#halfrange": 0, 
+  "##characteristics#compile#obj_size#max": 5136, 
+  "##characteristics#compile#obj_size#mean": 5136.0, 
+  "##characteristics#compile#obj_size#mean_imp": 0.8021806853582555, 
+  "##characteristics#compile#obj_size#min": 5136, 
+  "##characteristics#compile#obj_size#min_imp": 0.8021806853582555, 
+  "##characteristics#compile#obj_size#range": 0, 
+  "##characteristics#compile#obj_size#range_percent": 0, 
+  "##characteristics#compile#obj_size#repeats": 1, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#all": [
+    1224
+  ], 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#all_unique": [
+    1224
+  ], 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#center": 1224, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#center_imp": 0.8823529411764706, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#exp": 1224.0, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#exp_allx": [
+    1224.0
+  ], 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#exp_imp": 0.8823529411764706, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#exp_warning": "no", 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#halfrange": 0, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#max": 1224, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#mean": 1224.0, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#mean_imp": 0.8823529411764706, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#min": 1224, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#min_imp": 0.8823529411764706, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#range": 0, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#range_percent": 0, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.o#repeats": 1, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#all": [
+    3912
+  ], 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#all_unique": [
+    3912
+  ], 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#center": 3912, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#center_imp": 0.7770961145194274, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#exp": 3912.0, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#exp_allx": [
+    3912.0
+  ], 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#exp_ally": [
+    100.0
+  ], 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#exp_imp": 0.7770961145194274, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#exp_warning": "no", 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#halfrange": 0, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#max": 3912, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#mean": 3912.0, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#mean_imp": 0.7770961145194274, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#min": 3912, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#min_imp": 0.7770961145194274, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#range": 0, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#range_percent": 0, 
+  "##characteristics#compile#obj_sizes#mpilib.codelet__3.wrapper.o#repeats": 1, 
+  "##characteristics#compile#program_git_hash#all": [
+    "935232b0a32c97cba6e9f4ccde34c92e859a64df"
+  ], 
+  "##characteristics#compile#program_git_hash#all_unique": [
+    "935232b0a32c97cba6e9f4ccde34c92e859a64df"
+  ], 
+  "##characteristics#compile#program_git_hash#min": "935232b0a32c97cba6e9f4ccde34c92e859a64df", 
+  "##characteristics#compile#program_git_hash#min_imp": 0, 
+  "##characteristics#compile#program_git_hash#repeats": 1
+}

@@ -1,0 +1,58 @@
+{
+  "8fc0d06c47d596b7": {
+    "best": [
+      {
+        "checked": [
+          "8fc0d06c47d596b7"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0352956670617675, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1625057157540046
+        }, 
+        "workload": {
+          "cmd_key": "smoothing", 
+          "dataset_file": "data.pgm", 
+          "dataset_uoa": "image-pgm-from-pamela-100", 
+          "program_uoa": "cbench-automotive-susan"
+        }
+      }
+    ], 
+    "highest_degradations": {
+      "##characteristics#compile#obj_size#min_imp": 1.104625550660793, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 0.604617766896021
+    }, 
+    "highest_degradations_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1"
+    }, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0352956670617675, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1625057157540046
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "smoothing", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-from-pamela-100", 
+      "program_uoa": "cbench-automotive-susan"
+    }, 
+    "worst": [
+      {
+        "checked": [
+          "8fc0d06c47d596b7"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.104625550660793, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 0.604617766896021
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1"
+        }
+      }
+    ]
+  }
+}

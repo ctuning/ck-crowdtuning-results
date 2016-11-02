@@ -1,0 +1,325 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 9120, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.05722308158874512, 
+        "compilation_time_with_module": 1.1592271327972412, 
+        "joined_compiler_flags": "-O3 -fno-tree-loop-if-convert", 
+        "md5_sum": "1ed4fb8cf690e793249254ee64ad09b5", 
+        "obj_size": 4608, 
+        "obj_sizes": {
+          "rpe.codelet__4.o": 1560, 
+          "rpe.codelet__4.wrapper.o": 3048
+        }, 
+        "program_git_hash": "935232b0a32c97cba6e9f4ccde34c92e859a64df"
+      }, 
+      "run": {
+        "execution_time": 1.1760189244150172e-07, 
+        "execution_time_kernel_0": 8.767127, 
+        "execution_time_with_module": 9.278220891952515, 
+        "repeat": 74549200, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 8.767127
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 1.1769294640318073e-07, 
+        "execution_time_kernel_0": 8.773915, 
+        "execution_time_with_module": 9.280887842178345, 
+        "repeat": 74549200, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 8.773915
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 1.1761719777006328e-07, 
+        "execution_time_kernel_0": 8.768268, 
+        "execution_time_with_module": 9.275418043136597, 
+        "repeat": 74549200, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 8.768268
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 1.1762438765271793e-07, 
+        "execution_time_kernel_0": 8.768804, 
+        "execution_time_with_module": 9.2760169506073, 
+        "repeat": 74549200, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 8.768804
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-5.3.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "bool-tree-loop-if-convert": "-fno-tree-loop-if-convert"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_id": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 74549200, 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#bool-tree-loop-if-convert"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        5, 
+        4, 
+        0
+      ], 
+      "raw": [
+        "gcc-5 (Ubuntu 5.4.0-6ubuntu1~16.04.1) 5.4.0 20160609", 
+        "Copyright (C) 2015 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "5.4.0"
+    }, 
+    "number_of_selected_compiler_flags": 2, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {}, 
+        "cpu_abi": "", 
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts", 
+        "current_freq": {
+          "0": 3200.0, 
+          "1": 3293.75, 
+          "2": 3360.625, 
+          "3": 3315.5
+        }, 
+        "max_freq": {
+          "0": 3600.0, 
+          "1": 3600.0, 
+          "2": 3600.0, 
+          "3": 3600.0
+        }, 
+        "name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+        "num_proc": "4", 
+        "sub_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "address sizes": "39 bits physical, 48 bits virtual", 
+          "apicid": "0", 
+          "bogomips": "6384.68", 
+          "bugs": "", 
+          "cache size": "6144 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "3200.000", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts", 
+          "cpuid level": "13", 
+          "cur_freq": 3200.0, 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "0", 
+          "max_freq": 3600.0, 
+          "microcode": "0x1e", 
+          "model": "60", 
+          "model name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "physical id": "0", 
+          "power management": "", 
+          "processor": "0", 
+          "siblings": "4", 
+          "stepping": "3", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }, 
+        "1": {
+          "address sizes": "39 bits physical, 48 bits virtual", 
+          "apicid": "2", 
+          "bogomips": "6384.68", 
+          "bugs": "", 
+          "cache size": "6144 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "clflush size": "64", 
+          "core id": "1", 
+          "cpu MHz": "3293.750", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts", 
+          "cpuid level": "13", 
+          "cur_freq": 3293.75, 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "2", 
+          "max_freq": 3600.0, 
+          "microcode": "0x1e", 
+          "model": "60", 
+          "model name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "physical id": "0", 
+          "power management": "", 
+          "processor": "1", 
+          "siblings": "4", 
+          "stepping": "3", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }, 
+        "2": {
+          "address sizes": "39 bits physical, 48 bits virtual", 
+          "apicid": "4", 
+          "bogomips": "6384.68", 
+          "bugs": "", 
+          "cache size": "6144 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "clflush size": "64", 
+          "core id": "2", 
+          "cpu MHz": "3360.625", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts", 
+          "cpuid level": "13", 
+          "cur_freq": 3360.625, 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "4", 
+          "max_freq": 3600.0, 
+          "microcode": "0x1e", 
+          "model": "60", 
+          "model name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "physical id": "0", 
+          "power management": "", 
+          "processor": "2", 
+          "siblings": "4", 
+          "stepping": "3", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }, 
+        "3": {
+          "address sizes": "39 bits physical, 48 bits virtual", 
+          "apicid": "6", 
+          "bogomips": "6384.68", 
+          "bugs": "", 
+          "cache size": "6144 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "clflush size": "64", 
+          "core id": "3", 
+          "cpu MHz": "3315.500", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts", 
+          "cpuid level": "13", 
+          "cur_freq": 3315.5, 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "6", 
+          "max_freq": 3600.0, 
+          "microcode": "0x1e", 
+          "model": "60", 
+          "model name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "physical id": "0", 
+          "power management": "", 
+          "processor": "3", 
+          "siblings": "4", 
+          "stepping": "3", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "address sizes": "39 bits physical, 48 bits virtual", 
+          "apicid": "0", 
+          "bogomips": "6384.68", 
+          "bugs": "", 
+          "cache size": "6144 KB", 
+          "cache_alignment": "64", 
+          "ck_cpu_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "ck_cpu_subname": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "3200.000", 
+          "cpu cores": "4", 
+          "cpu family": "6", 
+          "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts", 
+          "cpuid level": "13", 
+          "cur_freq": 3200.0, 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "0", 
+          "max_freq": 3600.0, 
+          "microcode": "0x1e", 
+          "model": "60", 
+          "model name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz", 
+          "physical id": "0", 
+          "power management": "", 
+          "processor": "0", 
+          "siblings": "4", 
+          "stepping": "3", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }
+      ], 
+      "gpu": {
+        "name": "Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller (rev 06)", 
+        "vendor": "Intel"
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "Ubuntu 16.04.1 LTS", 
+        "name_long": "Linux-4.4.0-33-generic-x86_64-with-debian-stretch-sid", 
+        "name_short": "Linux 4.4.0"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "OptiPlex 9020", 
+        "name": "Dell Inc. 01 (OptiPlex 9020)", 
+        "vendor": "Dell Inc."
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "e4c749690de320b9", 
+    "statistical_repetitions": 4
+  }
+}

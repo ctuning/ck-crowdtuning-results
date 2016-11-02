@@ -1,0 +1,532 @@
+[
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.9.0", 
+      "cpu_cur_freq": {
+        "0": 2599.988, 
+        "1": 2599.988, 
+        "10": 2599.988, 
+        "11": 2599.988, 
+        "2": 2599.988, 
+        "3": 2599.988, 
+        "4": 2599.988, 
+        "5": 2599.988, 
+        "6": 2599.988, 
+        "7": 5834.928, 
+        "8": 6847.677, 
+        "9": 2599.988
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz", 
+      "cpu_num_proc": "12", 
+      "cpu_uid": "284d44dbc9f80912", 
+      "gpu_misc_uid": "8f2cf3c6b5417d81", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2", 
+      "kernel_repetitions": 19791241, 
+      "omit_probability": "", 
+      "os_name": "Debian 3.16.7", 
+      "os_uid": "a22064d4e879f092", 
+      "platform_name": "Dell Inc. (PowerEdge R720)", 
+      "platform_uid": "c6a3417a8521f5b7"
+    }, 
+    "iterations": 88, 
+    "last_touch_uid": "20934eef98434f94", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3456, 
+          "##characteristics#run#execution_time_kernel_0#min": 3.754543, 
+          "##characteristics#run#repeat#min": 19791241
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.4976851851852, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 2.6593307743672
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -mno-implicit-float", 
+          "##characteristics#compile#md5_sum#min": "ab33b6cab76072517413595992384b7a", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0011023266224121
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#mno-implicit-float": "-mno-implicit-float"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#mno-implicit-float"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#mno-implicit-float": {
+            "##characteristics#compile#obj_size#min_imp": 0.6676970633694, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.37610604767161, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 4.3134032751737e-05
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fmax-type-align": "-fmax-type-align=5", 
+          "##compiler_flags#fno-builtin": "-fno-builtin", 
+          "##compiler_flags#foptimize-sibling-calls": "-foptimize-sibling-calls"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "7944a3ba2ad2540d", 
+    "touched": 58, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-10-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.9.0", 
+      "cpu_cur_freq": {
+        "0": 2599.988, 
+        "1": 2599.988, 
+        "10": 2599.988, 
+        "11": 6210.808, 
+        "2": 2599.988, 
+        "3": 2599.988, 
+        "4": 2599.988, 
+        "5": 2599.988, 
+        "6": 2599.988, 
+        "7": 4294879.634, 
+        "8": 2599.988, 
+        "9": 420.674
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz", 
+      "cpu_num_proc": "12", 
+      "cpu_uid": "284d44dbc9f80912", 
+      "gpu_misc_uid": "8f2cf3c6b5417d81", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2", 
+      "kernel_repetitions": 59365818, 
+      "omit_probability": "", 
+      "os_name": "Debian 3.16.7", 
+      "os_uid": "a22064d4e879f092", 
+      "platform_name": "Dell Inc. (PowerEdge R720)", 
+      "platform_uid": "c6a3417a8521f5b7"
+    }, 
+    "iterations": 80, 
+    "last_touch_uid": "63a56cd84ef44da9", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 4472, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.006817, 
+          "##characteristics#run#repeat#min": 59365818
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.99642218246869, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.4326705933043
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -ffast-math", 
+          "##characteristics#compile#md5_sum#min": "d9070c28a819a12da7af2c4c1a9e8f9d", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0033719080878683
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffast-math": "-ffast-math"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffast-math"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#ffast-math": {
+            "##characteristics#compile#obj_size#min_imp": 1.0035906642729, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.70947428227443, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.012973745245122
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fmax-type-align": "-fmax-type-align=22", 
+          "##compiler_flags#fno-elide-constructors": "-fno-elide-constructors", 
+          "##compiler_flags#freroll-loops": "-freroll-loops", 
+          "##compiler_flags#fslp-vectorize": "-fslp-vectorize", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers", 
+          "##compiler_flags#mno-global-merge": "-mno-global-merge", 
+          "##compiler_flags#mrelax-all": "-mrelax-all"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "e0895474e70a6633", 
+    "touched": 49, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "edges", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "data_uoa": "cbench-automotive-susan", 
+      "dataset_file": "data.pgm", 
+      "dataset_uoa": "image-pgm-from-pamela-100", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.9.0", 
+      "cpu_cur_freq": {
+        "0": 2599.988, 
+        "1": 2599.988, 
+        "10": 2599.988, 
+        "11": 2599.988, 
+        "2": 2599.988, 
+        "3": 2599.988, 
+        "4": 2599.988, 
+        "5": 2599.988, 
+        "6": 2599.988, 
+        "7": 4286621.197, 
+        "8": 2599.988, 
+        "9": 2599.988
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz", 
+      "cpu_num_proc": "12", 
+      "cpu_uid": "284d44dbc9f80912", 
+      "gpu_misc_uid": "8f2cf3c6b5417d81", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2", 
+      "kernel_repetitions": 711, 
+      "omit_probability": "", 
+      "os_name": "Debian 3.16.7", 
+      "os_uid": "a22064d4e879f092", 
+      "platform_name": "Dell Inc. (PowerEdge R720)", 
+      "platform_uid": "c6a3417a8521f5b7"
+    }, 
+    "iterations": 91, 
+    "last_touch_uid": "d540d5ff3994f7d9", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 39280, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.114232, 
+          "##characteristics#run#repeat#min": 711
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0329938900204, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1044003985602
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-unroll-loops -fwrapv", 
+          "##characteristics#compile#md5_sum#min": "b0f922ed457b20d1c47d8273518b4beb", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.039415791176982
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-unroll-loops": "-fno-unroll-loops", 
+          "##compiler_flags#fwrapv": "-fwrapv"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-unroll-loops", 
+          "##compiler_flags#fwrapv"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fno-unroll-loops": {
+            "##characteristics#compile#obj_size#min_imp": 0.95879710993946, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 1.0040039896842, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00065695098155295
+          }, 
+          "##compiler_flags#fwrapv": {
+            "##characteristics#compile#obj_size#min_imp": 1.0140437835605, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.90132136447938, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00070238052665293
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-rtti": "-fno-rtti", 
+          "##compiler_flags#fomit-frame-pointer ": "-fomit-frame-pointer "
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "c4bec84faf8a0958", 
+    "touched": 63, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-8-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.9.0", 
+      "cpu_cur_freq": {
+        "0": 5657.243, 
+        "1": 2599.988, 
+        "10": 5658.142, 
+        "11": 2599.988, 
+        "2": 2599.988, 
+        "3": 2599.988, 
+        "4": 2599.988, 
+        "5": 2599.988, 
+        "6": 2599.988, 
+        "7": 2599.988, 
+        "8": 4288953.248, 
+        "9": 5314.527
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz", 
+      "cpu_num_proc": "12", 
+      "cpu_uid": "284d44dbc9f80912", 
+      "gpu_misc_uid": "8f2cf3c6b5417d81", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2", 
+      "kernel_repetitions": 766896454, 
+      "omit_probability": "", 
+      "os_name": "Debian 3.16.7", 
+      "os_uid": "a22064d4e879f092", 
+      "platform_name": "Dell Inc. (PowerEdge R720)", 
+      "platform_uid": "c6a3417a8521f5b7"
+    }, 
+    "iterations": 53, 
+    "last_touch_uid": "7b0351ca483481fc", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3920, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.265645, 
+          "##characteristics#run#repeat#min": 766896454
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.98979591836735, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2082607977532
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -mstackrealign", 
+          "##characteristics#compile#md5_sum#min": "bc27ab324e57a08b67bdff663170210b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.00017533171150482
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#mstackrealign": "-mstackrealign"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#mstackrealign"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#mstackrealign": {
+            "##characteristics#compile#obj_size#min_imp": 1.0103092783505, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.82810735999843, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.00092049816892098
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#fno-lax-vector-conversions": "-fno-lax-vector-conversions", 
+          "##compiler_flags#fno-signed-zeros": "-fno-signed-zeros", 
+          "##compiler_flags#fshort-enums": "-fshort-enums", 
+          "##compiler_flags#fshort-wchar": "-fshort-wchar", 
+          "##compiler_flags#mstrict-align": "-mstrict-align"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "6fb948ad997f0b00", 
+    "touched": 21, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target_os": "linux-64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.9.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.9.0", 
+      "cpu_cur_freq": {
+        "0": 4291910.658, 
+        "1": 2599.988, 
+        "10": 2599.988, 
+        "11": 2599.988, 
+        "2": 2599.988, 
+        "3": 2599.988, 
+        "4": 2599.988, 
+        "5": 2599.988, 
+        "6": 2599.988, 
+        "7": 5801.39, 
+        "8": 2599.988, 
+        "9": 4290045.501
+      }, 
+      "cpu_name": "Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz", 
+      "cpu_num_proc": "12", 
+      "cpu_uid": "284d44dbc9f80912", 
+      "gpu_misc_uid": "8f2cf3c6b5417d81", 
+      "gpu_name": "Matrox Electronics Systems Ltd. G200eR2", 
+      "kernel_repetitions": 352188570, 
+      "omit_probability": "", 
+      "os_name": "Debian 3.16.7", 
+      "os_uid": "a22064d4e879f092", 
+      "platform_name": "Dell Inc. (PowerEdge R720)", 
+      "platform_uid": "c6a3417a8521f5b7"
+    }, 
+    "iterations": 90, 
+    "last_touch_uid": "4102b1ea61210a28", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3696, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.587692, 
+          "##characteristics#run#repeat#min": 352188570
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.97402597402597, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.164320457537
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fslp-vectorize-aggressive", 
+          "##characteristics#compile#md5_sum#min": "bbcb9e36e3b84394ff13c422f1b2ed85", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": 0.0027777467263226
+        }, 
+        "pruned_chars": [
+          "##characteristics#run#execution_time_kernel_0#min_imp", 
+          "##characteristics#compile#obj_size#min_imp", 
+          "##characteristics#run#execution_time_kernel_0#range_percent"
+        ], 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fslp-vectorize-aggressive"
+        ], 
+        "pruned_influence": {
+          "##compiler_flags#fslp-vectorize-aggressive": {
+            "##characteristics#compile#obj_size#min_imp": 1.0266666666667, 
+            "##characteristics#run#execution_time_kernel_0#min_imp": 0.85849323404149, 
+            "##characteristics#run#execution_time_kernel_0#range_percent": 0.0075023699823626
+          }
+        }, 
+        "pruned_inversed_flags": {
+          "##compiler_flags#ffp-contract": "-ffp-contract=on", 
+          "##compiler_flags#fmodules-prune-after": "-fmodules-prune-after=72", 
+          "##compiler_flags#fno-elide-constructors": "-fno-elide-constructors", 
+          "##compiler_flags#fshort-enums": "-fshort-enums", 
+          "##compiler_flags#ftemplate-backtrace-limit": "-ftemplate-backtrace-limit=410", 
+          "##compiler_flags#fvisibility-inlines-hidden": "-fvisibility-inlines-hidden"
+        }
+      }
+    ], 
+    "pruned": "yes", 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "00817d10682c7b57", 
+    "touched": 61, 
+    "validated": 1
+  }
+]

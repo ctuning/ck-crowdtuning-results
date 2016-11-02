@@ -1,0 +1,185 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 10096, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 0.9331190586090088, 
+        "compilation_time_with_module": 2.6713969707489014, 
+        "joined_compiler_flags": "-O3 -ffast-math -fwrapv", 
+        "md5_sum": "b21ac0f905ed2a614db5d351409be6aa", 
+        "obj_size": 4456, 
+        "obj_sizes": {
+          "newmdct.codelet__10.o": 1736, 
+          "newmdct.codelet__10.wrapper.o": 2720
+        }, 
+        "program_git_hash": "ebb128a094a9981cc32d00b103628cee925ff171"
+      }, 
+      "run": {
+        "execution_time": 2.073874992633899e-07, 
+        "execution_time_kernel_0": 7.443296, 
+        "execution_time_with_module": 7.970314025878906, 
+        "repeat": 35890765, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 7.443296
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 2.0737596426267314e-07, 
+        "execution_time_kernel_0": 7.442882, 
+        "execution_time_with_module": 7.970154047012329, 
+        "repeat": 35890765, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 7.442882
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "llvm-3.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "ffast-math": "-ffast-math", 
+      "fwrapv": "-fwrapv"
+    }, 
+    "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-10-1", 
+    "dataset_file": "", 
+    "dataset_uoa": "", 
+    "device_id": "", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 35890765, 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#ffast-math", 
+    "##compiler_flags#fwrapv"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "3", 
+        "9", 
+        "0"
+      ], 
+      "raw": [
+        "clang version 3.9.0 (trunk 261749)", 
+        "Target: x86_64-unknown-linux-gnu", 
+        "Thread model: posix", 
+        "InstalledDir: /home/gfursin/CK-TOOLS/llvm-trunk-linux-64/bin", 
+        ""
+      ], 
+      "str": "3.9.0"
+    }, 
+    "number_of_selected_compiler_flags": 3, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {}, 
+        "cpu_abi": "", 
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow rep_good nopl extd_apicid vmmcall", 
+        "current_freq": {
+          "0": 2392.983, 
+          "1": 2392.983
+        }, 
+        "max_freq": {
+          "0": 0
+        }, 
+        "name": "AMD Opteron(tm) Processor 250", 
+        "num_proc": "2", 
+        "sub_name": "AMD Opteron(tm) Processor 250"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "TLB size": "1024 4K pages", 
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "apicid": "0", 
+          "bogomips": "4785.96", 
+          "cache size": "1024 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "2392.983", 
+          "cpu cores": "1", 
+          "cpu family": "15", 
+          "cpuid level": "1", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow rep_good nopl extd_apicid vmmcall", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "0", 
+          "microcode": "0x3a", 
+          "model": "5", 
+          "model name": "AMD Opteron(tm) Processor 250", 
+          "physical id": "0", 
+          "power managemen": "ts fid vid ttp", 
+          "processor": "0", 
+          "siblings": "1", 
+          "stepping": "10", 
+          "vendor_id": "AuthenticAMD", 
+          "wp": "yes"
+        }, 
+        "1": {
+          "TLB size": "1024 4K pages", 
+          "address sizes": "40 bits physical, 48 bits virtual", 
+          "apicid": "1", 
+          "bogomips": "4786.36", 
+          "cache size": "1024 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "2392.983", 
+          "cpu cores": "1", 
+          "cpu family": "15", 
+          "cpuid level": "1", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext lm 3dnowext 3dnow rep_good nopl extd_apicid vmmcall", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "1", 
+          "microcode": "0x3a", 
+          "model": "5", 
+          "model name": "AMD Opteron(tm) Processor 250", 
+          "physical id": "1", 
+          "power managemen": "ts fid vid ttp", 
+          "processor": "1", 
+          "siblings": "1", 
+          "stepping": "10", 
+          "vendor_id": "AuthenticAMD", 
+          "wp": "yes"
+        }
+      }, 
+      "gpu": {
+        "name": "Trident Microsystems Blade 3D PCI/AGP (rev 3a)", 
+        "vendor": "Trident"
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "", 
+        "name_long": "Linux-3.16.0-4-amd64-x86_64-with-debian-8.2", 
+        "name_short": "Linux 3.16.0"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "Sun Fire V20z", 
+        "name": "Sun Microsystems 00 (Sun Fire V20z)", 
+        "vendor": "Sun Microsystems"
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "08b6c4407aa91922", 
+    "statistical_repetitions": 2
+  }
+}
