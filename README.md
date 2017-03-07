@@ -19,7 +19,7 @@ Publications
     author = {Fursin, Grigori and Memon, Abdul and Guillon, Christophe and Lokhmotov, Anton},
     booktitle = {18th International Workshop on Compilers for Parallel Computing (CPC'15)},
     year = {2015},
-    pages = {},
+    url = {https://arxiv.org/abs/1506.06256},
     month = {January}
 }
 ```
