@@ -1,3 +1,6 @@
+[![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-powered-by-ck.png)](http://cKnowledge.org)
+[![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-validated-by-the-community-simple.png)](http://cTuning.org)
+
 This repository contains public results from experiment crowdsourcing 
 such as collaborative optimization of computer systems using
 [Collective Knowledge Framework](http://cKnowledge.org) across
@@ -45,5 +48,3 @@ The concepts have been described in the following publications:
 Feedback
 ========
 * https://groups.google.com/forum/#!forum/collective-knowledge
-
-![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-validated-by-the-community-simple.png)
