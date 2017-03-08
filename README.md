@@ -1,5 +1,6 @@
 [![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-powered-by-ck.png)](http://cKnowledge.org)
 [![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-validated-by-the-community-simple.png)](http://cTuning.org)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
 This repository contains public results from experiment crowdsourcing 
 such as collaborative optimization of computer systems using
@@ -8,6 +9,10 @@ diverse hardware provided by volunteers.
 
 This is a snapshop of results continuously aggregated 
 in the [public CK repository of knowledge](http://cknowledge.org/repo).
+
+Contributors
+=======
+* The community participated in the [CK-powered experiment crowdsourcing](http://cKnowledge.org/repo)
 
 Prerequisites
 =============
