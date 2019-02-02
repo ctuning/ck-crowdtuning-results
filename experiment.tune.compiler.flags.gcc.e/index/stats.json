@@ -11,16 +11,16 @@
         "touched": 120
       }, 
       "GCC 4.8.4": {
-        "touched": 38
+        "touched": 43
       }, 
       "GCC 4.8.5": {
         "touched": 43
       }, 
       "GCC 4.9": {
-        "touched": 125
+        "touched": 205
       }, 
       "GCC 4.9.2": {
-        "touched": 145
+        "touched": 449
       }, 
       "GCC 4.9.3": {
         "touched": 1
@@ -35,10 +35,10 @@
         "touched": 325
       }, 
       "GCC 5.4.0": {
-        "touched": 39
+        "touched": 176
       }, 
       "GCC 5.4.1": {
-        "touched": 82
+        "touched": 115
       }, 
       "GCC 6.0.0": {
         "touched": 543
@@ -46,13 +46,31 @@
       "GCC 6.1.0": {
         "touched": 234
       }, 
+      "GCC 6.2.0": {
+        "touched": 79
+      }, 
+      "GCC 6.3.0": {
+        "touched": 120
+      }, 
       "GCC 7.0.0": {
         "touched": 713
+      }, 
+      "GCC 7.1.0": {
+        "touched": 177
+      }, 
+      "GCC 8.0.1": {
+        "touched": 90
+      }, 
+      "GCC 8.2.0": {
+        "touched": 1
       }
     }, 
     "cpu_name": {
+      "----": {
+        "touched": 1
+      }, 
       "0x53-8-0x1-0x001-1": {
-        "touched": 5
+        "touched": 6
       }, 
       "AMD A6-4400M APU with Radeon(tm) HD Graphics": {
         "touched": 32
@@ -62,6 +80,9 @@
       }, 
       "AMD Opteron(tm) Processor 6164 HE": {
         "touched": 178
+      }, 
+      "BCM2709": {
+        "touched": 318
       }, 
       "Goldfish": {
         "touched": 1
@@ -75,14 +96,29 @@
       "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz": {
         "touched": 752
       }, 
+      "Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz": {
+        "touched": 15
+      }, 
+      "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz": {
+        "touched": 85
+      }, 
       "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz": {
         "touched": 24
       }, 
       "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz": {
         "touched": 294
       }, 
+      "Intel(R) Core(TM) i7-3635QM CPU @ 2.40GHz": {
+        "touched": 1
+      }, 
       "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz": {
         "touched": 43
+      }, 
+      "Intel(R) Core(TM) i7-4910MQ CPU @ 2.90GHz": {
+        "touched": 4
+      }, 
+      "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz": {
+        "touched": 3
       }, 
       "Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz": {
         "touched": 29
@@ -96,8 +132,14 @@
       "Intel(R) Xeon(R) CPU           X5570  @ 2.93GHz": {
         "touched": 138
       }, 
+      "Intel(R) Xeon(R) CPU D-1540 @ 2.00GHz": {
+        "touched": 4
+      }, 
       "Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz": {
         "touched": 55
+      }, 
+      "Intel(R) Xeon(R) CPU E5-1630 v3 @ 3.70GHz": {
+        "touched": 5
       }, 
       "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz": {
         "touched": 10
@@ -106,7 +148,7 @@
         "touched": 322
       }, 
       "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz": {
-        "touched": 121
+        "touched": 608
       }, 
       "Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz": {
         "touched": 139
@@ -115,16 +157,34 @@
         "touched": 19
       }, 
       "MT6572": {
-        "touched": 14
+        "touched": 37
+      }, 
+      "MT6582": {
+        "touched": 11
       }, 
       "MT6735": {
-        "touched": 1
+        "touched": 3
       }, 
       "MT6735M": {
         "touched": 1
       }, 
+      "MT6737T": {
+        "touched": 1
+      }, 
+      "MT6738": {
+        "touched": 1
+      }, 
+      "MT6750": {
+        "touched": 1
+      }, 
+      "MT6797M": {
+        "touched": 1
+      }, 
       "ODROID-XU3": {
         "touched": 21
+      }, 
+      "OMAP4 Espresso board": {
+        "touched": 2
       }, 
       "QCT MSM7625a FFA": {
         "touched": 7
@@ -142,13 +202,25 @@
         "touched": 3
       }, 
       "Qualcomm MSM8974PRO-AC": {
-        "touched": 1
+        "touched": 3
       }, 
       "Qualcomm Technologies, Inc MSM8216": {
         "touched": 1
       }, 
+      "Qualcomm Technologies, Inc MSM8917": {
+        "touched": 4
+      }, 
       "Qualcomm Technologies, Inc MSM8939": {
         "touched": 4
+      }, 
+      "Qualcomm Technologies, Inc MSM8940": {
+        "touched": 1
+      }, 
+      "Qualcomm Technologies, Inc MSM8952": {
+        "touched": 4
+      }, 
+      "Qualcomm Technologies, Inc MSM8956": {
+        "touched": 10
       }, 
       "Qualcomm Technologies, Inc MSM8992": {
         "touched": 1
@@ -157,13 +229,13 @@
         "touched": 1
       }, 
       "Qualcomm Technologies, Inc MSM8996": {
-        "touched": 8
+        "touched": 10
       }, 
       "SAMSUNG EXYNOS5 (Flattened Device Tree)": {
         "touched": 65
       }, 
       "SAMSUNG Exynos7420": {
-        "touched": 12
+        "touched": 17
       }, 
       "Samsung EXYNOS5420": {
         "touched": 1
@@ -171,22 +243,37 @@
       "Samsung EXYNOS5433": {
         "touched": 2
       }, 
+      "UNIVERSAL3475": {
+        "touched": 1
+      }, 
+      "hi6620oem": {
+        "touched": 1
+      }, 
+      "jetson_tx1": {
+        "touched": 24
+      }, 
+      "mocha": {
+        "touched": 1
+      }, 
       "mozart": {
         "touched": 1
       }, 
       "sc8830": {
-        "touched": 11
+        "touched": 12
       }, 
       "star": {
         "touched": 3
       }, 
       "sun7i": {
         "touched": 2
+      }, 
+      "sun8i": {
+        "touched": 4
       }
     }, 
     "objective": {
       "min": {
-        "touched": 2929
+        "touched": 3955
       }
     }
   }

@@ -147,6 +147,43 @@
     }, 
     "user": "hamptongaddy11235@gmail.com"
   }, 
+  "90892fa8e32a5148": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 150120, 
+          "##characteristics#run#execution_time_kernel_0#min": 15.659999847412, 
+          "##characteristics#run#repeat#min": 10
+        }, 
+        "checked": [
+          "90892fa8e32a5148"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 4.398876432336491
+        }, 
+        "workload": {
+          "cmd_key": "decode", 
+          "dataset_file": "data.bz2", 
+          "dataset_uoa": "bzip2-0001", 
+          "program_uoa": "cbench-bzip2"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 1.0, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 4.398876432336491
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "decode", 
+      "dataset_file": "data.bz2", 
+      "dataset_uoa": "bzip2-0001", 
+      "program_uoa": "cbench-bzip2"
+    }, 
+    "user": "426edb0165014516"
+  }, 
   "a3091b7d9edf456f": {
     "best": [
       {

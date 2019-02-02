@@ -1,6 +1,9 @@
 {
   "meta": {
     "compiler": {
+      "LLVM 3.4.2": {
+        "touched": 85
+      }, 
       "LLVM 3.6": {
         "touched": 52
       }, 
@@ -14,13 +17,34 @@
         "touched": 11
       }, 
       "LLVM 3.8.0": {
-        "touched": 20
+        "touched": 85
       }, 
       "LLVM 3.9.0": {
         "touched": 663
+      }, 
+      "LLVM 4.0.0": {
+        "touched": 556
+      }, 
+      "LLVM 5.0.1": {
+        "touched": 94
+      }, 
+      "LLVM 6.0.0": {
+        "touched": 122
+      }, 
+      "LLVM 7.0.0": {
+        "touched": 51
       }
     }, 
     "cpu_name": {
+      "----": {
+        "touched": 2
+      }, 
+      "0x53-8-0x1-0x001-1": {
+        "touched": 2
+      }, 
+      "AMD E1-2500 APU with Radeon(TM) HD Graphics": {
+        "touched": 8
+      }, 
       "AMD Opteron(tm) Processor 250": {
         "touched": 572
       }, 
@@ -30,20 +54,47 @@
       "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz": {
         "touched": 33
       }, 
+      "Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz": {
+        "touched": 85
+      }, 
+      "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz": {
+        "touched": 18
+      }, 
       "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz": {
         "touched": 7
       }, 
       "Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz": {
         "touched": 62
       }, 
+      "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz": {
+        "touched": 267
+      }, 
       "Intel(R) Xeon(R) CPU E5-2673 v3 @ 2.40GHz": {
-        "touched": 7
+        "touched": 368
+      }, 
+      "M76": {
+        "touched": 1
       }, 
       "MT6572": {
-        "touched": 9
+        "touched": 27
+      }, 
+      "MT6582": {
+        "touched": 1
+      }, 
+      "MT6750": {
+        "touched": 10
+      }, 
+      "MT6753T": {
+        "touched": 1
+      }, 
+      "MT6755BM": {
+        "touched": 2
+      }, 
+      "MT6797M": {
+        "touched": 2
       }, 
       "ODROID-XU3": {
-        "touched": 1
+        "touched": 170
       }, 
       "QCT MSM7625a FFA": {
         "touched": 38
@@ -51,14 +102,35 @@
       "Qualcomm MSM8974": {
         "touched": 1
       }, 
+      "Qualcomm Technologies, Inc MSM8939": {
+        "touched": 5
+      }, 
+      "Qualcomm Technologies, Inc MSM8952": {
+        "touched": 1
+      }, 
+      "Qualcomm Technologies, Inc MSM8956": {
+        "touched": 11
+      }, 
+      "Qualcomm Technologies, Inc MSM8992": {
+        "touched": 1
+      }, 
       "Qualcomm Technologies, Inc MSM8996": {
-        "touched": 6
+        "touched": 7
+      }, 
+      "Qualcomm Technologies, Inc MSM8998": {
+        "touched": 1
       }, 
       "SAMSUNG EXYNOS5 (Flattened Device Tree)": {
         "touched": 6
       }, 
       "SAMSUNG Exynos7420": {
-        "touched": 2
+        "touched": 6
+      }, 
+      "SAMSUNG M2_ATT": {
+        "touched": 1
+      }, 
+      "mocha": {
+        "touched": 1
       }, 
       "p3": {
         "touched": 1
@@ -69,7 +141,7 @@
     }, 
     "objective": {
       "min": {
-        "touched": 681
+        "touched": 1654
       }
     }
   }

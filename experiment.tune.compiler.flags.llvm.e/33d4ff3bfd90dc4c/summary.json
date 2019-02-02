@@ -2,6 +2,194 @@
   {
     "choices": {
       "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-codelet-7-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "env": {}, 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.2", 
+      "os_uid": "7b16920d73a7a240", 
+      "platform_name": "MOBIWIRE STARSHINE_5", 
+      "platform_uid": "54cacde714c14a2e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "69bc94f628f2239c", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3488, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.6709995269775, 
+          "##characteristics#run#repeat#min": 13679
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9736238532110092, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.8651879717848578
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fmerge-all-constants -fno-builtin -fno-elide-constructors -fno-inline -fshort-wchar -fstrict-vtable-pointers -fmodules-prune-after=88 -mstack-alignment=31", 
+          "##characteristics#compile#md5_sum#min": "3ab8ebc882e2b1484c654a6c60e021b6", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmerge-all-constants": "-fmerge-all-constants", 
+          "##compiler_flags#fmodules-prune-after": "-fmodules-prune-after=88", 
+          "##compiler_flags#fno-builtin": "-fno-builtin", 
+          "##compiler_flags#fno-elide-constructors": "-fno-elide-constructors", 
+          "##compiler_flags#fno-inline": "-fno-inline", 
+          "##compiler_flags#fshort-wchar": "-fshort-wchar", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers", 
+          "##compiler_flags#mstack-alignment": "-mstack-alignment=31"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmerge-all-constants", 
+          "##compiler_flags#fmodules-prune-after", 
+          "##compiler_flags#fno-builtin", 
+          "##compiler_flags#fno-elide-constructors", 
+          "##compiler_flags#fno-inline", 
+          "##compiler_flags#fshort-wchar", 
+          "##compiler_flags#fstrict-vtable-pointers", 
+          "##compiler_flags#mstack-alignment"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b62a2a1564c86912", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-16-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "45dc8cc172d9d82b", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3812, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.4130001068115, 
+          "##characteristics#run#repeat#min": 130208328
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0052465897166842, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.5834744563648067
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-assume-sane-operator-new -fno-signed-char -foptimize-sibling-calls -fshort-enums -fno-unroll-loops -fslp-vectorize-aggressive -fslp-vectorize -fmodules-prune-after=99", 
+          "##characteristics#compile#md5_sum#min": "b6cc506cbb3ad182c823fb87e16197ac", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmodules-prune-after": "-fmodules-prune-after=99", 
+          "##compiler_flags#fno-assume-sane-operator-new": "-fno-assume-sane-operator-new", 
+          "##compiler_flags#fno-signed-char": "-fno-signed-char", 
+          "##compiler_flags#foptimize-sibling-calls": "-foptimize-sibling-calls", 
+          "##compiler_flags#fshort-enums": "-fshort-enums", 
+          "##compiler_flags#fslp-vectorize": "-fslp-vectorize", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive", 
+          "##compiler_flags#funroll-loops": "-fno-unroll-loops"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmodules-prune-after", 
+          "##compiler_flags#fno-assume-sane-operator-new", 
+          "##compiler_flags#fno-signed-char", 
+          "##compiler_flags#foptimize-sibling-calls", 
+          "##compiler_flags#fshort-enums", 
+          "##compiler_flags#fslp-vectorize", 
+          "##compiler_flags#fslp-vectorize-aggressive", 
+          "##compiler_flags#funroll-loops"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "49ce42d023f23370", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
       "cmd_key": "decode", 
       "compile_type": "dynamic", 
       "compiler_description_uoa": "llvm-3.8.0-auto", 
@@ -89,6 +277,524 @@
       "cmd_key": "default", 
       "compile_type": "dynamic", 
       "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-network-dijkstra-src-dijkstra-large-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "env": {}, 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.2", 
+      "os_uid": "7b16920d73a7a240", 
+      "platform_name": "MOBIWIRE STARSHINE_5", 
+      "platform_uid": "54cacde714c14a2e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "834378a48e198e3f", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 2928, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.9449996948242, 
+          "##characteristics#run#repeat#min": 319386784
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2923975923287094
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-autolink -fsched-interblock -fno-lto -fslp-vectorize-aggressive -fslp-vectorize -mno-movt", 
+          "##characteristics#compile#md5_sum#min": "9c81560c9fc2c5c3c2816b29639abbcd", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#arch-mno-movt": "-mno-movt", 
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#flto": "-fno-lto", 
+          "##compiler_flags#fno-autolink": "-fno-autolink", 
+          "##compiler_flags#fsched-interblock": "-fsched-interblock", 
+          "##compiler_flags#fslp-vectorize": "-fslp-vectorize", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#arch-mno-movt", 
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#flto", 
+          "##compiler_flags#fno-autolink", 
+          "##compiler_flags#fsched-interblock", 
+          "##compiler_flags#fslp-vectorize", 
+          "##compiler_flags#fslp-vectorize-aggressive"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "bd92aa5ae4993a81", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiff2rgba-src-tif-predict-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "e4755aaa2edf88fc", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3112, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.9130001068115, 
+          "##characteristics#run#repeat#min": 4332755
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2814115859100683
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-autolink -foptimize-sibling-calls -fshort-wchar -fmodules-prune-interval=82", 
+          "##characteristics#compile#md5_sum#min": "b3c458143cbb363272138f7a165ff899", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmodules-prune-interval": "-fmodules-prune-interval=82", 
+          "##compiler_flags#fno-autolink": "-fno-autolink", 
+          "##compiler_flags#foptimize-sibling-calls": "-foptimize-sibling-calls", 
+          "##compiler_flags#fshort-wchar": "-fshort-wchar"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmodules-prune-interval", 
+          "##compiler_flags#fno-autolink", 
+          "##compiler_flags#foptimize-sibling-calls", 
+          "##compiler_flags#fshort-wchar"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8901eeb84db85019", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "env": {}, 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.2", 
+      "os_uid": "7b16920d73a7a240", 
+      "platform_name": "MOBIWIRE STARSHINE_5", 
+      "platform_uid": "54cacde714c14a2e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "9032f093164a5ca8", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3036, 
+          "##characteristics#run#execution_time_kernel_0#min": 12.59700012207, 
+          "##characteristics#run#repeat#min": 3180
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2728099145123208
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-diagnostics-fixit-info -fno-lax-vector-conversions -fno-signed-char -ftree-vectorize -fvectorize", 
+          "##characteristics#compile#md5_sum#min": "21297aa46ab564168b37084894e47d14", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-diagnostics-fixit-info": "-fno-diagnostics-fixit-info", 
+          "##compiler_flags#fno-lax-vector-conversions": "-fno-lax-vector-conversions", 
+          "##compiler_flags#fno-signed-char": "-fno-signed-char", 
+          "##compiler_flags#ftree-vectorize": "-ftree-vectorize", 
+          "##compiler_flags#fvectorize": "-fvectorize"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-diagnostics-fixit-info", 
+          "##compiler_flags#fno-lax-vector-conversions", 
+          "##compiler_flags#fno-signed-char", 
+          "##compiler_flags#ftree-vectorize", 
+          "##compiler_flags#fvectorize"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "ab81f3158427eaf2", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "env": {}, 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.2", 
+      "os_uid": "7b16920d73a7a240", 
+      "platform_name": "MOBIWIRE STARSHINE_5", 
+      "platform_uid": "54cacde714c14a2e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "c5db354436babe7a", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 5448, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.9700002670288, 
+          "##characteristics#run#repeat#min": 269687
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.238971088865696
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-autolink -mno-global-merge -fstrict-vtable-pointers -fmodules-prune-after=53", 
+          "##characteristics#compile#md5_sum#min": "b99e8f79751c0058878948537dcd1848", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmodules-prune-after": "-fmodules-prune-after=53", 
+          "##compiler_flags#fno-autolink": "-fno-autolink", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers", 
+          "##compiler_flags#mno-global-merge": "-mno-global-merge"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmodules-prune-after", 
+          "##compiler_flags#fno-autolink", 
+          "##compiler_flags#fstrict-vtable-pointers", 
+          "##compiler_flags#mno-global-merge"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8ef5f70acf4a88bb", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jchuff-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "8605ec8847038d47", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3828, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.2550001144409, 
+          "##characteristics#run#repeat#min": 1615508
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2287573067918365
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fstrict-enums -fstrict-vtable-pointers -mstack-alignment=23", 
+          "##characteristics#compile#md5_sum#min": "64e11fdf96f344d149b2d951a4a741b3", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fstrict-enums": "-fstrict-enums", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers", 
+          "##compiler_flags#mstack-alignment": "-mstack-alignment=23"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fstrict-enums", 
+          "##compiler_flags#fstrict-vtable-pointers", 
+          "##compiler_flags#mstack-alignment"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "6e03cb0cf964c83a", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-automotive-susan-s-src-susan-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "env": {}, 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.2", 
+      "os_uid": "7b16920d73a7a240", 
+      "platform_name": "MOBIWIRE STARSHINE_5", 
+      "platform_uid": "54cacde714c14a2e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "b2844d6a37b5a7b0", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3492, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.9040002822876, 
+          "##characteristics#run#repeat#min": 2610284
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0011454753722795, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.22060634596538
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -funroll-loops -fwrapv -mno-unaligned-access", 
+          "##characteristics#compile#md5_sum#min": "d5601556b0a55eebc676f663bfdbd05b", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#arch-munaligned-access": "-mno-unaligned-access", 
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#funroll-loops": "-funroll-loops", 
+          "##compiler_flags#fwrapv": "-fwrapv"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#arch-munaligned-access", 
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#funroll-loops", 
+          "##compiler_flags#fwrapv"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "48b2a407e0f92322", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
       "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-pvt-codelet-6-1", 
       "dataset_file": "data.mp3", 
       "dataset_uoa": "audio-mp3-0001", 
@@ -164,6 +870,630 @@
       "##compiler_flags#base_opt"
     ], 
     "solution_uid": "72cec2d43bf94243", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-6-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "77bd9f8c8c4932a2", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3276, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.7200002670288, 
+          "##characteristics#run#repeat#min": 217202
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.2016319161285285
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -mstack-alignment=28 -fmodules-prune-interval=104", 
+          "##characteristics#compile#md5_sum#min": "0d6d10142b580252dc5c5b3c47c1ecda", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmodules-prune-interval": "-fmodules-prune-interval=104", 
+          "##compiler_flags#mstack-alignment": "-mstack-alignment=28"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmodules-prune-interval", 
+          "##compiler_flags#mstack-alignment"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b6711df4677af007", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "078f7a14783b4758", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3264, 
+          "##characteristics#run#execution_time_kernel_0#min": 13.748999595642, 
+          "##characteristics#run#repeat#min": 40241124
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1892569630558454
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-reroll-loops -fvectorize -fshort-wchar", 
+          "##characteristics#compile#md5_sum#min": "c1f5ee81576597759731896d5ee60b28", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#freroll-loops": "-fno-reroll-loops", 
+          "##compiler_flags#fshort-wchar": "-fshort-wchar", 
+          "##compiler_flags#fvectorize": "-fvectorize"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#freroll-loops", 
+          "##compiler_flags#fshort-wchar", 
+          "##compiler_flags#fvectorize"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "fd8894529a1d972f", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jcdctmgr-codelet-13-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "env": {}, 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1001, 
+        "1": 1001
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.4.2", 
+      "os_uid": "7b16920d73a7a240", 
+      "platform_name": "MOBIWIRE STARSHINE_5", 
+      "platform_uid": "54cacde714c14a2e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "2bf9bcc44ca9c185", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3244, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.8369998931885, 
+          "##characteristics#run#repeat#min": 4992511
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9963008631319359, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.169957171992694
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fsched-interblock -fstrict-enums -fno-reroll-loops -mstackrealign -fmodules-prune-interval=21 -mno-unaligned-access -ffp-contract=on", 
+          "##characteristics#compile#md5_sum#min": "c4fe92ed014a065ba27c93bea8f35823", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#arch-munaligned-access": "-mno-unaligned-access", 
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffp-contract": "-ffp-contract=on", 
+          "##compiler_flags#fmodules-prune-interval": "-fmodules-prune-interval=21", 
+          "##compiler_flags#freroll-loops": "-fno-reroll-loops", 
+          "##compiler_flags#fsched-interblock": "-fsched-interblock", 
+          "##compiler_flags#fstrict-enums": "-fstrict-enums", 
+          "##compiler_flags#mstackrealign": "-mstackrealign"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#arch-munaligned-access", 
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffp-contract", 
+          "##compiler_flags#fmodules-prune-interval", 
+          "##compiler_flags#freroll-loops", 
+          "##compiler_flags#fsched-interblock", 
+          "##compiler_flags#fstrict-enums", 
+          "##compiler_flags#mstackrealign"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "5df395bc348f5b8c", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-6-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "b5439571164cc1b1", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3180, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.8409996032715, 
+          "##characteristics#run#repeat#min": 346878144
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1578050579083
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fsched-interblock -fno-vectorize -fmax-type-align=23 -fmodules-prune-interval=42", 
+          "##characteristics#compile#md5_sum#min": "5a6054fc2381308fa76c5c5d947f03df", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmax-type-align": "-fmax-type-align=23", 
+          "##compiler_flags#fmodules-prune-interval": "-fmodules-prune-interval=42", 
+          "##compiler_flags#fsched-interblock": "-fsched-interblock", 
+          "##compiler_flags#fvectorize": "-fno-vectorize"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmax-type-align", 
+          "##compiler_flags#fmodules-prune-interval", 
+          "##compiler_flags#fsched-interblock", 
+          "##compiler_flags#fvectorize"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "496480ccfd203c56", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jfdctint-codelet-2-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "ea2c3b5f44ec19cf", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3176, 
+          "##characteristics#run#execution_time_kernel_0#min": 10.925000190735, 
+          "##characteristics#run#repeat#min": 11587486
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1571867607660504
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-lax-vector-conversions -foptimize-sibling-calls -ftree-vectorize -msoft-float -mstrict-align -mstack-alignment=24 -ffp-contract=on", 
+          "##characteristics#compile#md5_sum#min": "5fd90b84ec08671dc2c10cb5bc4148d5", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffp-contract": "-ffp-contract=on", 
+          "##compiler_flags#fno-lax-vector-conversions": "-fno-lax-vector-conversions", 
+          "##compiler_flags#foptimize-sibling-calls": "-foptimize-sibling-calls", 
+          "##compiler_flags#ftree-vectorize": "-ftree-vectorize", 
+          "##compiler_flags#msoft-float": "-msoft-float", 
+          "##compiler_flags#mstack-alignment": "-mstack-alignment=24", 
+          "##compiler_flags#mstrict-align": "-mstrict-align"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffp-contract", 
+          "##compiler_flags#fno-lax-vector-conversions", 
+          "##compiler_flags#foptimize-sibling-calls", 
+          "##compiler_flags#ftree-vectorize", 
+          "##compiler_flags#msoft-float", 
+          "##compiler_flags#mstack-alignment", 
+          "##compiler_flags#mstrict-align"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "f9bf746339936bf1", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-office-ghostscript-src-gdevpbm-codelet-1-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "664baab438df86a5", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3244, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.2569999694824, 
+          "##characteristics#run#repeat#min": 309464640
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.998766954377312, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1252385079350384
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-inline -fstrict-aliasing -fno-reroll-loops -mcrc -ffixed-r9 -ffp-contract=off", 
+          "##characteristics#compile#md5_sum#min": "ee97d4cb3e841b052df8d440e619d612", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#arch-ffixed-r9": "-ffixed-r9", 
+          "##compiler_flags#arch-mcrc": "-mcrc", 
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ffp-contract": "-ffp-contract=off", 
+          "##compiler_flags#fno-inline": "-fno-inline", 
+          "##compiler_flags#freroll-loops": "-fno-reroll-loops", 
+          "##compiler_flags#fstrict-aliasing": "-fstrict-aliasing"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#arch-ffixed-r9", 
+          "##compiler_flags#arch-mcrc", 
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ffp-contract", 
+          "##compiler_flags#fno-inline", 
+          "##compiler_flags#freroll-loops", 
+          "##compiler_flags#fstrict-aliasing"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "8ac2b3824b12453f", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-9-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android19-arm", 
+      "target_os_bits": "32"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1300, 
+        "1": 1300
+      }, 
+      "cpu_name": "MT6572", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "5a7b8d55ca672d3b", 
+      "gpu_name": "ARM Mali-400 MP", 
+      "gpu_uid": "445a5b4fa3ff2cb0", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 4.2.2", 
+      "os_uid": "cc68387cc8944b91", 
+      "platform_name": "HUAWEI Y600-U20", 
+      "platform_uid": "0348b0bd40fc83cd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "42e845e0a38ad896", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3280, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.1669998168945, 
+          "##characteristics#run#repeat#min": 126422256
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.0939140443563236
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-assume-sane-operator-new -fno-inline -fno-signed-zeros -fshort-enums -fslp-vectorize-aggressive -fstrict-vtable-pointers -mglobal-merge -fmax-type-align=26 -mcrc -mno-movt", 
+          "##characteristics#compile#md5_sum#min": "da35ca7482e305eb1c0d4271fb39ae2d", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#arch-mcrc": "-mcrc", 
+          "##compiler_flags#arch-mno-movt": "-mno-movt", 
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmax-type-align": "-fmax-type-align=26", 
+          "##compiler_flags#fno-assume-sane-operator-new": "-fno-assume-sane-operator-new", 
+          "##compiler_flags#fno-inline": "-fno-inline", 
+          "##compiler_flags#fno-signed-zeros": "-fno-signed-zeros", 
+          "##compiler_flags#fshort-enums": "-fshort-enums", 
+          "##compiler_flags#fslp-vectorize-aggressive": "-fslp-vectorize-aggressive", 
+          "##compiler_flags#fstrict-vtable-pointers": "-fstrict-vtable-pointers", 
+          "##compiler_flags#mglobal-merge": "-mglobal-merge"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#arch-mcrc", 
+          "##compiler_flags#arch-mno-movt", 
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmax-type-align", 
+          "##compiler_flags#fno-assume-sane-operator-new", 
+          "##compiler_flags#fno-inline", 
+          "##compiler_flags#fno-signed-zeros", 
+          "##compiler_flags#fshort-enums", 
+          "##compiler_flags#fslp-vectorize-aggressive", 
+          "##compiler_flags#fstrict-vtable-pointers", 
+          "##compiler_flags#mglobal-merge"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "6a95f4209da97084", 
     "touched": 2, 
     "validated": 1
   }

@@ -2,6 +2,98 @@
   {
     "choices": {
       "calibration_time": 10.0, 
+      "cmd_key": "decode", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "cbench-bzip2", 
+      "dataset_file": "data.bz2", 
+      "dataset_uoa": "bzip2-0001", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1555.2, 
+        "1": 1555.2, 
+        "2": 1555.2, 
+        "3": 1555.2
+      }, 
+      "cpu_name": "Qualcomm Technologies, Inc MSM8996", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "1469b9e209e7bc37", 
+      "gpu_name": "Qualcomm Adreno (TM) 530", 
+      "gpu_uid": "47a7bfca16923990", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 7.0", 
+      "os_uid": "de98569847a92092", 
+      "platform_name": "SAMSUNG SM-G930V", 
+      "platform_uid": "e5c7964dbcbde86e"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "8c66f4fc69c2bb83", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 150120, 
+          "##characteristics#run#execution_time_kernel_0#min": 15.659999847412, 
+          "##characteristics#run#repeat#min": 10
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 4.398876432336491
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-assume-sane-operator-new -fvisibility-inlines-hidden -fslp-vectorize -mlong-calls -fmodules-prune-after=28 -fmax-type-align=10", 
+          "##characteristics#compile#md5_sum#min": "a14271bab832c3d0058369470044e4f9", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fmax-type-align": "-fmax-type-align=10", 
+          "##compiler_flags#fmodules-prune-after": "-fmodules-prune-after=28", 
+          "##compiler_flags#fno-assume-sane-operator-new": "-fno-assume-sane-operator-new", 
+          "##compiler_flags#fslp-vectorize": "-fslp-vectorize", 
+          "##compiler_flags#fvisibility-inlines-hidden": "-fvisibility-inlines-hidden", 
+          "##compiler_flags#mlong-calls": "-mlong-calls"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fmax-type-align", 
+          "##compiler_flags#fmodules-prune-after", 
+          "##compiler_flags#fno-assume-sane-operator-new", 
+          "##compiler_flags#fslp-vectorize", 
+          "##compiler_flags#fvisibility-inlines-hidden", 
+          "##compiler_flags#mlong-calls"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "90892fa8e32a5148", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
       "cmd_key": "default", 
       "compile_type": "dynamic", 
       "compiler_description_uoa": "llvm-3.8.0-auto", 

@@ -1,4 +1,41 @@
 {
+  "5f0e5690a346fc92": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 12396, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.9750003814697, 
+          "##characteristics#run#repeat#min": 63051704
+        }, 
+        "checked": [
+          "5f0e5690a346fc92"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.3123588254275573, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.3324873497383207
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.3123588254275573, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.3324873497383207
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1"
+    }, 
+    "user": "joaquinphoenix@abv.bg"
+  }, 
   "63b5b67c2a504b87": {
     "best": [
       {
@@ -35,5 +72,42 @@
       "program_uoa": "milepost-codelet-mibench-automotive-basicmath-isqrt-codelet-1-1"
     }, 
     "user": "589bf063c962445d"
+  }, 
+  "da5ad077d154f3e8": {
+    "best": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3072, 
+          "##characteristics#run#execution_time_kernel_0#min": 9.8950004577637, 
+          "##characteristics#run#repeat#min": 39032008
+        }, 
+        "checked": [
+          "da5ad077d154f3e8"
+        ], 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 0.9908854166666666, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1150553198833815
+        }, 
+        "workload": {
+          "cmd_key": "default", 
+          "dataset_file": "", 
+          "dataset_uoa": "", 
+          "program_uoa": "milepost-codelet-mibench-security-pgp-d-src-mpilib-codelet-1-1"
+        }
+      }
+    ], 
+    "highest_degradations": {}, 
+    "highest_degradations_workload": {}, 
+    "highest_improvements": {
+      "##characteristics#compile#obj_size#min_imp": 0.9908854166666666, 
+      "##characteristics#run#execution_time_kernel_0#min_imp": 1.1150553198833815
+    }, 
+    "highest_improvements_workload": {
+      "cmd_key": "default", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "program_uoa": "milepost-codelet-mibench-security-pgp-d-src-mpilib-codelet-1-1"
+    }, 
+    "user": "joaquinphoenix@abv.bg"
   }
 }

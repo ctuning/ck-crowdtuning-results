@@ -98,6 +98,186 @@
       "cmd_key": "default", 
       "compile_type": "dynamic", 
       "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "env": {}, 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1500, 
+        "1": 1500, 
+        "2": 1500, 
+        "3": 1500, 
+        "4": 1500, 
+        "5": 1500, 
+        "6": 1500, 
+        "7": 1500
+      }, 
+      "cpu_name": "SAMSUNG Exynos7420", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "d35780d449a19831", 
+      "gpu_name": "ARM Mali-T760", 
+      "gpu_uid": "8ea3d7446e912b92", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 7.0", 
+      "os_uid": "de98569847a92092", 
+      "platform_name": "SAMSUNG SM-G920A", 
+      "platform_uid": "ffc3845db95edcfa"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "2140d1801fcf6753", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3392, 
+          "##characteristics#run#execution_time_kernel_0#min": 6.896999835968, 
+          "##characteristics#run#repeat#min": 96711800
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.1911916893624162
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -mno-global-merge -mstack-alignment=16 -ftemplate-backtrace-limit=664", 
+          "##characteristics#compile#md5_sum#min": "a0b5c77adfadd17727d7cc98b1d202eb", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#ftemplate-backtrace-limit": "-ftemplate-backtrace-limit=664", 
+          "##compiler_flags#mno-global-merge": "-mno-global-merge", 
+          "##compiler_flags#mstack-alignment": "-mstack-alignment=16"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#ftemplate-backtrace-limit", 
+          "##compiler_flags#mno-global-merge", 
+          "##compiler_flags#mstack-alignment"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "b7996d0274f4aa1b", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-4-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_id": "", 
+      "env": {}, 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1600, 
+        "1": 1600, 
+        "2": 1600, 
+        "3": 1600, 
+        "4": 1600, 
+        "5": 1600, 
+        "6": 1600, 
+        "7": 1600
+      }, 
+      "cpu_name": "SAMSUNG Exynos7420", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "d35780d449a19831", 
+      "gpu_name": "ARM Mali-T760", 
+      "gpu_uid": "8ea3d7446e912b92", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 7.0", 
+      "os_uid": "de98569847a92092", 
+      "platform_name": "SAMSUNG SM-G920A", 
+      "platform_uid": "ffc3845db95edcfa"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "3f65af3c240d6af4", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3616, 
+          "##characteristics#run#execution_time_kernel_0#min": 7.1009998321533, 
+          "##characteristics#run#repeat#min": 80321280
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.0, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.175273096218515
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-assume-sane-operator-new -trigraphs -mrelax-all", 
+          "##characteristics#compile#md5_sum#min": "12d5b67e01ec7061a00257daabc5b305", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fno-assume-sane-operator-new": "-fno-assume-sane-operator-new", 
+          "##compiler_flags#mrelax-all": "-mrelax-all", 
+          "##compiler_flags#trigraphs": "-trigraphs"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fno-assume-sane-operator-new", 
+          "##compiler_flags#mrelax-all", 
+          "##compiler_flags#trigraphs"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "344a29ad8641d0dd", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
       "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jchuff-codelet-9-1", 
       "dataset_file": "", 
       "dataset_uoa": "", 
@@ -174,6 +354,94 @@
       "##compiler_flags#base_opt"
     ], 
     "solution_uid": "6a9ddad4f8a8788a", 
+    "touched": 2, 
+    "validated": 1
+  }, 
+  {
+    "choices": {
+      "calibration_time": 10.0, 
+      "cmd_key": "default", 
+      "compile_type": "dynamic", 
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-5-1", 
+      "dataset_file": "", 
+      "dataset_uoa": "", 
+      "device_cfg": {}, 
+      "device_id": "", 
+      "extra_dataset_tags": [
+        "small"
+      ], 
+      "host_os": "linux-64", 
+      "module_uoa": "b0ac08fe1d3c2615", 
+      "no_state_check": "yes", 
+      "program_tags": "crowd-tuning,small", 
+      "target": "", 
+      "target_os": "android21-arm64", 
+      "target_os_bits": "64"
+    }, 
+    "extra_meta": {
+      "compiler_description_uoa": "llvm-3.8.0-auto", 
+      "compiler_flag_tags": "", 
+      "compiler_version": "3.8.0", 
+      "cpu_cur_freq": {
+        "0": 1800, 
+        "1": 1800, 
+        "2": 1800, 
+        "3": 1800, 
+        "4": 1800, 
+        "5": 1800, 
+        "6": 1800, 
+        "7": 1800
+      }, 
+      "cpu_name": "SAMSUNG Exynos7420", 
+      "cpu_num_proc": 1, 
+      "cpu_uid": "d35780d449a19831", 
+      "gpu_name": "ARM Mali-T760", 
+      "gpu_uid": "8ea3d7446e912b92", 
+      "kernel_repetitions": "", 
+      "omit_probability": "", 
+      "os_name": "Android 6.0.1", 
+      "os_uid": "3285b3153a9a4ea4", 
+      "platform_name": "SAMSUNG SM-G920F", 
+      "platform_uid": "fb18fe26730049bd"
+    }, 
+    "iterations": 1, 
+    "last_touch_uid": "9a4b7484ae80c2d7", 
+    "points": [
+      {
+        "characteristics": {
+          "##characteristics#compile#obj_size#min": 3984, 
+          "##characteristics#run#execution_time_kernel_0#min": 8.3439998626709, 
+          "##characteristics#run#repeat#min": 129701680
+        }, 
+        "improvements": {
+          "##characteristics#compile#obj_size#min_imp": 1.2570281124497993, 
+          "##characteristics#run#execution_time_kernel_0#min_imp": 1.0963079484637401
+        }, 
+        "misc": {
+          "##characteristics#compile#joined_compiler_flags#min": "-O3 -fno-vectorize -fslp-vectorize", 
+          "##characteristics#compile#md5_sum#min": "7faf0a00fc6d4ba2fd4028cdafbaa134", 
+          "##characteristics#run#execution_time_kernel_0#range_percent": -1
+        }, 
+        "pruned_choices": {
+          "##compiler_flags#base_opt": "-O3", 
+          "##compiler_flags#fslp-vectorize": "-fslp-vectorize", 
+          "##compiler_flags#fvectorize": "-fno-vectorize"
+        }, 
+        "pruned_choices_order": [
+          "##compiler_flags#base_opt", 
+          "##compiler_flags#fslp-vectorize", 
+          "##compiler_flags#fvectorize"
+        ]
+      }
+    ], 
+    "ref_choices": {
+      "##compiler_flags#base_opt": "-O3"
+    }, 
+    "ref_choices_order": [
+      "##compiler_flags#base_opt"
+    ], 
+    "solution_uid": "928f4aa8947b4174", 
     "touched": 2, 
     "validated": 1
   }
