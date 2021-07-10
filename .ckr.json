@@ -1,15 +1,16 @@
 {
-  "data_uoa": "ck-crowdtuning-results",
-  "data_uid": "0af2a402baf4d084",
   "data_alias": "ck-crowdtuning-results",
+  "data_name": "ck-crowdtuning-results",
+  "data_uid": "0af2a402baf4d084",
+  "data_uoa": "ck-crowdtuning-results",
   "dict": {
+    "desc": "Copy of public results from different crowdsourced experiments in the CK format from <a href=\"http://cKnowledge.org/repo\">this public repo</a>.",
     "repo_deps": [
       {
         "repo_uoa": "ck-crowdtuning"
       }
     ],
-    "url": "https://github.com/ctuning/ck-crowdtuning-results",
-    "shared": "git"
-  },
-  "data_name": "ck-crowdtuning-results"
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-crowdtuning-results"
+  }
 }

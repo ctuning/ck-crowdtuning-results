@@ -7,7 +7,7 @@ such as collaborative optimization of computer systems using
 diverse hardware provided by volunteers. 
 
 This is a snapshop of results continuously aggregated 
-in the [public CK repository of knowledge](http://cknowledge.org/repo).
+in the [public CK repository of knowledge](http://cknowledge.io).
 
 Contributors
 =======
